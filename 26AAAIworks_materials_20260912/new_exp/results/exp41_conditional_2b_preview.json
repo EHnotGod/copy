@@ -1,0 +1,2504 @@
+{
+  "experiment": "exp41_conditional_qwen35_2b_preview",
+  "dataset": "GenEval2 GM",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "split": {
+    "ridge_train": 2000,
+    "ridge_alpha_validation": 200,
+    "gate_library_validation": 200,
+    "test": 800,
+    "test_labels_used_for_gate_or_policy_selection": false
+  },
+  "coverage_candidates": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "gate_types": [
+    "prompt_margin",
+    "committee_expected_regret"
+  ],
+  "committee": {
+    "size": 5,
+    "train_fraction_per_member": 0.8,
+    "online_extra_cost": "five small Ridge matrix-vector predictions; preview/VLM cost unchanged",
+    "meta": [
+      {
+        "seed": 42,
+        "cache": "exp41_prompt_committee_gm_seed42.npz",
+        "member_alphas": [
+          [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ]
+        ]
+      },
+      {
+        "seed": 43,
+        "cache": "exp41_prompt_committee_gm_seed43.npz",
+        "member_alphas": [
+          [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ]
+        ]
+      },
+      {
+        "seed": 44,
+        "cache": "exp41_prompt_committee_gm_seed44.npz",
+        "member_alphas": [
+          [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": {
+    "budget": 10.0,
+    "flux_probe_cost": 0.455,
+    "qwen35_evaluator_tflops": 0.6947585907345072,
+    "maximum_increment_before_f4b4_reuse": 1.1497585907345071,
+    "f4b4_preview_reused": true
+  },
+  "libraries": {
+    "full_a10": {
+      "mask": 1023,
+      "actions": [
+        "qwen_10steps",
+        "qwen_50steps",
+        "qwen_tts",
+        "flux_10steps",
+        "flux_50steps",
+        "flux_tts",
+        "boogu_10steps",
+        "boogu_50steps",
+        "boogu_tts",
+        "flux4b_4steps"
+      ],
+      "selected": {
+        "delta": 0.009841053679880911,
+        "ci95": [
+          0.0013215561522425079,
+          0.018753840956737763
+        ],
+        "quality_mean": 0.3913924329569917,
+        "cost_mean": 10.0,
+        "test_gate_fraction_mean": 0.6620833333333334,
+        "selected_keys": [
+          "prompt_margin|0.5",
+          "prompt_margin|1",
+          "prompt_margin|0.5"
+        ]
+      },
+      "margin_only_selected": {
+        "delta": 0.009841053679880911,
+        "ci95": [
+          0.000834423754582731,
+          0.018829025375430346
+        ],
+        "test_gate_fraction_mean": 0.6620833333333334,
+        "selected_keys": [
+          "prompt_margin|0.5",
+          "prompt_margin|1",
+          "prompt_margin|0.5"
+        ]
+      },
+      "committee_only_selected": {
+        "delta": 0.009729098705292656,
+        "ci95": [
+          -0.0003168947777403721,
+          0.02045752996089357
+        ],
+        "test_gate_fraction_mean": 0.8591666666666667,
+        "selected_keys": [
+          "committee_expected_regret|0.75",
+          "committee_expected_regret|0.75",
+          "committee_expected_regret|0.5"
+        ]
+      },
+      "always_preview": {
+        "delta": 0.009379621373498152,
+        "ci95": [
+          -0.0028541963461531494,
+          0.0211905302162294
+        ]
+      },
+      "fixed_coverage": {
+        "committee_expected_regret|0": {
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "test_gate_fraction_mean": 0.0,
+          "quality_mean": 0.3815513792771108,
+          "cost_mean": 10.0
+        },
+        "committee_expected_regret|0.25": {
+          "delta": 0.007090995472589553,
+          "ci95": [
+            0.0015595531729884436,
+            0.012900271740535851
+          ],
+          "test_gate_fraction_mean": 0.28041666666666665,
+          "quality_mean": 0.3886423747497003,
+          "cost_mean": 10.0
+        },
+        "committee_expected_regret|0.5": {
+          "delta": 0.00932593180686827,
+          "ci95": [
+            0.0013317556764518709,
+            0.017725482370589435
+          ],
+          "test_gate_fraction_mean": 0.5141666666666667,
+          "quality_mean": 0.390877311083979,
+          "cost_mean": 10.0
+        },
+        "committee_expected_regret|0.75": {
+          "delta": 0.009379621373498152,
+          "ci95": [
+            -0.002470110445664187,
+            0.021034541626324874
+          ],
+          "test_gate_fraction_mean": 1.0,
+          "quality_mean": 0.390931000650609,
+          "cost_mean": 10.0
+        },
+        "committee_expected_regret|1": {
+          "delta": 0.009379621373498152,
+          "ci95": [
+            -0.0021289338019741177,
+            0.02113235651869188
+          ],
+          "test_gate_fraction_mean": 1.0,
+          "quality_mean": 0.390931000650609,
+          "cost_mean": 10.0
+        },
+        "prompt_margin|0": {
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "test_gate_fraction_mean": 0.0,
+          "quality_mean": 0.3815513792771108,
+          "cost_mean": 10.0
+        },
+        "prompt_margin|0.25": {
+          "delta": 0.0032028539419875247,
+          "ci95": [
+            -0.0026146027550558227,
+            0.008599401988292883
+          ],
+          "test_gate_fraction_mean": 0.2654166666666667,
+          "quality_mean": 0.3847542332190983,
+          "cost_mean": 10.0
+        },
+        "prompt_margin|0.5": {
+          "delta": 0.008999097119175136,
+          "ci95": [
+            0.0019387798364208992,
+            0.016130328771135752
+          ],
+          "test_gate_fraction_mean": 0.4870833333333333,
+          "quality_mean": 0.3905504763962859,
+          "cost_mean": 10.0
+        },
+        "prompt_margin|0.75": {
+          "delta": 0.009973904334330428,
+          "ci95": [
+            0.0005355319685878628,
+            0.02031281466036584
+          ],
+          "test_gate_fraction_mean": 0.7025,
+          "quality_mean": 0.3915252836114412,
+          "cost_mean": 10.0
+        },
+        "prompt_margin|1": {
+          "delta": 0.009379621373498152,
+          "ci95": [
+            -0.002382250666531971,
+            0.021013273652767065
+          ],
+          "test_gate_fraction_mean": 1.0,
+          "quality_mean": 0.390931000650609,
+          "cost_mean": 10.0
+        }
+      },
+      "per_seed": [
+        {
+          "seed": 42,
+          "reference_lambda": 0.005120423583884965,
+          "selected_key": "prompt_margin|0.5",
+          "selected_gate_type": "prompt_margin",
+          "selected_requested_validation_coverage": 0.5,
+          "validation_gate_fraction": 0.5,
+          "test_gate_fraction": 0.42375,
+          "gate_threshold": -0.02836397172590558,
+          "validation_quality": 0.35798821934134695,
+          "test_policy": {
+            "quality": 0.39203866432510526,
+            "cost": 10.0,
+            "predicted_quality": 0.43210025809650093,
+            "allocation": [
+              0.10875000000000001,
+              0.005000000000000001,
+              0.17041643414956953,
+              0.10875000000000001,
+              0.0,
+              0.0,
+              0.419028087800574,
+              0.0793054780498565,
+              0.0,
+              0.10875000000000001
+            ],
+            "mixture": {
+              "lambda_low": 0.004677338669334668,
+              "lambda_high": 0.004652326163081541,
+              "high_weight": 0.4443824398852004
+            }
+          },
+          "prompt_baseline": {
+            "quality": 0.38016056486875516,
+            "cost": 10.0,
+            "predicted_quality": 0.43617812827553903,
+            "allocation": [
+              0.16068276466195647,
+              0.035,
+              0.15585085300706533,
+              0.135,
+              0.0025,
+              0.005,
+              0.28875,
+              0.10250000000000001,
+              0.0025,
+              0.11221638233097822
+            ],
+            "mixture": {
+              "lambda_low": 0.004827413706853427,
+              "lambda_high": 0.004752376188094047,
+              "high_weight": 0.22689413521742077
+            }
+          },
+          "gain_vs_prompt": 0.011878099456350037,
+          "best_by_gate": {
+            "prompt_margin": {
+              "selected_key": "prompt_margin|0.5",
+              "requested_validation_coverage": 0.5,
+              "validation_gate_fraction": 0.5,
+              "test_gate_fraction": 0.42375,
+              "validation_quality": 0.35798821934134695,
+              "test_policy": {
+                "quality": 0.39203866432510526,
+                "cost": 10.0,
+                "predicted_quality": 0.43210025809650093,
+                "allocation": [
+                  0.10875000000000001,
+                  0.005000000000000001,
+                  0.17041643414956953,
+                  0.10875000000000001,
+                  0.0,
+                  0.0,
+                  0.419028087800574,
+                  0.0793054780498565,
+                  0.0,
+                  0.10875000000000001
+                ],
+                "mixture": {
+                  "lambda_low": 0.004677338669334668,
+                  "lambda_high": 0.004652326163081541,
+                  "high_weight": 0.4443824398852004
+                }
+              },
+              "gain_vs_prompt": 0.011878099456350037
+            },
+            "committee_expected_regret": {
+              "selected_key": "committee_expected_regret|0.75",
+              "requested_validation_coverage": 0.75,
+              "validation_gate_fraction": 1.0,
+              "test_gate_fraction": 1.0,
+              "validation_quality": 0.3544341472130126,
+              "test_policy": {
+                "quality": 0.38890623862975465,
+                "cost": 10.0,
+                "predicted_quality": 0.4012384468218779,
+                "allocation": [
+                  0.09125,
+                  0.00375,
+                  0.14956256450933159,
+                  0.0675,
+                  0.00125,
+                  0.0,
+                  0.5013123064720053,
+                  0.07287512901866317,
+                  0.0,
+                  0.11249999999999999
+                ],
+                "mixture": {
+                  "lambda_low": 0.005202601300650325,
+                  "lambda_high": 0.0051775887943971985,
+                  "high_weight": 0.6500516074652671
+                }
+              },
+              "gain_vs_prompt": 0.00874567376099953
+            }
+          },
+          "fixed_coverage_test_diagnostic": {
+            "prompt_margin|0": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.38016056486875516,
+              "gain_vs_prompt": 0.0,
+              "cost": 10.0
+            },
+            "prompt_margin|0.25": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.23375,
+              "quality": 0.3861751920567326,
+              "gain_vs_prompt": 0.006014627187977429,
+              "cost": 10.0
+            },
+            "prompt_margin|0.5": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.42375,
+              "quality": 0.39203866432510526,
+              "gain_vs_prompt": 0.011878099456350037,
+              "cost": 10.0
+            },
+            "prompt_margin|0.75": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.71875,
+              "quality": 0.38911959712128436,
+              "gain_vs_prompt": 0.008959032252529177,
+              "cost": 10.0
+            },
+            "prompt_margin|1": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.38890623862975465,
+              "gain_vs_prompt": 0.00874567376099953,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.38016056486875516,
+              "gain_vs_prompt": 0.0,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.25": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.255,
+              "quality": 0.387503624462243,
+              "gain_vs_prompt": 0.0073430595934878265,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.5": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.4475,
+              "quality": 0.38768996052739646,
+              "gain_vs_prompt": 0.007529395658641303,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.75": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 1.0,
+              "quality": 0.38890623862975465,
+              "gain_vs_prompt": 0.00874567376099953,
+              "cost": 10.0
+            },
+            "committee_expected_regret|1": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.38890623862975465,
+              "gain_vs_prompt": 0.00874567376099953,
+              "cost": 10.0
+            }
+          }
+        },
+        {
+          "seed": 43,
+          "reference_lambda": 0.004001243734189227,
+          "selected_key": "prompt_margin|1",
+          "selected_gate_type": "prompt_margin",
+          "selected_requested_validation_coverage": 1.0,
+          "validation_gate_fraction": 1.0,
+          "test_gate_fraction": 1.0,
+          "gate_threshold": -Infinity,
+          "validation_quality": 0.3250411458033783,
+          "test_policy": {
+            "quality": 0.39126667373200263,
+            "cost": 10.0,
+            "predicted_quality": 0.4059954728907097,
+            "allocation": [
+              0.07079022908625353,
+              0.00375,
+              0.13341954182749297,
+              0.06375,
+              0.0025,
+              0.00125,
+              0.48875,
+              0.09329022908625353,
+              0.00125,
+              0.14125
+            ],
+            "mixture": {
+              "lambda_low": 0.004652326163081541,
+              "lambda_high": 0.004627313656828415,
+              "high_weight": 0.36781673099718165
+            }
+          },
+          "prompt_baseline": {
+            "quality": 0.3807650054932931,
+            "cost": 10.0,
+            "predicted_quality": 0.4376551480323591,
+            "allocation": [
+              0.10305256302706517,
+              0.04125,
+              0.17139487394586964,
+              0.10125,
+              0.00875,
+              0.0,
+              0.3627762815135326,
+              0.075,
+              0.00375,
+              0.1327762815135326
+            ],
+            "mixture": {
+              "lambda_low": 0.004527263631815908,
+              "lambda_high": 0.004502251125562782,
+              "high_weight": 0.7789747891739268
+            }
+          },
+          "gain_vs_prompt": 0.01050166823870951,
+          "best_by_gate": {
+            "prompt_margin": {
+              "selected_key": "prompt_margin|1",
+              "requested_validation_coverage": 1.0,
+              "validation_gate_fraction": 1.0,
+              "test_gate_fraction": 1.0,
+              "validation_quality": 0.3250411458033783,
+              "test_policy": {
+                "quality": 0.39126667373200263,
+                "cost": 10.0,
+                "predicted_quality": 0.4059954728907097,
+                "allocation": [
+                  0.07079022908625353,
+                  0.00375,
+                  0.13341954182749297,
+                  0.06375,
+                  0.0025,
+                  0.00125,
+                  0.48875,
+                  0.09329022908625353,
+                  0.00125,
+                  0.14125
+                ],
+                "mixture": {
+                  "lambda_low": 0.004652326163081541,
+                  "lambda_high": 0.004627313656828415,
+                  "high_weight": 0.36781673099718165
+                }
+              },
+              "gain_vs_prompt": 0.01050166823870951
+            },
+            "committee_expected_regret": {
+              "selected_key": "committee_expected_regret|0.75",
+              "requested_validation_coverage": 0.75,
+              "validation_gate_fraction": 1.0,
+              "test_gate_fraction": 1.0,
+              "validation_quality": 0.3250411458033783,
+              "test_policy": {
+                "quality": 0.39126667373200263,
+                "cost": 10.0,
+                "predicted_quality": 0.4059954728907097,
+                "allocation": [
+                  0.07079022908625353,
+                  0.00375,
+                  0.13341954182749297,
+                  0.06375,
+                  0.0025,
+                  0.00125,
+                  0.48875,
+                  0.09329022908625353,
+                  0.00125,
+                  0.14125
+                ],
+                "mixture": {
+                  "lambda_low": 0.004652326163081541,
+                  "lambda_high": 0.004627313656828415,
+                  "high_weight": 0.36781673099718165
+                }
+              },
+              "gain_vs_prompt": 0.01050166823870951
+            }
+          },
+          "fixed_coverage_test_diagnostic": {
+            "prompt_margin|0": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3807650054932931,
+              "gain_vs_prompt": 0.0,
+              "cost": 10.0
+            },
+            "prompt_margin|0.25": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.2425,
+              "quality": 0.38631213551392984,
+              "gain_vs_prompt": 0.00554713002063677,
+              "cost": 10.0
+            },
+            "prompt_margin|0.5": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.475,
+              "quality": 0.38874080404988526,
+              "gain_vs_prompt": 0.00797579855659218,
+              "cost": 10.0
+            },
+            "prompt_margin|0.75": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.6275,
+              "quality": 0.3910358417024557,
+              "gain_vs_prompt": 0.010270836209162595,
+              "cost": 10.0
+            },
+            "prompt_margin|1": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.39126667373200263,
+              "gain_vs_prompt": 0.01050166823870951,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3807650054932931,
+              "gain_vs_prompt": 0.0,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.25": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.3,
+              "quality": 0.39153750735617265,
+              "gain_vs_prompt": 0.010772501862879551,
+              "cost": 10.000000000000002
+            },
+            "committee_expected_regret|0.5": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.5175,
+              "quality": 0.3912734511390877,
+              "gain_vs_prompt": 0.010508445645794572,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.75": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 1.0,
+              "quality": 0.39126667373200263,
+              "gain_vs_prompt": 0.01050166823870951,
+              "cost": 10.0
+            },
+            "committee_expected_regret|1": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.39126667373200263,
+              "gain_vs_prompt": 0.01050166823870951,
+              "cost": 10.0
+            }
+          }
+        },
+        {
+          "seed": 44,
+          "reference_lambda": 0.005688336762823082,
+          "selected_key": "prompt_margin|0.5",
+          "selected_gate_type": "prompt_margin",
+          "selected_requested_validation_coverage": 0.5,
+          "validation_gate_fraction": 0.5,
+          "test_gate_fraction": 0.5625,
+          "gate_threshold": -0.0428783201288134,
+          "validation_quality": 0.3650907011720178,
+          "test_policy": {
+            "quality": 0.3908719608138672,
+            "cost": 10.0,
+            "predicted_quality": 0.42369193412025025,
+            "allocation": [
+              0.105,
+              0.0075,
+              0.16486495828523637,
+              0.1,
+              0.00625,
+              0.00125,
+              0.4165200834295273,
+              0.06847991657047275,
+              0.00125,
+              0.12888504171476362
+            ],
+            "mixture": {
+              "lambda_low": 0.004277138569284643,
+              "lambda_high": 0.004252126063031516,
+              "high_weight": 0.8919666281890997
+            }
+          },
+          "prompt_baseline": {
+            "quality": 0.3837285674692841,
+            "cost": 10.0,
+            "predicted_quality": 0.4290003492100404,
+            "allocation": [
+              0.15375,
+              0.03125,
+              0.1723622112211221,
+              0.1275,
+              0.00625,
+              0.00375,
+              0.2979133663366337,
+              0.08722442244224421,
+              0.0,
+              0.12
+            ],
+            "mixture": {
+              "lambda_low": 0.004652326163081541,
+              "lambda_high": 0.004627313656828415,
+              "high_weight": 0.8897689768976877
+            }
+          },
+          "gain_vs_prompt": 0.007143393344583191,
+          "best_by_gate": {
+            "prompt_margin": {
+              "selected_key": "prompt_margin|0.5",
+              "requested_validation_coverage": 0.5,
+              "validation_gate_fraction": 0.5,
+              "test_gate_fraction": 0.5625,
+              "validation_quality": 0.3650907011720178,
+              "test_policy": {
+                "quality": 0.3908719608138672,
+                "cost": 10.0,
+                "predicted_quality": 0.42369193412025025,
+                "allocation": [
+                  0.105,
+                  0.0075,
+                  0.16486495828523637,
+                  0.1,
+                  0.00625,
+                  0.00125,
+                  0.4165200834295273,
+                  0.06847991657047275,
+                  0.00125,
+                  0.12888504171476362
+                ],
+                "mixture": {
+                  "lambda_low": 0.004277138569284643,
+                  "lambda_high": 0.004252126063031516,
+                  "high_weight": 0.8919666281890997
+                }
+              },
+              "gain_vs_prompt": 0.007143393344583191
+            },
+            "committee_expected_regret": {
+              "selected_key": "committee_expected_regret|0.5",
+              "requested_validation_coverage": 0.5,
+              "validation_gate_fraction": 0.5,
+              "test_gate_fraction": 0.5775,
+              "validation_quality": 0.3598216528863729,
+              "test_policy": {
+                "quality": 0.393668521585453,
+                "cost": 10.000000000000002,
+                "predicted_quality": 0.41803924088186206,
+                "allocation": [
+                  0.11250000000000002,
+                  0.01125,
+                  0.16800461326526753,
+                  0.09375,
+                  0.00375,
+                  0.0,
+                  0.4094953867347325,
+                  0.06887615331631688,
+                  0.00125,
+                  0.13112384668368313
+                ],
+                "mixture": {
+                  "lambda_low": 0.004552276138069035,
+                  "lambda_high": 0.004527263631815908,
+                  "high_weight": 0.10092265305350083
+                }
+              },
+              "gain_vs_prompt": 0.009939954116168935
+            }
+          },
+          "fixed_coverage_test_diagnostic": {
+            "prompt_margin|0": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3837285674692841,
+              "gain_vs_prompt": 0.0,
+              "cost": 10.0
+            },
+            "prompt_margin|0.25": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.32,
+              "quality": 0.38177537208663237,
+              "gain_vs_prompt": -0.001953195382651624,
+              "cost": 10.0
+            },
+            "prompt_margin|0.5": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.5625,
+              "quality": 0.3908719608138672,
+              "gain_vs_prompt": 0.007143393344583191,
+              "cost": 10.0
+            },
+            "prompt_margin|0.75": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.76125,
+              "quality": 0.3944204120105836,
+              "gain_vs_prompt": 0.01069184454129951,
+              "cost": 10.0
+            },
+            "prompt_margin|1": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3926200895900695,
+              "gain_vs_prompt": 0.008891522120785422,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3837285674692841,
+              "gain_vs_prompt": 0.0,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.25": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.28625,
+              "quality": 0.3868859924306854,
+              "gain_vs_prompt": 0.0031574249614012826,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.5": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.5775,
+              "quality": 0.393668521585453,
+              "gain_vs_prompt": 0.009939954116168935,
+              "cost": 10.000000000000002
+            },
+            "committee_expected_regret|0.75": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3926200895900695,
+              "gain_vs_prompt": 0.008891522120785422,
+              "cost": 10.0
+            },
+            "committee_expected_regret|1": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3926200895900695,
+              "gain_vs_prompt": 0.008891522120785422,
+              "cost": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "core3": {
+      "mask": 76,
+      "actions": [
+        "qwen_tts",
+        "flux_10steps",
+        "boogu_10steps"
+      ],
+      "selected": {
+        "delta": 0.0008879680898847155,
+        "ci95": [
+          -0.0011609819601817064,
+          0.002914262951477891
+        ],
+        "quality_mean": 0.3925083923030364,
+        "cost_mean": 10.0,
+        "test_gate_fraction_mean": 0.057916666666666665,
+        "selected_keys": [
+          "prompt_margin|0.25",
+          "prompt_margin|0",
+          "prompt_margin|0"
+        ]
+      },
+      "margin_only_selected": {
+        "delta": 0.0008879680898847155,
+        "ci95": [
+          -0.001106970022876459,
+          0.0029207554703966476
+        ],
+        "test_gate_fraction_mean": 0.057916666666666665,
+        "selected_keys": [
+          "prompt_margin|0.25",
+          "prompt_margin|0",
+          "prompt_margin|0"
+        ]
+      },
+      "committee_only_selected": {
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "test_gate_fraction_mean": 0.0,
+        "selected_keys": [
+          "committee_expected_regret|0",
+          "committee_expected_regret|0",
+          "committee_expected_regret|0"
+        ]
+      },
+      "always_preview": {
+        "delta": -0.0028065075807459853,
+        "ci95": [
+          -0.0126846015520473,
+          0.0067372188683450735
+        ]
+      },
+      "fixed_coverage": {
+        "committee_expected_regret|0": {
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "test_gate_fraction_mean": 0.0,
+          "quality_mean": 0.39162042421315174,
+          "cost_mean": 10.0
+        },
+        "committee_expected_regret|0.25": {
+          "delta": 0.0035224021140791016,
+          "ci95": [
+            -0.0006201960089273611,
+            0.007200898755380762
+          ],
+          "test_gate_fraction_mean": 0.23583333333333334,
+          "quality_mean": 0.3951428263272308,
+          "cost_mean": 10.0
+        },
+        "committee_expected_regret|0.5": {
+          "delta": -0.0028065075807459853,
+          "ci95": [
+            -0.012746657772550293,
+            0.007183930140920864
+          ],
+          "test_gate_fraction_mean": 1.0,
+          "quality_mean": 0.38881391663240567,
+          "cost_mean": 10.0
+        },
+        "committee_expected_regret|0.75": {
+          "delta": -0.0028065075807459853,
+          "ci95": [
+            -0.01253712124327031,
+            0.006943929792569735
+          ],
+          "test_gate_fraction_mean": 1.0,
+          "quality_mean": 0.38881391663240567,
+          "cost_mean": 10.0
+        },
+        "committee_expected_regret|1": {
+          "delta": -0.0028065075807459853,
+          "ci95": [
+            -0.01272188417770431,
+            0.006132843746492637
+          ],
+          "test_gate_fraction_mean": 1.0,
+          "quality_mean": 0.38881391663240567,
+          "cost_mean": 10.0
+        },
+        "prompt_margin|0": {
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "test_gate_fraction_mean": 0.0,
+          "quality_mean": 0.39162042421315174,
+          "cost_mean": 10.0
+        },
+        "prompt_margin|0.25": {
+          "delta": 0.003343162049032903,
+          "ci95": [
+            -0.0007420072299661428,
+            0.007334252531290077
+          ],
+          "test_gate_fraction_mean": 0.2070833333333333,
+          "quality_mean": 0.3949635862621846,
+          "cost_mean": 10.0
+        },
+        "prompt_margin|0.5": {
+          "delta": 0.0010950284223536194,
+          "ci95": [
+            -0.0051969105250338,
+            0.007389956382395097
+          ],
+          "test_gate_fraction_mean": 0.44,
+          "quality_mean": 0.3927154526355053,
+          "cost_mean": 10.0
+        },
+        "prompt_margin|0.75": {
+          "delta": 0.002500653175222709,
+          "ci95": [
+            -0.005715888401090877,
+            0.011121833304897565
+          ],
+          "test_gate_fraction_mean": 0.6924999999999999,
+          "quality_mean": 0.3941210773883744,
+          "cost_mean": 10.0
+        },
+        "prompt_margin|1": {
+          "delta": -0.0028065075807459853,
+          "ci95": [
+            -0.012121282825062267,
+            0.006616699480881857
+          ],
+          "test_gate_fraction_mean": 1.0,
+          "quality_mean": 0.38881391663240567,
+          "cost_mean": 10.0
+        }
+      },
+      "per_seed": [
+        {
+          "seed": 42,
+          "reference_lambda": 0.005465900889375986,
+          "selected_key": "prompt_margin|0.25",
+          "selected_gate_type": "prompt_margin",
+          "selected_requested_validation_coverage": 0.25,
+          "validation_gate_fraction": 0.25,
+          "test_gate_fraction": 0.17375,
+          "gate_threshold": -0.021799089905158355,
+          "validation_quality": 0.3579518388840103,
+          "test_policy": {
+            "quality": 0.39335814825570753,
+            "cost": 10.0,
+            "predicted_quality": 0.41655042249361707,
+            "allocation": [
+              0.20655572585670035,
+              0.22117356853582493,
+              0.5722707056074747,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "mixture": {
+              "lambda_low": 0.004502251125562782,
+              "lambda_high": 0.004477238619309655,
+              "high_weight": 0.061145171340071726
+            }
+          },
+          "prompt_baseline": {
+            "quality": 0.39069424398605335,
+            "cost": 10.0,
+            "predicted_quality": 0.4132008413777096,
+            "allocation": [
+              0.21368320610687025,
+              0.25375,
+              0.5325667938931298
+            ],
+            "mixture": {
+              "lambda_low": 0.005377688844422211,
+              "lambda_high": 0.0053526763381690845,
+              "high_weight": 0.9465648854961964
+            }
+          },
+          "gain_vs_prompt": 0.0026639042696541466,
+          "best_by_gate": {
+            "prompt_margin": {
+              "selected_key": "prompt_margin|0.25",
+              "requested_validation_coverage": 0.25,
+              "validation_gate_fraction": 0.25,
+              "test_gate_fraction": 0.17375,
+              "validation_quality": 0.3579518388840103,
+              "test_policy": {
+                "quality": 0.39335814825570753,
+                "cost": 10.0,
+                "predicted_quality": 0.41655042249361707,
+                "allocation": [
+                  0.20655572585670035,
+                  0.22117356853582493,
+                  0.5722707056074747,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "mixture": {
+                  "lambda_low": 0.004502251125562782,
+                  "lambda_high": 0.004477238619309655,
+                  "high_weight": 0.061145171340071726
+                }
+              },
+              "gain_vs_prompt": 0.0026639042696541466
+            },
+            "committee_expected_regret": {
+              "selected_key": "committee_expected_regret|0",
+              "requested_validation_coverage": 0.0,
+              "validation_gate_fraction": 0.0,
+              "test_gate_fraction": 0.0,
+              "validation_quality": 0.35315333667111687,
+              "test_policy": {
+                "quality": 0.39069424398605335,
+                "cost": 10.0,
+                "predicted_quality": 0.4132008413777096,
+                "allocation": [
+                  0.21368320610687025,
+                  0.25375,
+                  0.5325667938931298,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "mixture": {
+                  "lambda_low": 0.005377688844422211,
+                  "lambda_high": 0.0053526763381690845,
+                  "high_weight": 0.9465648854961964
+                }
+              },
+              "gain_vs_prompt": 0.0
+            }
+          },
+          "fixed_coverage_test_diagnostic": {
+            "prompt_margin|0": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.39069424398605335,
+              "gain_vs_prompt": 0.0,
+              "cost": 10.0
+            },
+            "prompt_margin|0.25": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.17375,
+              "quality": 0.39335814825570753,
+              "gain_vs_prompt": 0.0026639042696541466,
+              "cost": 10.0
+            },
+            "prompt_margin|0.5": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.42625,
+              "quality": 0.3882040379257775,
+              "gain_vs_prompt": -0.002490206060275928,
+              "cost": 10.0
+            },
+            "prompt_margin|0.75": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.7225,
+              "quality": 0.39116757102276706,
+              "gain_vs_prompt": 0.0004733270367137618,
+              "cost": 10.0
+            },
+            "prompt_margin|1": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3860652423533454,
+              "gain_vs_prompt": -0.004629001632707997,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.39069424398605335,
+              "gain_vs_prompt": 0.0,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.25": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.20375,
+              "quality": 0.3907158760554772,
+              "gain_vs_prompt": 2.1632069423852123e-05,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.5": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3860652423533454,
+              "gain_vs_prompt": -0.004629001632707997,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.75": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3860652423533454,
+              "gain_vs_prompt": -0.004629001632707997,
+              "cost": 10.0
+            },
+            "committee_expected_regret|1": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3860652423533454,
+              "gain_vs_prompt": -0.004629001632707997,
+              "cost": 10.0
+            }
+          }
+        },
+        {
+          "seed": 43,
+          "reference_lambda": 0.004735573893817138,
+          "selected_key": "prompt_margin|0",
+          "selected_gate_type": "prompt_margin",
+          "selected_requested_validation_coverage": 0.0,
+          "validation_gate_fraction": 0.0,
+          "test_gate_fraction": 0.0,
+          "gate_threshold": Infinity,
+          "validation_quality": 0.31726461605813605,
+          "test_policy": {
+            "quality": 0.3920003165662838,
+            "cost": 10.0,
+            "predicted_quality": 0.4183096756006925,
+            "allocation": [
+              0.21414122137404584,
+              0.22375,
+              0.5621087786259542,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "mixture": {
+              "lambda_low": 0.005077538769384693,
+              "lambda_high": 0.005052526263131566,
+              "high_weight": 0.656488549618326
+            }
+          },
+          "prompt_baseline": {
+            "quality": 0.3920003165662838,
+            "cost": 10.0,
+            "predicted_quality": 0.4183096756006925,
+            "allocation": [
+              0.21414122137404584,
+              0.22375,
+              0.5621087786259542
+            ],
+            "mixture": {
+              "lambda_low": 0.005077538769384693,
+              "lambda_high": 0.005052526263131566,
+              "high_weight": 0.656488549618326
+            }
+          },
+          "gain_vs_prompt": 0.0,
+          "best_by_gate": {
+            "prompt_margin": {
+              "selected_key": "prompt_margin|0",
+              "requested_validation_coverage": 0.0,
+              "validation_gate_fraction": 0.0,
+              "test_gate_fraction": 0.0,
+              "validation_quality": 0.31726461605813605,
+              "test_policy": {
+                "quality": 0.3920003165662838,
+                "cost": 10.0,
+                "predicted_quality": 0.4183096756006925,
+                "allocation": [
+                  0.21414122137404584,
+                  0.22375,
+                  0.5621087786259542,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "mixture": {
+                  "lambda_low": 0.005077538769384693,
+                  "lambda_high": 0.005052526263131566,
+                  "high_weight": 0.656488549618326
+                }
+              },
+              "gain_vs_prompt": 0.0
+            },
+            "committee_expected_regret": {
+              "selected_key": "committee_expected_regret|0",
+              "requested_validation_coverage": 0.0,
+              "validation_gate_fraction": 0.0,
+              "test_gate_fraction": 0.0,
+              "validation_quality": 0.31726461605813605,
+              "test_policy": {
+                "quality": 0.3920003165662838,
+                "cost": 10.0,
+                "predicted_quality": 0.4183096756006925,
+                "allocation": [
+                  0.21414122137404584,
+                  0.22375,
+                  0.5621087786259542,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "mixture": {
+                  "lambda_low": 0.005077538769384693,
+                  "lambda_high": 0.005052526263131566,
+                  "high_weight": 0.656488549618326
+                }
+              },
+              "gain_vs_prompt": 0.0
+            }
+          },
+          "fixed_coverage_test_diagnostic": {
+            "prompt_margin|0": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3920003165662838,
+              "gain_vs_prompt": 0.0,
+              "cost": 10.0
+            },
+            "prompt_margin|0.25": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.22,
+              "quality": 0.39515959032255404,
+              "gain_vs_prompt": 0.0031592737562702463,
+              "cost": 10.0
+            },
+            "prompt_margin|0.5": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.44375,
+              "quality": 0.3934584647796116,
+              "gain_vs_prompt": 0.0014581482133278006,
+              "cost": 10.0
+            },
+            "prompt_margin|0.75": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.635,
+              "quality": 0.39424143086609376,
+              "gain_vs_prompt": 0.002241114299809918,
+              "cost": 10.0
+            },
+            "prompt_margin|1": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.39006737045539547,
+              "gain_vs_prompt": -0.0019329461108883407,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3920003165662838,
+              "gain_vs_prompt": 0.0,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.25": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.255,
+              "quality": 0.396863463250104,
+              "gain_vs_prompt": 0.004863146683820233,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.5": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 1.0,
+              "quality": 0.39006737045539547,
+              "gain_vs_prompt": -0.0019329461108883407,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.75": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 1.0,
+              "quality": 0.39006737045539547,
+              "gain_vs_prompt": -0.0019329461108883407,
+              "cost": 10.0
+            },
+            "committee_expected_regret|1": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.39006737045539547,
+              "gain_vs_prompt": -0.0019329461108883407,
+              "cost": 10.0
+            }
+          }
+        },
+        {
+          "seed": 44,
+          "reference_lambda": 0.006386590241685729,
+          "selected_key": "prompt_margin|0",
+          "selected_gate_type": "prompt_margin",
+          "selected_requested_validation_coverage": 0.0,
+          "validation_gate_fraction": 0.0,
+          "test_gate_fraction": 0.0,
+          "gate_threshold": Infinity,
+          "validation_quality": 0.35316657594769024,
+          "test_policy": {
+            "quality": 0.3921667120871179,
+            "cost": 10.0,
+            "predicted_quality": 0.40758173523040914,
+            "allocation": [
+              0.21347115384615387,
+              0.26763942307692307,
+              0.5188894230769231,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "mixture": {
+              "lambda_low": 0.005077538769384693,
+              "lambda_high": 0.005027513756878439,
+              "high_weight": 0.8884615384615516
+            }
+          },
+          "prompt_baseline": {
+            "quality": 0.3921667120871179,
+            "cost": 10.0,
+            "predicted_quality": 0.40758173523040914,
+            "allocation": [
+              0.21347115384615387,
+              0.26763942307692307,
+              0.5188894230769231
+            ],
+            "mixture": {
+              "lambda_low": 0.005077538769384693,
+              "lambda_high": 0.005027513756878439,
+              "high_weight": 0.8884615384615516
+            }
+          },
+          "gain_vs_prompt": 0.0,
+          "best_by_gate": {
+            "prompt_margin": {
+              "selected_key": "prompt_margin|0",
+              "requested_validation_coverage": 0.0,
+              "validation_gate_fraction": 0.0,
+              "test_gate_fraction": 0.0,
+              "validation_quality": 0.35316657594769024,
+              "test_policy": {
+                "quality": 0.3921667120871179,
+                "cost": 10.0,
+                "predicted_quality": 0.40758173523040914,
+                "allocation": [
+                  0.21347115384615387,
+                  0.26763942307692307,
+                  0.5188894230769231,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "mixture": {
+                  "lambda_low": 0.005077538769384693,
+                  "lambda_high": 0.005027513756878439,
+                  "high_weight": 0.8884615384615516
+                }
+              },
+              "gain_vs_prompt": 0.0
+            },
+            "committee_expected_regret": {
+              "selected_key": "committee_expected_regret|0",
+              "requested_validation_coverage": 0.0,
+              "validation_gate_fraction": 0.0,
+              "test_gate_fraction": 0.0,
+              "validation_quality": 0.35316657594769024,
+              "test_policy": {
+                "quality": 0.3921667120871179,
+                "cost": 10.0,
+                "predicted_quality": 0.40758173523040914,
+                "allocation": [
+                  0.21347115384615387,
+                  0.26763942307692307,
+                  0.5188894230769231,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "mixture": {
+                  "lambda_low": 0.005077538769384693,
+                  "lambda_high": 0.005027513756878439,
+                  "high_weight": 0.8884615384615516
+                }
+              },
+              "gain_vs_prompt": 0.0
+            }
+          },
+          "fixed_coverage_test_diagnostic": {
+            "prompt_margin|0": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3921667120871179,
+              "gain_vs_prompt": 0.0,
+              "cost": 10.0
+            },
+            "prompt_margin|0.25": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.2275,
+              "quality": 0.39637302020829224,
+              "gain_vs_prompt": 0.004206308121174316,
+              "cost": 10.0
+            },
+            "prompt_margin|0.5": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.45,
+              "quality": 0.39648385520112683,
+              "gain_vs_prompt": 0.004317143114008985,
+              "cost": 10.0
+            },
+            "prompt_margin|0.75": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.72,
+              "quality": 0.3969542302762623,
+              "gain_vs_prompt": 0.004787518189144443,
+              "cost": 10.0
+            },
+            "prompt_margin|1": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.39030913708847625,
+              "gain_vs_prompt": -0.0018575749986416241,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3921667120871179,
+              "gain_vs_prompt": 0.0,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.25": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.24875,
+              "quality": 0.39784913967611113,
+              "gain_vs_prompt": 0.005682427588993221,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.5": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 1.0,
+              "quality": 0.39030913708847625,
+              "gain_vs_prompt": -0.0018575749986416241,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.75": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 1.0,
+              "quality": 0.39030913708847625,
+              "gain_vs_prompt": -0.0018575749986416241,
+              "cost": 10.0
+            },
+            "committee_expected_regret|1": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.39030913708847625,
+              "gain_vs_prompt": -0.0018575749986416241,
+              "cost": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "core3_plus_f4b4": {
+      "mask": 588,
+      "actions": [
+        "qwen_tts",
+        "flux_10steps",
+        "boogu_10steps",
+        "flux4b_4steps"
+      ],
+      "selected": {
+        "delta": 0.004028567966298478,
+        "ci95": [
+          -0.0006148718933217956,
+          0.008603131243409863
+        ],
+        "quality_mean": 0.39101359810781283,
+        "cost_mean": 10.0,
+        "test_gate_fraction_mean": 0.255,
+        "selected_keys": [
+          "prompt_margin|0.5",
+          "prompt_margin|0",
+          "committee_expected_regret|0.25"
+        ]
+      },
+      "margin_only_selected": {
+        "delta": 0.005178687215644566,
+        "ci95": [
+          -0.00039987732807337243,
+          0.010984986518519257
+        ],
+        "test_gate_fraction_mean": 0.47833333333333333,
+        "selected_keys": [
+          "prompt_margin|0.5",
+          "prompt_margin|0",
+          "prompt_margin|1"
+        ]
+      },
+      "committee_only_selected": {
+        "delta": 0.003494174931115507,
+        "ci95": [
+          0.0007154476749013047,
+          0.006272563837854355
+        ],
+        "test_gate_fraction_mean": 0.11,
+        "selected_keys": [
+          "committee_expected_regret|0",
+          "committee_expected_regret|0",
+          "committee_expected_regret|0.25"
+        ]
+      },
+      "always_preview": {
+        "delta": 0.007599921592926804,
+        "ci95": [
+          -0.002823107673712043,
+          0.018691687350383394
+        ]
+      },
+      "fixed_coverage": {
+        "committee_expected_regret|0": {
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "test_gate_fraction_mean": 0.0,
+          "quality_mean": 0.38698503014151436,
+          "cost_mean": 10.0
+        },
+        "committee_expected_regret|0.25": {
+          "delta": 0.005157072910828597,
+          "ci95": [
+            -9.218419981134975e-05,
+            0.010411076352401766
+          ],
+          "test_gate_fraction_mean": 0.28375,
+          "quality_mean": 0.3921421030523429,
+          "cost_mean": 10.0
+        },
+        "committee_expected_regret|0.5": {
+          "delta": 0.00884584642421155,
+          "ci95": [
+            0.0020919008408130245,
+            0.01583946858633767
+          ],
+          "test_gate_fraction_mean": 0.49125,
+          "quality_mean": 0.3958308765657259,
+          "cost_mean": 10.0
+        },
+        "committee_expected_regret|0.75": {
+          "delta": 0.007599921592926804,
+          "ci95": [
+            -0.002785610760082446,
+            0.01882351476789537
+          ],
+          "test_gate_fraction_mean": 1.0,
+          "quality_mean": 0.3945849517344411,
+          "cost_mean": 10.0
+        },
+        "committee_expected_regret|1": {
+          "delta": 0.007599921592926804,
+          "ci95": [
+            -0.0029932103531428245,
+            0.018520571524624656
+          ],
+          "test_gate_fraction_mean": 1.0,
+          "quality_mean": 0.3945849517344411,
+          "cost_mean": 10.0
+        },
+        "prompt_margin|0": {
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "test_gate_fraction_mean": 0.0,
+          "quality_mean": 0.38698503014151436,
+          "cost_mean": 10.0
+        },
+        "prompt_margin|0.25": {
+          "delta": 0.0034226615345470477,
+          "ci95": [
+            -0.000554297630375114,
+            0.007573987090620999
+          ],
+          "test_gate_fraction_mean": 0.2125,
+          "quality_mean": 0.39040769167606143,
+          "cost_mean": 10.0
+        },
+        "prompt_margin|0.5": {
+          "delta": 0.005069740322491992,
+          "ci95": [
+            -0.0008424171487475506,
+            0.011284872729947618
+          ],
+          "test_gate_fraction_mean": 0.44208333333333333,
+          "quality_mean": 0.39205477046400633,
+          "cost_mean": 10.0
+        },
+        "prompt_margin|0.75": {
+          "delta": 0.00934250849079824,
+          "ci95": [
+            0.0009506704035418608,
+            0.018235178203823442
+          ],
+          "test_gate_fraction_mean": 0.70375,
+          "quality_mean": 0.39632753863231257,
+          "cost_mean": 10.0
+        },
+        "prompt_margin|1": {
+          "delta": 0.007599921592926804,
+          "ci95": [
+            -0.0031197638612539607,
+            0.018377433504304003
+          ],
+          "test_gate_fraction_mean": 1.0,
+          "quality_mean": 0.3945849517344411,
+          "cost_mean": 10.0
+        }
+      },
+      "per_seed": [
+        {
+          "seed": 42,
+          "reference_lambda": 0.004923205486917199,
+          "selected_key": "prompt_margin|0.5",
+          "selected_gate_type": "prompt_margin",
+          "selected_requested_validation_coverage": 0.5,
+          "validation_gate_fraction": 0.5,
+          "test_gate_fraction": 0.435,
+          "gate_threshold": -0.04437503479856575,
+          "validation_quality": 0.36148360071323227,
+          "test_policy": {
+            "quality": 0.3896027951828628,
+            "cost": 10.0,
+            "predicted_quality": 0.42258790441406724,
+            "allocation": [
+              0.2160005741977209,
+              0.12125,
+              0.5375,
+              0.12524942580227907,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "mixture": {
+              "lambda_low": 0.00495247623811906,
+              "lambda_high": 0.004827413706853427,
+              "high_weight": 0.40022967908836987
+            }
+          },
+          "prompt_baseline": {
+            "quality": 0.3879996160773139,
+            "cost": 10.0,
+            "predicted_quality": 0.42098107903285786,
+            "allocation": [
+              0.23555749045801527,
+              0.17875000000000002,
+              0.4444425095419847,
+              0.14125
+            ],
+            "mixture": {
+              "lambda_low": 0.004577288644322161,
+              "lambda_high": 0.004552276138069035,
+              "high_weight": 0.7229961832061055
+            }
+          },
+          "gain_vs_prompt": 0.0016031791055489144,
+          "best_by_gate": {
+            "prompt_margin": {
+              "selected_key": "prompt_margin|0.5",
+              "requested_validation_coverage": 0.5,
+              "validation_gate_fraction": 0.5,
+              "test_gate_fraction": 0.435,
+              "validation_quality": 0.36148360071323227,
+              "test_policy": {
+                "quality": 0.3896027951828628,
+                "cost": 10.0,
+                "predicted_quality": 0.42258790441406724,
+                "allocation": [
+                  0.2160005741977209,
+                  0.12125,
+                  0.5375,
+                  0.12524942580227907,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "mixture": {
+                  "lambda_low": 0.00495247623811906,
+                  "lambda_high": 0.004827413706853427,
+                  "high_weight": 0.40022967908836987
+                }
+              },
+              "gain_vs_prompt": 0.0016031791055489144
+            },
+            "committee_expected_regret": {
+              "selected_key": "committee_expected_regret|0",
+              "requested_validation_coverage": 0.0,
+              "validation_gate_fraction": 0.0,
+              "test_gate_fraction": 0.0,
+              "validation_quality": 0.3561693940229449,
+              "test_policy": {
+                "quality": 0.3879996160773139,
+                "cost": 10.0,
+                "predicted_quality": 0.42098107903285786,
+                "allocation": [
+                  0.23555749045801527,
+                  0.17875000000000002,
+                  0.4444425095419847,
+                  0.14125,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "mixture": {
+                  "lambda_low": 0.004577288644322161,
+                  "lambda_high": 0.004552276138069035,
+                  "high_weight": 0.7229961832061055
+                }
+              },
+              "gain_vs_prompt": 0.0
+            }
+          },
+          "fixed_coverage_test_diagnostic": {
+            "prompt_margin|0": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3879996160773139,
+              "gain_vs_prompt": 0.0,
+              "cost": 10.0
+            },
+            "prompt_margin|0.25": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.2,
+              "quality": 0.3911638006697168,
+              "gain_vs_prompt": 0.0031641845924029383,
+              "cost": 10.0
+            },
+            "prompt_margin|0.5": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.435,
+              "quality": 0.3896027951828628,
+              "gain_vs_prompt": 0.0016031791055489144,
+              "cost": 10.0
+            },
+            "prompt_margin|0.75": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.71125,
+              "quality": 0.39538138600758654,
+              "gain_vs_prompt": 0.007381769930272738,
+              "cost": 9.999999999999998
+            },
+            "prompt_margin|1": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3921457204438106,
+              "gain_vs_prompt": 0.004146104366496742,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3879996160773139,
+              "gain_vs_prompt": 0.0,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.25": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.25125,
+              "quality": 0.3882763984598759,
+              "gain_vs_prompt": 0.0002767823825620375,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.5": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.48625,
+              "quality": 0.39140572777108573,
+              "gain_vs_prompt": 0.0034061116937718345,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.75": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3921457204438106,
+              "gain_vs_prompt": 0.004146104366496742,
+              "cost": 10.0
+            },
+            "committee_expected_regret|1": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3921457204438106,
+              "gain_vs_prompt": 0.004146104366496742,
+              "cost": 10.0
+            }
+          }
+        },
+        {
+          "seed": 43,
+          "reference_lambda": 0.004025715147650161,
+          "selected_key": "prompt_margin|0",
+          "selected_gate_type": "prompt_margin",
+          "selected_requested_validation_coverage": 0.0,
+          "validation_gate_fraction": 0.0,
+          "test_gate_fraction": 0.0,
+          "gate_threshold": Infinity,
+          "validation_quality": 0.3219626119478241,
+          "test_policy": {
+            "quality": 0.38921013241120805,
+            "cost": 10.0,
+            "predicted_quality": 0.4273791651198497,
+            "allocation": [
+              0.23862836538461543,
+              0.1338108173076923,
+              0.4700608173076922,
+              0.1575,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "mixture": {
+              "lambda_low": 0.0043771885942971486,
+              "lambda_high": 0.004352176088044022,
+              "high_weight": 0.951346153846178
+            }
+          },
+          "prompt_baseline": {
+            "quality": 0.38921013241120805,
+            "cost": 10.0,
+            "predicted_quality": 0.4273791651198497,
+            "allocation": [
+              0.23862836538461543,
+              0.1338108173076923,
+              0.4700608173076922,
+              0.1575
+            ],
+            "mixture": {
+              "lambda_low": 0.0043771885942971486,
+              "lambda_high": 0.004352176088044022,
+              "high_weight": 0.951346153846178
+            }
+          },
+          "gain_vs_prompt": 0.0,
+          "best_by_gate": {
+            "prompt_margin": {
+              "selected_key": "prompt_margin|0",
+              "requested_validation_coverage": 0.0,
+              "validation_gate_fraction": 0.0,
+              "test_gate_fraction": 0.0,
+              "validation_quality": 0.3219626119478241,
+              "test_policy": {
+                "quality": 0.38921013241120805,
+                "cost": 10.0,
+                "predicted_quality": 0.4273791651198497,
+                "allocation": [
+                  0.23862836538461543,
+                  0.1338108173076923,
+                  0.4700608173076922,
+                  0.1575,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "mixture": {
+                  "lambda_low": 0.0043771885942971486,
+                  "lambda_high": 0.004352176088044022,
+                  "high_weight": 0.951346153846178
+                }
+              },
+              "gain_vs_prompt": 0.0
+            },
+            "committee_expected_regret": {
+              "selected_key": "committee_expected_regret|0",
+              "requested_validation_coverage": 0.0,
+              "validation_gate_fraction": 0.0,
+              "test_gate_fraction": 0.0,
+              "validation_quality": 0.3219626119478241,
+              "test_policy": {
+                "quality": 0.38921013241120805,
+                "cost": 10.0,
+                "predicted_quality": 0.4273791651198497,
+                "allocation": [
+                  0.23862836538461543,
+                  0.1338108173076923,
+                  0.4700608173076922,
+                  0.1575,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "mixture": {
+                  "lambda_low": 0.0043771885942971486,
+                  "lambda_high": 0.004352176088044022,
+                  "high_weight": 0.951346153846178
+                }
+              },
+              "gain_vs_prompt": 0.0
+            }
+          },
+          "fixed_coverage_test_diagnostic": {
+            "prompt_margin|0": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.38921013241120805,
+              "gain_vs_prompt": 0.0,
+              "cost": 10.0
+            },
+            "prompt_margin|0.25": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.195,
+              "quality": 0.38933842452774203,
+              "gain_vs_prompt": 0.00012829211653394483,
+              "cost": 10.0
+            },
+            "prompt_margin|0.5": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.4075,
+              "quality": 0.3909603206721164,
+              "gain_vs_prompt": 0.0017501882609083214,
+              "cost": 10.0
+            },
+            "prompt_margin|0.75": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.65,
+              "quality": 0.3933621393872788,
+              "gain_vs_prompt": 0.004152006976070762,
+              "cost": 10.0
+            },
+            "prompt_margin|1": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3939309102821069,
+              "gain_vs_prompt": 0.004720777870898883,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.38921013241120805,
+              "gain_vs_prompt": 0.0,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.25": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.27,
+              "quality": 0.3939220439677853,
+              "gain_vs_prompt": 0.004711911556577232,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.5": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.4675,
+              "quality": 0.3978892905292938,
+              "gain_vs_prompt": 0.008679158118085726,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.75": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3939309102821069,
+              "gain_vs_prompt": 0.004720777870898883,
+              "cost": 10.0
+            },
+            "committee_expected_regret|1": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3939309102821069,
+              "gain_vs_prompt": 0.004720777870898883,
+              "cost": 10.0
+            }
+          }
+        },
+        {
+          "seed": 44,
+          "reference_lambda": 0.005417919477295646,
+          "selected_key": "committee_expected_regret|0.25",
+          "selected_gate_type": "committee_expected_regret",
+          "selected_requested_validation_coverage": 0.25,
+          "validation_gate_fraction": 0.25,
+          "test_gate_fraction": 0.33,
+          "gate_threshold": 0.006697250463100149,
+          "validation_quality": 0.3543334745691895,
+          "test_policy": {
+            "quality": 0.39422786672936766,
+            "cost": 10.0,
+            "predicted_quality": 0.4147529305972687,
+            "allocation": [
+              0.22616921669018974,
+              0.11544359443660343,
+              0.49463718887320685,
+              0.16375,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "mixture": {
+              "lambda_low": 0.004227113556778389,
+              "lambda_high": 0.0042021010505252625,
+              "high_weight": 0.6451244507172614
+            }
+          },
+          "prompt_baseline": {
+            "quality": 0.3837453419360211,
+            "cost": 10.0,
+            "predicted_quality": 0.4156716787537863,
+            "allocation": [
+              0.23830232558139533,
+              0.17919767441860462,
+              0.4225,
+              0.16
+            ],
+            "mixture": {
+              "lambda_low": 0.004452226113056529,
+              "lambda_high": 0.004427213606803402,
+              "high_weight": 0.6418604651162814
+            }
+          },
+          "gain_vs_prompt": 0.010482524793346519,
+          "best_by_gate": {
+            "prompt_margin": {
+              "selected_key": "prompt_margin|1",
+              "requested_validation_coverage": 1.0,
+              "validation_gate_fraction": 1.0,
+              "test_gate_fraction": 1.0,
+              "validation_quality": 0.35371823687751425,
+              "test_policy": {
+                "quality": 0.39767822447740586,
+                "cost": 10.0,
+                "predicted_quality": 0.3919151424001867,
+                "allocation": [
+                  0.19863039730020973,
+                  0.09875,
+                  0.5413696026997903,
+                  0.16125,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "mixture": {
+                  "lambda_low": 0.004902451225612807,
+                  "lambda_high": 0.004852426213106553,
+                  "high_weight": 0.9760794600419469
+                }
+              },
+              "gain_vs_prompt": 0.013932882541384783
+            },
+            "committee_expected_regret": {
+              "selected_key": "committee_expected_regret|0.25",
+              "requested_validation_coverage": 0.25,
+              "validation_gate_fraction": 0.25,
+              "test_gate_fraction": 0.33,
+              "validation_quality": 0.3543334745691895,
+              "test_policy": {
+                "quality": 0.39422786672936766,
+                "cost": 10.0,
+                "predicted_quality": 0.4147529305972687,
+                "allocation": [
+                  0.22616921669018974,
+                  0.11544359443660343,
+                  0.49463718887320685,
+                  0.16375,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "mixture": {
+                  "lambda_low": 0.004227113556778389,
+                  "lambda_high": 0.0042021010505252625,
+                  "high_weight": 0.6451244507172614
+                }
+              },
+              "gain_vs_prompt": 0.010482524793346519
+            }
+          },
+          "fixed_coverage_test_diagnostic": {
+            "prompt_margin|0": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3837453419360211,
+              "gain_vs_prompt": 0.0,
+              "cost": 10.0
+            },
+            "prompt_margin|0.25": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.2425,
+              "quality": 0.39072084983072536,
+              "gain_vs_prompt": 0.006975507894704263,
+              "cost": 10.0
+            },
+            "prompt_margin|0.5": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.48375,
+              "quality": 0.3956011955370398,
+              "gain_vs_prompt": 0.011855853601018738,
+              "cost": 10.0
+            },
+            "prompt_margin|0.75": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.75,
+              "quality": 0.40023909050207235,
+              "gain_vs_prompt": 0.016493748566051222,
+              "cost": 10.0
+            },
+            "prompt_margin|1": {
+              "gate_type": "prompt_margin",
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.39767822447740586,
+              "gain_vs_prompt": 0.013932882541384783,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3837453419360211,
+              "gain_vs_prompt": 0.0,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.25": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.33,
+              "quality": 0.39422786672936766,
+              "gain_vs_prompt": 0.010482524793346519,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.5": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.52,
+              "quality": 0.3981976113967982,
+              "gain_vs_prompt": 0.014452269460777087,
+              "cost": 10.0
+            },
+            "committee_expected_regret|0.75": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 1.0,
+              "quality": 0.39767822447740586,
+              "gain_vs_prompt": 0.013932882541384783,
+              "cost": 10.0
+            },
+            "committee_expected_regret|1": {
+              "gate_type": "committee_expected_regret",
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.39767822447740586,
+              "gain_vs_prompt": 0.013932882541384783,
+              "cost": 10.0
+            }
+          }
+        }
+      ]
+    }
+  },
+  "numeric_audit": {
+    "all_finite": true,
+    "max_policy_cost": 10.000000000000002,
+    "budget_respected": true,
+    "max_always_preview_quality_mismatch_vs_exp30": 0.0,
+    "committee_cache_count": 3
+  },
+  "notes": [
+    "Prompt margin and committee expected regret use no preview image and no target labels.",
+    "Gate type and requested coverage are selected jointly on the 200-prompt library-validation block.",
+    "Probed rows use real Qwen3.5-2B@320 features and pay both measured analytical evaluator FLOPs and Flux4B preview cost.",
+    "When the final action is F4B4, its preview image is reused rather than generated twice.",
+    "Coverage-zero and coverage-one candidates make no use of their nominal gate score, so duplicate gate-type entries are expected."
+  ]
+}

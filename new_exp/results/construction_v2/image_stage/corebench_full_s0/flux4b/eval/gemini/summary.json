@@ -1,0 +1,24 @@
+{
+  "protocol": "historical_corebench_gemini3flash",
+  "num_images": 1000,
+  "missing": 0,
+  "mean_image_score": 0.4799053968135955,
+  "config": {
+    "bundle": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/26AAAIworks/new_exp/results/construction_v2/image_stage/corebench_full_s0/bundle.json",
+    "bundle_sha256": "a9b13e109d98138ab5d1ea538ef35136a4c79b48da768f389c0229941a2306e4",
+    "model_path": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/jiayimeng02/models/generation/FLUX.2-klein-4B",
+    "judge_model_path": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-hldy-nlp/3A/multimodal/zhaobo45/CKPTS/Qwen3.5-27B",
+    "pipeline": "flux",
+    "seeds": [
+      0
+    ],
+    "steps": [
+      4
+    ],
+    "guidance": 1.0,
+    "true_cfg": null,
+    "width": 1024,
+    "height": 1024
+  },
+  "manifest": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/26AAAIworks/new_exp/results/construction_v2/image_stage/corebench_full_s0/flux4b/eval/gemini/input_manifest.json"
+}

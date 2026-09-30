@@ -1,0 +1,121 @@
+{
+  "benchmark": "CoreBench-Synth-Train-v2",
+  "target_total": 1000,
+  "kept_total": 383,
+  "new_required_total": 617,
+  "quota": {
+    "C-MA": {
+      "target": 84,
+      "kept": 34,
+      "new_required": 50,
+      "new_id_start": 41,
+      "new_id_end": 90
+    },
+    "C-MI": {
+      "target": 83,
+      "kept": 33,
+      "new_required": 50,
+      "new_id_start": 41,
+      "new_id_end": 90
+    },
+    "C-MR": {
+      "target": 83,
+      "kept": 31,
+      "new_required": 52,
+      "new_id_start": 41,
+      "new_id_end": 92
+    },
+    "C-TR": {
+      "target": 83,
+      "kept": 33,
+      "new_required": 50,
+      "new_id_start": 41,
+      "new_id_end": 90
+    },
+    "R-AR": {
+      "target": 84,
+      "kept": 33,
+      "new_required": 51,
+      "new_id_start": 41,
+      "new_id_end": 91
+    },
+    "R-BR": {
+      "target": 83,
+      "kept": 33,
+      "new_required": 50,
+      "new_id_start": 41,
+      "new_id_end": 90
+    },
+    "R-CR": {
+      "target": 84,
+      "kept": 32,
+      "new_required": 52,
+      "new_id_start": 41,
+      "new_id_end": 92
+    },
+    "R-GR": {
+      "target": 83,
+      "kept": 30,
+      "new_required": 53,
+      "new_id_start": 41,
+      "new_id_end": 93
+    },
+    "R-HR": {
+      "target": 83,
+      "kept": 33,
+      "new_required": 50,
+      "new_id_start": 41,
+      "new_id_end": 90
+    },
+    "R-LR": {
+      "target": 83,
+      "kept": 25,
+      "new_required": 58,
+      "new_id_start": 41,
+      "new_id_end": 98
+    },
+    "R-PR": {
+      "target": 83,
+      "kept": 32,
+      "new_required": 51,
+      "new_id_start": 41,
+      "new_id_end": 91
+    },
+    "R-RR": {
+      "target": 84,
+      "kept": 34,
+      "new_required": 50,
+      "new_id_start": 41,
+      "new_id_end": 90
+    }
+  },
+  "excluded_existing": [
+    "C-MR-G010",
+    "C-MR-G035",
+    "R-AR-G010",
+    "R-CR-G031",
+    "R-CR-G037",
+    "R-GR-G017",
+    "R-GR-G033",
+    "R-GR-G034",
+    "R-LR-G004",
+    "R-LR-G008",
+    "R-LR-G014",
+    "R-LR-G020",
+    "R-LR-G023",
+    "R-LR-G024",
+    "R-LR-G025",
+    "R-LR-G026",
+    "R-PR-G008"
+  ],
+  "author_policy": {
+    "existing_author": "Gemini (from Remark metadata)",
+    "new_pilot_authors": [
+      "Gemini 3 Flash",
+      "Qwen3.5-27B"
+    ],
+    "minimum_distinct_new_author_models": 2,
+    "independent_cross_review_required": true,
+    "raw_prompt_access_for_authors": false
+  }
+}

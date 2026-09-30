@@ -1,0 +1,86 @@
+[
+  {
+    "dataset": "gm",
+    "oracle": 0.5488723924617893,
+    "always_qwen50": 0.24819912016391754,
+    "k_data": [
+      {
+        "k": 1,
+        "ridge_score_mean": 0.3453258514144015,
+        "ridge_score_std": 0.0,
+        "knn_score_mean": 0.3792614426337132,
+        "knn_score_std": 0.0
+      },
+      {
+        "k": 2,
+        "ridge_score_mean": 0.3481464585256294,
+        "ridge_score_std": 0.0,
+        "knn_score_mean": 0.37407773670095656,
+        "knn_score_std": 5.551115123125783e-17
+      },
+      {
+        "k": 3,
+        "ridge_score_mean": 0.35256151986399825,
+        "ridge_score_std": 0.0,
+        "knn_score_mean": 0.3818926745303272,
+        "knn_score_std": 0.0
+      },
+      {
+        "k": 4,
+        "ridge_score_mean": 0.35242367311737527,
+        "ridge_score_std": 5.551115123125783e-17,
+        "knn_score_mean": 0.3863262972777771,
+        "knn_score_std": 0.0
+      },
+      {
+        "k": 5,
+        "ridge_score_mean": 0.350742624231255,
+        "ridge_score_std": 0.0,
+        "knn_score_mean": 0.3876455107613293,
+        "knn_score_std": 0.0
+      }
+    ]
+  },
+  {
+    "dataset": "am",
+    "oracle": 0.8582558033830029,
+    "always_qwen50": 0.7300489544868469,
+    "k_data": [
+      {
+        "k": 1,
+        "ridge_score_mean": 0.7762819029133895,
+        "ridge_score_std": 0.0,
+        "knn_score_mean": 0.792751043739593,
+        "knn_score_std": 1.1102230246251565e-16
+      },
+      {
+        "k": 2,
+        "ridge_score_mean": 0.7850853064328949,
+        "ridge_score_std": 0.0,
+        "knn_score_mean": 0.7928704977035521,
+        "knn_score_std": 1.1102230246251565e-16
+      },
+      {
+        "k": 3,
+        "ridge_score_mean": 0.7864587079477674,
+        "ridge_score_std": 0.0,
+        "knn_score_mean": 0.798390748053251,
+        "knn_score_std": 1.1102230246251565e-16
+      },
+      {
+        "k": 4,
+        "ridge_score_mean": 0.7835156498931524,
+        "ridge_score_std": 1.1102230246251565e-16,
+        "knn_score_mean": 0.799606314214804,
+        "knn_score_std": 0.0
+      },
+      {
+        "k": 5,
+        "ridge_score_mean": 0.7806098062925984,
+        "ridge_score_std": 0.0,
+        "knn_score_mean": 0.799251654657434,
+        "knn_score_std": 0.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,115 @@
+{
+  "method": "analytical matmul FLOPs; multiply-add counted as 2",
+  "full_resolution": {
+    "side_pixels": 1024,
+    "vision_patch_tokens": 4096,
+    "merged_image_tokens": 1024,
+    "text_tokens": 53,
+    "total_sequence_tokens": 1077,
+    "tflops_parts": {
+      "patch_embed": 0.014495514624,
+      "vision_blocks": 5.454843346944,
+      "vision_mergers": 0.328564998144,
+      "text_backbone": 15.645336993792
+    },
+    "total_tflops": 21.443240853504
+  },
+  "low_resolution": {
+    "side_pixels": 256,
+    "vision_patch_tokens": 256,
+    "merged_image_tokens": 64,
+    "text_tokens": 53,
+    "total_sequence_tokens": 117,
+    "tflops_parts": {
+      "patch_embed": 0.000905969664,
+      "vision_blocks": 0.218621804544,
+      "vision_mergers": 0.020535312384,
+      "text_backbone": 1.633383677952
+    },
+    "total_tflops": 1.8734467645439998
+  },
+  "candidate_resolutions": {
+    "224": {
+      "side_pixels": 224,
+      "vision_patch_tokens": 196,
+      "merged_image_tokens": 49,
+      "text_tokens": 53,
+      "total_sequence_tokens": 102,
+      "tflops_parts": {
+        "patch_embed": 0.000693633024,
+        "vision_blocks": 0.165919186944,
+        "vision_mergers": 0.015722348544,
+        "text_backbone": 1.423073083392
+      },
+      "total_tflops": 1.605408251904
+    },
+    "256": {
+      "side_pixels": 256,
+      "vision_patch_tokens": 256,
+      "merged_image_tokens": 64,
+      "text_tokens": 53,
+      "total_sequence_tokens": 117,
+      "tflops_parts": {
+        "patch_embed": 0.000905969664,
+        "vision_blocks": 0.218621804544,
+        "vision_mergers": 0.020535312384,
+        "text_backbone": 1.633383677952
+      },
+      "total_tflops": 1.8734467645439998
+    },
+    "320": {
+      "side_pixels": 320,
+      "vision_patch_tokens": 400,
+      "merged_image_tokens": 100,
+      "text_tokens": 53,
+      "total_sequence_tokens": 153,
+      "tflops_parts": {
+        "patch_embed": 0.0014155776,
+        "vision_blocks": 0.3487629312,
+        "vision_mergers": 0.0320864256,
+        "text_backbone": 2.13921202176
+      },
+      "total_tflops": 2.5214769561600003
+    },
+    "448": {
+      "side_pixels": 448,
+      "vision_patch_tokens": 784,
+      "merged_image_tokens": 196,
+      "text_tokens": 53,
+      "total_sequence_tokens": 249,
+      "tflops_parts": {
+        "patch_embed": 0.002774532096,
+        "vision_blocks": 0.721031528448,
+        "vision_mergers": 0.062889394176,
+        "text_backbone": 3.495561854976
+      },
+      "total_tflops": 4.282257309696
+    },
+    "1024": {
+      "side_pixels": 1024,
+      "vision_patch_tokens": 4096,
+      "merged_image_tokens": 1024,
+      "text_tokens": 53,
+      "total_sequence_tokens": 1077,
+      "tflops_parts": {
+        "patch_embed": 0.014495514624,
+        "vision_blocks": 5.454843346944,
+        "vision_mergers": 0.328564998144,
+        "text_backbone": 15.645336993792
+      },
+      "total_tflops": 21.443240853504
+    }
+  },
+  "ratio_low_over_full": 0.08736770609177126,
+  "omitted": [
+    "normalization",
+    "activation",
+    "rotary embedding",
+    "softmax",
+    "data preprocessing"
+  ],
+  "not_present_in_actual_embedding_forward": [
+    "autoregressive generation",
+    "vocabulary LM head"
+  ]
+}

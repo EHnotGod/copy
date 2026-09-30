@@ -1,0 +1,89 @@
+{
+  "checked_jsons": 79,
+  "issues": [],
+  "audits": [
+    {
+      "file": "exp37_action_admission_crossbench.json",
+      "all_finite": true,
+      "budget_respected": true
+    },
+    {
+      "file": "exp38_router_crossbench_generalization.json",
+      "all_finite": true,
+      "budget_respected": true
+    },
+    {
+      "file": "exp39_pooled_router_lobo.json",
+      "all_finite": true,
+      "budget_respected": true
+    },
+    {
+      "file": "exp40_nested_router_mix_grid.json",
+      "all_finite": true,
+      "budget_respected": true
+    },
+    {
+      "file": "exp42_router_factory_sample_efficiency.json",
+      "all_finite": true,
+      "budget_respected": true
+    },
+    {
+      "file": "exp43_largebench_router_tail.json",
+      "all_finite": true,
+      "budget_respected": true
+    },
+    {
+      "file": "exp50_joint_supervised_router.json",
+      "all_finite": true,
+      "budget_respected": true
+    },
+    {
+      "file": "exp51_joint_supervised_router_flux3.json",
+      "all_finite": true,
+      "budget_respected": true
+    },
+    {
+      "file": "exp52_flux3_pooled_lobo.json",
+      "all_finite": true,
+      "budget_respected": true
+    },
+    {
+      "file": "exp53_flux3_public_router_data_ablation.json",
+      "all_finite": true,
+      "budget_respected": true
+    },
+    {
+      "file": "exp54_flux3_pooled_router_data_curve.json",
+      "all_finite": true,
+      "budget_respected": true
+    },
+    {
+      "file": "exp55_flux4_pooled_router_data_curve.json",
+      "all_finite": true,
+      "budget_respected": true
+    },
+    {
+      "file": "exp56_flux4_pooled_1k.json",
+      "all_finite": true,
+      "budget_respected": true
+    },
+    {
+      "file": "exp56_flux4_pooled_1k_n100.json",
+      "all_finite": true,
+      "budget_respected": true
+    },
+    {
+      "file": "exp56_flux4_pooled_1k_n200.json",
+      "all_finite": true,
+      "budget_respected": true
+    },
+    {
+      "file": "exp56_flux4_pooled_1k_n300.json",
+      "all_finite": true,
+      "budget_respected": true
+    }
+  ],
+  "admission_groups": 39,
+  "admission_context_rows": 15756,
+  "regression_tests_passed": 11
+}

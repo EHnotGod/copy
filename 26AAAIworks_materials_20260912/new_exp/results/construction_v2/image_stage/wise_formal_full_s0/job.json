@@ -1,0 +1,39 @@
+{
+  "benchmark": "wise",
+  "dataset_status": "formal_v2",
+  "model": "FLUX.2-klein-4B",
+  "rows": 1000,
+  "reused_unchanged_images_and_scores": 490,
+  "regenerate_and_rejudge": 510,
+  "seed": 0,
+  "steps": 4,
+  "guidance": 1.0,
+  "run_id": "59928018",
+  "app_id": "psxhg0mxrr7ko5yn",
+  "url": "http://mlp.sankuai.com/ml/#/job/psxhg0mxrr7ko5yn",
+  "output": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/26AAAIworks/new_exp/results/construction_v2/image_stage/wise_formal_full_s0/flux4b",
+  "bundle_sha256": "da88321e60267ea9b217c0ad66671ab23b78cdef63e509229255c769d2479f33",
+  "formal_dataset_sha256": "3d1f435bd0b3d06dc8e263c9c3cb1f484f26c1458a7ab0d3eb53596ab93cdb09",
+  "submitted_at": "2026-09-07T00:27:46+08:00",
+  "completed_at": "2026-09-07T00:47:20+08:00",
+  "status": "SUCCEEDED",
+  "generated_images": 1000,
+  "scored_images": 1000,
+  "mean_image_score": 0.448,
+  "attempts": [
+    {
+      "run_id": "59917437",
+      "app_id": "psxhcupxrr7ko5yn",
+      "submitted_at": "2026-09-06T21:59:06+08:00",
+      "status": "FAILED",
+      "failure": "DolphinFS otherusers mount list did not expose the hadoop-nlp-hl02 workspace, so run_hl.sh was absent inside the worker container"
+    },
+    {
+      "run_id": "59928018",
+      "app_id": "psxhg0mxrr7ko5yn",
+      "submitted_at": "2026-09-07T00:27:46+08:00",
+      "status": "SUCCEEDED"
+    }
+  ],
+  "score_protocol": "construction_v2_local_qwen_binary"
+}

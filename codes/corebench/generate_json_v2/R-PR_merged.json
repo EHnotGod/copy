@@ -1,0 +1,5088 @@
+{
+  "R-PR-G001": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Assemble a tiny Zen garden atop a workspace. Execute these listed steps sequentially: 1. Position one low-walled, rectangular dark wood tray atop an even tabletop. 2. Cover the tray bottom using some fine white sand. 3. Set down three smooth, dark gray river stones of varying heights within a tight grouping in the western zone of the container. 4. Use a miniature wooden rake to draw concentric ring shapes into the grains immediately surrounding the stones. 5. Rake long, straight parallel lines into all the remaining smooth sand area starting west moving toward the east. 6. Put down one lone tiny, vibrant green moss clump near the lowest portion of the tallest stone. 7. Situate a small, unlit white ceramic incense holder inside the lower right quadrant in the vessel. Display the finished result.",
+    "Checklist": [
+      {
+        "question": "Is there a rectangular dark wood tray containing white sand?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there three dark gray river stones grouped in the western area of the tray?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are concentric circles raked into the sand around the grouping of stones?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are straight parallel lines raked into the rest of the sand surface?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a tiny green moss clump positioned near the base of the tallest stone?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a white ceramic incense holder located in the lower right quadrant of the tray?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the sand surface free of any smooth, un-raked portions?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G002": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Please organize a specific tabletop scene by following these steps sequentially: 1. Lay down an immaculate, oblong wooden chopping block atop a gray slate surface. 2. Set a whole crimson capsicum within the central section of that chopping block. 3. Arrange one culinary knife with a black grip along the leftward flank of the chopping block. 4. Move the culinary knife onto the block and carve the crimson capsicum into several thin vertical rings. 5. Put one tiny snowy porcelain bowl near the upper-right vertex of that chopping block. 6. Transfer all the sliced capsicum rings inside the snowy porcelain bowl. 7. Take the culinary knife away from view. 8. Sprinkle a few pinches of coarse sea salt over the capsicum rings inside the bowl. Display the finished arrangement.",
+    "Checklist": [
+      {
+        "question": "Is there an oblong wooden chopping block positioned on a gray slate surface?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a tiny snowy porcelain bowl located near the upper-right vertex of the chopping block?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are thin vertical rings of crimson capsicum inside the porcelain bowl?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is coarse sea salt sprinkled over the capsicum rings inside the bowl?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the culinary knife absent from the final setup?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is the capsicum no longer in its whole, uncut form?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G003": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Arrange an electroplating lab station by observing this sequence: 1. Position a pristine beaker composed of silica atop a graphite-hued workbench. 2. Pour into the vessel nearly 75% to the rim an azure solution consisting of copper sulfate. 3. Locate a rectangular nine-volt battery upon the workbench at the container's left. 4. Submerge a stiff copper strip into the port portion of that azure fluid, securing that piece to the rim employing a tiny steel clip. 5. Lower a chrome-shaded house key into the rightmost area of that fluid. 6. Connect the positive terminal of the cell to that copper strip and the negative terminal to the key using insulated cables with alligator clips. 7. Permit the process to continue until the submerged part belonging to that key is entirely coated by a coating of copper. Render the end arrangement.",
+    "Checklist": [
+      {
+        "question": "Is there a silica beaker containing a blue solution on the workbench?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a rectangular battery positioned to the left of the beaker?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a copper strip clipped to the rim and submerged in the left side of the solution?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a house key suspended in the right side of the solution?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are alligator-clip cables connecting the battery terminals to the metal pieces?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the part of the house key inside the liquid copper-colored?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the original chrome color absent from the submerged portion of the key?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G004": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "You are assembling a desktop zen garden. Perform these actions sequentially: 1. Put a low-profile square ebony wooden box onto an ivory tabletop. 2. Provide that box with powdery white sand until it reaches just under the ledge. 3. Utilize a tiny timber rake to make three aligned undulating grooves through the grit's upper layer. 4. Situate a big polished charcoal river rock inside the container's bottom-left angle. 5. Pile two littler thin dark stones atop the charcoal river rock. 6. Nestle a tiny verdant moss sphere within the frame's corner positioned catercorner to the rocks. 7. Remove the timber tool from inside the frame then lay it upon that ivory desk's top area near the container. Illustrate the complete zen garden setup.",
+    "Checklist": [
+      {
+        "question": "Is there a square ebony wooden box resting on an ivory tabletop?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the box filled with white sand to just below its ledge?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there three aligned undulating grooves visible in the sand?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a large polished charcoal river rock located in the bottom-left corner inside the box?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there two smaller, thin dark stones stacked on top of the charcoal river rock?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a tiny green moss sphere situated in the corner opposite the rocks?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the timber rake lying on the ivory tabletop outside the box?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the timber rake absent from the inside of the wooden box?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G005": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Arrange a laboratory crystallization station by performing these steps sequentially: 1. Position a 600ml glass jar upon the middle region of the charcoal stone workstation. 2. Stream a vibrant turquoise-blue fluid into the glassware until the jar becomes almost full. 3. Submerge an electronic temperature probe into the fluid to verify its heat. 4. Extract the electronic temperature probe then put it atop the charcoal stone surface to the rightward of that jar. 5. Set a level wooden stick levelly spanning the upper opening of the jar. 6. Dangle one solitary big, geometric blue gem off the central part of that timber stick using slender nylon thread ensuring the jewel remains fully underwater without hitting the glass. Illustrate the concluding arrangement.",
+    "Checklist": [
+      {
+        "question": "Is there a glass jar containing turquoise-blue fluid positioned on the charcoal stone workstation?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is an electronic temperature probe resting on the surface to the right of the jar?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the temperature probe absent from the inside of the liquid?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is a wooden stick laid across the top opening of the jar?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a single blue geometric gem suspended by a thread from the stick and submerged in the liquid?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G006": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Execute these instructions to arrange a density experiment: 1. Set one high columnar transparent vessel over a timber surface. 2. Empty three inches of honey toward the lowest part of that vessel. 3. Meticulously stack three inches of liquid detergent atop the honey layer. 4. Softly pour three inches of water, dyed with blue pigment, above the soap section. 5. Gradually include a concluding three-inch-deep segment of vegetable oil. 6. Release one lone metallic nut inside the container and permit it to sink until it reaches the interior base. 7. Let one lone grape fall inside the tube until it hovers upon the honey. 8. Put one diminutive synthetic bottle lid atop the uppermost oily section. Display the resulting scene.",
+    "Checklist": [
+      {
+        "question": "Is the metallic nut resting at the interior base of the vessel?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the grape situated atop the honey layer?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the blue water layer positioned between the detergent and the oil?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the plastic lid floating on the topmost oil layer?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the metallic nut absent from the blue water layer?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is the grape absent from the uppermost oil layer?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G007": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "A laboratory setup is being prepared. Carry out this sequence: 1. Position a transparent beaker on the dark thermal base. 2. Empty 200ml of see-through fluid into the vessel. 3. Suspend a thermometer from an iron support maintaining the bulb underwater. 4. Dispense three droplets of violet pigment into the fluid without stirring. 5. Introduce a glass agitator into the vessel, resting against the interior wall. 6. Lay a compact wire mesh screen beside the thermal base atop the workstation. Visualize the resulting layout.",
+    "Checklist": [
+      {
+        "question": "Is there a transparent beaker positioned on a dark thermal base?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the beaker filled with approximately 200ml of clear fluid?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a thermometer hanging from a support with its bulb submerged in the liquid?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there three distinct violet droplets visible within the fluid?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a glass stirring rod or agitator leaning against the inner wall of the beaker?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a wire mesh screen sitting on the table next to the thermal base?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G010": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Design a tabletop terrarium. Perform these actions sequentially: 1. Position a broad, see-through glass tube atop an ancient timber deck. 2. Occupy the bottommost part of this receptacle using an inch-high bedding of little, sleek obsidian pebbles. 3. Distribute a light veneer of dark garden loam above those pebbles, reaching the container's midpoint. 4. Fix a huge, jagged chunk of snowy quartz inside the loam. 5. Prop two diminutive, aged cedar twigs against the quartz's left boundary. 6. Discard the briefer twig and install a miniature, leafy succulent plant in its place. 7. Scatter a meager quantity of microscopic azure glass beads across the loam's surface encompassing the quartz base. Render the finished display.",
+    "Checklist": [
+      {
+        "question": "Is there a broad glass tube positioned on an ancient timber deck?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are black obsidian pebbles layered at the bottom of the glass tube?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a layer of dark soil (loam) above the pebbles?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a jagged piece of white quartz placed inside the soil?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a small succulent plant visible near the quartz?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there only one aged cedar twig propped against the quartz?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are blue glass beads scattered on the surface of the soil around the quartz base?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the second (briefer) cedar twig absent?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G013": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Laboratory station. Carry out the following sequentially: 1. Position one tall, transparent cylinder atop this tidy laboratory workstation. 2. Pour into this cylinder enough vibrant purple fluid to be three-fourths filled. 3. Rest one slender glass rod levelly spanning the upper opening of this container. 4. Hang one chunk of rough copper mineral from the glass rod using one delicate silver wire so the mineral is completely immersed within the purple fluid. 5. Set down one pair of brass tweezers upon the workstation surface at the rightward side of that container. 6. Wind one band of black adhesive tape near the upper lip of this container to fasten the glass rod. Display the ultimate arrangement.",
+    "Checklist": [
+      {
+        "question": "Is there a tall transparent cylinder on the workstation?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the cylinder three-fourths full of purple fluid?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a glass rod spanning the top of the cylinder?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the copper mineral suspended by silver wire?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the copper mineral fully submerged in the fluid?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the brass tweezers located on the right side of the cylinder?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the black adhesive tape visible near the cylinder's rim?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the copper mineral absent from the bench surface?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Are the tweezers absent from the inside of the cylinder?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G014": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Please prepare a gourmet dessert plating. Adhere to these instructions sequentially: 1. Position one expansive, level blank porcelain dish within the central-spot of your table. 2. Employ a steel utensil for making a curved swipe of vivid crimson raspberry coulis across the leftward portion of this dish. 3. Put a thick, square chocolate brownie middlemost upon the dish, partially overlapping the red swipe. 4. Set a perfectly round sphere composed of pale vanilla frozen custard straightaway atop the brownie. 5. Lean a long, thin almond biscotti cookie diagonally against the flank of the frozen dairy sphere. 6. Scatter five fresh whole blueberries surrounding the perimeter of the brownie upon the platter. 7. Remove the steel utensil off the surface making it hidden from view. Display the resulting plated dessert.",
+    "Checklist": [
+      {
+        "question": "Is there a white porcelain dish positioned in the center of the table?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a curved red raspberry coulis swipe on the left side of the dish?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a square chocolate brownie placed on the dish, partially covering the red swipe?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a round scoop of vanilla custard positioned on top of the brownie?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a long almond biscotti leaning diagonally against the custard scoop?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there five blueberries scattered around the brownie's base?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the steel utensil absent from the final image?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G015": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Let's construct a tiny habitat within a clear container. Perform these ordered operations in sequence: 1. Arrange an even coating of polished, slate-colored river pebbles upon the bottom floor of the transparent, hexagonal glass vessel. 2. Dust a slim, dusky coating of powdered charcoal across the uppermost layer of those pebbles. 3. Put a deep pile of damp, earthy growing medium straight above the charcoal layer. 4. Embed one petite, verdant maidenhair fern positioned within the central zone of the substrate. 5. Distribute several patches of bright emerald lichen plus one solitary, rounded alabaster stone beside the fern. 6. Utilize an atomizer tool to dampen the interior walls and the leaves with a delicate spray of H2O. Display the completed terrarium.",
+    "Checklist": [
+      {
+        "question": "Are there slate-colored pebbles at the base of the hexagonal vessel?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a layer of charcoal situated between the pebbles and the growing medium?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a maidenhair fern embedded in the center of the earthy medium?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are patches of green lichen and a single rounded white stone visible next to the fern?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Do the interior walls of the vessel appear to have water droplets or a mist from the spray?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the atomizer tool absent from the arrangement?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G016": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Sitting atop a timber worktable, perform this sequence: 1. Position a single transparent glass jar centrally upon the wood. 2. Fill with an azure cupric sulfate liquid inside the jar reaching the halfway mark. 3. Lay a thin copper sheet over the mouth of the jar such that it connects to both edges. 4. Dip a chrome-toned metallic utensil into the fluid, hanging the object from the sheet by a fine wire. 5. Connect a small 9V power source to this setup by attaching a red wire to the sheet plus a black wire to the utensil. 6. Observe as the underwater portion of that utensil takes on a rusty-tinted hue. Render the completed setup.",
+    "Checklist": [
+      {
+        "question": "Is there a transparent glass jar on the worktable?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the liquid inside the jar azure-colored?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a thin copper sheet lying across the mouth of the jar?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a metallic utensil suspended in the liquid by a wire?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are red and black wires connected to the copper sheet and the utensil?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the underwater part of the utensil rusty-tinted?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the metallic utensil completely silver-toned without any discoloration?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G017": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "An understated ornamental display is being organized. Perform the instructions sequentially: 1. Position a somber, unpolished ceramic dish upon an aged timber desk. 2. Replenish the receptacle using fresh water until it reaches the halfway point. 3. Float one solitary big, pink lotus flower atop the fluid. 4. Carefully drop three sleek, dark river stones down to the dish's floor. 5. Nest a tiny pale tealight candle within a buoyant glass holder. 6. Ease the glass holder containing the candle in the fluid beside the lotus. 7. Extract the pink lotus flower from the container. 8. Arrange two miniature yellow lilies upon the liquid's surface within the gap formerly held by the lotus. 9. Strike a match to ignite the wick of the tealight candle. Present the concluding arrangement.",
+    "Checklist": [
+      {
+        "question": "Is there a somber ceramic dish on an aged timber desk?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there three dark river stones at the bottom of the dish?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there two miniature yellow lilies floating on the water?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the tealight candle in the glass holder lit?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the big pink lotus flower absent?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G018": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Perform a chain of maneuvers to assemble a floral arrangement. 1. Situate a decorated curved wooden tray atop a slick marble tabletop. 2. Put a high, cylindrical glass vase at the platter's exact middle. 3. Pour fluid into the vase to the midpoint. 4. Carefully arrange three long-stemmed red roses inside the vase. 5. Insert two sprigs of green eucalyptus foliage behind the roses. 6. Knot a rustic burlap ribbon encircling the throat of the vase, finishing with decorative loops. 7. Remove the wooden tray from this view, leaving the vase standing straight on the marble tabletop. Display the completed layout.",
+    "Checklist": [
+      {
+        "question": "Is there a high, cylindrical glass vase standing on a marble tabletop?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the vase contain three long-stemmed red roses and green eucalyptus foliage?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there fluid visible inside the vase reaching roughly the halfway mark?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a burlap ribbon with decorative loops tied around the neck of the vase?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the decorated wooden tray absent from the scene?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G019": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Prepare a culinary workspace by following these sequential instructions: 1. Position a massive marble pastry slab within the dead center of an aged timber island. 2. Sieve an elevated pile of bleached flour onto the core zone of the rock slab. 3. Employ your fingertips to shape an expansive, hollowed circular crater within the inner area of the powdery heap. 4. Break two eggs inside the crater ensuring that the whole golden yolks can be seen inside the flour. 5. Set the vacant, shattered eggshells inside a tiny azure pottery vessel situated near the upper-right vertex of said marble. 6. Scatter a dusting of unrefined, charcoal-hued sea salt atop the eggs in the crater. 7. Rest a gleaming metal whisk sideways along the uppermost border of the block's edge. 8. Take the sifting tool off from this workspace completely. Produce the resulting finished culinary scene.",
+    "Checklist": [
+      {
+        "question": "Is there a massive marble pastry slab on an aged timber island?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there an elevated pile of flour on the marble slab?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a circular crater in the center of the flour pile?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there two whole egg yolks inside the flour crater?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a tiny blue pottery vessel near the top-right of the marble?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there broken eggshells inside the blue vessel?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there dark sea salt on top of the eggs?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a metal whisk resting on the top edge of the marble slab?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the sifting tool absent?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G020": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Perform the following setup for a laboratory display. Execute this sequence sequentially: 1. Set one round metallic platter atop a timber worktable. 2. Lay a four-sided patch of azure silken cloth over the platter so the corners hang over the edges. 3. Situate the lofty, transparent glass tube located atop the geometric midpoint of that azure textile. 4. Fill lime-green art grit inside the tube until roughly 33% full. 5. Thread a dense crimson plug with a central hole onto a long glass rod, then insert the rod vertically into the grit until the plug rests firmly on the grit's surface. 6. Put the solitary, polished white marble on the crimson plug, tucked against the rod. 7. Carefully extract the azure silken cloth out from underneath the tube, removing it completely while keeping both tube and platter in place. Illustrate the resultant configuration.",
+    "Checklist": [
+      {
+        "question": "Is the round metallic platter sitting on a timber worktable?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the transparent glass tube resting on the platter?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the tube filled about one-third of the way with lime-green grit?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a glass rod inserted vertically into the grit?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a crimson plug resting on the surface of the grit?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a polished white marble resting on the crimson plug?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the azure silken cloth absent from the final scene?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G021": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "A biology experiment is being arranged upon an aged timber table. Carry out the instructions sequentially: 1. Position two matching transparent crystal jars directly adjacent. 2. Pour into the leftmost jar water heavily dyed using dark violet food coloring. 3. Add to the rightmost jar water heavily dyed with bright orange food coloring. 4. Take one solitary tall-stemmed white rose then employ a blade to slit the bottom four inches of the stem vertically into dual distinct segments. 5. Submerge the left segment of the stem into the violet water plus the right-hand segment into the orange water, so the rose is centered midway across both jars. 6. Wrap a small piece of green floral tape around the stem exactly at the point where the slit begins to stabilize it. 7. Place the cutting blade used earlier back into a closed drawer out of sight. 8. Allow enough time to pass for the petals to absorb the dyes. Render the finished state.",
+    "Checklist": [
+      {
+        "question": "Are there two glass jars containing colored liquid on the table?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the rose stem split and submerged into the two jars?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there green tape securing the rose stem?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the petals of the rose showing violet and orange colors?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the blade used for cutting absent from the scene?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G022": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Imagine you make your own cyanotype sunprint. Carry out instructions sequentially: 1. Position one lone sheet of indigo toned light-sensitive paper level upon a timber slab. 2. Arrange three distinct fern leaves using a three-pointed pattern at the middlemost part of this sheet. 3. Put a heavy, clear pane of glass over the leaves to keep them pressed tightly to the sheet. 4. Expose the whole arrangement to bright, strong sunbeams for twenty minutes. 5. Lift the glass pane then discard the actual fern leaves. 6. Submerge the sheet in a basin containing water for sixty seconds to process the print. 7. Set the wet sheet even upon a dry white cloth. Display the finished state.",
+    "Checklist": [
+      {
+        "question": "Is there an indigo-toned sheet with white leaf patterns visible?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the sheet resting on a dry white cloth?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the actual physical fern leaves absent from the scene?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is the heavy glass pane absent from the scene?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Are there exactly three fern-shaped silhouettes visible on the paper?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G023": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "You're preparing a home lab project to create rock candy. Execute the listed instructions sequentially to arrange the equipment: 1. Position one high, see-through glass vessel right at the hub of some mahogany timber workstation. 2. Pour boiling, steaming water inside that jar until it fills roughly three-fourths of its total volume. 3. Mix numerous scoops of white sucrose within the fluid then agitate forcefully using an elongated steel utensil until fully incorporated. 4. Knot a chunky strand of amber string at the middle point of a graphite writing stick made of oak. 5. Rest the graphite stick levelly over the container's opening such that this amber string descends within the mixture. 6. Withdraw the steel utensil from inside the jar then set that object upon the workstation top just rightward beside that glass jar. 7. Position one thin ply of white blotting paper across the upper opening and graphite stick. Illustrate the completed arrangement.",
+    "Checklist": [
+      {
+        "question": "Is there a tall glass vessel positioned on a mahogany workstation?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the glass vessel filled about three-quarters of the way with liquid?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a graphite stick resting horizontally across the opening of the glass jar?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is an amber string suspended from the middle of the graphite stick into the liquid?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a steel utensil resting on the workstation surface to the right of the jar?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a sheet of white paper covering the top of the jar and the stick?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the steel utensil absent from the inside of the glass jar?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G025": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "A school science project for growing crystals undergoes a process of assembly. Carry out the listed instructions sequentially to assemble this rig: 1. Position an empty, broad-rimmed glass container atop an aged timber work surface. 2. Pour into that vessel until halfway saturated with steaming, transparent liquid. 3. Incorporate three hefty dollops of white sweetening granules to the fluid and agitate quickly using a metallic utensil until the grains vanish from sight. 4. Rest one yellow-colored drawing tool levelly over the container’s aperture. 5. Knot one length of coarse pale string near the central-axis of said tool so it dangles straight down inside the central part of that solution. 6. Delicately scatter some little, vivid azure seeds onto the wetted string. 7. Withdraw the utensil then set a lone patch of white absorbent tissue across the upper rim, shielding the tool and the hole entirely. Render the final laboratory arrangement.",
+    "Checklist": [
+      {
+        "question": "Is there a broad-rimmed glass container on an aged timber surface?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a yellow drawing tool resting across the opening of the container?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a pale string hanging from the drawing tool into the liquid?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are small azure seeds visible on the dangling string?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a patch of white absorbent tissue covering the top of the container and the tool?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the metallic utensil absent from the final scene?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G027": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Within an illuminated interior studio, obey this sequence to construct a floral arrangement: 1. Position a massive vacant, transparent circular glass vessel onto an aged timber desk. 2. Dump a 5-centimeter-high thickness of tiny, sleek lead-colored stones across the bottom portion of this vessel. 3. Dust one slender balanced coating of pulverized ebony carbon above those stones. 4. Pile a 10-centimeter-deep bed of damp, deep bronze compost atop that carbon. 5. Gently nestle three diminutive, diverse verdant cacti within the earth. 6. Site a tiny clay figurine wearing a scarlet cap beside the greenery upon the dirt. 7. Employ one misting sprayer to dampen the inner glass panels and flora so that moisture beads appear. Display the completed floral display.",
+    "Checklist": [
+      {
+        "question": "Is there a transparent circular glass vessel on an aged timber desk?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a layer of small grey or lead-colored stones at the bottom of the vessel?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are three small, diverse green cacti planted in the dark soil?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a small clay figurine with a red cap positioned next to the plants?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are moisture beads or water droplets visible on the inner glass walls?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the glass vessel no longer vacant?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G028": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Prepare a lab-based crystal growth setup by executing these actions: 1. Position one sterile, 500ml glass vessel upon a charcoal slate workspace. 2. Pour into the vessel until half-full with a concentrated, azure cupric sulfate liquid. 3. Fasten a tiny, irregular white seed crystal onto the low end of one thin, clear synthetic thread. 4. Rest a horizontal glass agitator wand over the opening of the glassware. 5. Knot the loose part of that thread around the central section of that glass wand so the seed crystal stays immersed within the deep interior of that fluid. 6. Drape the whole top of this vessel, including the wand, using an even patch of cling film. 7. Fasten the film by stretching a yellow elastic loop circling the collar of the container. Render the finished arrangement.",
+    "Checklist": [
+      {
+        "question": "Is the glass vessel positioned on a charcoal slate workspace?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the glass vessel approximately half-filled with an azure blue liquid?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a white seed crystal suspended by a thread within the blue fluid?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a glass wand resting horizontally over the opening of the glassware?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the entire top of the vessel covered with a patch of cling film?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a yellow elastic loop secured around the collar of the container?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the seed crystal resting at the bottom of the vessel absent?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G029": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Create a miniature indoor ecosystem. Perform this sequence as listed: 1. Deposit an ample bed of sleek slate-colored stones inside the floor region of a transparent, globe-shaped container. 2. Put a wide steel cone through the opening and distribute some pulverized carbon shards atop the stones. 3. Take out the metallic tool then place it nearby. 4. Spoon damp black earth into the vessel until the carbon deposit is fully hidden. 5. Plant a petite, emerald-colored echeveria plant within the dirt toward the leftward flank. 6. Situate a clump of bright verdant bryophyte onto the right-hand portion of the dirt. 7. Prop a miniature, aged timber stair-set resting against the inner wall of the globe, having its foot supported by the mossy section. Render the completed project.",
+    "Checklist": [
+      {
+        "question": "Is there a transparent, globe-shaped container holding the ecosystem elements?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a bed of sleek slate-colored stones visible at the bottom of the globe?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there black soil covering the layers beneath it?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is an emerald-colored echeveria plant located on the left side of the soil?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a clump of green moss situated on the right side of the soil?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a miniature timber stair-set leaning against the inner wall of the container?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the foot of the stair-set resting upon the mossy section?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the steel cone absent from the inside of the globe container?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G030": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Organize an elementary chemical trial atop a laboratory workspace. Execute these instructions sequentially: 1. Position one elongated, transparent glass container within the middlemost portion of your bench area. 2. Empty some colorless fluid within that container until reaching the halfway point. 3. Release a trio of blue marble-like balls within that fluid to let them settle on its floor. 4. Gently lean a slender glass mixing stick slantwise within the jar. 5. Overlay a square-shaped white mesh fabric across the highest orifice of that jar. 6. Secure the mesh fabric by stretching a red elastic loop circling the upper rim of this container. Render the finished setup.",
+    "Checklist": [
+      {
+        "question": "Is there an elongated transparent glass container in the center of the bench?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the container filled halfway with colorless fluid?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are three blue marble-like spheres visible on the floor of the container?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a slender glass mixing stick leaning at an angle inside the jar?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a white mesh fabric covering the top of the container?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a red elastic loop secured around the upper rim of the jar?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a solid plastic lid absent from the container?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G031": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "A timber craft station provides the background for this creation. Carry out the instructions chronologically: 1. Position a rectangular mass of ash-colored plasticine upright upon the precise center of that workstation. 2. Press two large, shiny ivory spheres within the peak portion of the material to function as eyes. 3. Embed a flat timber craft stick horizontally into the material just below the spheres. 4. Drape a square of crimson fabric across the highest point of the mass, folding the edges downward resulting in a cowl while keeping the spheres visible. 5. Coil some heavy copper wire encircling the lowermost section of that material thrice, twisting the tips into tiny ornamental curls at the lateral flanks. 6. Extract the timber craft stick out of that clay and lodge a tiny, tapered citrus-hued vegetable into the vacated gap. Present the finished scene.",
+    "Checklist": [
+      {
+        "question": "Is there a rectangular mass of ash-colored plasticine positioned in the center?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are two shiny ivory spheres visible as eyes in the upper portion of the material?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a crimson fabric cowl draped over the top of the figure?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is copper wire coiled three times around the bottom section with curls at the sides?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a tiny, tapered citrus-hued vegetable lodged in the clay below the eyes?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the timber craft stick absent from the final sculpture?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G032": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Organize a DIY crystal development project atop a granite culinary surface. Execute these actions sequentially: 1. Position one spotless, wide-mouthed glass vessel upon the granite. 2. Pour into the container till it reaches seventy-five percent capacity loaded with vibrant purple-dyed water. 3. Lay a wooden craft stick sideways over that circular aperture of the jar. 4. Knot some segment of white fuzzy yarn to the exact midpoint of this craft stick allowing for the strand to hang down into the purple liquid without touching the glass sides. 5. Carefully deposit three small, jagged clear seed specimens upon the lowest interior of that jar. 6. Stretch a square of transparent plastic wrap over the crown of the container and cover the stick and the opening. Illustrate the finished configuration.",
+    "Checklist": [
+      {
+        "question": "Is there a wide-mouthed glass vessel resting on the granite surface?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the vessel seventy-five percent full of purple-dyed water?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a wooden craft stick positioned across the top of the jar?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a segment of white fuzzy yarn knotted to the stick and suspended in the liquid?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there three jagged clear seed specimens at the bottom of the jar?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the top of the container covered with transparent plastic wrap?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the glass vessel free from any visible spots or stains?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is the yarn positioned so that it does not contact the glass walls?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G033": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Prepare a fine culinary plating scene by following these steps sequentially: 1. Put one wide, smooth white ceramic dish occupying the exact midpoint of a rich walnut timber surface. 2. Use a squeeze tube to sketch a thick, curved 'swoosh' of vibrant orange mango purée across the breadth of the platter. 3. Situate one tall, cylindrical chocolate ganache cake at the thickest finish of that mango swoosh. 4. Prop three long, thin white chocolate shards against the flank of the pastry so they point diagonally upward like a fan. 5. Scatter a small measure of vivid green crushed pistachios beside the span of that orange purée plus surrounding the cake's bottom portion. 6. Rest one lone crisp, green mint leaf right at the highest point of that chocolate cake. 7. Clear the squeeze tube and any stray nut shells off the surface. Depict the finished plated dessert.",
+    "Checklist": [
+      {
+        "question": "Is there a white ceramic dish on a walnut surface?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there an orange mango purée swoosh on the dish?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a cylindrical chocolate cake positioned at one end of the purée?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are three white chocolate shards propped against the cake?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are crushed pistachios scattered near the purée and cake bottom?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a mint leaf resting on top of the cake?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the squeeze tube absent from the final scene?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Are stray nut shells absent from the timber surface?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G036": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "You are producing a custom tie-dye garment. Perform this sequence sequentially. 1. Position a blank white cotton tee shirt flat onto the working surface. 2. Pinch that shirt's center then rotate this fabric clockwise until the entire garment is coiled creating a circular spiral. 3. Wrap four thick rubber bands around the coiled shirt, intersecting across that midpoint like spokes on a wheel, to divide the spiral into eight even wedge segments. 4. Squirt some saturated blue dye onto three individual wedges. 5. Squirt some saturated yellow dye onto the remaining five wedges. 6. Use sharp metal shears to carefully snip and discard every rubber band. 7. Unroll the shirt then stretch it out completely flat. Depict the concluding state.",
+    "Checklist": [
+      {
+        "question": "Is the white t-shirt spread out completely flat?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the shirt feature a blue and yellow spiral pattern?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the rubber bands absent from the final scene?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is the shirt unrolled rather than in a coiled spiral shape?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there eight distinct colored segments visible in a radial pattern on the shirt?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G037": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "You are crafting a decorative planter for a garden. Execute these actions sequentially: 1. Position a clean, unpainted terracotta pot atop a workbench protected by discarded sheets of newspaper. 2. Slather a solid coat of bright white primer across every outer inch of this vessel. 3. Brush a thick, navy blue horizontal stripe near the upper top lip belonging to the container. 4. Utilize a fine-tipped brush to add numerous little gold metallic dots distributed uniformly along that middle axis of the navy blue stripe. 5. Depict a large green saguaro cactus at the focal point of the white area. 6. Employ a thin brush to add small white 'V' shapes across the green texture of that cactus to represent needles. 7. Take the paintbrushes clear from that vessel and deposit them within a translucent container holding clear liquid standing beside the pot. Visualize the finished product.",
+    "Checklist": [
+      {
+        "question": "Is there a terracotta pot with a white body and a navy blue stripe near the top?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are gold dots visible along the navy blue stripe?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a green saguaro cactus with white 'V' shapes visible on the white area of the pot?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a translucent container with paintbrushes inside positioned next to the pot?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the paintbrushes absent from the surface of the pot?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G038": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "You inhabit a science laboratory. Please carry out the following tasks upon this workbench: 1. Position an elongated steel bolt horizontally right in the surface's center. 2. Wind a strand of green insulated wire tightly around the central segment of that bolt, leaving two tails of wire. 3. Peel the green insulation from the last inch of both wire tails to expose the copper. 4. Attach these two copper ends to the positive and negative terminals of a 9V battery situated beside the bolt. 5. Bring a tiny mound of iron dust near to that bolt's end so they are drawn to and stick to it. 6. Take the wire-stripping tool from this lab station and store it. Depict this completed setup.",
+    "Checklist": [
+      {
+        "question": "Is there a steel bolt wrapped in green insulated wire located at the center of the workbench?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the exposed copper ends of the wire tails connected to the terminals of a 9V battery?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a 9V battery positioned next to the steel bolt?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is iron dust clinging to the end of the bolt?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the wire-stripping tool absent from the workbench surface?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G039": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Execute these instructions within an experimental workspace: 1. Position one slender, vacant measuring tube composed of glass atop an immaculate workstation. 2. Decant a 5-centimeter depth of thick maple syrup inside the tube. 3. With precision, stack 50 millimeters of white cow's milk above that syrup. 4. Gradually stream a 2-inch thickness of lemon-colored liquid detergent over the milk. 5. Introduce a 2-inch-thick coating of canola oil above the detergent. 6. Release one weighty metal fastener down into the vessel. 7. Put one small red tomato inside the column. 8. Utilize pincers to extract the small tomato and substitute it by letting a plastic beverage lid fall in. Illustrate the completed density column.",
+    "Checklist": [
+      {
+        "question": "Is there a glass tube containing four distinct stacked layers of liquid (syrup, milk, detergent, and oil)?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the metal fastener resting at the very bottom of the syrup layer?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the plastic beverage lid visible floating in the oil layer?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the red tomato absent from the tube?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G040": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "A laboratory arrangement for an electroplating task. Execute this sequence sequentially: 1. Put one uncolored crystalline tank on the robust timber workbench. 2. Pour into the vessel some clear azure electrolyte liquid. 3. Secure a conductive metal bar sideways spanning the gaping opening of this container. 4. Suspend a vintage brass-colored skeleton key from the middle segment of the bar using a thin wire, ensuring it is fully immersed in the fluid. 5. Situate a benchtop energy source system beside the tank. 6. Attach a red cable from the power source to a solid silver block and lower the block into the electrolyte near one side. 7. Join a black wire from the power source to the sideways metal bar holding the key. 8. Activate the power supply to initiate the silver-ion transfer. Show the concluding view once the plating process is complete.",
+    "Checklist": [
+      {
+        "question": "Is there a crystalline tank on a timber workbench?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the liquid inside the tank a clear azure color?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a metal bar spanning the top of the tank?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a skeleton key hanging from the metal bar and submerged in the liquid?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the skeleton key now silver-colored rather than brass-colored?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the original brass color of the key absent?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is a power source unit connected to the bar and the silver block via wires?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a silver block partially or fully submerged in the electrolyte?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-PR-G041": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Show the final state of a three-tiered water fountain following these events: 1. Place a white lily in the top tier, a yellow duck and a purple lotus in the middle tier, and a silver coin in the bottom tier. 2. The lily sinks and is moved to the bottom tier. 3. The duck and the lotus swap tiers with each other. 4. The coin from the bottom tier moves up one level and is placed inside the petals of the lotus. 5. A second silver coin is added to the tier that currently contains the duck. The image should clearly display the contents of each tier.",
+    "Checklist": [
+      {
+        "question": "Does the image display a three-tiered water fountain?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a white lily located in the bottom tier?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a purple lotus located in the middle tier?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a yellow duck located in the top tier?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a silver coin placed inside the petals of the purple lotus in the middle tier?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a second silver coin located in the top tier with the yellow duck?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the top tier free of a white lily?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is the middle tier free of a yellow duck?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is the bottom tier free of a purple lotus?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is the bottom tier free of any silver coin?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Are the contents of all three tiers clearly visible?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G042": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Depict a bioluminescent fungal network with three glowing nodes. Node X (left) holds a single spore pod that is a deep, rich crimson. Node Y (center) holds a single spore pod that is a dull, desaturated grey. Node Z (right) holds a single spore pod that is a vibrant, electric blue. The mycelial threads connecting them are faint. No other pods or fused entities are visible.",
+    "Checklist": [
+      {
+        "question": "Is there a bioluminescent fungal network depicted?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly three glowing nodes in the network?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a node on the left side (Node X)?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does Node X hold exactly one spore pod?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the spore pod on Node X a deep, rich crimson color?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a node in the center (Node Y)?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does Node Y hold exactly one spore pod?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the spore pod on Node Y a dull, desaturated grey?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a node on the right side (Node Z)?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does Node Z hold exactly one spore pod?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the spore pod on Node Z a vibrant, electric blue?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the nodes connected by mycelial threads?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the mycelial threads faint?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there no other spore pods visible beyond the three specified?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Are there no fused entities visible in the fungal network?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G043": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Depict a winter porch scene by following these five steps: 1. Turn a rectangular wooden crate upside down on a porch rug to act as a pedestal. 2. Place a single, tall brown leather boot upright on the center of the upturned crate. 3. Hook the curved end of a detached silver ice skate blade into the laces of the boot so the blade hangs vertically down the side of the crate. 4. Set a black metal lantern on the rug so its base touches the bottom tip of the hanging skate blade. 5. Wrap a thick, green knitted scarf around the ankle of the boot, specifically covering the area where the skate blade is hooked into the laces. Render the final result.",
+    "Checklist": [
+      {
+        "question": "Is a rectangular wooden crate visible on a porch rug?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the wooden crate turned upside down to act as a pedestal?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a single tall brown leather boot visible?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the boot placed upright on the center of the upturned crate?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a detached silver ice skate blade visible?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the curved end of the ice skate blade hooked into the laces of the boot?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the ice skate blade hang vertically down the side of the crate?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a black metal lantern visible on the rug?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the base of the lantern touch the bottom tip of the hanging skate blade?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a thick green knitted scarf visible?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the scarf wrapped around the ankle of the boot?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the scarf cover the area where the skate blade is hooked into the laces?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there any objects present that were not described in the final arrangement instructions?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G044": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Show a solar sail assembly in deep space orbiting a distant star. In the center is a metallic Core Hub. Attached to its north side is a triangular panel (Panel B), and extending from the tip of that triangle is a hexagonal panel (Panel A). Attached to the south side of the Hub is a square panel (Panel C), which is distinctly rotated 180 degrees so its back faces outward, opposite to the forward-facing triangle. All connections are tight, and no loose panels are visible.",
+    "Checklist": [
+      {
+        "question": "Is a solar sail assembly shown in deep space?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a distant star visible in the scene?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a metallic Core Hub located in the center of the assembly?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a triangular panel (Panel B) attached to the north side of the Hub?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a hexagonal panel (Panel A) extending from the tip of the triangular panel?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a square panel (Panel C) attached to the south side of the Hub?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the square panel (Panel C) rotated 180 degrees so its back faces outward?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the triangular panel (Panel B) forward-facing?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the square panel face the opposite direction of the triangular panel?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are all connections between the hub and panels tight?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there no loose panels visible in the assembly?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G045": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Generate an image of a tailor's mannequin following these procedural steps: 1. Stand a headless wooden torso mannequin on its tripod base. 2. Wrap a yellow measuring tape twice around the mannequin's neck, leaving the ends hanging. 3. Tuck a red, tomato-shaped pincushion underneath the loops of the tape where they cross the center of the chest. 4. Drape a long blue silk scarf over the mannequin's right shoulder so it hangs down and covers the pincushion. 5. Place a silver thimble on the flat top of the mannequin's neck knob and use a single visible pearl-headed pin to attach the loose end of the measuring tape to the front of the blue scarf. Show the final state only.",
+    "Checklist": [
+      {
+        "question": "Is there a wooden torso mannequin in the scene?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the mannequin headless?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the mannequin standing on a tripod base?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a yellow measuring tape in the scene?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the measuring tape wrapped exactly twice around the mannequin's neck?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the ends of the measuring tape hanging?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a pincushion in the scene?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the pincushion red?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the pincushion tomato-shaped?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the pincushion tucked underneath the loops of the tape at the center of the chest?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a blue silk scarf in the scene?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the scarf long?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the scarf draped over the mannequin's right shoulder?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the scarf hang down and cover the pincushion?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a silver thimble in the scene?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the thimble placed on the flat top of the mannequin's neck knob?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a single visible pin in the scene?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the pin pearl-headed?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the pin attaching the loose end of the measuring tape to the front of the blue scarf?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G046": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "A blue bioluminescent mushroom wrapped exactly three times by a copper wire coil, with a glass prism balanced on its cap; beneath the prism, an iron gear hangs suspended by the wire, and inside the hollow center of the gear sits a red spore sac.",
+    "Checklist": [
+      {
+        "question": "Is there a mushroom present in the image?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the mushroom blue?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the mushroom exhibit a bioluminescent glow?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a coil made of copper wire?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the copper wire coil wrapped around the mushroom?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the wire wrap around the mushroom exactly three times?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a prism made of glass?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the glass prism balanced on the cap of the mushroom?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there an iron gear positioned beneath the prism?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the iron gear suspended by the copper wire?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the iron gear have a hollow center?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a red spore sac?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the red spore sac sitting inside the hollow center of the gear?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G047": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Visualize an archaeological discovery using these instructions: First, lay a flat, inscribed stone tablet in the center of a shallow sand pit. Second, place a weathered bronze dagger diagonally across the face of the tablet. Third, set a small, drawstring leather pouch directly onto the hilt of the dagger. Fourth, place a round magnifying glass on the tablet surface to the right of the dagger's blade, so the glass lens visibly enlarges the inscriptions underneath. Finally, rest a wooden dusting brush horizontally so it bridges the gap between the magnifying glass handle and the leather pouch. Render only the final visible arrangement.",
+    "Checklist": [
+      {
+        "question": "Is a flat stone tablet visible in the center of a shallow sand pit?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the stone tablet feature visible inscriptions?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a weathered bronze dagger placed diagonally across the face of the tablet?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a small leather pouch with a drawstring visible?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the leather pouch resting directly on the hilt of the dagger?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a round magnifying glass placed on the tablet surface?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the magnifying glass positioned to the right of the dagger's blade?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the magnifying glass lens visibly enlarge the inscriptions underneath it?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a wooden dusting brush visible in the scene?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the wooden dusting brush oriented horizontally?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the wooden dusting brush bridge the gap between the magnifying glass handle and the leather pouch?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there any objects present that were not described in the final arrangement instructions?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G048": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "A wooden spool mounted on a post with a stone windmill blade attached to its top; a leather strap is wound around the spool four times, with the free end tied to an iron weight that hangs below, supporting a suspended copper bell.",
+    "Checklist": [
+      {
+        "question": "Is there a wooden spool?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the spool mounted on a post?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a stone windmill blade?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the stone windmill blade attached to the top of the spool?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a leather strap?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the leather strap wound around the spool exactly four times?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the free end of the strap tied to an iron weight?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the iron weight hang below the spool?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a copper bell?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the copper bell suspended from the iron weight?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G049": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Depict the final scene of a precision horological assembly. First, a square wooden base was placed as the foundation. A large brass gear was then laid flat on top of the wood. A coiled steel spring was fixed into the gear's center hole, rising vertically. A slender copper pointer was attached to the top of the spring, aimed directly North. Finally, a heavy glass dome was placed over the entire stack, resting on the wooden base. Show only the completed assembly under the glass.",
+    "Checklist": [
+      {
+        "question": "Is there a square wooden base visible as the foundation of the assembly?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a large brass gear laid flat on top of the wooden base?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a coiled steel spring fixed into the center hole of the gear?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the steel spring rising vertically from the gear?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a slender copper pointer attached to the top of the spring?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a heavy glass dome placed over the entire stack?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the glass dome resting on the wooden base?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the scene depict only the completed assembly under the glass without showing assembly steps?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G050": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "A vertical black carbon fiber strut wrapped spirally in yellow caution tape, topped with a silver solar panel; directly beneath the panel hangs a rusty satellite dish, and an orange navigation beacon is bolted to the exact center of the dish.",
+    "Checklist": [
+      {
+        "question": "Is there a vertical strut present?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the strut black in color?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the strut have a carbon fiber texture?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there yellow caution tape wrapped spirally around the strut?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a silver solar panel positioned at the top of the strut?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a satellite dish hanging directly beneath the solar panel?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the satellite dish appear rusty?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there an orange navigation beacon?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the navigation beacon bolted to the exact center of the satellite dish?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G051": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Show the final scene of a weaving studio after these five actions: 1) Lean a rectangular wooden weaving frame against a plain white wall. 2) Place a red spool of thread on the floor to the left of the frame. 3) Place a green spool and a gold spool on the floor to the right of the frame, with the gold one further from the frame than the green one. 4) Move the red spool from the left side to the right side, placing it exactly between the green and gold spools. 5) Rest a wooden shuttle wound with violet yarn horizontally across the bottom crossbar of the weaving frame.",
+    "Checklist": [
+      {
+        "question": "Is the scene set in a weaving studio?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a plain white wall in the background?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a rectangular wooden weaving frame leaning against the wall?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a red spool of thread on the floor?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the red spool located on the right side of the frame (not the left)?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a green spool on the floor to the right of the frame?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a gold spool on the floor to the right of the frame?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the gold spool positioned further from the frame than the green spool?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the red spool placed exactly between the green and gold spools?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a wooden shuttle on the frame?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the wooden shuttle wound with violet yarn?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the shuttle resting horizontally across the bottom crossbar of the frame?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the left side of the frame free of any spools on the floor?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G052": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "On a flat coral slab, a copper wire bent into a 'U' shape holds a hollow sea urchin within its curve. Two pearl beads are threaded on the wire arms, resting against the urchin. A sand anchor sits on the slab directly beneath the left pearl, while the right pearl has no object beneath it.",
+    "Checklist": [
+      {
+        "question": "Is there a flat coral slab?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a copper wire bent into a 'U' shape?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a hollow sea urchin held within the curve of the copper wire?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly two pearl beads?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the pearl beads threaded onto the arms of the copper wire?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Do the two pearl beads rest against the sea urchin?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a sand anchor sitting on the coral slab?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the sand anchor positioned directly beneath the left pearl?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there any object placed directly beneath the right pearl?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G053": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Create an image of the final configuration of this ritual hearth: 1. Place a flat, gray slate stone on the ground. 2. Scatter dry pine needles in a thin, continuous ring around the outer edge of the stone. 3. Place a heavy, horseshoe-shaped piece of iron in the center of the stone, with the open end of the 'U' facing away from the viewer. 4. Lay a long white raven feather horizontally across the two open ends of the horseshoe iron. 5. Carefully balance a single lump of black charcoal on the exact center of the white feather.",
+    "Checklist": [
+      {
+        "question": "Is there a flat, gray slate stone placed on the ground?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are dry pine needles scattered in a thin, continuous ring around the outer edge of the stone?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a heavy, horseshoe-shaped piece of iron in the center of the stone?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the open end of the horseshoe iron face away from the viewer?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a long white raven feather laid horizontally across the two open ends of the horseshoe iron?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a single lump of black charcoal balanced on the exact center of the white feather?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G054": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "A stone aqueduct feeds water into a primary channel which is immediately split by a stone weir into two smaller channels. A second weir blocks the left smaller channel, forcing all water into the right smaller channel. At the end of the right channel, a third weir creates a small pool. A fifth channel lies nearby, completely dry and disconnected from the water flow. Render the final visible state of the hydraulic system showing the water path and the dry channel.",
+    "Checklist": [
+      {
+        "question": "Is there a stone aqueduct feeding water into a primary channel?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the primary channel split into two smaller channels by a stone weir?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a second weir blocking the left smaller channel?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is all the water from the split directed into the right smaller channel?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the left smaller channel free of water flow due to the second weir?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is there a third weir at the end of the right channel?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the third weir create a small pool of water?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a fifth channel visible nearby?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the fifth channel completely dry?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is the fifth channel physically disconnected from the water flow of the other channels?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is the water path from the aqueduct to the pool clearly visible?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G055": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Depict the final configuration of a blacksmith's station. An iron anvil was positioned in the center. A heavy leather apron was draped over the side of a water-filled trough located to the left of the anvil. A pair of long-handled tongs was used to grip a glowing, red-hot iron horseshoe. The front half of that glowing horseshoe was then plunged into the water trough, creating a plume of steam. Finally, the handles of the tongs were rested on the anvil's surface while the horseshoe remained half-submerged in the water. Render the resulting scene.",
+    "Checklist": [
+      {
+        "question": "Is the scene a blacksmith's station?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is an iron anvil positioned in the center of the station?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a water-filled trough located to the left of the anvil?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a heavy leather apron draped over the side of the water trough?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a pair of long-handled tongs visible in the scene?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the tongs gripping a glowing, red-hot iron horseshoe?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the front half of the glowing horseshoe plunged into the water trough?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the horseshoe half-submerged in the water?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a plume of steam rising from the water where the horseshoe enters?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the handles of the tongs resting on the anvil's surface?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G056": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "A silver trellis with a central vertical pole stands in a garden. Three red vines spiral upward from the base of the trellis. Two of the vines grow straight without branching, each supporting exactly one blue flower at its highest point. The third vine spirals up, then branches near the top to support two blue flowers. All four blue flowers are elevated on the vines, none touching the ground. Render the final state showing the complete structure with the specific distribution of flowers on the red vines.",
+    "Checklist": [
+      {
+        "question": "Is there a silver trellis?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the trellis have a central vertical pole?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the trellis located in a garden?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly three red vines?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Do the red vines spiral upward from the base of the trellis?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Do two of the red vines grow straight?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Do those two vines grow without any branching?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Does each of those two straight vines support exactly one blue flower?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are those flowers located at the highest point of their respective vines?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the third vine branch near the top?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the third vine support exactly two blue flowers?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly four blue flowers visible in total?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are all four blue flowers elevated on the vines?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are any of the blue flowers touching the ground?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G057": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Illustrate the final configuration of these maritime steps: 1. Stand a vertical wooden mast in a sand dune. 2. Tie a blue square signal flag to the very top of the mast. 3. Attach a red triangular pennant to the mast at its midpoint. 4. Wrap a thick hemp rope tightly around the midpoint of the mast until the red pennant is completely covered and hidden. 5. Hook a rusted iron anchor through the rope coils where they meet the sand. Render only the final visible state.",
+    "Checklist": [
+      {
+        "question": "Is there a vertical wooden mast standing in a sand dune?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a blue square signal flag at the very top of the mast?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a thick hemp rope wrapped tightly around the midpoint of the mast?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the red triangular pennant completely covered and hidden by the rope coils?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a rusted iron anchor hooked through the rope coils where they meet the sand?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the red triangular pennant visible in the final image?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G058": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Generate an image showing the final assembled state of a weather instrument: an obsidian anchor at the bottom holding two vertical silver tension rods. At the very top of these rods are four brass calibration rings (two per rod). Hanging from the top rings are three crimson silk gliders, pulled taut to form a perfect downward-pointing equilateral triangle. The background is a stormy grey sky. Ensure all parts are connected and no loose components exist.",
+    "Checklist": [
+      {
+        "question": "Is there an obsidian anchor at the bottom of the scene?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are two vertical silver tension rods held by the obsidian anchor?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly four brass calibration rings located at the top of the rods?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does each silver rod have exactly two brass rings on it?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there three crimson silk gliders?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the gliders hanging from the top rings?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the crimson silk gliders pulled taut?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Do the gliders form a perfect equilateral triangle?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the triangle formed by the gliders point downward?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the background a stormy grey sky?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are all parts of the instrument connected to one another?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there any loose components not attached to the assembly?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G059": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Render a high-detail image of an aircraft maintenance scene following these specific steps: First, place a large, circular metal engine cowling flat on a gray concrete floor. Second, set a rectangular blue magnetic tool tray directly in the center of the space inside the cowling. Third, rest a silver socket wrench across the left rim of that tray. Fourth, lean a long-handled circular inspection mirror against the inner curved wall of the cowling so that its handle end rests on top of the wrench. Finally, lay a heavy wooden propeller blade horizontally across the top opening of the cowling, positioned so it partially obscures the mirror leaning below it. Show only the final arrangement.",
+    "Checklist": [
+      {
+        "question": "Does the image show a large, circular metal engine cowling?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the engine cowling placed flat on a gray concrete floor?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a rectangular blue magnetic tool tray inside the cowling?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the tool tray positioned in the center of the space inside the cowling?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a silver socket wrench resting across the left rim of the tool tray?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a long-handled circular inspection mirror leaning against the inner curved wall of the cowling?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the handle end of the inspection mirror rest on top of the silver socket wrench?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a heavy wooden propeller blade laid horizontally across the top opening of the cowling?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the propeller blade partially obscure the inspection mirror below it?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G060": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Visualize a subterranean crystal lattice structure that has been rotated 90 degrees clockwise. In the top slot (now oriented to the right), a glowing tetrahedron (Crystal C) is embedded. In the center slot, a sharp prism (Crystal A) is locked in place. In the bottom slot (now oriented to the left), a dodecahedron (Crystal B) rests securely. The surrounding cavern floor is clear of any loose crystals. The lighting should emphasize the geometric precision of the final arrangement.",
+    "Checklist": [
+      {
+        "question": "Is the scene set in a subterranean cavern?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a crystal lattice structure present?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the lattice structure oriented as if rotated 90 degrees clockwise from a vertical position?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a glowing tetrahedron (Crystal C) embedded in the slot oriented to the right?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a sharp prism (Crystal A) locked in the center slot?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a dodecahedron (Crystal B) resting in the slot oriented to the left?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the surrounding cavern floor clear of any loose crystals?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Does the lighting emphasize the geometric precision of the arrangement?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G061": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Depict four hat stands in a row showing the final result of this sequence: 1. Place a black top hat, a red fez, a bronze diving helmet, and a white sailor cap on stands 1, 2, 3, and 4 respectively. 2. Shift every item one stand to the right, moving the diving helmet to the first stand. 3. Take the item now on the second stand and place it inside the item on the third stand, leaving the second stand empty. 4. Swap the item on the first stand with the item on the fourth stand. 5. Turn the item now on the fourth stand upside down. The final image should show the stands from left to right.",
+    "Checklist": [
+      {
+        "question": "Does the image display four hat stands arranged in a row from left to right?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is stand 1 (leftmost) empty?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is stand 2 empty?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a white sailor cap located on stand 3?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a black top hat located on stand 3 inside the white sailor cap?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a red fez located on stand 4?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the red fez on stand 4 oriented upside down?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the bronze diving helmet absent from all stands?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is a black top hat absent from stand 1?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is a red fez absent from stand 2?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is a bronze diving helmet absent from stand 3?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is a white sailor cap absent from stand 4?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G062": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Render a hydroponic system in a single view. At the base is a clear water reservoir. Above it are two parallel horizontal copper pipes. Hanging from the left pipe are two ceramic pots, and hanging from the right pipe are two ceramic pots. A single solar filter lens is mounted directly above the left pipe, casting a tinted shadow only on the left pair of pots, leaving the right pair in natural light. Ensure the symmetry of the pots is broken only by the lens placement.",
+    "Checklist": [
+      {
+        "question": "Is the hydroponic system rendered in a single view?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a clear water reservoir located at the base of the system?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there two parallel horizontal copper pipes positioned above the reservoir?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly two ceramic pots hanging from the left copper pipe?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly two ceramic pots hanging from the right copper pipe?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a single solar filter lens mounted directly above the left pipe?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the lens cast a tinted shadow on the left pair of pots?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the right pair of pots illuminated in natural light?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the tinted shadow absent from the right pair of pots?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is the symmetry of the pots broken by any visual element other than the lens placement and its shadow?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G063": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Illustrate the result of this textile work-in-progress. A vertical loom frame was prepared with blue warp threads. A yellow wooden shuttle was woven through the threads at the vertical midpoint and left protruding halfway out of the right side. A red leather cord was tied to the top-left corner of the frame. A small silver bell was then hung from the dangling end of that red cord. Finally, the leftmost blue thread was cut at the bottom and now rests in a coil on the floor. Render the resulting scene.",
+    "Checklist": [
+      {
+        "question": "Is there a vertical loom frame visible in the scene?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the warp threads on the loom blue?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a yellow wooden shuttle present?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the shuttle woven through the threads at the vertical midpoint of the loom?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the shuttle protrude halfway out of the right side of the loom?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a red leather cord tied to the top-left corner of the frame?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a small silver bell hung from the dangling end of the red cord?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the leftmost blue thread cut at the bottom of the loom?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the cut leftmost blue thread resting in a coil on the floor?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the leftmost blue thread intact and attached at the bottom?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G064": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Create a scene featuring a square marble tile on the floor. A teak wooden stool is positioned centrally on this marble tile. A plush velvet cushion sits on the seat of the stool. A shiny brass sphere is balanced perfectly on top of the cushion. A copper wire coil is tightly wrapped around the right front leg of the stool. The perspective is a low-angle shot from the front.",
+    "Checklist": [
+      {
+        "question": "Is there a square marble tile on the floor?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a teak wooden stool?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the stool positioned centrally on the marble tile?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a plush velvet cushion sitting on the seat of the stool?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a shiny brass sphere?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the brass sphere balanced perfectly on top of the cushion?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a copper wire coil?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the copper wire coil wrapped around the right front leg of the stool?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the copper wire coil tightly wrapped?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the image a low-angle shot taken from the front?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G065": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Visualize the final result of this restoration sequence on a workbench: 1. Place a circular wooden base in the center. 2. Fix a tightly coiled copper spring vertically to the far left edge of the base. 3. Hook a long brass pendulum onto the top of the spring so the pendulum arm extends toward the center and hangs downward. 4. Wedge a small silver gear between the bottom weight of the pendulum and the surface of the wooden base so the weight is propped up. 5. Place a protective glass dome over the entire assembly so it rests on the outer rim of the base.",
+    "Checklist": [
+      {
+        "question": "Is a circular wooden base visible in the center of the scene?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a tightly coiled copper spring fixed vertically to the far left edge of the base?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a long brass pendulum hooked onto the top of the copper spring?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the pendulum arm extend toward the center of the base?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the pendulum arm hang downward?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a small silver gear wedged between the bottom weight of the pendulum and the wooden base surface?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the bottom weight of the pendulum propped up by the gear (not touching the base directly)?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a protective glass dome placed over the entire assembly?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the glass dome rest on the outer rim of the wooden base?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G066": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "An upright obsidian statue on the seabed with kelp rope tied in a double knot around its base; a gold ingot hangs from the rope, and on top of the ingot sits an open pearl oyster shell held in place by a pinching crab claw.",
+    "Checklist": [
+      {
+        "question": "Is there an upright obsidian statue standing on the seabed?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a kelp rope tied in a double knot around the base of the statue?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a gold ingot hanging from the kelp rope?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there an open pearl oyster shell sitting on top of the gold ingot?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a pinching crab claw holding the oyster shell in place?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G067": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Show the final visible state of this drafting assembly: 1. Lay a rectangular cork board flat. 2. Arrange three balsa wood strips to form an equilateral triangle in the center of the board. 3. Place a thin leather strap horizontally across the top apex (corner) of the triangle. 4. Open a metal drafting compass and press its two needle-points through the leather strap and into the cork board at the two bottom corners of the balsa triangle. 5. Place a small glass vial of black ink inside the triangular space formed by the wood strips.",
+    "Checklist": [
+      {
+        "question": "Is a rectangular cork board laid flat as the base?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are exactly three balsa wood strips arranged to form an equilateral triangle in the center of the board?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a thin leather strap placed horizontally across the top apex of the balsa triangle?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a metal drafting compass open with its two needle-points pressed through the leather strap?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the two needle-points of the compass inserted into the cork board at the two bottom corners of the balsa triangle?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a small glass vial of black ink placed inside the triangular space formed by the wood strips?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G068": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Generate an image of a mechanical orbital system. A central sphere is encased by three concentric metal rings (small, medium, large). On the innermost ring sits a single blue bearing. On the middle ring sits a single red bearing. On the outermost ring sit two green bearings. A single stabilizing strut extends from the central sphere directly to the outer ring, connecting specifically at the position of one of the green bearings. The background is a deep void.",
+    "Checklist": [
+      {
+        "question": "Does the image show a mechanical orbital system?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a central sphere?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there three concentric rings made of metal encasing the sphere?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the three rings of different sizes (small, medium, and large)?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there exactly one blue bearing on the innermost ring?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there exactly one red bearing on the middle ring?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly two green bearings on the outermost ring?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a single stabilizing strut extending from the central sphere?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the strut extend directly to the outer ring?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the strut connected to the outer ring specifically at the position of one of the green bearings?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the background a deep void?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G069": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Generate an image of the final arrangement on a gray steel pegboard based on these steps: 1) Mount a magnetic tool strip horizontally across the center of the pegboard. 2) Hang a pair of safety goggles on a hook in the top-left corner of the board. 3) Snap a torque wrench onto the far-left end of the magnetic strip. 4) Snap a digital caliper onto the magnetic strip, touching the right side of the wrench. 5) Relocate the torque wrench to the far-right end of the magnetic strip, leaving the caliper in its original position.",
+    "Checklist": [
+      {
+        "question": "Is the background a gray steel pegboard?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a magnetic tool strip mounted horizontally across the center of the pegboard?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are a pair of safety goggles hanging on a hook in the top-left corner of the board?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a torque wrench snapped onto the far-right end of the magnetic strip?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a torque wrench present at the far-left end of the magnetic strip?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is a digital caliper snapped onto the magnetic strip?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the digital caliper touching the right side of the torque wrench?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the digital caliper located between the far-left end and the torque wrench on the strip?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G070": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "A brass astrolabe rests on a copper stand positioned on the right. Three crystal lenses are stacked vertically directly on the astrolabe's central axis. To the left of this setup, a second copper stand holds the remaining two crystal lenses arranged in a diagonal line. Ensure no lens touches the ground and that the spatial relationship between the two stands is clear. Render the final visible state of this astronomical arrangement.",
+    "Checklist": [
+      {
+        "question": "Is there a brass astrolabe in the scene?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the astrolabe resting on a copper stand?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the copper stand with the astrolabe positioned on the right side of the image?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there three crystal lenses present in a vertical stack?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the stack of three lenses positioned directly on the central axis of the astrolabe?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a second copper stand positioned to the left of the astrolabe setup?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there two crystal lenses on the second copper stand?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the two lenses on the second stand arranged in a diagonal line?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are any of the lenses touching the ground?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is the spatial relationship between the two stands clearly visible?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G071": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Depict the final overhead view of mountaineering gear on a patch of snow following these procedures: 1) Coil a thick orange climbing rope into a neat circle. 2) Lay an ice axe diagonally across the rope circle, with the metal head at the top-right and the spike at the bottom-left. 3) Interlock two silver carabiners to form a short chain. 4) Place the linked carabiners on the snow inside the rope circle, to the left of the ice axe's shaft. 5) Balance a yellow climbing helmet directly on top of the ice axe's metal head.",
+    "Checklist": [
+      {
+        "question": "Is the viewpoint an overhead view of the scene?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the ground surface a patch of snow?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a thick orange climbing rope coiled into a neat circle?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is an ice axe laid diagonally across the rope circle?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the metal head of the ice axe positioned at the top-right of the circle?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the spike of the ice axe positioned at the bottom-left of the circle?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly two silver carabiners interlocked to form a short chain?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the linked carabiners placed on the snow inside the rope circle?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the linked carabiners located to the left of the ice axe's shaft?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a yellow climbing helmet balanced directly on top of the ice axe's metal head?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G072": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "A spread-out parchment map has a velvet cloth draped over its top-left quarter, upon which a brass telescope lens rests. In the bottom-right quadrant of the map, a marble compass sits untouched by the cloth, surrounded by four star-shaped brass pins arranged in a perfect square.",
+    "Checklist": [
+      {
+        "question": "Is there a spread-out map made of parchment?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a velvet cloth draped over the top-left quarter of the map?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a brass telescope lens resting on the velvet cloth?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a marble compass located in the bottom-right quadrant of the map?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the marble compass untouched by the velvet cloth?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Are there exactly four pins surrounding the marble compass?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the four pins star-shaped?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the four pins made of brass?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the four pins arranged in a perfect square?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G073": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Visualize a tailor's table after these five steps: 1. Stack four fabric bolts vertically: Red velvet on the bottom, then Green linen, then Grey wool, with Blue silk on the very top. 2. Remove the second bolt from the bottom and place it on a chair to the side. 3. Take the bolt currently at the top of the stack and slide it halfway underneath the bolt at the very bottom of the stack. 4. Take the bolt from the chair and place it on top of the stack. 5. Unroll the middle bolt of the stack so its fabric drapes over the table's edge. The final image should show the stack and the draped fabric clearly.",
+    "Checklist": [
+      {
+        "question": "Does the image show a tailor's table?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a stack of exactly four fabric bolts visible?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the bottom-most bolt of the visible stack Grey wool?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the second bolt from the bottom of the stack Blue silk?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the third bolt from the bottom of the stack Green linen?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the top-most bolt of the stack Red velvet?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the Blue silk bolt positioned halfway underneath the Grey wool bolt?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the Green linen bolt unrolled with fabric draping over the table's edge?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the Green linen bolt located in the middle position of the stack (third from bottom)?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a chair visible to the side of the table?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the chair empty (containing no fabric bolts)?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G074": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Render the final state of a logistics scenario in a foggy canyon: At the highest peak, a red drone (Alpha) hovers empty; on the ground next to it sits a gold cylinder (Package 2). At the mid-level ledge, a green drone (Gamma) hovers carrying a silver cube (Package 1) in one claw and a black sphere (Package 3) in the other. A blue drone (Beta) is not visible in the final frame as it has landed on the peak ground. The river level below is empty. Ensure the positions and cargo are exactly as described.",
+    "Checklist": [
+      {
+        "question": "Is the scene set in a foggy canyon?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a red drone (Alpha) located at the highest peak?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the red drone hovering?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the red drone empty (not carrying any package)?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is there a gold cylinder (Package 2) sitting on the ground?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the gold cylinder positioned next to the red drone on the peak?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a green drone (Gamma) at the mid-level ledge?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the green drone hovering?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the green drone carrying a silver cube (Package 1) in one of its claws?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the green drone carrying a black sphere (Package 3) in its other claw?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the blue drone (Beta) invisible or absent from the final frame?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is the river level below empty of any objects or drones?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G075": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Depict the final arrangement of items on a garden fence after these five steps: 1. Place a Bluebird box, an Owl box, a Wren house, and a Sparrow box in a horizontal row from left to right. 2. Swap the positions of the house at the far left and the house second from the right. 3. Paint the house now located at the far right bright yellow. 4. Move the house that is currently at the far left to the position immediately to the right of the Owl box. 5. Replace the Wren house with a red Cardinal feeder. Show only the final scene with all four items clearly visible in their resulting order and colors.",
+    "Checklist": [
+      {
+        "question": "Are exactly four items visible on the garden fence?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the item at the far left position the Bluebird box?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the item at the second position from the left the Sparrow box?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the item at the third position from the left the Owl box?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the item at the far right position the red Cardinal feeder?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the item at the far right position painted bright yellow?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the red Cardinal feeder located at the far right position?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the Wren house absent from the scene?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Are all four items arranged in a horizontal row?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G076": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Create a single image of a glowing data lattice. Start with a hexagonal prism base. Two magnetic clamps are mounted on opposite corners. From the center of the base, three gold filaments emerge in a Y-shape: two extend horizontally to the clamps, and one extends vertically. Each horizontal filament ends with a single azure light node (2 total). The vertical filament holds three azure light nodes spaced evenly upwards. The scene is dark, highlighting the gold wires and azure lights.",
+    "Checklist": [
+      {
+        "question": "Is the image a single frame rather than a grid or sequence?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a hexagonal prism base at the bottom of the data lattice?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly two magnetic clamps mounted on the base?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the two magnetic clamps mounted on opposite corners of the hexagonal base?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Do three gold filaments emerge from the center of the base?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the filaments arranged in a Y-shape, with two extending horizontally and one extending vertically?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Do the two horizontal gold filaments extend to reach the magnetic clamps?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does each horizontal filament terminate in exactly one azure light node?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the total count of azure light nodes on the horizontal filaments exactly two?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the vertical filament hold exactly three azure light nodes?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the three azure light nodes on the vertical filament spaced evenly in an upward direction?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the scene dark, providing a high-contrast background?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the gold filaments/wires visually highlighted in the scene?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the azure lights visually highlighted in the scene?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G077": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Generate an image of the final arrangement following these steps: 1. Lay a heavy marble slab on a wooden table. 2. Spread a square linen cloth flat across the slab. 3. Place a thick rectangular block of yellow beeswax in the center of the cloth. 4. Fold the bottom half of the linen cloth up so it covers the lower half of the beeswax block. 5. Pierce a carved bone needle vertically through the folded cloth and deep into the beeswax, then lean a bundle of fresh rosemary against the right side of the needle.",
+    "Checklist": [
+      {
+        "question": "Is a heavy marble slab visible on a wooden table?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a square linen cloth spread flat across the marble slab?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a thick rectangular block of yellow beeswax located in the center of the linen cloth?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the bottom half of the linen cloth folded up to cover the lower half of the beeswax block?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a carved bone needle pierced vertically through the folded cloth?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the carved bone needle inserted deep into the beeswax block?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a bundle of fresh rosemary leaning against the right side of the bone needle?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G078": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "A wooden trellis square lies flat with a crimson fern frond spanning horizontally across its center, extending beyond the right edge. A silver vine loop encircles only the left end of the fern, supporting a vertical stack of three obsidian pebbles on its highest point. A single glass droplet floats in the air directly above the top pebble without touching it.",
+    "Checklist": [
+      {
+        "question": "Is there a square trellis made of wood?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the wooden trellis lying flat?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a crimson-colored fern frond?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the fern frond span horizontally across the center of the trellis?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the fern frond extend past the right edge of the trellis?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a silver vine loop?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the silver vine loop encircle the left end of the fern?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the silver vine loop encircle any part of the fern other than the left end?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is there a vertical stack of exactly three obsidian pebbles?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the stack of pebbles supported on the highest point of the silver vine loop?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a single glass droplet?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the glass droplet floating in the air directly above the top pebble?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the glass droplet touch the top pebble?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G079": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Generate an image of a vintage workbench showing the final state of four tools after these operations: 1. Arrange brass calipers (top-left), a steel hammer (top-right), a wooden mallet (bottom-left), and a spool of copper wire (bottom-right) in a square. 2. Rotate the entire square arrangement 90 degrees clockwise. 3. Swap the tool now in the top-right with the tool in the bottom-left. 4. Remove the tool in the top-left and place it directly on top of the tool in the bottom-right. 5. Paint the tool that remains alone in the top-right position neon green. The final image should show the resulting 2x2 spatial arrangement on the wood surface.",
+    "Checklist": [
+      {
+        "question": "Are exactly four tool positions visible on the workbench surface in a 2x2 arrangement?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the steel hammer visible in the top-right position?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the steel hammer painted neon green?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the wooden mallet visible in the bottom-left position?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the brass calipers visible placed directly on top of the spool of copper wire in the bottom-right position?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the spool of copper wire visible in the bottom-right position (underneath the calipers)?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the top-left position empty?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the brass calipers absent from the top-left position?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is the scene depicted on a vintage workbench surface?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G080": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "A wooden loom displays two finished scarves hanging side-by-side. The left scarf is woven from gold and silver threads, with its ends tied using a bronze thread; the gold and silver spools are empty. The right scarf is woven entirely from copper thread; the copper spool still contains thread. The bronze spool also has remaining thread. Render the final visible state showing the loom, the two distinct scarves, and the four spools with their specific thread levels.",
+    "Checklist": [
+      {
+        "question": "Is there a wooden loom visible in the scene?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there two finished scarves hanging side-by-side on the loom?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the scarf on the left woven from gold threads?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the scarf on the left woven from silver threads?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the ends of the left scarf tied together using a bronze thread?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the scarf on the right woven entirely from copper thread?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the gold thread spool empty of thread?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is the silver thread spool empty of thread?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Does the copper spool still contain remaining thread?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the bronze spool still contain remaining thread?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are all four spools (gold, silver, copper, and bronze) visible in the final state?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G081": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Depict the final scene after these five operations are completed in a workshop: 1. Position a heavy oak workbench in the center of a stone floor. 2. Place a thick iron anvil on the right side of the workbench. 3. Slide a leather blacksmith's apron underneath the anvil so that half of the apron hangs off the front edge of the workbench. 4. Place a copper bucket on the floor directly underneath the part of the apron that is hanging down. 5. Lift the iron anvil from the workbench and drop it into the copper bucket. Render only the final visible state of the room.",
+    "Checklist": [
+      {
+        "question": "Is a heavy oak workbench positioned in the center of a stone floor?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a thick iron anvil visible on the right side of the workbench?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is a leather blacksmith's apron visible underneath the location where the anvil was placed?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does half of the leather apron hang off the front edge of the workbench?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a copper bucket on the floor directly underneath the hanging part of the apron?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the iron anvil visible inside the copper bucket?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G082": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Generate a top-down overhead image of a clear glass petri dish. Inside the dish lies a purple fern frond. On the leftmost tip of the fern frond rests a single orange drop of liquid. A silver magnifying lens is positioned directly over the center of the fern within the dish. Attached to the outer rim of the glass dish at the 3 o'clock position is a small white square label. The lighting is even and studio-like.",
+    "Checklist": [
+      {
+        "question": "Is the image captured from a top-down overhead perspective?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a petri dish made of clear glass?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a purple fern frond inside the petri dish?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a single orange drop of liquid?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the orange drop located on the leftmost tip of the fern frond?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a silver magnifying lens?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the magnifying lens positioned directly over the center of the fern?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a small white label attached to the outer rim of the glass dish?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the label square in shape?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the label positioned at the 3 o'clock position on the rim?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the lighting even and studio-like throughout the scene?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G083": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Show the final layout of a navigator's desk. A vellum sea map was spread flat. A heavy lead weight was placed on the bottom-right corner to hold it down. A pair of brass drafting compasses was set in the center of the map, opened at a 45-degree angle. An uncapped bottle of blue ink was placed on the top-left corner of the map. Finally, a magnifying glass was placed so its lens rests directly over the ink bottle's cap, which lies on the map just to the right of the bottle.",
+    "Checklist": [
+      {
+        "question": "Is the scene a navigator's desk?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a vellum sea map spread flat on the desk?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a heavy lead weight placed on the bottom-right corner of the map?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a pair of brass drafting compasses set in the center of the map?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the brass drafting compasses opened at a 45-degree angle?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is an uncapped bottle of blue ink placed on the top-left corner of the map?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the ink bottle uncapped (cap removed)?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the ink bottle's cap lying on the map just to the right of the bottle?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a magnifying glass placed in the scene?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the lens of the magnifying glass rest directly over the ink bottle's cap?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G084": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "A clay wheel spins with two white bowls resting on its surface. In front of the wheel, a red glaze bucket contains three white bowls, fully submerged and coated in red glaze. Beside it, a green glaze bucket holds one white bowl, fully coated in green glaze. An empty blue glaze bucket sits behind the wheel. Render the final scene showing the exact distribution of the six bowls and the state of the three glaze buckets.",
+    "Checklist": [
+      {
+        "question": "Is there a clay wheel in the scene?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the clay wheel appear to be spinning?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly two white bowls resting on the surface of the clay wheel?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a red glaze bucket positioned in front of the wheel?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the red glaze bucket contain exactly three bowls?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the three bowls in the red bucket fully submerged in or coated with red glaze?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a green glaze bucket positioned beside the red bucket?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does the green glaze bucket hold exactly one bowl?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the bowl in the green bucket fully coated in green glaze?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a blue glaze bucket positioned behind the wheel?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the blue glaze bucket empty of bowls?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is the total count of bowls across the entire scene exactly six?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G085": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Create an image of the final arrangement following these instructions: 1. Place a wide flat stone on green grass. 2. Set a ceramic bowl on the stone. 3. Put three yellow lemons inside the bowl. 4. Drape a translucent purple silk scarf over the top of the bowl so it covers the lemons. 5. Reach through the scarf to pick up the lemons and place them in a triangle pattern on top of the scarf's surface. Render only the final visible state.",
+    "Checklist": [
+      {
+        "question": "Is there a wide flat stone placed on green grass?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a ceramic bowl sitting on the stone?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is a translucent purple silk scarf draped over the top of the bowl?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly three yellow lemons visible?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the three yellow lemons arranged in a triangle pattern on top of the scarf's surface?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the lemons inside the bowl beneath the scarf?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G086": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "A ceramic pot on the ground containing a green vine that winds upward three times; a terracotta tile is clipped horizontally at the vine's second loop, supporting an upside-down bronze watering can, with a white ceramic bowl balanced on the watering can's rim.",
+    "Checklist": [
+      {
+        "question": "Is there a ceramic pot resting on the ground?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Does a green vine emerge from the pot and wind upward three times?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a terracotta tile oriented horizontally?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the terracotta tile clipped to the vine at the level of the vine's second loop?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there an upside-down bronze watering can supported by the tile?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a white ceramic bowl?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the white ceramic bowl balanced on the rim of the watering can?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G087": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Render the final result of this sequence: 1. Begin with a shallow, circular black ceramic basin filled with dark potting soil. 2. Arrange three jagged, moss-covered gray stones in a tight triangle formation in the center of the basin. 3. Plant a single blooming white lily into the soil in the gap between the two stones closest to the viewer. 4. Pour fine white decorative sand exclusively into the interior space of the stone triangle, covering the soil only there. 5. Place a miniature curved wooden bridge that arches over the lily, with its ends resting on the left-most and right-most stones. Describe the final visible arrangement.",
+    "Checklist": [
+      {
+        "question": "A shallow, circular black ceramic basin is visible.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "The basin contains dark potting soil.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Exactly three jagged, moss-covered gray stones are present.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "The three stones are arranged in a tight triangle formation in the center of the basin.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "A single blooming white lily is planted in the soil.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "The lily is located in the gap between the two stones closest to the viewer.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Fine white decorative sand is present.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "The white sand is located exclusively inside the triangle formed by the stones.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "The white sand covers the soil only within the stone triangle (no sand on soil outside the triangle).",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "A miniature curved wooden bridge is present.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "The bridge arches over the white lily.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "The left end of the bridge rests on the left-most stone.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "The right end of the bridge rests on the right-most stone.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "The scene depicts only the final arrangement.",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G088": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "An inverted ceramic bowl supports a triangular stack of three sugar cubes. A silver spoon balances horizontally across the sugar stack, with a lemon wedge wedged between the spoon's handle and the left sugar cube, and a red chili pepper balanced vertically on the spoon's bowl end on the right.",
+    "Checklist": [
+      {
+        "question": "Is there a ceramic bowl that is inverted (upside down)?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a stack of exactly three sugar cubes resting on the inverted bowl?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the three sugar cubes arranged in a triangular stack?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a silver spoon balanced horizontally across the sugar cube stack?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a lemon wedge wedged between the spoon's handle and the sugar cube on the left?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a red chili pepper balanced vertically on the spoon?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the red chili pepper resting on the bowl end of the spoon?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the bowl end of the spoon (with the chili pepper) located on the right side of the stack?",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G089": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Execute the following operations and describe the final resulting scene: 1. Visualize a 5x5 floor grid and place a clear glass cube in the center square (3,3). 2. Place a polished crimson sphere inside the glass cube. 3. Slide the cube and the sphere together two grid squares toward the right (positive x-axis). 4. Rotate the cube 45 degrees clockwise around its vertical axis. 5. Position a single blue spotlight high above the far-left corner of the grid, aiming its beam directly at the cube. Describe only the final visible state of the objects, their position, and the lighting effects on the floor.",
+    "Checklist": [
+      {
+        "question": "A 5x5 floor grid is visible in the scene.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "A clear glass cube is present.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "A polished crimson sphere is located inside the glass cube.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "The glass cube (containing the sphere) is positioned two grid squares to the right of the center (originally 3,3, now at 3,5).",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "The glass cube is rotated 45 degrees clockwise around its vertical axis.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "A blue spotlight is positioned high above the far-left corner of the grid.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "The spotlight beam is directed at the glass cube.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Lighting effects from the blue spotlight are visible on the floor.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "The sphere's crimson color is visible through the transparent glass.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Reflections or refractions consistent with a glass material are visible on the cube.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "The scene depicts only the final state (no intermediate steps shown).",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-PR-G090": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Inside a museum glass display case, a vertical artifact stack rests on the base. The bottom layer is a curved bronze fragment, the middle is a straight silver fragment, and the top is a curved gold fragment. The sides of the stack are pristine and reflective, but a distinct, thin layer of dust covers only the very top surface of the gold fragment. The rest of the case floor is empty and clean.",
+    "Checklist": [
+      {
+        "question": "Is the scene set inside a museum glass display case?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a vertical stack of artifact fragments resting on the base of the case?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the bottom layer of the stack a bronze fragment?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the bronze fragment curved?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the middle layer of the stack a silver fragment?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the silver fragment straight?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the top layer of the stack a gold fragment?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is the gold fragment curved?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the sides of the stack pristine (showing no wear or damage)?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Are the sides of the stack reflective?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is there a distinct, thin layer of dust on the top surface of the gold fragment?",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Is dust absent from all surfaces of the stack except for the top surface of the gold fragment?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is the rest of the case floor empty of other objects?",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "Is the rest of the case floor clean and free of dust?",
+        "tags": [
+          "procedure_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-PR-G091": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Procedural Reasoning",
+    "Prompt": "Determine the final visual state after these steps: 1. Stand a slender, matte black obsidian pillar vertically in the center of a polished white marble floor. 2. Secure a thin gold hoop horizontally to the very top edge of the pillar. 3. Suspend a translucent emerald-cut green jewel so it hangs precisely in the empty center of the gold hoop. 4. Place a warm amber lamp on the floor hidden directly behind the pillar, tilted to shine upward through the hoop. 5. Arrange a ring of raw, clear quartz points on the floor encircling the base of the pillar. Describe the resulting composition, focusing on the interplay of materials and the light.",
+    "Checklist": [
+      {
+        "question": "A slender, matte black obsidian pillar stands vertically.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "The pillar is located in the center of a polished white marble floor.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "A thin gold hoop is secured horizontally to the very top edge of the pillar.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "A translucent emerald-cut green jewel is suspended.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "The jewel hangs precisely in the empty center of the gold hoop.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "A warm amber lamp is present.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "The lamp is positioned on the floor directly behind the pillar.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "The lamp is tilted to shine upward through the hoop.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "A ring of raw, clear quartz points is arranged on the floor.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "The quartz ring encircles the base of the pillar.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "The lighting creates an upward glow through the hoop.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "Reflections on the polished white marble floor are visible.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "The jewel exhibits translucency and green color.",
+        "tags": [
+          "procedure_pos"
+        ]
+      },
+      {
+        "question": "The obsidian pillar appears matte black with no high gloss reflections.",
+        "tags": [
+          "procedure_neg"
+        ]
+      },
+      {
+        "question": "The scene focuses on the interplay of materials and light.",
+        "tags": [
+          "procedure_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  }
+}

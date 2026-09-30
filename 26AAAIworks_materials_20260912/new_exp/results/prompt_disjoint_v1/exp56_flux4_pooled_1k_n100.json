@@ -1,0 +1,1362 @@
+{
+  "experiment": "exp56_flux4_pooled_1k",
+  "datasets": [
+    "gm",
+    "am",
+    "unigen",
+    "corebench",
+    "wise"
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "train_per_source": 100,
+  "target_lp_train_n": 1000,
+  "matched_curve_protocol": "fixed test, fixed target LP1000, nested source prefixes, fixed alpha50",
+  "alpha_validation_per_source": 50,
+  "sources_per_target": 4,
+  "action_indices": [
+    9,
+    3,
+    4,
+    5
+  ],
+  "action_names": [
+    "flux4b_4steps",
+    "flux_10steps",
+    "flux_50steps",
+    "flux_tts"
+  ],
+  "costs": [
+    0.455,
+    4.7,
+    23.1,
+    44.9
+  ],
+  "budget": 10.0,
+  "test_sizes": {
+    "gm": 800,
+    "am": 800,
+    "unigen": 600,
+    "corebench": 400,
+    "wise": 200
+  },
+  "construction_sizes": {
+    "gm": 2400,
+    "am": 2400,
+    "unigen": 2000,
+    "corebench": 1080,
+    "wise": 1200
+  },
+  "by_target": {
+    "gm": {
+      "router_quality": 0.30458468221024954,
+      "target_lp_quality": 0.3236225351792259,
+      "public_lp_quality": 0.3236225351792259,
+      "router_minus_target_lp": -0.019037852968976258,
+      "router_minus_target_lp_ci95": [
+        -0.02782694652446135,
+        -0.009749422411466232
+      ],
+      "public_lp_minus_target_lp": 0.0,
+      "public_lp_minus_target_lp_ci95": [
+        0.0,
+        0.0
+      ],
+      "router_allocation": [
+        0.4300795028983931,
+        0.3354549871527664,
+        0.10549660596971144,
+        0.12896890397912905
+      ],
+      "target_lp_allocation": [
+        0.0,
+        0.8681592039800995,
+        0.0,
+        0.1318407960199005
+      ],
+      "public_lp_allocation": [
+        0.0,
+        0.8681592039800995,
+        0.0,
+        0.1318407960199005
+      ],
+      "per_seed": [
+        {
+          "seed": 42,
+          "router_quality": 0.31601194936274846,
+          "target_lp_quality": 0.3236225351792259,
+          "public_lp_quality": 0.3236225351792259,
+          "router_allocation": [
+            0.4213662655819852,
+            0.32921506232794084,
+            0.13476746883602958,
+            0.11465120325404436
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        },
+        {
+          "seed": 43,
+          "router_quality": 0.2968438850471036,
+          "target_lp_quality": 0.3236225351792259,
+          "public_lp_quality": 0.3236225351792259,
+          "router_allocation": [
+            0.40958616832882844,
+            0.36979308416441425,
+            0.0839569158355858,
+            0.1366638316711716
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        },
+        {
+          "seed": 44,
+          "router_quality": 0.2986193572447264,
+          "target_lp_quality": 0.3236225351792259,
+          "public_lp_quality": 0.3236225351792259,
+          "router_allocation": [
+            0.532341442982303,
+            0.23952432894690912,
+            0.07390855701769695,
+            0.15422567105309087
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        },
+        {
+          "seed": 45,
+          "router_quality": 0.3117421450780129,
+          "target_lp_quality": 0.3236225351792259,
+          "public_lp_quality": 0.3236225351792259,
+          "router_allocation": [
+            0.4006147267138848,
+            0.34778681678471196,
+            0.1428279099291728,
+            0.1087705465722304
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        },
+        {
+          "seed": 46,
+          "router_quality": 0.2997060743186565,
+          "target_lp_quality": 0.3236225351792259,
+          "public_lp_quality": 0.3236225351792259,
+          "router_allocation": [
+            0.38648891088496395,
+            0.3909556435398559,
+            0.09202217823007205,
+            0.1305332673451081
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        }
+      ]
+    },
+    "am": {
+      "router_quality": 0.751354866627288,
+      "target_lp_quality": 0.7520232749916613,
+      "public_lp_quality": 0.7520232749916613,
+      "router_minus_target_lp": -0.0006684083643733556,
+      "router_minus_target_lp_ci95": [
+        -0.004449834191356519,
+        0.003069035343142247
+      ],
+      "public_lp_minus_target_lp": 0.0,
+      "public_lp_minus_target_lp_ci95": [
+        0.0,
+        0.0
+      ],
+      "router_allocation": [
+        0.37160894395542426,
+        0.3955148795076395,
+        0.11395148301348909,
+        0.11892469352344719
+      ],
+      "target_lp_allocation": [
+        0.0,
+        0.8681592039800995,
+        0.0,
+        0.1318407960199005
+      ],
+      "public_lp_allocation": [
+        0.0,
+        0.8681592039800995,
+        0.0,
+        0.1318407960199005
+      ],
+      "per_seed": [
+        {
+          "seed": 42,
+          "router_quality": 0.7541086548794266,
+          "target_lp_quality": 0.7520232749916613,
+          "public_lp_quality": 0.7520232749916613,
+          "router_allocation": [
+            0.30541411409022196,
+            0.446664114090222,
+            0.15458588590977804,
+            0.09333588590977804
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        },
+        {
+          "seed": 43,
+          "router_quality": 0.7471951687856753,
+          "target_lp_quality": 0.7520232749916613,
+          "public_lp_quality": 0.7520232749916613,
+          "router_allocation": [
+            0.41190564912803695,
+            0.35125,
+            0.11342217543598151,
+            0.12342217543598151
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        },
+        {
+          "seed": 44,
+          "router_quality": 0.7489296670736592,
+          "target_lp_quality": 0.7520232749916613,
+          "public_lp_quality": 0.7520232749916613,
+          "router_allocation": [
+            0.42952633599776613,
+            0.3360790079932982,
+            0.10547366400223393,
+            0.12892099200670182
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        },
+        {
+          "seed": 45,
+          "router_quality": 0.7557053074194471,
+          "target_lp_quality": 0.7520232749916613,
+          "public_lp_quality": 0.7520232749916613,
+          "router_allocation": [
+            0.41119862056109613,
+            0.35997431028054805,
+            0.09877568971945196,
+            0.1300513794389039
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        },
+        {
+          "seed": 46,
+          "router_quality": 0.7508355349782317,
+          "target_lp_quality": 0.7520232749916613,
+          "public_lp_quality": 0.7520232749916613,
+          "router_allocation": [
+            0.3,
+            0.4836069651741294,
+            0.0975,
+            0.11889303482587066
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.000000000000002
+        }
+      ]
+    },
+    "unigen": {
+      "router_quality": 0.8194632050463089,
+      "target_lp_quality": 0.8218955930355151,
+      "public_lp_quality": 0.8218955930355151,
+      "router_minus_target_lp": -0.002432387989206364,
+      "router_minus_target_lp_ci95": [
+        -0.009134774777130792,
+        0.0043073217267399705
+      ],
+      "public_lp_minus_target_lp": 0.0,
+      "public_lp_minus_target_lp_ci95": [
+        0.0,
+        0.0
+      ],
+      "router_allocation": [
+        0.31908222776413864,
+        0.48066339666504787,
+        0.06402393766458433,
+        0.13623043790622927
+      ],
+      "target_lp_allocation": [
+        0.0,
+        0.8681592039800995,
+        0.0,
+        0.1318407960199005
+      ],
+      "public_lp_allocation": [
+        0.0,
+        0.8681592039800995,
+        0.0,
+        0.1318407960199005
+      ],
+      "per_seed": [
+        {
+          "seed": 42,
+          "router_quality": 0.8212908702013564,
+          "target_lp_quality": 0.8218955930355151,
+          "public_lp_quality": 0.8218955930355151,
+          "router_allocation": [
+            0.3297231801659055,
+            0.47236159008295275,
+            0.05763840991704725,
+            0.1402768198340945
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        },
+        {
+          "seed": 43,
+          "router_quality": 0.8158773281218277,
+          "target_lp_quality": 0.8218955930355151,
+          "public_lp_quality": 0.8218955930355151,
+          "router_allocation": [
+            0.3190855927698033,
+            0.47741892610313663,
+            0.07,
+            0.13349548112706003
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        },
+        {
+          "seed": 44,
+          "router_quality": 0.8204707943211592,
+          "target_lp_quality": 0.8218955930355151,
+          "public_lp_quality": 0.8218955930355151,
+          "router_allocation": [
+            0.35277033451465123,
+            0.4248123337271059,
+            0.09833333333333333,
+            0.12408399842490951
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        },
+        {
+          "seed": 45,
+          "router_quality": 0.8235000017657876,
+          "target_lp_quality": 0.8218955930355151,
+          "public_lp_quality": 0.8218955930355151,
+          "router_allocation": [
+            0.23297997644287388,
+            0.5970200235571261,
+            0.025,
+            0.145
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        },
+        {
+          "seed": 46,
+          "router_quality": 0.8161770308214134,
+          "target_lp_quality": 0.8218955930355151,
+          "public_lp_quality": 0.8218955930355151,
+          "router_allocation": [
+            0.36085205492745887,
+            0.43170410985491775,
+            0.06914794507254113,
+            0.13829589014508226
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        }
+      ]
+    },
+    "corebench": {
+      "router_quality": 0.5142153973360719,
+      "target_lp_quality": 0.52462113610814,
+      "public_lp_quality": 0.52462113610814,
+      "router_minus_target_lp": -0.010405738772068079,
+      "router_minus_target_lp_ci95": [
+        -0.017340256413189592,
+        -0.003541873308908059
+      ],
+      "public_lp_minus_target_lp": 0.0,
+      "public_lp_minus_target_lp_ci95": [
+        0.0,
+        0.0
+      ],
+      "router_allocation": [
+        0.390424052228078,
+        0.38231751271528297,
+        0.09992839392516958,
+        0.12733004113146942
+      ],
+      "target_lp_allocation": [
+        0.0,
+        0.8681592039800995,
+        0.0,
+        0.1318407960199005
+      ],
+      "public_lp_allocation": [
+        0.0,
+        0.8681592039800995,
+        0.0,
+        0.1318407960199005
+      ],
+      "per_seed": [
+        {
+          "seed": 42,
+          "router_quality": 0.5262548929682254,
+          "target_lp_quality": 0.52462113610814,
+          "public_lp_quality": 0.52462113610814,
+          "router_allocation": [
+            0.1697365228783541,
+            0.6369730457567082,
+            0.08026347712164589,
+            0.11302695424329177
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.000000000000002
+        },
+        {
+          "seed": 43,
+          "router_quality": 0.5042575479788326,
+          "target_lp_quality": 0.52462113610814,
+          "public_lp_quality": 0.52462113610814,
+          "router_allocation": [
+            0.519883738262036,
+            0.2825,
+            0.020058130868981963,
+            0.17755813086898195
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        },
+        {
+          "seed": 44,
+          "router_quality": 0.5040622339780702,
+          "target_lp_quality": 0.52462113610814,
+          "public_lp_quality": 0.52462113610814,
+          "router_allocation": [
+            0.2975,
+            0.39590618448637327,
+            0.2643203616352201,
+            0.0422734538784067
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        },
+        {
+          "seed": 45,
+          "router_quality": 0.5219759668305665,
+          "target_lp_quality": 0.52462113610814,
+          "public_lp_quality": 0.52462113610814,
+          "router_allocation": [
+            0.395,
+            0.37857524875621895,
+            0.0975,
+            0.12892475124378108
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        },
+        {
+          "seed": 46,
+          "router_quality": 0.5145263449246648,
+          "target_lp_quality": 0.52462113610814,
+          "public_lp_quality": 0.52462113610814,
+          "router_allocation": [
+            0.57,
+            0.21763308457711442,
+            0.0375,
+            0.17486691542288554
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        }
+      ]
+    },
+    "wise": {
+      "router_quality": 0.7731714724169582,
+      "target_lp_quality": 0.7791221382165332,
+      "public_lp_quality": 0.7791221382165332,
+      "router_minus_target_lp": -0.005950665799575026,
+      "router_minus_target_lp_ci95": [
+        -0.022208021002959367,
+        0.010916373674486106
+      ],
+      "public_lp_minus_target_lp": 0.0,
+      "public_lp_minus_target_lp_ci95": [
+        0.0,
+        0.0
+      ],
+      "router_allocation": [
+        0.4038217292687545,
+        0.3924201092890042,
+        0.05398416739597421,
+        0.14977399404626707
+      ],
+      "target_lp_allocation": [
+        0.0,
+        0.8681592039800995,
+        0.0,
+        0.1318407960199005
+      ],
+      "public_lp_allocation": [
+        0.0,
+        0.8681592039800995,
+        0.0,
+        0.1318407960199005
+      ],
+      "per_seed": [
+        {
+          "seed": 42,
+          "router_quality": 0.7760174352116442,
+          "target_lp_quality": 0.7791221382165332,
+          "public_lp_quality": 0.7791221382165332,
+          "router_allocation": [
+            0.3232874532580158,
+            0.4582874532580158,
+            0.09671254674198425,
+            0.12171254674198424
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        },
+        {
+          "seed": 43,
+          "router_quality": 0.7593384141925726,
+          "target_lp_quality": 0.7791221382165332,
+          "public_lp_quality": 0.7791221382165332,
+          "router_allocation": [
+            0.37419046861325483,
+            0.4241904686132548,
+            0.05580953138674515,
+            0.14580953138674513
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        },
+        {
+          "seed": 44,
+          "router_quality": 0.7954985754911141,
+          "target_lp_quality": 0.7791221382165332,
+          "public_lp_quality": 0.7791221382165332,
+          "router_allocation": [
+            0.2220213834248922,
+            0.5820213834248922,
+            0.075,
+            0.12095723315021559
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        },
+        {
+          "seed": 45,
+          "router_quality": 0.7795470685293392,
+          "target_lp_quality": 0.7791221382165332,
+          "public_lp_quality": 0.7791221382165332,
+          "router_allocation": [
+            0.35200809989875126,
+            0.4600000000000001,
+            0.035,
+            0.15299190010124875
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        },
+        {
+          "seed": 46,
+          "router_quality": 0.7554558686601208,
+          "target_lp_quality": 0.7791221382165332,
+          "public_lp_quality": 0.7791221382165332,
+          "router_allocation": [
+            0.7476012411488584,
+            0.03760124114885832,
+            0.007398758851141687,
+            0.20739875885114167
+          ],
+          "target_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "public_lp_allocation": [
+            0.0,
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ],
+          "cost": 10.0
+        }
+      ]
+    }
+  },
+  "summary": {
+    "macro_router_quality": 0.6325579247273753,
+    "macro_target_lp_quality": 0.6402569355062152,
+    "macro_public_lp_quality": 0.6402569355062152,
+    "macro_router_minus_target_lp": -0.0076990107788398165,
+    "positive_targets": 0,
+    "significant_positive_targets": 0,
+    "significant_negative_targets": 2
+  },
+  "model_meta": [
+    {
+      "target": "gm",
+      "seed": 42,
+      "cache": "exp56_flux4_pooled_1k_target-gm_seed42_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.3754655408304468,
+        0.3661197695212113,
+        0.34240784006826996,
+        0.37302228276956373
+      ]
+    },
+    {
+      "target": "am",
+      "seed": 42,
+      "cache": "exp56_flux4_pooled_1k_target-am_seed42_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.5419319057676543,
+        0.5265184368356717,
+        0.4996442347894653,
+        0.5617855644207104
+      ]
+    },
+    {
+      "target": "unigen",
+      "seed": 42,
+      "cache": "exp56_flux4_pooled_1k_target-unigen_seed42_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.08434240018101824,
+        0.11123616840274164,
+        0.10268692038791727,
+        0.16994702553383734
+      ]
+    },
+    {
+      "target": "corebench",
+      "seed": 42,
+      "cache": "exp56_flux4_pooled_1k_target-corebench_seed42_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.1709642719472363,
+        0.15712678628120913,
+        0.12162241735907464,
+        0.2981665772341666
+      ]
+    },
+    {
+      "target": "wise",
+      "seed": 42,
+      "cache": "exp56_flux4_pooled_1k_target-wise_seed42_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.09296581563398287,
+        0.09694099928032518,
+        0.10250351312156547,
+        0.14537560399058314
+      ]
+    },
+    {
+      "target": "gm",
+      "seed": 43,
+      "cache": "exp56_flux4_pooled_1k_target-gm_seed43_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.25217804230060414,
+        0.30638421838004903,
+        0.20391439554388113,
+        0.3021144668676514
+      ]
+    },
+    {
+      "target": "am",
+      "seed": 43,
+      "cache": "exp56_flux4_pooled_1k_target-am_seed43_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.4485788108791495,
+        0.46852677518288155,
+        0.4088605075587992,
+        0.5451601373982766
+      ]
+    },
+    {
+      "target": "unigen",
+      "seed": 43,
+      "cache": "exp56_flux4_pooled_1k_target-unigen_seed43_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.17517531712318113,
+        0.12636922002087003,
+        0.0974696015471459,
+        0.20456328903463328
+      ]
+    },
+    {
+      "target": "corebench",
+      "seed": 43,
+      "cache": "exp56_flux4_pooled_1k_target-corebench_seed43_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.20466737792282752,
+        0.18288492785274924,
+        0.15509219936359508,
+        0.274659289790927
+      ]
+    },
+    {
+      "target": "wise",
+      "seed": 43,
+      "cache": "exp56_flux4_pooled_1k_target-wise_seed43_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.17964817466929361,
+        0.2146067702571104,
+        0.1874262431971303,
+        0.134067786738151
+      ]
+    },
+    {
+      "target": "gm",
+      "seed": 44,
+      "cache": "exp56_flux4_pooled_1k_target-gm_seed44_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.19491672312623742,
+        0.22518327881964684,
+        0.22803168920002748,
+        0.28186124005576396
+      ]
+    },
+    {
+      "target": "am",
+      "seed": 44,
+      "cache": "exp56_flux4_pooled_1k_target-am_seed44_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.41800843028222656,
+        0.4143451741837091,
+        0.4235969788177766,
+        0.5205302143894956
+      ]
+    },
+    {
+      "target": "unigen",
+      "seed": 44,
+      "cache": "exp56_flux4_pooled_1k_target-unigen_seed44_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.030324174263410386,
+        0.06958243918606777,
+        0.03730572354501527,
+        0.14679053104322537
+      ]
+    },
+    {
+      "target": "corebench",
+      "seed": 44,
+      "cache": "exp56_flux4_pooled_1k_target-corebench_seed44_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.12019151578769227,
+        0.1759940827702895,
+        0.1427704018458138,
+        0.22628519072135944
+      ]
+    },
+    {
+      "target": "wise",
+      "seed": 44,
+      "cache": "exp56_flux4_pooled_1k_target-wise_seed44_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.22009050062811208,
+        0.22850226023744047,
+        0.18860806543772124,
+        0.15607648563425025
+      ]
+    },
+    {
+      "target": "gm",
+      "seed": 45,
+      "cache": "exp56_flux4_pooled_1k_target-gm_seed45_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.2217168495003623,
+        0.25527282263627016,
+        0.26506394863504024,
+        0.17813339311191456
+      ]
+    },
+    {
+      "target": "am",
+      "seed": 45,
+      "cache": "exp56_flux4_pooled_1k_target-am_seed45_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.38406529076411755,
+        0.4790011225773587,
+        0.44474211718906853,
+        0.5576582088576202
+      ]
+    },
+    {
+      "target": "unigen",
+      "seed": 45,
+      "cache": "exp56_flux4_pooled_1k_target-unigen_seed45_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.026307757885633776,
+        0.04114387101865846,
+        0.029637365153660777,
+        0.05220675572509126
+      ]
+    },
+    {
+      "target": "corebench",
+      "seed": 45,
+      "cache": "exp56_flux4_pooled_1k_target-corebench_seed45_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.07385768337067256,
+        0.13719282049164427,
+        0.1004337969455823,
+        0.17092932060425114
+      ]
+    },
+    {
+      "target": "wise",
+      "seed": 45,
+      "cache": "exp56_flux4_pooled_1k_target-wise_seed45_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.14401074397777747,
+        0.12889944307055123,
+        0.14064621122118803,
+        0.10172655026845456
+      ]
+    },
+    {
+      "target": "gm",
+      "seed": 46,
+      "cache": "exp56_flux4_pooled_1k_target-gm_seed46_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.21259387314744616,
+        0.28847353870390435,
+        0.27748315555851677,
+        0.2514974553750644
+      ]
+    },
+    {
+      "target": "am",
+      "seed": 46,
+      "cache": "exp56_flux4_pooled_1k_target-am_seed46_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.48746711609784643,
+        0.4311412847995346,
+        0.4306378744181272,
+        0.512705580068632
+      ]
+    },
+    {
+      "target": "unigen",
+      "seed": 46,
+      "cache": "exp56_flux4_pooled_1k_target-unigen_seed46_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.20608521182355422,
+        0.2511523075087524,
+        0.23133625603980468,
+        0.3040036198168914
+      ]
+    },
+    {
+      "target": "corebench",
+      "seed": 46,
+      "cache": "exp56_flux4_pooled_1k_target-corebench_seed46_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.27943181671553363,
+        0.29020654384207056,
+        0.2767805942101783,
+        0.3426808334640442
+      ]
+    },
+    {
+      "target": "wise",
+      "seed": 46,
+      "cache": "exp56_flux4_pooled_1k_target-wise_seed46_n100.npz",
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "alpha_val_r2": [
+        0.26110884027239123,
+        0.30029825272812427,
+        0.29940524166906946,
+        0.1909705639792425
+      ]
+    }
+  ],
+  "numeric_audit": {
+    "all_finite": true,
+    "max_policy_cost": 10.000000000000002,
+    "budget_respected": true,
+    "target_labels_used_for_pooled_router_fit": false,
+    "construction_test_overlap": 0,
+    "by_dataset": {
+      "gm": {
+        "protocol": "prompt_disjoint_v1",
+        "pool_n": 2400,
+        "pool_prompt_sha256": "9221a1b06a71a6adf3ffb72345fac57738b24b6a7ed8c08db3fe618e740be4d6",
+        "pool_scores_sha256": "9370bf221c2bf8921ad6644bbe9b4b1eac93df4ad77ba8e7caf384e5e351a595",
+        "pool_embeddings_sha256": "f95e91c51b0affab252be59f6180a31da91b1e0e2e12c004a5b391f6852be6da",
+        "test_n": 800,
+        "test_prompt_sha256": "16839c649de213c42323edcbb3e566e2a84f4e1af738a6426622346d19742249",
+        "test_scores_sha256": "55bbf8214accd69cb967a78af4329127b8e5acb2e1cb4f5cc8ed237e4660d942",
+        "test_embeddings_sha256": "2fad19049e81940be921f944182f7c764c6c9c958abf8e4f51be0c0ca044ceb8",
+        "construction_test_overlap": 0
+      },
+      "am": {
+        "protocol": "prompt_disjoint_v1",
+        "pool_n": 2400,
+        "pool_prompt_sha256": "9221a1b06a71a6adf3ffb72345fac57738b24b6a7ed8c08db3fe618e740be4d6",
+        "pool_scores_sha256": "06e8b0224d35cc62041f33e492c37add2d78c277dfe75b4b2fa77f2c7b4bbcd1",
+        "pool_embeddings_sha256": "f95e91c51b0affab252be59f6180a31da91b1e0e2e12c004a5b391f6852be6da",
+        "test_n": 800,
+        "test_prompt_sha256": "16839c649de213c42323edcbb3e566e2a84f4e1af738a6426622346d19742249",
+        "test_scores_sha256": "c1cae73f05df25b19ba30e7a79df8415c5604abfae71c642f5626b9e29c6b7cb",
+        "test_embeddings_sha256": "2fad19049e81940be921f944182f7c764c6c9c958abf8e4f51be0c0ca044ceb8",
+        "construction_test_overlap": 0
+      },
+      "unigen": {
+        "protocol": "prompt_disjoint_v1",
+        "pool_n": 2000,
+        "pool_prompt_sha256": "a4c755f3241e1457f1c127a444cd2978603c4c5b89e99c12589e0bb87ef1c8d4",
+        "pool_scores_sha256": "d1800062f0407ffd41b66bc95e3aa1caa09b786b07a088a484441a431f372194",
+        "pool_embeddings_sha256": "32dd2c191b9d3b9b2089baca887a118801b3c1ec71d9a975320d67576f3b3857",
+        "test_n": 600,
+        "test_prompt_sha256": "9ef652ee89944829013953f7ceef9c2a4904116f0c5b673e6413fc42a3fbc6d2",
+        "test_scores_sha256": "91efa050aff7b8aec805947ce53985d0d497864e22fda2c89ec025d7fe760940",
+        "test_embeddings_sha256": "ca133ff34e851cc97b8669b96d7dc0d65ee9f67e7f097086b4e0188c57e0633d",
+        "construction_test_overlap": 0
+      },
+      "corebench": {
+        "protocol": "prompt_disjoint_v1",
+        "pool_n": 1080,
+        "pool_prompt_sha256": "162cfbab3634a8f52ae104afaaf954fda1e18a0f05bdc19b7f512fc0a4c56772",
+        "pool_scores_sha256": "fd65e09fbf30981384dabe9b0c517a93c78fbbca24dc3e570d5d0f5204948ebc",
+        "pool_embeddings_sha256": "4e85bc280c87ac0d3225254d0281744faf7da1357717ddf827f1a2cff438cf6b",
+        "test_n": 400,
+        "test_prompt_sha256": "b3af0ec6eafc49b79aff14eac46c8efc253779c160df5962e32f1d88d69b1bd1",
+        "test_scores_sha256": "64177075b9615c1ecc05473dfc3254cc1d17e52a607ca124af6abfbe89844a05",
+        "test_embeddings_sha256": "8825e1bce6588089af49829efd9d2396e6115e55d34228fec085cd893d3e52f2",
+        "construction_test_overlap": 0
+      },
+      "wise": {
+        "protocol": "prompt_disjoint_v1",
+        "pool_n": 1200,
+        "pool_prompt_sha256": "49edde5eb5e8746526926154e0b06f9ba58e7d33dcf7f33879624cdd890d766d",
+        "pool_scores_sha256": "dbfef0355297b8ce47ad4827f1806e3689c78e3d8cc6c253db4207279f432d11",
+        "pool_embeddings_sha256": "4951f5771d56e00e84a0f71afc68bfc0c153cfc3922001099b97ee2aa57dbd99",
+        "test_n": 200,
+        "test_prompt_sha256": "a03512df6ca7ebfbed010288d0d1b8620d07bd35d825e8cb55b34b18a1d137f3",
+        "test_scores_sha256": "96c9778589ad4409708af45a6ec138a7800a1c88f6a37cd6164b9f926f0d5a26",
+        "test_embeddings_sha256": "d4c7afe58ef7f4123899bd9d839a76b6f464302a545ce7421129431ce39d4d97",
+        "construction_test_overlap": 0
+      }
+    }
+  }
+}

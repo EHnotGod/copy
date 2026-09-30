@@ -1,0 +1,1526 @@
+{
+  "experiment": "exp51_joint_supervised_router_flux3",
+  "question": "one fixed-action joint Router for all five known benchmarks",
+  "datasets": [
+    "gm",
+    "am",
+    "unigen",
+    "corebench",
+    "wise"
+  ],
+  "action_names": [
+    "flux_10steps",
+    "flux_50steps",
+    "flux_tts"
+  ],
+  "costs": [
+    4.7,
+    23.1,
+    44.9
+  ],
+  "budget": 10.0,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "train_per_domain": 300,
+  "alpha_val_per_domain": 50,
+  "joint_train_size": 1500,
+  "joint_alpha_val_size": 250,
+  "by_dataset": {
+    "gm": {
+      "baseline50_quality": 0.3321016601219344,
+      "baseline50_quality_seed_std": 0.0,
+      "global_lp_quality": 0.3236225351792259,
+      "global_lp_quality_seed_std": 0.0,
+      "target_lp_quality": 0.3236225351792259,
+      "target_lp_quality_seed_std": 0.0,
+      "joint_plain_quality": 0.3268624468362135,
+      "joint_plain_quality_seed_std": 0.0022760259497176137,
+      "joint_domain_quality": 0.3268549416753712,
+      "joint_domain_quality_seed_std": 0.002116402405359785,
+      "specialist_quality": 0.3227599817296504,
+      "specialist_quality_seed_std": 0.0019450928838867921,
+      "oracle_quality": 0.383842656020249,
+      "oracle_quality_seed_std": 0.0,
+      "joint_plain_cost": 10.0,
+      "joint_plain_cost_seed_std": 0.0,
+      "joint_domain_cost": 10.0,
+      "joint_domain_cost_seed_std": 0.0,
+      "specialist_cost": 10.0,
+      "specialist_cost_seed_std": 0.0,
+      "joint_plain_minus_global_lp": 0.003239911656987719,
+      "joint_plain_minus_global_lp_ci95": [
+        -9.056658668391044e-05,
+        0.006726858501350493
+      ],
+      "joint_plain_minus_target_lp": 0.003239911656987719,
+      "joint_plain_minus_target_lp_ci95": [
+        -0.0002555389155605985,
+        0.00679794390885216
+      ],
+      "joint_domain_minus_target_lp": 0.0032324064961453624,
+      "joint_domain_minus_target_lp_ci95": [
+        -0.0001401962817996632,
+        0.006752058535737878
+      ],
+      "joint_plain_minus_specialist": 0.004102465106563144,
+      "joint_plain_minus_specialist_ci95": [
+        0.0012705198819097968,
+        0.006929623727567355
+      ],
+      "joint_domain_minus_specialist": 0.004094959945720786,
+      "joint_domain_minus_specialist_ci95": [
+        0.0013974514115246768,
+        0.006935799081507926
+      ],
+      "joint_plain_allocation": [
+        0.7993063720301452,
+        0.1269671488251451,
+        0.07372647914470969
+      ],
+      "joint_domain_allocation": [
+        0.8033031056902826,
+        0.11959702528672667,
+        0.07709986902299076
+      ],
+      "specialist_allocation": [
+        0.7844184316135626,
+        0.15442105729976063,
+        0.061160511086676715
+      ],
+      "per_seed": [
+        {
+          "seed": 42,
+          "baseline50_quality": 0.3321016601219344,
+          "global_lp_quality": 0.3236225351792259,
+          "target_lp_quality": 0.3236225351792259,
+          "oracle_quality": 0.383842656020249,
+          "joint_plain_quality": 0.32891195754951175,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.8146082089552238,
+            0.09875,
+            0.08664179104477608
+          ],
+          "joint_domain_quality": 0.3288715173170489,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.8161558441558442,
+            0.09589610389610387,
+            0.08794805194805193
+          ],
+          "specialist_quality": 0.3250899784947689,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.8073856932153392,
+            0.11206858407079646,
+            0.08054572271386432
+          ]
+        },
+        {
+          "seed": 43,
+          "baseline50_quality": 0.3321016601219344,
+          "global_lp_quality": 0.3236225351792259,
+          "target_lp_quality": 0.3236225351792259,
+          "oracle_quality": 0.383842656020249,
+          "joint_plain_quality": 0.3227533438283779,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.7740644654088051,
+            0.1735141509433962,
+            0.05242138364779873
+          ],
+          "joint_domain_quality": 0.32328750446505133,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.7818279220779221,
+            0.15919805194805192,
+            0.058974025974025956
+          ],
+          "specialist_quality": 0.32250195066640863,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.7820708955223881,
+            0.15875,
+            0.05917910447761196
+          ]
+        },
+        {
+          "seed": 44,
+          "baseline50_quality": 0.3321016601219344,
+          "global_lp_quality": 0.3236225351792259,
+          "target_lp_quality": 0.3236225351792259,
+          "oracle_quality": 0.383842656020249,
+          "joint_plain_quality": 0.32614515436659014,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.7949317406143345,
+            0.13503412969283277,
+            0.07003412969283274
+          ],
+          "joint_domain_quality": 0.325662460226047,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.7976616915422885,
+            0.13,
+            0.07233830845771141
+          ],
+          "specialist_quality": 0.32217120406473343,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.7597014925373134,
+            0.2,
+            0.04029850746268653
+          ]
+        },
+        {
+          "seed": 45,
+          "baseline50_quality": 0.3321016601219344,
+          "global_lp_quality": 0.3236225351792259,
+          "target_lp_quality": 0.3236225351792259,
+          "oracle_quality": 0.383842656020249,
+          "joint_plain_quality": 0.32872322169776097,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.8240216010165184,
+            0.08139135959339264,
+            0.09458703939008896
+          ],
+          "joint_domain_quality": 0.3286835774470632,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.8296420863309353,
+            0.07102697841726618,
+            0.09933093525179859
+          ],
+          "specialist_quality": 0.3244653127370428,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.8076623376623376,
+            0.11155844155844155,
+            0.08077922077922078
+          ]
+        },
+        {
+          "seed": 46,
+          "baseline50_quality": 0.3321016601219344,
+          "global_lp_quality": 0.3236225351792259,
+          "target_lp_quality": 0.3236225351792259,
+          "oracle_quality": 0.383842656020249,
+          "joint_plain_quality": 0.327778556738827,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.7889058441558441,
+            0.14614610389610383,
+            0.06494805194805194
+          ],
+          "joint_domain_quality": 0.32776964892164556,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.7912279843444228,
+            0.14186399217221135,
+            0.06690802348336593
+          ],
+          "specialist_quality": 0.31957146268529835,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.765271739130435,
+            0.18972826086956512,
+            0.045
+          ]
+        }
+      ]
+    },
+    "am": {
+      "baseline50_quality": 0.7680125364661217,
+      "baseline50_quality_seed_std": 0.0,
+      "global_lp_quality": 0.7520232749916613,
+      "global_lp_quality_seed_std": 0.0,
+      "target_lp_quality": 0.7520232749916613,
+      "target_lp_quality_seed_std": 0.0,
+      "joint_plain_quality": 0.7535679913861256,
+      "joint_plain_quality_seed_std": 0.0009972588094781267,
+      "joint_domain_quality": 0.7537118371114381,
+      "joint_domain_quality_seed_std": 0.0009581863615572508,
+      "specialist_quality": 0.7531752048944649,
+      "specialist_quality_seed_std": 0.0014083842771423479,
+      "oracle_quality": 0.7779770537959817,
+      "oracle_quality_seed_std": 0.0,
+      "joint_plain_cost": 10.0,
+      "joint_plain_cost_seed_std": 0.0,
+      "joint_domain_cost": 10.0,
+      "joint_domain_cost_seed_std": 0.0,
+      "specialist_cost": 10.0,
+      "specialist_cost_seed_std": 0.0,
+      "joint_plain_minus_global_lp": 0.0015447163944642289,
+      "joint_plain_minus_global_lp_ci95": [
+        0.00025020247812461904,
+        0.002840451416373131
+      ],
+      "joint_plain_minus_target_lp": 0.0015447163944642289,
+      "joint_plain_minus_target_lp_ci95": [
+        0.00022542299972437384,
+        0.002873169000090544
+      ],
+      "joint_domain_minus_target_lp": 0.0016885621197766196,
+      "joint_domain_minus_target_lp_ci95": [
+        0.00038995339321214786,
+        0.0030384890772825143
+      ],
+      "joint_plain_minus_specialist": 0.00039278649166080067,
+      "joint_plain_minus_specialist_ci95": [
+        -0.0008200507418044416,
+        0.0016291032407216132
+      ],
+      "joint_domain_minus_specialist": 0.0005366322169731918,
+      "joint_domain_minus_specialist_ci95": [
+        -0.000686496937948224,
+        0.0017926886696640013
+      ],
+      "joint_plain_allocation": [
+        0.7993063720301452,
+        0.1269671488251451,
+        0.07372647914470969
+      ],
+      "joint_domain_allocation": [
+        0.795369127831842,
+        0.13422757161284182,
+        0.07040330055531616
+      ],
+      "specialist_allocation": [
+        0.7913913756405122,
+        0.14156269262621138,
+        0.06704593173327637
+      ],
+      "per_seed": [
+        {
+          "seed": 42,
+          "baseline50_quality": 0.7680125364661217,
+          "global_lp_quality": 0.7520232749916613,
+          "target_lp_quality": 0.7520232749916613,
+          "oracle_quality": 0.7779770537959817,
+          "joint_plain_quality": 0.7548195420405758,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.8146082089552238,
+            0.09875,
+            0.08664179104477608
+          ],
+          "joint_domain_quality": 0.7550409087866748,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.8121373720136519,
+            0.10330631399317405,
+            0.08455631399317406
+          ],
+          "specialist_quality": 0.754080154715078,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.7874937810945273,
+            0.14875,
+            0.06375621890547262
+          ]
+        },
+        {
+          "seed": 43,
+          "baseline50_quality": 0.7680125364661217,
+          "global_lp_quality": 0.7520232749916613,
+          "target_lp_quality": 0.7520232749916613,
+          "oracle_quality": 0.7779770537959817,
+          "joint_plain_quality": 0.7521272317547374,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.7740644654088051,
+            0.1735141509433962,
+            0.05242138364779873
+          ],
+          "joint_domain_quality": 0.7523358158349397,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.7660665618448639,
+            0.18826257861635215,
+            0.04567085953878405
+          ],
+          "specialist_quality": 0.7545155478614243,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.7659792510121457,
+            0.1884235829959514,
+            0.04559716599190283
+          ]
+        },
+        {
+          "seed": 44,
+          "baseline50_quality": 0.7680125364661217,
+          "global_lp_quality": 0.7520232749916613,
+          "target_lp_quality": 0.7520232749916613,
+          "oracle_quality": 0.7779770537959817,
+          "joint_plain_quality": 0.7539167032158162,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.7949317406143345,
+            0.13503412969283277,
+            0.07003412969283274
+          ],
+          "joint_domain_quality": 0.7539266065741902,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.7927327935222672,
+            0.13908906882591093,
+            0.06817813765182183
+          ],
+          "specialist_quality": 0.7515832625197905,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.8261318407960199,
+            0.0775,
+            0.09636815920398009
+          ]
+        },
+        {
+          "seed": 45,
+          "baseline50_quality": 0.7680125364661217,
+          "global_lp_quality": 0.7520232749916613,
+          "target_lp_quality": 0.7520232749916613,
+          "oracle_quality": 0.7779770537959817,
+          "joint_plain_quality": 0.7527148908183092,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.8240216010165184,
+            0.08139135959339264,
+            0.09458703939008896
+          ],
+          "joint_domain_quality": 0.7529681803462961,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.8174874100719425,
+            0.09344064748201439,
+            0.08907194244604315
+          ],
+          "specialist_quality": 0.7513394630877122,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.7989828646748681,
+            0.12756370826010546,
+            0.07345342706502636
+          ]
+        },
+        {
+          "seed": 46,
+          "baseline50_quality": 0.7680125364661217,
+          "global_lp_quality": 0.7520232749916613,
+          "target_lp_quality": 0.7520232749916613,
+          "oracle_quality": 0.7779770537959817,
+          "joint_plain_quality": 0.7542615891011891,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.7889058441558441,
+            0.14614610389610383,
+            0.06494805194805194
+          ],
+          "joint_domain_quality": 0.7542876740150891,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.7884215017064846,
+            0.14703924914675764,
+            0.06453924914675767
+          ],
+          "specialist_quality": 0.7543575962883188,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.778369140625,
+            0.165576171875,
+            0.05605468749999999
+          ]
+        }
+      ]
+    },
+    "unigen": {
+      "baseline50_quality": 0.8274611130853493,
+      "baseline50_quality_seed_std": 1.1102230246251565e-16,
+      "global_lp_quality": 0.8218955930355151,
+      "global_lp_quality_seed_std": 0.0,
+      "target_lp_quality": 0.8218955930355151,
+      "target_lp_quality_seed_std": 0.0,
+      "joint_plain_quality": 0.8289626226304915,
+      "joint_plain_quality_seed_std": 0.002857540094145367,
+      "joint_domain_quality": 0.8287637282391044,
+      "joint_domain_quality_seed_std": 0.0028148196192466527,
+      "specialist_quality": 0.8297982454713229,
+      "specialist_quality_seed_std": 0.0021791254858810993,
+      "oracle_quality": 0.8713327300265646,
+      "oracle_quality_seed_std": 1.1102230246251565e-16,
+      "joint_plain_cost": 10.0,
+      "joint_plain_cost_seed_std": 7.944109290391273e-16,
+      "joint_domain_cost": 10.0,
+      "joint_domain_cost_seed_std": 0.0,
+      "specialist_cost": 10.0,
+      "specialist_cost_seed_std": 0.0,
+      "joint_plain_minus_global_lp": 0.007067029594976222,
+      "joint_plain_minus_global_lp_ci95": [
+        0.003645437338089193,
+        0.010698634393257295
+      ],
+      "joint_plain_minus_target_lp": 0.007067029594976222,
+      "joint_plain_minus_target_lp_ci95": [
+        0.0036333473768717247,
+        0.010765872671970622
+      ],
+      "joint_domain_minus_target_lp": 0.006868135203589191,
+      "joint_domain_minus_target_lp_ci95": [
+        0.003423872617975755,
+        0.010592095902306588
+      ],
+      "joint_plain_minus_specialist": -0.0008356228408314647,
+      "joint_plain_minus_specialist_ci95": [
+        -0.00441100201031988,
+        0.0028050346554521453
+      ],
+      "joint_domain_minus_specialist": -0.001034517232218495,
+      "joint_domain_minus_specialist_ci95": [
+        -0.004486582433463963,
+        0.0027083241263013602
+      ],
+      "joint_plain_allocation": [
+        0.8307486128741349,
+        0.06898650286512767,
+        0.10026488426073757
+      ],
+      "joint_domain_allocation": [
+        0.8309559879781977,
+        0.06860409556313993,
+        0.10043991645866232
+      ],
+      "specialist_allocation": [
+        0.8170021135014064,
+        0.0943355521671311,
+        0.08866233433146238
+      ],
+      "per_seed": [
+        {
+          "seed": 42,
+          "baseline50_quality": 0.8274611130853494,
+          "global_lp_quality": 0.8218955930355151,
+          "target_lp_quality": 0.8218955930355151,
+          "oracle_quality": 0.8713327300265648,
+          "joint_plain_quality": 0.8306354583412476,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.8358532423208191,
+            0.05957337883959043,
+            0.10457337883959042
+          ],
+          "joint_domain_quality": 0.8306354583412476,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.8358532423208191,
+            0.05957337883959043,
+            0.10457337883959042
+          ],
+          "specialist_quality": 0.832533334630231,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.8130265339966832,
+            0.10166666666666667,
+            0.08530679933665006
+          ]
+        },
+        {
+          "seed": 43,
+          "baseline50_quality": 0.8274611130853494,
+          "global_lp_quality": 0.8218955930355151,
+          "target_lp_quality": 0.8218955930355151,
+          "oracle_quality": 0.8713327300265648,
+          "joint_plain_quality": 0.8299549496524768,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.8184676258992807,
+            0.09163309352517983,
+            0.08989928057553952
+          ],
+          "joint_domain_quality": 0.8297331832528149,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.8191126279863481,
+            0.09044368600682592,
+            0.09044368600682592
+          ],
+          "specialist_quality": 0.8299509392659385,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.8194588744588744,
+            0.08980519480519479,
+            0.09073593073593073
+          ]
+        },
+        {
+          "seed": 44,
+          "baseline50_quality": 0.8274611130853494,
+          "global_lp_quality": 0.8218955930355151,
+          "target_lp_quality": 0.8218955930355151,
+          "oracle_quality": 0.8713327300265648,
+          "joint_plain_quality": 0.8271666680152218,
+          "joint_plain_cost": 10.000000000000002,
+          "joint_plain_allocation": [
+            0.8491791044776119,
+            0.035,
+            0.11582089552238806
+          ],
+          "joint_domain_quality": 0.8271666680152218,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.8491791044776119,
+            0.035,
+            0.11582089552238803
+          ],
+          "specialist_quality": 0.8276055570443471,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.8435238095238096,
+            0.0454285714285714,
+            0.11104761904761903
+          ]
+        },
+        {
+          "seed": 45,
+          "baseline50_quality": 0.8274611130853494,
+          "global_lp_quality": 0.8218955930355151,
+          "target_lp_quality": 0.8218955930355151,
+          "oracle_quality": 0.8713327300265648,
+          "joint_plain_quality": 0.8244389251295209,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.8330013976240391,
+            0.064832285115304,
+            0.10216631726065689
+          ],
+          "joint_domain_quality": 0.8241511579235937,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.8339931740614335,
+            0.06300341296928327,
+            0.10300341296928327
+          ],
+          "specialist_quality": 0.8270853810437154,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.8096491228070175,
+            0.10789473684210527,
+            0.0824561403508772
+          ]
+        },
+        {
+          "seed": 46,
+          "baseline50_quality": 0.8274611130853494,
+          "global_lp_quality": 0.8218955930355151,
+          "target_lp_quality": 0.8218955930355151,
+          "oracle_quality": 0.8713327300265648,
+          "joint_plain_quality": 0.8326171120139898,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.8172416940489229,
+            0.09389375684556409,
+            0.08886454910551295
+          ],
+          "joint_domain_quality": 0.8321321736626438,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.8166417910447761,
+            0.095,
+            0.08835820895522391
+          ],
+          "specialist_quality": 0.831816015372382,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.7993522267206479,
+            0.12688259109311742,
+            0.07376518218623482
+          ]
+        }
+      ]
+    },
+    "corebench": {
+      "baseline50_quality": 0.5139717415647789,
+      "baseline50_quality_seed_std": 0.0,
+      "global_lp_quality": 0.5070224614293777,
+      "global_lp_quality_seed_std": 0.0,
+      "target_lp_quality": 0.5070224614293777,
+      "target_lp_quality_seed_std": 0.0,
+      "joint_plain_quality": 0.5256533418583309,
+      "joint_plain_quality_seed_std": 0.0013465381549996908,
+      "joint_domain_quality": 0.5256592072699111,
+      "joint_domain_quality_seed_std": 0.0013526680947671726,
+      "specialist_quality": 0.524027177005624,
+      "specialist_quality_seed_std": 0.0005463946189848719,
+      "oracle_quality": 0.5525449906042424,
+      "oracle_quality_seed_std": 0.0,
+      "joint_plain_cost": 10.0,
+      "joint_plain_cost_seed_std": 0.0,
+      "joint_domain_cost": 10.0,
+      "joint_domain_cost_seed_std": 0.0,
+      "specialist_cost": 10.0,
+      "specialist_cost_seed_std": 0.0,
+      "joint_plain_minus_global_lp": 0.01863088042895325,
+      "joint_plain_minus_global_lp_ci95": [
+        0.013304613279965767,
+        0.024256022994050545
+      ],
+      "joint_plain_minus_target_lp": 0.01863088042895325,
+      "joint_plain_minus_target_lp_ci95": [
+        0.013239530098759913,
+        0.024118237398718018
+      ],
+      "joint_domain_minus_target_lp": 0.018636745840533448,
+      "joint_domain_minus_target_lp_ci95": [
+        0.013253715863014229,
+        0.02424838116655801
+      ],
+      "joint_plain_minus_specialist": 0.0016261648527070268,
+      "joint_plain_minus_specialist_ci95": [
+        -0.0009561953541007427,
+        0.004213903472862515
+      ],
+      "joint_domain_minus_specialist": 0.0016320302642872265,
+      "joint_domain_minus_specialist_ci95": [
+        -0.0008424972537579764,
+        0.004208640921291276
+      ],
+      "joint_plain_allocation": [
+        0.8626358946010688,
+        0.010185185185185186,
+        0.12717892021374605
+      ],
+      "joint_domain_allocation": [
+        0.8626706566880697,
+        0.01012108262108262,
+        0.12720826069084773
+      ],
+      "specialist_allocation": [
+        0.868058780173208,
+        0.0001851851851851852,
+        0.1317560346416068
+      ],
+      "per_seed": [
+        {
+          "seed": 42,
+          "baseline50_quality": 0.5139717415647789,
+          "global_lp_quality": 0.5070224614293777,
+          "target_lp_quality": 0.5070224614293777,
+          "oracle_quality": 0.5525449906042424,
+          "joint_plain_quality": 0.5274647982096107,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.8656486088078128,
+            0.004629629629629629,
+            0.12972176156255755
+          ],
+          "joint_domain_quality": 0.5274646062673515,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.8656486088078127,
+            0.004629629629629629,
+            0.12972176156255755
+          ],
+          "specialist_quality": 0.5241582380675167,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.8681592039800996,
+            0.0,
+            0.1318407960199005
+          ]
+        },
+        {
+          "seed": 43,
+          "baseline50_quality": 0.5139717415647789,
+          "global_lp_quality": 0.5070224614293777,
+          "target_lp_quality": 0.5070224614293777,
+          "oracle_quality": 0.5525449906042424,
+          "joint_plain_quality": 0.5252640582977186,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.8626358946010688,
+            0.010185185185185186,
+            0.12717892021374608
+          ],
+          "joint_domain_quality": 0.5252640582977186,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.8626358946010688,
+            0.010185185185185186,
+            0.12717892021374608
+          ],
+          "specialist_quality": 0.5230345675000491,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.8681592039800994,
+            0.0,
+            0.1318407960199005
+          ]
+        },
+        {
+          "seed": 44,
+          "baseline50_quality": 0.5139717415647789,
+          "global_lp_quality": 0.5070224614293777,
+          "target_lp_quality": 0.5070224614293777,
+          "oracle_quality": 0.5525449906042424,
+          "joint_plain_quality": 0.5268528135720951,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.8606274184632394,
+            0.013888888888888888,
+            0.12548369264787174
+          ],
+          "joint_domain_quality": 0.5268859810560876,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.8606274184632394,
+            0.013888888888888888,
+            0.12548369264787174
+          ],
+          "specialist_quality": 0.524708702884699,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.8681592039800994,
+            0.0,
+            0.1318407960199005
+          ]
+        },
+        {
+          "seed": 45,
+          "baseline50_quality": 0.5139717415647789,
+          "global_lp_quality": 0.5070224614293777,
+          "target_lp_quality": 0.5070224614293777,
+          "oracle_quality": 0.5525449906042424,
+          "joint_plain_quality": 0.5249580140680182,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.8651464897733554,
+            0.005555555555555556,
+            0.12929795467108898
+          ],
+          "joint_domain_quality": 0.5249534862785254,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.8651464897733554,
+            0.005555555555555556,
+            0.129297954671089
+          ],
+          "specialist_quality": 0.524047894781582,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.8681592039800994,
+            0.0,
+            0.1318407960199005
+          ]
+        },
+        {
+          "seed": 46,
+          "baseline50_quality": 0.5139717415647789,
+          "global_lp_quality": 0.5070224614293777,
+          "target_lp_quality": 0.5070224614293777,
+          "oracle_quality": 0.5525449906042424,
+          "joint_plain_quality": 0.5237270251442121,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.8591210613598673,
+            0.016666666666666666,
+            0.12421227197346599
+          ],
+          "joint_domain_quality": 0.5237279044498724,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.8592948717948719,
+            0.016346153846153833,
+            0.12435897435897433
+          ],
+          "specialist_quality": 0.5241864817942727,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.8676570849456422,
+            0.000925925925925926,
+            0.1314169891284319
+          ]
+        }
+      ]
+    },
+    "wise": {
+      "baseline50_quality": 0.7594866681778804,
+      "baseline50_quality_seed_std": 0.0,
+      "global_lp_quality": 0.7726437817304997,
+      "global_lp_quality_seed_std": 0.0,
+      "target_lp_quality": 0.7726437817304997,
+      "target_lp_quality_seed_std": 0.0,
+      "joint_plain_quality": 0.7854766141456813,
+      "joint_plain_quality_seed_std": 0.0031759789586336,
+      "joint_domain_quality": 0.7853907984105231,
+      "joint_domain_quality_seed_std": 0.003226882344567772,
+      "specialist_quality": 0.7840688573216998,
+      "specialist_quality_seed_std": 0.002717562876460394,
+      "oracle_quality": 0.840504312402907,
+      "oracle_quality_seed_std": 0.0,
+      "joint_plain_cost": 10.0,
+      "joint_plain_cost_seed_std": 0.0,
+      "joint_domain_cost": 10.0,
+      "joint_domain_cost_seed_std": 0.0,
+      "specialist_cost": 10.0,
+      "specialist_cost_seed_std": 0.0,
+      "joint_plain_minus_global_lp": 0.012832832415181454,
+      "joint_plain_minus_global_lp_ci95": [
+        0.007614445893358639,
+        0.018226245004598164
+      ],
+      "joint_plain_minus_target_lp": 0.012832832415181454,
+      "joint_plain_minus_target_lp_ci95": [
+        0.007701885224868737,
+        0.018369598835193082
+      ],
+      "joint_domain_minus_target_lp": 0.012747016680023333,
+      "joint_domain_minus_target_lp_ci95": [
+        0.007471920300269587,
+        0.018276013671470335
+      ],
+      "joint_plain_minus_specialist": 0.001407756823981417,
+      "joint_plain_minus_specialist_ci95": [
+        -0.002841055467336942,
+        0.005835774906709968
+      ],
+      "joint_domain_minus_specialist": 0.0013219410888232954,
+      "joint_domain_minus_specialist_ci95": [
+        -0.00295663040656656,
+        0.00579414930831401
+      ],
+      "joint_plain_allocation": [
+        0.8578324336037566,
+        0.019042943538026724,
+        0.12312462285821664
+      ],
+      "joint_domain_allocation": [
+        0.8578807500956754,
+        0.018953846153846154,
+        0.1231654037504784
+      ],
+      "specialist_allocation": [
+        0.8666407960199004,
+        0.0028000000000000004,
+        0.13055920398009954
+      ],
+      "per_seed": [
+        {
+          "seed": 42,
+          "baseline50_quality": 0.7594866681778804,
+          "global_lp_quality": 0.7726437817304997,
+          "target_lp_quality": 0.7726437817304997,
+          "oracle_quality": 0.840504312402907,
+          "joint_plain_quality": 0.7910279279785852,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.8643631840796019,
+            0.006999999999999999,
+            0.12863681592039805
+          ],
+          "joint_domain_quality": 0.7910279279785852,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.8643631840796019,
+            0.006999999999999999,
+            0.12863681592039805
+          ],
+          "specialist_quality": 0.7822625481064213,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.8676169154228855,
+            0.001,
+            0.13138308457711445
+          ]
+        },
+        {
+          "seed": 43,
+          "baseline50_quality": 0.7594866681778804,
+          "global_lp_quality": 0.7726437817304997,
+          "target_lp_quality": 0.7726437817304997,
+          "oracle_quality": 0.840504312402907,
+          "joint_plain_quality": 0.7832874303248095,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.8611094527363183,
+            0.013,
+            0.12589054726368162
+          ],
+          "joint_domain_quality": 0.7831989751756191,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.8606923076923076,
+            0.01376923076923077,
+            0.12553846153846154
+          ],
+          "specialist_quality": 0.7805650752757524,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.8654477611940298,
+            0.005,
+            0.1295522388059702
+          ]
+        },
+        {
+          "seed": 44,
+          "baseline50_quality": 0.7594866681778804,
+          "global_lp_quality": 0.7726437817304997,
+          "target_lp_quality": 0.7726437817304997,
+          "oracle_quality": 0.840504312402907,
+          "joint_plain_quality": 0.7816570487803552,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.8497213930348257,
+            0.034,
+            0.11627860696517411
+          ],
+          "joint_domain_quality": 0.7815155451821663,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.8502636815920398,
+            0.033,
+            0.11673631840796024
+          ],
+          "specialist_quality": 0.7886531791278558,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.864363184079602,
+            0.007,
+            0.12863681592039808
+          ]
+        },
+        {
+          "seed": 45,
+          "baseline50_quality": 0.7594866681778804,
+          "global_lp_quality": 0.7726437817304997,
+          "target_lp_quality": 0.7726437817304997,
+          "oracle_quality": 0.840504312402907,
+          "joint_plain_quality": 0.7854495022655528,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.8561350446428571,
+            0.02217299107142858,
+            0.12169196428571433
+          ],
+          "joint_domain_quality": 0.7851741964197602,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.856228855721393,
+            0.022,
+            0.12177114427860701
+          ],
+          "specialist_quality": 0.7842003103557257,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.8676169154228855,
+            0.001,
+            0.13138308457711445
+          ]
+        },
+        {
+          "seed": 46,
+          "baseline50_quality": 0.7594866681778804,
+          "global_lp_quality": 0.7726437817304997,
+          "target_lp_quality": 0.7726437817304997,
+          "oracle_quality": 0.840504312402907,
+          "joint_plain_quality": 0.7859611613791034,
+          "joint_plain_cost": 10.0,
+          "joint_plain_allocation": [
+            0.8578330935251799,
+            0.01904172661870504,
+            0.12312517985611512
+          ],
+          "joint_domain_quality": 0.7860373472964846,
+          "joint_domain_cost": 10.0,
+          "joint_domain_allocation": [
+            0.8578557213930349,
+            0.019,
+            0.12314427860696517
+          ],
+          "specialist_quality": 0.7846631737427437,
+          "specialist_cost": 10.0,
+          "specialist_allocation": [
+            0.8681592039800995,
+            0.0,
+            0.1318407960199005
+          ]
+        }
+      ]
+    }
+  },
+  "macro": {
+    "joint_plain_quality": 0.6441046033713684,
+    "joint_domain_quality": 0.6440761025412696,
+    "specialist_quality": 0.6427658932845524,
+    "joint_plain_minus_global_lp": 0.008663074098112575,
+    "joint_plain_minus_target_lp": 0.008663074098112575,
+    "joint_domain_minus_target_lp": 0.00863457326801359,
+    "joint_plain_minus_specialist": 0.0013387100868161848,
+    "joint_domain_minus_specialist": 0.0013102092567172008
+  },
+  "model_meta": [
+    {
+      "seed": 42,
+      "joint_plain": {
+        "alphas": [
+          1000.0,
+          1000.0,
+          1000.0
+        ],
+        "alpha_val_r2": [
+          0.4019125482244039,
+          0.3885200868173967,
+          0.3736047584010216
+        ]
+      },
+      "joint_domain": {
+        "alphas": [
+          1000.0,
+          1000.0,
+          1000.0
+        ],
+        "alpha_val_r2": [
+          0.5772260649711223,
+          0.5550374310165476,
+          0.5557040167687908
+        ]
+      },
+      "specialist": {
+        "gm": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.44567267770450336,
+            0.40832774460180665,
+            0.2546492673098256
+          ]
+        },
+        "am": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.47505184596729155,
+            0.3837993074850736,
+            0.19045823602144185
+          ]
+        },
+        "unigen": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.07779182469454127,
+            -0.11238418310140919,
+            -0.17071351977602078
+          ]
+        },
+        "corebench": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.7823653343402919,
+            0.7885967021810802,
+            0.597046727445335
+          ]
+        },
+        "wise": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.07508439370948716,
+            -0.07055974847691715,
+            0.07813586205048817
+          ]
+        }
+      }
+    },
+    {
+      "seed": 43,
+      "joint_plain": {
+        "alphas": [
+          1000.0,
+          1000.0,
+          1000.0
+        ],
+        "alpha_val_r2": [
+          0.3995261344802281,
+          0.4052572870148735,
+          0.4336910962949079
+        ]
+      },
+      "joint_domain": {
+        "alphas": [
+          1000.0,
+          1000.0,
+          1000.0
+        ],
+        "alpha_val_r2": [
+          0.544559605087596,
+          0.5500487227542503,
+          0.5883947953705911
+        ]
+      },
+      "specialist": {
+        "gm": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.4828707840153753,
+            0.5746591523688884,
+            0.48320200700387883
+          ]
+        },
+        "am": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.4502093254926036,
+            0.42318911060235853,
+            0.460565910675547
+          ]
+        },
+        "unigen": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            1.0
+          ],
+          "alpha_val_r2": [
+            -0.08446718536245812,
+            -0.04445263899338836,
+            -0.04791579413327551
+          ]
+        },
+        "corebench": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.7511871805190746,
+            0.726713540359049,
+            0.5930373149108088
+          ]
+        },
+        "wise": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.05310891609737012,
+            -0.0002755050411538118,
+            0.11843492246696141
+          ]
+        }
+      }
+    },
+    {
+      "seed": 44,
+      "joint_plain": {
+        "alphas": [
+          1000.0,
+          1000.0,
+          1000.0
+        ],
+        "alpha_val_r2": [
+          0.4110122068547276,
+          0.4269834592036158,
+          0.4877404924150217
+        ]
+      },
+      "joint_domain": {
+        "alphas": [
+          1000.0,
+          1000.0,
+          1000.0
+        ],
+        "alpha_val_r2": [
+          0.5501509109832743,
+          0.5702448610999655,
+          0.6612286497076564
+        ]
+      },
+      "specialist": {
+        "gm": {
+          "alphas": [
+            1.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.28958667405344507,
+            0.3552069787835892,
+            0.39525389784888276
+          ]
+        },
+        "am": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            100.0
+          ],
+          "alpha_val_r2": [
+            0.3875217981725799,
+            0.4942410366983392,
+            0.546092896054783
+          ]
+        },
+        "unigen": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.09810671599338905,
+            -0.036830970778030325,
+            -0.28780234286330986
+          ]
+        },
+        "corebench": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.6817020241211967,
+            0.6836859390829828,
+            0.6061137794306577
+          ]
+        },
+        "wise": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.15779938480252043,
+            0.19832077765332,
+            0.11627075198726788
+          ]
+        }
+      }
+    },
+    {
+      "seed": 45,
+      "joint_plain": {
+        "alphas": [
+          1000.0,
+          1000.0,
+          1000.0
+        ],
+        "alpha_val_r2": [
+          0.37994313010590497,
+          0.35491422788529203,
+          0.4467814266429312
+        ]
+      },
+      "joint_domain": {
+        "alphas": [
+          1000.0,
+          1000.0,
+          1000.0
+        ],
+        "alpha_val_r2": [
+          0.5480044140561755,
+          0.5265318020844725,
+          0.6248487375561476
+        ]
+      },
+      "specialist": {
+        "gm": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.19034046793154913,
+            0.1854703055100121,
+            0.39752305323588966
+          ]
+        },
+        "am": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            100.0
+          ],
+          "alpha_val_r2": [
+            0.49390931023321083,
+            0.5035422485409645,
+            0.5699175299358169
+          ]
+        },
+        "unigen": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.15556576507090947,
+            -0.20810036520122055,
+            -0.07642062486004919
+          ]
+        },
+        "corebench": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.7515507602290534,
+            0.7412645114748364,
+            0.552051619047341
+          ]
+        },
+        "wise": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.07678216071189214,
+            -0.10148719505454218,
+            -0.1217243151557017
+          ]
+        }
+      }
+    },
+    {
+      "seed": 46,
+      "joint_plain": {
+        "alphas": [
+          1000.0,
+          1000.0,
+          1000.0
+        ],
+        "alpha_val_r2": [
+          0.4140850740662675,
+          0.4015530044465073,
+          0.45456458953957013
+        ]
+      },
+      "joint_domain": {
+        "alphas": [
+          1000.0,
+          1000.0,
+          1000.0
+        ],
+        "alpha_val_r2": [
+          0.5758317952816501,
+          0.5640711786805004,
+          0.6400181592357743
+        ]
+      },
+      "specialist": {
+        "gm": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.4636627434756353,
+            0.40960045170201576,
+            0.3769902902627823
+          ]
+        },
+        "am": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.4146129723960901,
+            0.34810446234495973,
+            0.37203733238651704
+          ]
+        },
+        "unigen": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.09275715932213169,
+            -0.041200659692779196,
+            0.0016006470248363103
+          ]
+        },
+        "corebench": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.660892199388303,
+            0.6799534145844992,
+            0.5207180738186971
+          ]
+        },
+        "wise": {
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.03889441331279886,
+            -0.02925101720390555,
+            0.03589327687199684
+          ]
+        }
+      }
+    }
+  ],
+  "numeric_audit": {
+    "all_finite": true,
+    "max_policy_cost": 10.000000000000002,
+    "budget_respected": true,
+    "joint_models_per_seed": 2,
+    "target_labels_included_in_joint_training": true,
+    "fixed_action_space_for_every_dataset": true
+  },
+  "protocol": {
+    "joint_plain": "one shared scaler and seven shared Ridge heads",
+    "joint_domain": "same single model with five benchmark-ID intercept features",
+    "specialist": "one target-only model per benchmark, same 300/50 label budget",
+    "primary_metric": "absolute Router quality at budget 10"
+  }
+}

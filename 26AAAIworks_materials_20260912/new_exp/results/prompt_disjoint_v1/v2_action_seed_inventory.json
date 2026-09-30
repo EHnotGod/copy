@@ -1,0 +1,83 @@
+{
+  "scope": "formal CoreBench/WISE v2 only; provisional, smoke, paused Qwen and excluded SD3.5 not counted",
+  "completed": [
+    {
+      "stage": "corebench_full_s0",
+      "benchmark": "corebench",
+      "model": "flux4b",
+      "steps": [
+        4
+      ],
+      "seeds": [
+        0
+      ],
+      "formal_prompts": 1000,
+      "nonempty_image_files": 1000,
+      "scored_images": 1000,
+      "protocol": "historical_corebench_gemini3flash",
+      "bundle_sha256": "a9b13e109d98138ab5d1ea538ef35136a4c79b48da768f389c0229941a2306e4",
+      "summary": "new_exp/results/construction_v2/image_stage/corebench_full_s0/flux4b/eval/gemini/summary.json"
+    },
+    {
+      "stage": "corebench_full_s0_flux9b",
+      "benchmark": "corebench",
+      "model": "flux9b",
+      "steps": [
+        20
+      ],
+      "seeds": [
+        0
+      ],
+      "formal_prompts": 1000,
+      "nonempty_image_files": 1000,
+      "scored_images": 1000,
+      "protocol": "historical_corebench_gemini3flash",
+      "bundle_sha256": "a9b13e109d98138ab5d1ea538ef35136a4c79b48da768f389c0229941a2306e4",
+      "summary": "new_exp/results/construction_v2/image_stage/corebench_full_s0_flux9b/flux9b/eval/gemini/summary.json"
+    },
+    {
+      "stage": "wise_formal_full_s0",
+      "benchmark": "wise",
+      "model": "flux4b",
+      "steps": [
+        4
+      ],
+      "seeds": [
+        0
+      ],
+      "formal_prompts": 1000,
+      "nonempty_image_files": 1000,
+      "scored_images": 1000,
+      "protocol": "construction_v2_local_qwen_binary; CoreBench existing Checklist template; WISE existing Prompt+Explanation binary template. Not legacy WISE 0-10 or Gemini CoreBench scores.",
+      "bundle_sha256": "da88321e60267ea9b217c0ad66671ab23b78cdef63e509229255c769d2479f33",
+      "summary": "new_exp/results/construction_v2/image_stage/wise_formal_full_s0/flux4b/eval/summary.json"
+    }
+  ],
+  "proposed_flux4_contract": {
+    "actions": [
+      "flux4b_4steps",
+      "flux_10steps",
+      "flux_50steps",
+      "flux_tts"
+    ],
+    "image_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "judge": "CoreBench historical Gemini checklist; WISE formal Prompt+Explanation binary, kept distinct"
+  },
+  "requires_user_discussion": true,
+  "proposed_flux4_gap": {
+    "required_action_seed_labels": 40000,
+    "matching_completed_action_seed_labels": 2000,
+    "missing_action_seed_labels": 38000,
+    "by_dataset": {
+      "corebench": 19000,
+      "wise": 19000
+    },
+    "note": "These are action/seed score entries, not an image-generation count or GPU-time estimate; TTS/edit can require multiple internal generations. Existing CoreBench9B20 is outside Flux3/Flux4 action contract."
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "experiment": 46,
+  "target": "am",
+  "metric": "soft_tifa_am",
+  "k_values": [
+    200,
+    300,
+    400,
+    600,
+    800,
+    1200,
+    1800,
+    2400,
+    2800,
+    3200,
+    3600,
+    4000
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "bootstrap": 5000,
+  "test_support": "fixed raw400 final-test from the existing raw800 AM set",
+  "extension_label_source": "arithmetic mean of stored per-question score_list",
+  "reaggregation_audit": {
+    "overlap_records": 2400,
+    "max_abs_error": 2.220446049250313e-16
+  },
+  "points": [
+    {
+      "k": 200,
+      "fit_n": 160,
+      "construction_safety_n": 40,
+      "phase": "Exp42",
+      "test_router_quality_mean": 0.7647995074309449,
+      "test_router_quality_ci95": [
+        0.753150303315669,
+        0.776109278840826
+      ],
+      "per_seed_router_quality": [
+        0.7691527427553992,
+        0.7578552858070862,
+        0.7689694881714823,
+        0.7630464243906337,
+        0.7649735960301227
+      ],
+      "max_cost": 10.0
+    },
+    {
+      "k": 300,
+      "fit_n": 250,
+      "construction_safety_n": 50,
+      "phase": "Exp42",
+      "test_router_quality_mean": 0.7683625308738814,
+      "test_router_quality_ci95": [
+        0.7565353792331132,
+        0.7800672864476493
+      ],
+      "per_seed_router_quality": [
+        0.7658878018129527,
+        0.7696137666230459,
+        0.7702862472119001,
+        0.7720546774856905,
+        0.7639701612358176
+      ],
+      "max_cost": 10.0
+    },
+    {
+      "k": 400,
+      "fit_n": 350,
+      "construction_safety_n": 50,
+      "phase": "Exp43",
+      "test_router_quality_mean": 0.7711405442518603,
+      "test_router_quality_ci95": [
+        0.7594124820013509,
+        0.783008652171508
+      ],
+      "per_seed_router_quality": [
+        0.7706404165129134,
+        0.7695426293498034,
+        0.7750627473114041,
+        0.7692726779421739,
+        0.7711842501430064
+      ],
+      "max_cost": 10.0
+    },
+    {
+      "k": 600,
+      "fit_n": 540,
+      "construction_safety_n": 60,
+      "phase": "Exp43",
+      "test_router_quality_mean": 0.7730270066810943,
+      "test_router_quality_ci95": [
+        0.7608016283028355,
+        0.7847992193634405
+      ],
+      "per_seed_router_quality": [
+        0.7775298582868916,
+        0.7687904335726937,
+        0.7754043006571117,
+        0.7702317479933888,
+        0.7731786928953858
+      ],
+      "max_cost": 10.0
+    },
+    {
+      "k": 800,
+      "fit_n": 720,
+      "construction_safety_n": 80,
+      "phase": "Exp43",
+      "test_router_quality_mean": 0.7705671821510106,
+      "test_router_quality_ci95": [
+        0.7581471751763209,
+        0.7826630427099811
+      ],
+      "per_seed_router_quality": [
+        0.7742387229830999,
+        0.7673729745888207,
+        0.7755047637757077,
+        0.764840226366295,
+        0.7708792230411298
+      ],
+      "max_cost": 10.000000000000002
+    },
+    {
+      "k": 1200,
+      "fit_n": 1080,
+      "construction_safety_n": 120,
+      "phase": "Exp43",
+      "test_router_quality_mean": 0.7731885258419559,
+      "test_router_quality_ci95": [
+        0.7607645945637636,
+        0.7852399277503656
+      ],
+      "per_seed_router_quality": [
+        0.7760455167186682,
+        0.7697112043353549,
+        0.7747208401721735,
+        0.7737780329396956,
+        0.7716870350438869
+      ],
+      "max_cost": 10.0
+    },
+    {
+      "k": 1800,
+      "fit_n": 1620,
+      "construction_safety_n": 180,
+      "phase": "Exp43",
+      "test_router_quality_mean": 0.7757783100154617,
+      "test_router_quality_ci95": [
+        0.7633133939054167,
+        0.7881256573126546
+      ],
+      "per_seed_router_quality": [
+        0.777778794745138,
+        0.7748688040933399,
+        0.7745282019892396,
+        0.7732136795773178,
+        0.7785020696722726
+      ],
+      "max_cost": 10.0
+    },
+    {
+      "k": 2400,
+      "fit_n": 2200,
+      "construction_safety_n": 200,
+      "phase": "Exp43",
+      "test_router_quality_mean": 0.7787763665449535,
+      "test_router_quality_ci95": [
+        0.7659363059090536,
+        0.7911859025123943
+      ],
+      "per_seed_router_quality": [
+        0.7792850503608468,
+        0.7798874703922186,
+        0.7752199979808804,
+        0.7771526118555223,
+        0.782336702135299
+      ],
+      "max_cost": 10.0
+    },
+    {
+      "k": 2800,
+      "fit_n": 2600,
+      "construction_safety_n": 200,
+      "phase": "Exp46",
+      "test_router_quality_mean": 0.7770774597239236,
+      "test_router_quality_ci95": [
+        0.764393462592376,
+        0.7891899490444363
+      ],
+      "per_seed_router_quality": [
+        0.7781711611535775,
+        0.7775487498457836,
+        0.7715624945509569,
+        0.776961819025623,
+        0.7811430740436771
+      ],
+      "max_cost": 10.0
+    },
+    {
+      "k": 3200,
+      "fit_n": 3000,
+      "construction_safety_n": 200,
+      "phase": "Exp46",
+      "test_router_quality_mean": 0.7788269751022402,
+      "test_router_quality_ci95": [
+        0.7661595064792572,
+        0.7917592001067423
+      ],
+      "per_seed_router_quality": [
+        0.780475428537397,
+        0.7797417057712477,
+        0.7767420072877304,
+        0.776228356310083,
+        0.7809473776047429
+      ],
+      "max_cost": 10.0
+    },
+    {
+      "k": 3600,
+      "fit_n": 3400,
+      "construction_safety_n": 200,
+      "phase": "Exp46",
+      "test_router_quality_mean": 0.7790173384384974,
+      "test_router_quality_ci95": [
+        0.765822205753054,
+        0.7920365253275854
+      ],
+      "per_seed_router_quality": [
+        0.7823458722752129,
+        0.7787375907134941,
+        0.777631372505335,
+        0.77928098646293,
+        0.7770908702355152
+      ],
+      "max_cost": 10.0
+    },
+    {
+      "k": 4000,
+      "fit_n": 3800,
+      "construction_safety_n": 200,
+      "phase": "Exp46",
+      "test_router_quality_mean": 0.7797033212621145,
+      "test_router_quality_ci95": [
+        0.7670109722956218,
+        0.7925166688221894
+      ],
+      "per_seed_router_quality": [
+        0.7807127093262648,
+        0.7805762612748134,
+        0.7778943746460161,
+        0.780756104435479,
+        0.7785771566279993
+      ],
+      "max_cost": 10.0
+    }
+  ],
+  "paired_plateau_comparisons": {
+    "4000_minus_2400": {
+      "mean": 0.000926954717161052,
+      "ci95": [
+        -0.004568033571440644,
+        0.006612943902507075
+      ]
+    },
+    "4000_minus_3600": {
+      "mean": 0.0006859828236171096,
+      "ci95": [
+        -0.0014034984421931072,
+        0.002706265770817442
+      ]
+    }
+  }
+}

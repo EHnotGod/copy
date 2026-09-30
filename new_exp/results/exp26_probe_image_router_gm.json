@@ -1,0 +1,711 @@
+{
+  "experiment": "exp26_probe_image_router",
+  "dataset": "gm",
+  "split": {
+    "train": 2200,
+    "val": 200,
+    "test": 800,
+    "primary_seed": 42,
+    "stability_seeds": [
+      42,
+      43,
+      44
+    ]
+  },
+  "budget": 10.0,
+  "probe_action": "flux4b_4steps",
+  "probe_generation_cost": 0.455,
+  "original_costs": [
+    2.0,
+    10.0,
+    30.5,
+    4.7,
+    23.1,
+    44.9,
+    4.3,
+    21.5,
+    64.8,
+    0.455
+  ],
+  "cascade_costs_excluding_qeval_compute": [
+    2.455,
+    10.455,
+    30.955,
+    5.155,
+    23.555,
+    45.355,
+    4.755,
+    21.955,
+    65.255,
+    0.455
+  ],
+  "qeval_compute_cost_accounted": false,
+  "qeval_feature": "Qwen3-VL backbone final non-padding token under fixed evaluation prompt",
+  "primary_deployable_condition": "qeval_only",
+  "conditions": {
+    "prompt": {
+      "feature_dim": 4096,
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "val": {
+        "macro": 0.4833834000816254,
+        "per_action": {
+          "qwen_10steps": 0.4102529299232013,
+          "qwen_50steps": 0.4052653876766624,
+          "qwen_tts": 0.49332286099529976,
+          "flux_10steps": 0.5689461092750587,
+          "flux_50steps": 0.5376009914536323,
+          "flux_tts": 0.5955956725847167,
+          "boogu_10steps": 0.4294283032693549,
+          "boogu_50steps": 0.41409442116403883,
+          "boogu_tts": 0.534071230377125,
+          "flux4b_4steps": 0.4452560940971635
+        },
+        "top1_action_accuracy": 0.235
+      },
+      "test": {
+        "macro": 0.39724577801667593,
+        "per_action": {
+          "qwen_10steps": 0.297235194962725,
+          "qwen_50steps": 0.2803606498467621,
+          "qwen_tts": 0.39330116070794385,
+          "flux_10steps": 0.5090514853679836,
+          "flux_50steps": 0.511485241751113,
+          "flux_tts": 0.4638144499843416,
+          "boogu_10steps": 0.365184058860081,
+          "boogu_50steps": 0.38954803334022603,
+          "boogu_tts": 0.4056194650393844,
+          "flux4b_4steps": 0.35685804030619805
+        },
+        "top1_action_accuracy": 0.215
+      }
+    },
+    "qeval_only": {
+      "feature_dim": 4096,
+      "alphas": [
+        100.0,
+        100.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "val": {
+        "macro": 0.536581501579674,
+        "per_action": {
+          "qwen_10steps": 0.40325174088013493,
+          "qwen_50steps": 0.4385739157622398,
+          "qwen_tts": 0.4731975400041606,
+          "flux_10steps": 0.6676353941271774,
+          "flux_50steps": 0.5535219291979159,
+          "flux_tts": 0.6295207788980087,
+          "boogu_10steps": 0.4659602932864545,
+          "boogu_50steps": 0.4677052059025326,
+          "boogu_tts": 0.5451429671748669,
+          "flux4b_4steps": 0.7213052505632491
+        },
+        "top1_action_accuracy": 0.28
+      },
+      "test": {
+        "macro": 0.47368904833781256,
+        "per_action": {
+          "qwen_10steps": 0.31672921284242583,
+          "qwen_50steps": 0.32306011662559286,
+          "qwen_tts": 0.4422951292438302,
+          "flux_10steps": 0.5310120134419585,
+          "flux_50steps": 0.5732709638794722,
+          "flux_tts": 0.5358138653201062,
+          "boogu_10steps": 0.4209028735595812,
+          "boogu_50steps": 0.4486758610867385,
+          "boogu_tts": 0.46034321620828367,
+          "flux4b_4steps": 0.6847872311701376
+        },
+        "top1_action_accuracy": 0.24375
+      }
+    },
+    "prompt_qeval": {
+      "feature_dim": 8192,
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "val": {
+        "macro": 0.5544739260703417,
+        "per_action": {
+          "qwen_10steps": 0.4583468043915059,
+          "qwen_50steps": 0.4732465023393757,
+          "qwen_tts": 0.5099637107483336,
+          "flux_10steps": 0.6627627241171159,
+          "flux_50steps": 0.5712782094675699,
+          "flux_tts": 0.6411349769993312,
+          "boogu_10steps": 0.4737633653093244,
+          "boogu_50steps": 0.46674918578845104,
+          "boogu_tts": 0.5542295275427624,
+          "flux4b_4steps": 0.7332642539996477
+        },
+        "top1_action_accuracy": 0.225
+      },
+      "test": {
+        "macro": 0.4707416304722473,
+        "per_action": {
+          "qwen_10steps": 0.3636513378886024,
+          "qwen_50steps": 0.35505404860334844,
+          "qwen_tts": 0.43129733382125457,
+          "flux_10steps": 0.5356791971173585,
+          "flux_50steps": 0.5641871036183562,
+          "flux_tts": 0.5198318624705929,
+          "boogu_10steps": 0.39382206162412037,
+          "boogu_50steps": 0.4266582354894688,
+          "boogu_tts": 0.4603719737380696,
+          "flux4b_4steps": 0.6568631503513019
+        },
+        "top1_action_accuracy": 0.22375
+      }
+    },
+    "prompt_true_probe_score": {
+      "feature_dim": 4097,
+      "alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1.0
+      ],
+      "val": {
+        "macro": 0.5902780370914287,
+        "per_action": {
+          "qwen_10steps": 0.4585934343409115,
+          "qwen_50steps": 0.45853833134537625,
+          "qwen_tts": 0.5397755337690062,
+          "flux_10steps": 0.6790205477490983,
+          "flux_50steps": 0.6412714044522565,
+          "flux_tts": 0.6499823913282634,
+          "boogu_10steps": 0.4743316533342753,
+          "boogu_50steps": 0.4587870933997099,
+          "boogu_tts": 0.5485595973421592,
+          "flux4b_4steps": 0.9939203838532302
+        },
+        "top1_action_accuracy": 0.25
+      },
+      "test": {
+        "macro": 0.497060164884559,
+        "per_action": {
+          "qwen_10steps": 0.3294061733517193,
+          "qwen_50steps": 0.32589507041537125,
+          "qwen_tts": 0.4233660033523675,
+          "flux_10steps": 0.5598684731635619,
+          "flux_50steps": 0.5690696635152233,
+          "flux_tts": 0.5090912893654793,
+          "boogu_10steps": 0.41734105375864217,
+          "boogu_50steps": 0.41985336859134514,
+          "boogu_tts": 0.42827267391443735,
+          "flux4b_4steps": 0.9884378794174423
+        },
+        "top1_action_accuracy": 0.23875
+      }
+    }
+  },
+  "routes": {
+    "prompt_original_cost": {
+      "quality": 0.3788127387353981,
+      "cost": 10.0,
+      "allocation": [
+        0.16625,
+        0.03288506110408766,
+        0.1675,
+        0.1375,
+        0.00375,
+        0.00413506110408766,
+        0.3083649388959123,
+        0.08663506110408765,
+        0.00125,
+        0.09172987779182468
+      ],
+      "predicted_quality": 0.4366041382204065,
+      "mixture": {
+        "lambda_low": 0.004802401200600301,
+        "lambda_high": 0.004777388694347174,
+        "high_weight": 0.3080488832701279
+      }
+    },
+    "prompt_probe_cost": {
+      "quality": 0.37550495939652045,
+      "cost": 10.000000000000002,
+      "allocation": [
+        0.17108918128654974,
+        0.02891081871345029,
+        0.1614108187134503,
+        0.13625,
+        0.005000000000000001,
+        0.0025000000000000005,
+        0.31358918128654967,
+        0.07875,
+        0.0012500000000000002,
+        0.10125
+      ],
+      "predicted_quality": 0.43460653539289507,
+      "mixture": {
+        "lambda_low": 0.004977488744372187,
+        "lambda_high": 0.00495247623811906,
+        "high_weight": 0.12865497076023075
+      }
+    },
+    "qeval_only_probe_cost": {
+      "quality": 0.3996759539602595,
+      "cost": 10.0,
+      "allocation": [
+        0.15054452054794515,
+        0.04910273972602744,
+        0.17910273972602742,
+        0.05375,
+        0.0,
+        0.0,
+        0.32500000000000007,
+        0.06875,
+        0.0025,
+        0.17125
+      ],
+      "predicted_quality": 0.421863989389106,
+      "mixture": {
+        "lambda_low": 0.004577288644322161,
+        "lambda_high": 0.004527263631815908,
+        "high_weight": 0.28219178082194546
+      }
+    },
+    "prompt_qeval_probe_cost": {
+      "quality": 0.39696979710248975,
+      "cost": 10.0,
+      "allocation": [
+        0.13625,
+        0.03125,
+        0.1440116279069768,
+        0.12223837209302318,
+        0.00375,
+        0.0075,
+        0.32375,
+        0.09375,
+        0.0025,
+        0.135
+      ],
+      "predicted_quality": 0.4494216518346653,
+      "mixture": {
+        "lambda_low": 0.0053526763381690845,
+        "lambda_high": 0.005327663831915959,
+        "high_weight": 0.20930232558145043
+      }
+    },
+    "prompt_true_probe_score_probe_cost": {
+      "quality": 0.4139189874405042,
+      "cost": 9.999999999999998,
+      "allocation": [
+        0.14375,
+        0.027708120531154234,
+        0.17541624106230846,
+        0.10083375893769152,
+        0.005,
+        0.003958120531154238,
+        0.25958375893769153,
+        0.08125,
+        0.0,
+        0.20249999999999999
+      ],
+      "predicted_quality": 0.45838237944248383,
+      "mixture": {
+        "lambda_low": 0.004477238619309655,
+        "lambda_high": 0.004427213606803402,
+        "high_weight": 0.1664964249233904
+      }
+    }
+  },
+  "baselines": {
+    "lp_original": {
+      "quality": 0.375492867506924,
+      "cost": 10.0,
+      "allocation": [
+        0.0,
+        0.0,
+        0.21755725190839695,
+        0.0,
+        0.0,
+        0.0,
+        0.7824427480916031,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predicted_quality": null,
+      "mixture": {
+        "type": "fixed_mixture"
+      }
+    },
+    "lp_probe": {
+      "quality": 0.37387955676608386,
+      "cost": 10.0,
+      "allocation": [
+        0.0,
+        0.0,
+        0.2001908396946565,
+        0.0,
+        0.0,
+        0.0,
+        0.7998091603053434,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predicted_quality": null,
+      "mixture": {
+        "type": "fixed_mixture"
+      }
+    },
+    "oracle_original": {
+      "quality": 0.5683823389678939,
+      "cost": 10.0,
+      "allocation": [
+        0.1247102272727273,
+        0.065,
+        0.09432954545454542,
+        0.15221022727272732,
+        0.026250000000000002,
+        0.02375,
+        0.22846022727272733,
+        0.11028977272727271,
+        0.006250000000000001,
+        0.16875000000000004
+      ],
+      "predicted_quality": 0.5683823252266104,
+      "mixture": {
+        "lambda_low": 0.006928464232116059,
+        "lambda_high": 0.006903451725862932,
+        "high_weight": 0.23181818181816466
+      }
+    },
+    "oracle_probe": {
+      "quality": 0.5656736586926993,
+      "cost": 10.0,
+      "allocation": [
+        0.1225,
+        0.0625,
+        0.09,
+        0.15804315476190473,
+        0.025,
+        0.02125,
+        0.22750000000000004,
+        0.10945684523809526,
+        0.005,
+        0.17875
+      ],
+      "predicted_quality": 0.5656736528589612,
+      "mixture": {
+        "lambda_low": 0.00735367683841921,
+        "lambda_high": 0.007328664332166083,
+        "high_weight": 0.5654761904762101
+      }
+    }
+  },
+  "comparisons": {
+    "information_gain": {
+      "value": 0.024170994563739057,
+      "ci95": [
+        0.009845896746205585,
+        0.039759112009043786
+      ],
+      "definition": "QEval-only(cascade cost) - Prompt(cascade cost)"
+    },
+    "optimistic_e2e_gain_excluding_qeval_compute": {
+      "value": 0.020863215224861398,
+      "ci95": [
+        0.004989401911798187,
+        0.035306978902513456
+      ],
+      "definition": "QEval-only(cascade cost) - Prompt(original cost)"
+    },
+    "learned_gain_over_probe_lp": {
+      "value": 0.025796397194175646,
+      "ci95": [
+        0.012942350868531086,
+        0.039699298037355085
+      ],
+      "definition": "QEval-only(cascade cost) - LP(cascade cost)"
+    }
+  },
+  "ablation_comparisons": {
+    "prompt_qeval": {
+      "information_gain": {
+        "value": 0.021464837705969297,
+        "ci95": [
+          0.010399158926347027,
+          0.032907761185253195
+        ],
+        "definition": "Prompt+QEval(cascade cost) - Prompt(cascade cost)"
+      },
+      "optimistic_e2e_gain_excluding_qeval_compute": {
+        "value": 0.01815705836709164,
+        "ci95": [
+          0.007377173433190684,
+          0.029692106084192493
+        ],
+        "definition": "Prompt+QEval(cascade cost) - Prompt(original cost)"
+      },
+      "learned_gain_over_probe_lp": {
+        "value": 0.023090240336405887,
+        "ci95": [
+          0.008792893978512009,
+          0.03763090322993457
+        ],
+        "definition": "Prompt+QEval(cascade cost) - LP(cascade cost)"
+      }
+    }
+  },
+  "diagnostics": {
+    "pairwise_ranking_accuracy": {
+      "prompt": {
+        "vs_qwen_50steps": 0.6294444444444445,
+        "vs_flux4b_4steps": 0.6348611111111111
+      },
+      "qeval_only": {
+        "vs_qwen_50steps": 0.6426388888888889,
+        "vs_flux4b_4steps": 0.7005555555555556
+      },
+      "prompt_qeval": {
+        "vs_qwen_50steps": 0.6388888888888888,
+        "vs_flux4b_4steps": 0.6788888888888889
+      },
+      "prompt_true_probe_score": {
+        "vs_qwen_50steps": 0.6420833333333333,
+        "vs_flux4b_4steps": 0.7484722222222222
+      }
+    },
+    "probe_true_quality_quartiles": [
+      {
+        "quartile": 1,
+        "count": 200,
+        "probe_score_range": [
+          3.0257581329351524e-07,
+          0.03155359718948603
+        ],
+        "prompt_probe_quality": 0.21447165230929385,
+        "qeval_only_probe_quality": 0.24676618168246933,
+        "information_gain": 0.032294529373175465
+      },
+      {
+        "quartile": 2,
+        "count": 200,
+        "probe_score_range": [
+          0.03155359718948603,
+          0.11862864345312119
+        ],
+        "prompt_probe_quality": 0.26920939297648144,
+        "qeval_only_probe_quality": 0.2814119433565257,
+        "information_gain": 0.012202550380044239
+      },
+      {
+        "quartile": 3,
+        "count": 200,
+        "probe_score_range": [
+          0.11862864345312119,
+          0.367647223174572
+        ],
+        "prompt_probe_quality": 0.3674781088974757,
+        "qeval_only_probe_quality": 0.37155639268518015,
+        "information_gain": 0.004078283787704403
+      },
+      {
+        "quartile": 4,
+        "count": 200,
+        "probe_score_range": [
+          0.367647223174572,
+          1.0
+        ],
+        "prompt_probe_quality": 0.6508606834028308,
+        "qeval_only_probe_quality": 0.6989692981168628,
+        "information_gain": 0.04810861471403194
+      }
+    ],
+    "qeval_routed_win_rate_vs_probe": 0.66625,
+    "prompt_routed_win_rate_vs_probe": 0.67375,
+    "matched_allocation_static_control": {
+      "prompt_probe_cost": {
+        "router_quality": 0.37550495939652045,
+        "same_allocation_static_quality": 0.3351832695330125,
+        "instance_routing_gain": 0.04032168986350799,
+        "instance_routing_gain_ci95": [
+          0.028318365905469087,
+          0.05187996598538299
+        ]
+      },
+      "qeval_only_probe_cost": {
+        "router_quality": 0.3996759539602595,
+        "same_allocation_static_quality": 0.33276036751318194,
+        "instance_routing_gain": 0.06691558644707753,
+        "instance_routing_gain_ci95": [
+          0.054445836770506434,
+          0.07897167387521027
+        ]
+      },
+      "prompt_qeval_probe_cost": {
+        "router_quality": 0.39696979710248975,
+        "same_allocation_static_quality": 0.33511837795536464,
+        "instance_routing_gain": 0.061851419147125074,
+        "instance_routing_gain_ci95": [
+          0.05021554391369413,
+          0.07378655303882083
+        ]
+      }
+    }
+  },
+  "split_stability": {
+    "per_seed": [
+      {
+        "seed": 42,
+        "prompt_test_macro_r2": 0.39724577801667593,
+        "qeval_test_macro_r2": 0.47368904833781256,
+        "prompt_original_quality": 0.3788127387353981,
+        "prompt_probe_quality": 0.37550495939652045,
+        "qeval_only_probe_quality": 0.3996759539602595,
+        "information_gain": 0.024170994563739057,
+        "optimistic_e2e_gain_excluding_qeval_compute": 0.020863215224861398,
+        "learned_gain_over_probe_lp": 0.025796397194175646,
+        "lp_probe_quality": 0.37387955676608386,
+        "all_route_costs": {
+          "prompt_original_cost": 10.0,
+          "prompt_probe_cost": 10.000000000000002,
+          "qeval_only_probe_cost": 10.0,
+          "prompt_qeval_probe_cost": 10.0,
+          "prompt_true_probe_score_probe_cost": 9.999999999999998
+        }
+      },
+      {
+        "seed": 43,
+        "prompt_test_macro_r2": 0.39463612011354315,
+        "qeval_test_macro_r2": 0.4858834721647846,
+        "prompt_original_quality": 0.38142774949653796,
+        "prompt_probe_quality": 0.3808522742285054,
+        "qeval_only_probe_quality": 0.4028276737786291,
+        "information_gain": 0.021975399550123675,
+        "optimistic_e2e_gain_excluding_qeval_compute": 0.021399924282091143,
+        "learned_gain_over_probe_lp": 0.028948117012545238,
+        "lp_probe_quality": 0.37387955676608386,
+        "all_route_costs": {
+          "prompt_original_cost": 10.0,
+          "prompt_probe_cost": 10.0,
+          "qeval_only_probe_cost": 10.0
+        }
+      },
+      {
+        "seed": 44,
+        "prompt_test_macro_r2": 0.3956380749203585,
+        "qeval_test_macro_r2": 0.47351721382581813,
+        "prompt_original_quality": 0.381668406822282,
+        "prompt_probe_quality": 0.37997038252645937,
+        "qeval_only_probe_quality": 0.40744727608402875,
+        "information_gain": 0.027476893557569382,
+        "optimistic_e2e_gain_excluding_qeval_compute": 0.025778869261746773,
+        "learned_gain_over_probe_lp": 0.03356771931794489,
+        "lp_probe_quality": 0.37387955676608386,
+        "all_route_costs": {
+          "prompt_original_cost": 10.0,
+          "prompt_probe_cost": 10.0,
+          "qeval_only_probe_cost": 10.0
+        }
+      }
+    ],
+    "aggregate": {
+      "prompt_test_macro_r2": {
+        "mean": 0.39583999101685924,
+        "seed_std": 0.0010749127640155725,
+        "min": 0.39463612011354315,
+        "max": 0.39724577801667593
+      },
+      "qeval_test_macro_r2": {
+        "mean": 0.47769657810947175,
+        "seed_std": 0.005789433333212369,
+        "min": 0.47351721382581813,
+        "max": 0.4858834721647846
+      },
+      "prompt_original_quality": {
+        "mean": 0.380636298351406,
+        "seed_std": 0.0012931888859094888,
+        "min": 0.3788127387353981,
+        "max": 0.381668406822282
+      },
+      "prompt_probe_quality": {
+        "mean": 0.37877587205049507,
+        "seed_std": 0.0023407385495441304,
+        "min": 0.37550495939652045,
+        "max": 0.3808522742285054
+      },
+      "qeval_only_probe_quality": {
+        "mean": 0.4033169679409725,
+        "seed_std": 0.0031914383873966907,
+        "min": 0.3996759539602595,
+        "max": 0.40744727608402875
+      },
+      "information_gain": {
+        "mean": 0.02454109589047737,
+        "seed_std": 0.0022611708357294824,
+        "min": 0.021975399550123675,
+        "max": 0.027476893557569382,
+        "mean_over_splits_paired_bootstrap_ci95": [
+          0.011205898676812135,
+          0.03873624153078699
+        ]
+      },
+      "optimistic_e2e_gain_excluding_qeval_compute": {
+        "mean": 0.022680669589566438,
+        "seed_std": 0.0022016879978101443,
+        "min": 0.020863215224861398,
+        "max": 0.025778869261746773,
+        "mean_over_splits_paired_bootstrap_ci95": [
+          0.009722070202049663,
+          0.03733503737109967
+        ]
+      },
+      "learned_gain_over_probe_lp": {
+        "mean": 0.02943741117488859,
+        "seed_std": 0.0031914383873966907,
+        "min": 0.025796397194175646,
+        "max": 0.03356771931794489,
+        "mean_over_splits_paired_bootstrap_ci95": [
+          0.01843232224645194,
+          0.04017384736701356
+        ]
+      }
+    }
+  },
+  "notes": [
+    "All route multipliers/mixes are selected from predictions and costs only.",
+    "Flux probe generation cost is included; selecting Flux reuses the probe image.",
+    "Qwen3-VL evaluation compute is excluded in this information-value pre-experiment, so e2e gain is optimistic.",
+    "prompt_true_probe_score is non-deployable privileged-information diagnostics only.",
+    "The seed-0 probe image predicts five-seed-average action quality.",
+    "QEval-only is primary because the evaluation embedding already conditions on both prompt and image; raw prompt concatenation is an ablation."
+  ]
+}

@@ -1,0 +1,4890 @@
+{
+  "experiment": "exp52_flux3_pooled_lobo",
+  "datasets": [
+    "gm",
+    "am",
+    "unigen",
+    "corebench",
+    "wise"
+  ],
+  "methods": [
+    "raw_score",
+    "f50_advantage",
+    "normalized_f50_advantage"
+  ],
+  "action_names": [
+    "flux_10steps",
+    "flux_50steps",
+    "flux_tts"
+  ],
+  "costs": [
+    4.7,
+    23.1,
+    44.9
+  ],
+  "budget": 10.0,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "train_per_source": 300,
+  "alpha_per_source": 50,
+  "sources_per_target": 4,
+  "by_method": {
+    "raw_score": {
+      "gm": {
+        "pooled_lp_quality": 0.3236225351792259,
+        "pooled_lp_quality_seed_std": 0.0,
+        "target_lp_quality": 0.3236225351792259,
+        "target_lp_quality_seed_std": 0.0,
+        "pooled_router_quality": 0.32429846983607097,
+        "pooled_router_quality_seed_std": 0.00326406808276474,
+        "specialist_quality": 0.3227599817296504,
+        "specialist_quality_seed_std": 0.0019450928838867921,
+        "oracle_quality": 0.383842656020249,
+        "oracle_quality_seed_std": 0.0,
+        "cost": 10.0,
+        "cost_seed_std": 0.0,
+        "learned_gain_vs_pooled_lp": 0.0006759346568451354,
+        "learned_gain_vs_pooled_lp_ci95": [
+          -0.002297446508763716,
+          0.0037679862401014588
+        ],
+        "gain_vs_target_lp": 0.0006759346568451354,
+        "gain_vs_target_lp_ci95": [
+          -0.00244257417494337,
+          0.00389040983491991
+        ],
+        "gain_vs_specialist": 0.0015384881064205592,
+        "gain_vs_specialist_ci95": [
+          -0.0017342365588748029,
+          0.00474710149896817
+        ],
+        "allocation": [
+          0.8157281224833508,
+          0.09668483835638983,
+          0.08758703916025937
+        ],
+        "per_seed": [
+          {
+            "seed": 42,
+            "pooled_lp_quality": 0.3236225351792259,
+            "target_lp_quality": 0.3236225351792259,
+            "pooled_router_quality": 0.3279329620479976,
+            "specialist_quality": 0.3250899784947689,
+            "oracle_quality": 0.383842656020249,
+            "cost": 10.0,
+            "allocation": [
+              0.8005119453924915,
+              0.12474402730375427,
+              0.07474402730375426
+            ]
+          },
+          {
+            "seed": 43,
+            "pooled_lp_quality": 0.3236225351792259,
+            "target_lp_quality": 0.3236225351792259,
+            "pooled_router_quality": 0.3190472561009351,
+            "specialist_quality": 0.32250195066640863,
+            "oracle_quality": 0.383842656020249,
+            "cost": 10.0,
+            "allocation": [
+              0.7971871029224905,
+              0.1308751588310038,
+              0.0719377382465057
+            ]
+          },
+          {
+            "seed": 44,
+            "pooled_lp_quality": 0.3236225351792259,
+            "target_lp_quality": 0.3236225351792259,
+            "pooled_router_quality": 0.32761747083922144,
+            "specialist_quality": 0.32217120406473343,
+            "oracle_quality": 0.383842656020249,
+            "cost": 10.0,
+            "allocation": [
+              0.8320492662473795,
+              0.06658805031446541,
+              0.10136268343815515
+            ]
+          },
+          {
+            "seed": 45,
+            "pooled_lp_quality": 0.3236225351792259,
+            "target_lp_quality": 0.3236225351792259,
+            "pooled_router_quality": 0.32355047451222146,
+            "specialist_quality": 0.3244653127370428,
+            "oracle_quality": 0.383842656020249,
+            "cost": 10.0,
+            "allocation": [
+              0.8139482680036463,
+              0.09996695533272562,
+              0.08608477666362806
+            ]
+          },
+          {
+            "seed": 46,
+            "pooled_lp_quality": 0.3236225351792259,
+            "target_lp_quality": 0.3236225351792259,
+            "pooled_router_quality": 0.32334418567997913,
+            "specialist_quality": 0.31957146268529835,
+            "oracle_quality": 0.383842656020249,
+            "cost": 10.0,
+            "allocation": [
+              0.8349440298507462,
+              0.06125,
+              0.1038059701492537
+            ]
+          }
+        ]
+      },
+      "am": {
+        "pooled_lp_quality": 0.7520232749916613,
+        "pooled_lp_quality_seed_std": 0.0,
+        "target_lp_quality": 0.7520232749916613,
+        "target_lp_quality_seed_std": 0.0,
+        "pooled_router_quality": 0.7522060897188416,
+        "pooled_router_quality_seed_std": 0.0007766843158399182,
+        "specialist_quality": 0.7531752048944649,
+        "specialist_quality_seed_std": 0.0014083842771423479,
+        "oracle_quality": 0.7779770537959817,
+        "oracle_quality_seed_std": 0.0,
+        "cost": 10.0,
+        "cost_seed_std": 0.0,
+        "learned_gain_vs_pooled_lp": 0.00018281472718033431,
+        "learned_gain_vs_pooled_lp_ci95": [
+          -0.001045368972964987,
+          0.0014506227037198382
+        ],
+        "gain_vs_target_lp": 0.00018281472718033431,
+        "gain_vs_target_lp_ci95": [
+          -0.0010302328318065228,
+          0.0014463428436961385
+        ],
+        "gain_vs_specialist": -0.000969115175623094,
+        "gain_vs_specialist_ci95": [
+          -0.0022230364362865497,
+          0.00031163502850039036
+        ],
+        "allocation": [
+          0.8045494593676462,
+          0.11729870336791852,
+          0.07815183726443531
+        ],
+        "per_seed": [
+          {
+            "seed": 42,
+            "pooled_lp_quality": 0.7520232749916613,
+            "target_lp_quality": 0.7520232749916613,
+            "pooled_router_quality": 0.7529009916868223,
+            "specialist_quality": 0.754080154715078,
+            "oracle_quality": 0.7779770537959817,
+            "cost": 10.0,
+            "allocation": [
+              0.8037771739130435,
+              0.11872282608695649,
+              0.0775
+            ]
+          },
+          {
+            "seed": 43,
+            "pooled_lp_quality": 0.7520232749916613,
+            "target_lp_quality": 0.7520232749916613,
+            "pooled_router_quality": 0.751436956532754,
+            "specialist_quality": 0.7545155478614243,
+            "oracle_quality": 0.7779770537959817,
+            "cost": 10.0,
+            "allocation": [
+              0.7911277001270648,
+              0.14204891994917407,
+              0.06682337992376114
+            ]
+          },
+          {
+            "seed": 44,
+            "pooled_lp_quality": 0.7520232749916613,
+            "target_lp_quality": 0.7520232749916613,
+            "pooled_router_quality": 0.7532327563929099,
+            "specialist_quality": 0.7515832625197905,
+            "oracle_quality": 0.7779770537959817,
+            "cost": 10.0,
+            "allocation": [
+              0.8057960199004975,
+              0.115,
+              0.0792039800995025
+            ]
+          },
+          {
+            "seed": 45,
+            "pooled_lp_quality": 0.7520232749916613,
+            "target_lp_quality": 0.7520232749916613,
+            "pooled_router_quality": 0.7512639712928655,
+            "specialist_quality": 0.7513394630877122,
+            "oracle_quality": 0.7779770537959817,
+            "cost": 10.0,
+            "allocation": [
+              0.8284280742459398,
+              0.07326566125290021,
+              0.09830626450116009
+            ]
+          },
+          {
+            "seed": 46,
+            "pooled_lp_quality": 0.7520232749916613,
+            "target_lp_quality": 0.7520232749916613,
+            "pooled_router_quality": 0.7521957726888567,
+            "specialist_quality": 0.7543575962883188,
+            "oracle_quality": 0.7779770537959817,
+            "cost": 10.0,
+            "allocation": [
+              0.7936183286516852,
+              0.1374561095505618,
+              0.0689255617977528
+            ]
+          }
+        ]
+      },
+      "unigen": {
+        "pooled_lp_quality": 0.8218955930355151,
+        "pooled_lp_quality_seed_std": 0.0,
+        "target_lp_quality": 0.8218955930355151,
+        "target_lp_quality_seed_std": 0.0,
+        "pooled_router_quality": 0.8233906958702703,
+        "pooled_router_quality_seed_std": 0.0010877720198687174,
+        "specialist_quality": 0.8268402379629052,
+        "specialist_quality_seed_std": 0.0018240116492049246,
+        "oracle_quality": 0.8713327300265646,
+        "oracle_quality_seed_std": 1.1102230246251565e-16,
+        "cost": 10.0,
+        "cost_seed_std": 7.944109290391273e-16,
+        "learned_gain_vs_pooled_lp": 0.0014951028347550469,
+        "learned_gain_vs_pooled_lp_ci95": [
+          -0.002444972992146367,
+          0.00582609569966941
+        ],
+        "gain_vs_target_lp": 0.0014951028347550469,
+        "gain_vs_target_lp_ci95": [
+          -0.0024363528539354177,
+          0.005761380594317659
+        ],
+        "gain_vs_specialist": -0.003449542092634937,
+        "gain_vs_specialist_ci95": [
+          -0.008196449207394216,
+          0.0012520723690350735
+        ],
+        "allocation": [
+          0.8406338388189086,
+          0.0507577834623796,
+          0.10860837771871182
+        ],
+        "per_seed": [
+          {
+            "seed": 42,
+            "pooled_lp_quality": 0.8218955930355151,
+            "target_lp_quality": 0.8218955930355151,
+            "pooled_router_quality": 0.8253354059079928,
+            "specialist_quality": 0.8255353814311195,
+            "oracle_quality": 0.8713327300265648,
+            "cost": 10.000000000000002,
+            "allocation": [
+              0.8571893601190477,
+              0.020228794642857137,
+              0.12258184523809522
+            ]
+          },
+          {
+            "seed": 43,
+            "pooled_lp_quality": 0.8218955930355151,
+            "target_lp_quality": 0.8218955930355151,
+            "pooled_router_quality": 0.8231856567646141,
+            "specialist_quality": 0.8283079269557425,
+            "oracle_quality": 0.8713327300265648,
+            "cost": 10.0,
+            "allocation": [
+              0.8301990049751244,
+              0.07,
+              0.09980099502487556
+            ]
+          },
+          {
+            "seed": 44,
+            "pooled_lp_quality": 0.8218955930355151,
+            "target_lp_quality": 0.8218955930355151,
+            "pooled_router_quality": 0.822183334728082,
+            "specialist_quality": 0.8281111124778787,
+            "oracle_quality": 0.8713327300265648,
+            "cost": 10.0,
+            "allocation": [
+              0.8541304347826087,
+              0.025869565217391303,
+              0.12
+            ]
+          },
+          {
+            "seed": 45,
+            "pooled_lp_quality": 0.8218955930355151,
+            "target_lp_quality": 0.8218955930355151,
+            "pooled_router_quality": 0.8236209802397497,
+            "specialist_quality": 0.8283745454036774,
+            "oracle_quality": 0.8713327300265648,
+            "cost": 10.0,
+            "allocation": [
+              0.853698175787728,
+              0.02666666666666667,
+              0.1196351575456053
+            ]
+          },
+          {
+            "seed": 46,
+            "pooled_lp_quality": 0.8218955930355151,
+            "target_lp_quality": 0.8218955930355151,
+            "pooled_router_quality": 0.8226281017109125,
+            "specialist_quality": 0.8238722235461076,
+            "oracle_quality": 0.8713327300265648,
+            "cost": 10.0,
+            "allocation": [
+              0.8079522184300342,
+              0.1110238907849829,
+              0.0810238907849829
+            ]
+          }
+        ]
+      },
+      "corebench": {
+        "pooled_lp_quality": 0.5070224614293777,
+        "pooled_lp_quality_seed_std": 0.0,
+        "target_lp_quality": 0.5070224614293777,
+        "target_lp_quality_seed_std": 0.0,
+        "pooled_router_quality": 0.5060497737029277,
+        "pooled_router_quality_seed_std": 0.0021565455330789032,
+        "specialist_quality": 0.524027177005624,
+        "specialist_quality_seed_std": 0.0005463946189848719,
+        "oracle_quality": 0.5525449906042424,
+        "oracle_quality_seed_std": 0.0,
+        "cost": 10.0,
+        "cost_seed_std": 0.0,
+        "learned_gain_vs_pooled_lp": -0.00097268772645003,
+        "learned_gain_vs_pooled_lp_ci95": [
+          -0.0032173803896602374,
+          0.001431581873319702
+        ],
+        "gain_vs_target_lp": -0.00097268772645003,
+        "gain_vs_target_lp_ci95": [
+          -0.0032595957324937524,
+          0.0013025247070358836
+        ],
+        "gain_vs_specialist": -0.017977403302696253,
+        "gain_vs_specialist_ci95": [
+          -0.02420255008589777,
+          -0.012193605890445894
+        ],
+        "allocation": [
+          0.8238906765655589,
+          0.08163278908552893,
+          0.09447653434891212
+        ],
+        "per_seed": [
+          {
+            "seed": 42,
+            "pooled_lp_quality": 0.5070224614293777,
+            "target_lp_quality": 0.5070224614293777,
+            "pooled_router_quality": 0.5069031573461462,
+            "specialist_quality": 0.5241582380675167,
+            "oracle_quality": 0.5525449906042424,
+            "cost": 10.0,
+            "allocation": [
+              0.848576561636263,
+              0.03611111111111111,
+              0.11531232725262575
+            ]
+          },
+          {
+            "seed": 43,
+            "pooled_lp_quality": 0.5070224614293777,
+            "target_lp_quality": 0.5070224614293777,
+            "pooled_router_quality": 0.5026341521963902,
+            "specialist_quality": 0.5230345675000491,
+            "oracle_quality": 0.5525449906042424,
+            "cost": 10.0,
+            "allocation": [
+              0.8106706402759034,
+              0.10601102114260008,
+              0.08331833858149645
+            ]
+          },
+          {
+            "seed": 44,
+            "pooled_lp_quality": 0.5070224614293777,
+            "target_lp_quality": 0.5070224614293777,
+            "pooled_router_quality": 0.5075368384553247,
+            "specialist_quality": 0.524708702884699,
+            "oracle_quality": 0.5525449906042424,
+            "cost": 10.0,
+            "allocation": [
+              0.8038879675695596,
+              0.11851851851851852,
+              0.07759351391192186
+            ]
+          },
+          {
+            "seed": 45,
+            "pooled_lp_quality": 0.5070224614293777,
+            "target_lp_quality": 0.5070224614293777,
+            "pooled_router_quality": 0.5085960101875365,
+            "specialist_quality": 0.524047894781582,
+            "oracle_quality": 0.5525449906042424,
+            "cost": 10.0,
+            "allocation": [
+              0.8107543659165495,
+              0.10585662798874823,
+              0.08338900609470229
+            ]
+          },
+          {
+            "seed": 46,
+            "pooled_lp_quality": 0.5070224614293777,
+            "target_lp_quality": 0.5070224614293777,
+            "pooled_router_quality": 0.5045787103292406,
+            "specialist_quality": 0.5241864817942727,
+            "oracle_quality": 0.5525449906042424,
+            "cost": 10.0,
+            "allocation": [
+              0.8455638474295191,
+              0.041666666666666664,
+              0.11276948590381425
+            ]
+          }
+        ]
+      },
+      "wise": {
+        "pooled_lp_quality": 0.7726437817304997,
+        "pooled_lp_quality_seed_std": 0.0,
+        "target_lp_quality": 0.7726437817304997,
+        "target_lp_quality_seed_std": 0.0,
+        "pooled_router_quality": 0.7753598253433174,
+        "pooled_router_quality_seed_std": 0.005140092732575591,
+        "specialist_quality": 0.7840688573216998,
+        "specialist_quality_seed_std": 0.002717562876460394,
+        "oracle_quality": 0.840504312402907,
+        "oracle_quality_seed_std": 0.0,
+        "cost": 10.0,
+        "cost_seed_std": 0.0,
+        "learned_gain_vs_pooled_lp": 0.002716043612817601,
+        "learned_gain_vs_pooled_lp_ci95": [
+          -0.0012796957951425657,
+          0.006908192818196375
+        ],
+        "gain_vs_target_lp": 0.002716043612817601,
+        "gain_vs_target_lp_ci95": [
+          -0.001191331792316615,
+          0.0068162872699106605
+        ],
+        "gain_vs_specialist": -0.008709031978382437,
+        "gain_vs_specialist_ci95": [
+          -0.015588686479569793,
+          -0.0019477813811731664
+        ],
+        "allocation": [
+          0.8422862226968414,
+          0.04771072695353087,
+          0.11000305034962765
+        ],
+        "per_seed": [
+          {
+            "seed": 42,
+            "pooled_lp_quality": 0.7726437817304997,
+            "target_lp_quality": 0.7726437817304997,
+            "pooled_router_quality": 0.78013864102677,
+            "specialist_quality": 0.7822625481064213,
+            "oracle_quality": 0.840504312402907,
+            "cost": 10.0,
+            "allocation": [
+              0.8583980099502486,
+              0.018,
+              0.12360199004975124
+            ]
+          },
+          {
+            "seed": 43,
+            "pooled_lp_quality": 0.7726437817304997,
+            "target_lp_quality": 0.7726437817304997,
+            "pooled_router_quality": 0.7721317088998789,
+            "specialist_quality": 0.7805650752757524,
+            "oracle_quality": 0.840504312402907,
+            "cost": 10.0,
+            "allocation": [
+              0.8529751243781094,
+              0.028,
+              0.11902487562189053
+            ]
+          },
+          {
+            "seed": 44,
+            "pooled_lp_quality": 0.7726437817304997,
+            "target_lp_quality": 0.7726437817304997,
+            "pooled_router_quality": 0.7668305809238383,
+            "specialist_quality": 0.7886531791278558,
+            "oracle_quality": 0.840504312402907,
+            "cost": 10.0,
+            "allocation": [
+              0.8273744939271254,
+              0.0752085020242915,
+              0.097417004048583
+            ]
+          },
+          {
+            "seed": 45,
+            "pooled_lp_quality": 0.7726437817304997,
+            "target_lp_quality": 0.7726437817304997,
+            "pooled_router_quality": 0.7797836819609573,
+            "specialist_quality": 0.7842003103557257,
+            "oracle_quality": 0.840504312402907,
+            "cost": 10.0,
+            "allocation": [
+              0.8459253731343284,
+              0.041,
+              0.11307462686567166
+            ]
+          },
+          {
+            "seed": 46,
+            "pooled_lp_quality": 0.7726437817304997,
+            "target_lp_quality": 0.7726437817304997,
+            "pooled_router_quality": 0.7779145139051424,
+            "specialist_quality": 0.7846631737427437,
+            "oracle_quality": 0.840504312402907,
+            "cost": 10.0,
+            "allocation": [
+              0.8267581120943952,
+              0.07634513274336284,
+              0.09689675516224189
+            ]
+          }
+        ]
+      }
+    },
+    "f50_advantage": {
+      "gm": {
+        "pooled_lp_quality": 0.3236225351792259,
+        "pooled_lp_quality_seed_std": 0.0,
+        "target_lp_quality": 0.3236225351792259,
+        "target_lp_quality_seed_std": 0.0,
+        "pooled_router_quality": 0.32429846983607097,
+        "pooled_router_quality_seed_std": 0.00326406808276474,
+        "specialist_quality": 0.3227599817296504,
+        "specialist_quality_seed_std": 0.0019450928838867921,
+        "oracle_quality": 0.383842656020249,
+        "oracle_quality_seed_std": 0.0,
+        "cost": 10.0,
+        "cost_seed_std": 0.0,
+        "learned_gain_vs_pooled_lp": 0.0006759346568451354,
+        "learned_gain_vs_pooled_lp_ci95": [
+          -0.002405465037441306,
+          0.0037192309407349483
+        ],
+        "gain_vs_target_lp": 0.0006759346568451354,
+        "gain_vs_target_lp_ci95": [
+          -0.0023660793084795957,
+          0.003794771069784702
+        ],
+        "gain_vs_specialist": 0.0015384881064205592,
+        "gain_vs_specialist_ci95": [
+          -0.0016097842966633878,
+          0.004723382223677303
+        ],
+        "allocation": [
+          0.8157281224833508,
+          0.09668483835638983,
+          0.08758703916025937
+        ],
+        "per_seed": [
+          {
+            "seed": 42,
+            "pooled_lp_quality": 0.3236225351792259,
+            "target_lp_quality": 0.3236225351792259,
+            "pooled_router_quality": 0.3279329620479976,
+            "specialist_quality": 0.3250899784947689,
+            "oracle_quality": 0.383842656020249,
+            "cost": 10.0,
+            "allocation": [
+              0.8005119453924915,
+              0.12474402730375427,
+              0.07474402730375426
+            ]
+          },
+          {
+            "seed": 43,
+            "pooled_lp_quality": 0.3236225351792259,
+            "target_lp_quality": 0.3236225351792259,
+            "pooled_router_quality": 0.3190472561009351,
+            "specialist_quality": 0.32250195066640863,
+            "oracle_quality": 0.383842656020249,
+            "cost": 10.0,
+            "allocation": [
+              0.7971871029224905,
+              0.1308751588310038,
+              0.0719377382465057
+            ]
+          },
+          {
+            "seed": 44,
+            "pooled_lp_quality": 0.3236225351792259,
+            "target_lp_quality": 0.3236225351792259,
+            "pooled_router_quality": 0.32761747083922144,
+            "specialist_quality": 0.32217120406473343,
+            "oracle_quality": 0.383842656020249,
+            "cost": 10.0,
+            "allocation": [
+              0.8320492662473795,
+              0.06658805031446541,
+              0.10136268343815515
+            ]
+          },
+          {
+            "seed": 45,
+            "pooled_lp_quality": 0.3236225351792259,
+            "target_lp_quality": 0.3236225351792259,
+            "pooled_router_quality": 0.32355047451222146,
+            "specialist_quality": 0.3244653127370428,
+            "oracle_quality": 0.383842656020249,
+            "cost": 10.0,
+            "allocation": [
+              0.8139482680036463,
+              0.09996695533272562,
+              0.08608477666362806
+            ]
+          },
+          {
+            "seed": 46,
+            "pooled_lp_quality": 0.3236225351792259,
+            "target_lp_quality": 0.3236225351792259,
+            "pooled_router_quality": 0.32334418567997913,
+            "specialist_quality": 0.31957146268529835,
+            "oracle_quality": 0.383842656020249,
+            "cost": 10.0,
+            "allocation": [
+              0.8349440298507462,
+              0.06125,
+              0.1038059701492537
+            ]
+          }
+        ]
+      },
+      "am": {
+        "pooled_lp_quality": 0.7520232749916613,
+        "pooled_lp_quality_seed_std": 0.0,
+        "target_lp_quality": 0.7520232749916613,
+        "target_lp_quality_seed_std": 0.0,
+        "pooled_router_quality": 0.7522060897188416,
+        "pooled_router_quality_seed_std": 0.0007766843158399182,
+        "specialist_quality": 0.7531752048944649,
+        "specialist_quality_seed_std": 0.0014083842771423479,
+        "oracle_quality": 0.7779770537959817,
+        "oracle_quality_seed_std": 0.0,
+        "cost": 10.0,
+        "cost_seed_std": 0.0,
+        "learned_gain_vs_pooled_lp": 0.00018281472718033431,
+        "learned_gain_vs_pooled_lp_ci95": [
+          -0.0010188095844286648,
+          0.0014172888068683138
+        ],
+        "gain_vs_target_lp": 0.00018281472718033431,
+        "gain_vs_target_lp_ci95": [
+          -0.0010317196234745217,
+          0.001437065159894692
+        ],
+        "gain_vs_specialist": -0.000969115175623094,
+        "gain_vs_specialist_ci95": [
+          -0.0022252725338941463,
+          0.00030252361005993835
+        ],
+        "allocation": [
+          0.8045494593676462,
+          0.11729870336791852,
+          0.07815183726443531
+        ],
+        "per_seed": [
+          {
+            "seed": 42,
+            "pooled_lp_quality": 0.7520232749916613,
+            "target_lp_quality": 0.7520232749916613,
+            "pooled_router_quality": 0.7529009916868223,
+            "specialist_quality": 0.754080154715078,
+            "oracle_quality": 0.7779770537959817,
+            "cost": 10.0,
+            "allocation": [
+              0.8037771739130435,
+              0.11872282608695649,
+              0.0775
+            ]
+          },
+          {
+            "seed": 43,
+            "pooled_lp_quality": 0.7520232749916613,
+            "target_lp_quality": 0.7520232749916613,
+            "pooled_router_quality": 0.751436956532754,
+            "specialist_quality": 0.7545155478614243,
+            "oracle_quality": 0.7779770537959817,
+            "cost": 10.0,
+            "allocation": [
+              0.7911277001270648,
+              0.14204891994917407,
+              0.06682337992376114
+            ]
+          },
+          {
+            "seed": 44,
+            "pooled_lp_quality": 0.7520232749916613,
+            "target_lp_quality": 0.7520232749916613,
+            "pooled_router_quality": 0.7532327563929099,
+            "specialist_quality": 0.7515832625197905,
+            "oracle_quality": 0.7779770537959817,
+            "cost": 10.0,
+            "allocation": [
+              0.8057960199004975,
+              0.115,
+              0.0792039800995025
+            ]
+          },
+          {
+            "seed": 45,
+            "pooled_lp_quality": 0.7520232749916613,
+            "target_lp_quality": 0.7520232749916613,
+            "pooled_router_quality": 0.7512639712928655,
+            "specialist_quality": 0.7513394630877122,
+            "oracle_quality": 0.7779770537959817,
+            "cost": 10.0,
+            "allocation": [
+              0.8284280742459398,
+              0.07326566125290021,
+              0.09830626450116009
+            ]
+          },
+          {
+            "seed": 46,
+            "pooled_lp_quality": 0.7520232749916613,
+            "target_lp_quality": 0.7520232749916613,
+            "pooled_router_quality": 0.7521957726888567,
+            "specialist_quality": 0.7543575962883188,
+            "oracle_quality": 0.7779770537959817,
+            "cost": 10.0,
+            "allocation": [
+              0.7936183286516852,
+              0.1374561095505618,
+              0.0689255617977528
+            ]
+          }
+        ]
+      },
+      "unigen": {
+        "pooled_lp_quality": 0.8218955930355151,
+        "pooled_lp_quality_seed_std": 0.0,
+        "target_lp_quality": 0.8218955930355151,
+        "target_lp_quality_seed_std": 0.0,
+        "pooled_router_quality": 0.8233906958702703,
+        "pooled_router_quality_seed_std": 0.0010877720198687174,
+        "specialist_quality": 0.8268402379629052,
+        "specialist_quality_seed_std": 0.0018240116492049246,
+        "oracle_quality": 0.8713327300265646,
+        "oracle_quality_seed_std": 1.1102230246251565e-16,
+        "cost": 10.0,
+        "cost_seed_std": 7.944109290391273e-16,
+        "learned_gain_vs_pooled_lp": 0.0014951028347550469,
+        "learned_gain_vs_pooled_lp_ci95": [
+          -0.0024243408658256235,
+          0.0058778150200727835
+        ],
+        "gain_vs_target_lp": 0.0014951028347550469,
+        "gain_vs_target_lp_ci95": [
+          -0.0023021991127932847,
+          0.005727716672893321
+        ],
+        "gain_vs_specialist": -0.003449542092634937,
+        "gain_vs_specialist_ci95": [
+          -0.0081081346579449,
+          0.0012659046841784242
+        ],
+        "allocation": [
+          0.8406338388189086,
+          0.0507577834623796,
+          0.10860837771871182
+        ],
+        "per_seed": [
+          {
+            "seed": 42,
+            "pooled_lp_quality": 0.8218955930355151,
+            "target_lp_quality": 0.8218955930355151,
+            "pooled_router_quality": 0.8253354059079928,
+            "specialist_quality": 0.8255353814311195,
+            "oracle_quality": 0.8713327300265648,
+            "cost": 10.000000000000002,
+            "allocation": [
+              0.8571893601190477,
+              0.020228794642857137,
+              0.12258184523809522
+            ]
+          },
+          {
+            "seed": 43,
+            "pooled_lp_quality": 0.8218955930355151,
+            "target_lp_quality": 0.8218955930355151,
+            "pooled_router_quality": 0.8231856567646141,
+            "specialist_quality": 0.8283079269557425,
+            "oracle_quality": 0.8713327300265648,
+            "cost": 10.0,
+            "allocation": [
+              0.8301990049751244,
+              0.07,
+              0.09980099502487556
+            ]
+          },
+          {
+            "seed": 44,
+            "pooled_lp_quality": 0.8218955930355151,
+            "target_lp_quality": 0.8218955930355151,
+            "pooled_router_quality": 0.822183334728082,
+            "specialist_quality": 0.8281111124778787,
+            "oracle_quality": 0.8713327300265648,
+            "cost": 10.0,
+            "allocation": [
+              0.8541304347826087,
+              0.025869565217391303,
+              0.12
+            ]
+          },
+          {
+            "seed": 45,
+            "pooled_lp_quality": 0.8218955930355151,
+            "target_lp_quality": 0.8218955930355151,
+            "pooled_router_quality": 0.8236209802397497,
+            "specialist_quality": 0.8283745454036774,
+            "oracle_quality": 0.8713327300265648,
+            "cost": 10.0,
+            "allocation": [
+              0.853698175787728,
+              0.02666666666666667,
+              0.1196351575456053
+            ]
+          },
+          {
+            "seed": 46,
+            "pooled_lp_quality": 0.8218955930355151,
+            "target_lp_quality": 0.8218955930355151,
+            "pooled_router_quality": 0.8226281017109125,
+            "specialist_quality": 0.8238722235461076,
+            "oracle_quality": 0.8713327300265648,
+            "cost": 10.0,
+            "allocation": [
+              0.8079522184300342,
+              0.1110238907849829,
+              0.0810238907849829
+            ]
+          }
+        ]
+      },
+      "corebench": {
+        "pooled_lp_quality": 0.5070224614293777,
+        "pooled_lp_quality_seed_std": 0.0,
+        "target_lp_quality": 0.5070224614293777,
+        "target_lp_quality_seed_std": 0.0,
+        "pooled_router_quality": 0.5060497737029277,
+        "pooled_router_quality_seed_std": 0.0021565455330789032,
+        "specialist_quality": 0.524027177005624,
+        "specialist_quality_seed_std": 0.0005463946189848719,
+        "oracle_quality": 0.5525449906042424,
+        "oracle_quality_seed_std": 0.0,
+        "cost": 10.0,
+        "cost_seed_std": 0.0,
+        "learned_gain_vs_pooled_lp": -0.00097268772645003,
+        "learned_gain_vs_pooled_lp_ci95": [
+          -0.003176536964705083,
+          0.0013413110561869615
+        ],
+        "gain_vs_target_lp": -0.00097268772645003,
+        "gain_vs_target_lp_ci95": [
+          -0.0032234132737450545,
+          0.0013639711553632406
+        ],
+        "gain_vs_specialist": -0.017977403302696253,
+        "gain_vs_specialist_ci95": [
+          -0.024245724052982684,
+          -0.01204186597990923
+        ],
+        "allocation": [
+          0.8238906765655589,
+          0.08163278908552893,
+          0.09447653434891212
+        ],
+        "per_seed": [
+          {
+            "seed": 42,
+            "pooled_lp_quality": 0.5070224614293777,
+            "target_lp_quality": 0.5070224614293777,
+            "pooled_router_quality": 0.5069031573461462,
+            "specialist_quality": 0.5241582380675167,
+            "oracle_quality": 0.5525449906042424,
+            "cost": 10.0,
+            "allocation": [
+              0.848576561636263,
+              0.03611111111111111,
+              0.11531232725262575
+            ]
+          },
+          {
+            "seed": 43,
+            "pooled_lp_quality": 0.5070224614293777,
+            "target_lp_quality": 0.5070224614293777,
+            "pooled_router_quality": 0.5026341521963902,
+            "specialist_quality": 0.5230345675000491,
+            "oracle_quality": 0.5525449906042424,
+            "cost": 10.0,
+            "allocation": [
+              0.8106706402759034,
+              0.10601102114260008,
+              0.08331833858149645
+            ]
+          },
+          {
+            "seed": 44,
+            "pooled_lp_quality": 0.5070224614293777,
+            "target_lp_quality": 0.5070224614293777,
+            "pooled_router_quality": 0.5075368384553247,
+            "specialist_quality": 0.524708702884699,
+            "oracle_quality": 0.5525449906042424,
+            "cost": 10.0,
+            "allocation": [
+              0.8038879675695596,
+              0.11851851851851852,
+              0.07759351391192186
+            ]
+          },
+          {
+            "seed": 45,
+            "pooled_lp_quality": 0.5070224614293777,
+            "target_lp_quality": 0.5070224614293777,
+            "pooled_router_quality": 0.5085960101875365,
+            "specialist_quality": 0.524047894781582,
+            "oracle_quality": 0.5525449906042424,
+            "cost": 10.0,
+            "allocation": [
+              0.8107543659165495,
+              0.10585662798874823,
+              0.08338900609470229
+            ]
+          },
+          {
+            "seed": 46,
+            "pooled_lp_quality": 0.5070224614293777,
+            "target_lp_quality": 0.5070224614293777,
+            "pooled_router_quality": 0.5045787103292406,
+            "specialist_quality": 0.5241864817942727,
+            "oracle_quality": 0.5525449906042424,
+            "cost": 10.0,
+            "allocation": [
+              0.8455638474295191,
+              0.041666666666666664,
+              0.11276948590381425
+            ]
+          }
+        ]
+      },
+      "wise": {
+        "pooled_lp_quality": 0.7726437817304997,
+        "pooled_lp_quality_seed_std": 0.0,
+        "target_lp_quality": 0.7726437817304997,
+        "target_lp_quality_seed_std": 0.0,
+        "pooled_router_quality": 0.7753598253433174,
+        "pooled_router_quality_seed_std": 0.005140092732575591,
+        "specialist_quality": 0.7840688573216998,
+        "specialist_quality_seed_std": 0.002717562876460394,
+        "oracle_quality": 0.840504312402907,
+        "oracle_quality_seed_std": 0.0,
+        "cost": 10.0,
+        "cost_seed_std": 0.0,
+        "learned_gain_vs_pooled_lp": 0.002716043612817601,
+        "learned_gain_vs_pooled_lp_ci95": [
+          -0.0012564156279850525,
+          0.006842360457936176
+        ],
+        "gain_vs_target_lp": 0.002716043612817601,
+        "gain_vs_target_lp_ci95": [
+          -0.0012128173459619537,
+          0.006983187069023109
+        ],
+        "gain_vs_specialist": -0.008709031978382437,
+        "gain_vs_specialist_ci95": [
+          -0.015754442486669205,
+          -0.0020354847551020336
+        ],
+        "allocation": [
+          0.8422862226968414,
+          0.04771072695353087,
+          0.11000305034962765
+        ],
+        "per_seed": [
+          {
+            "seed": 42,
+            "pooled_lp_quality": 0.7726437817304997,
+            "target_lp_quality": 0.7726437817304997,
+            "pooled_router_quality": 0.78013864102677,
+            "specialist_quality": 0.7822625481064213,
+            "oracle_quality": 0.840504312402907,
+            "cost": 10.0,
+            "allocation": [
+              0.8583980099502486,
+              0.018,
+              0.12360199004975124
+            ]
+          },
+          {
+            "seed": 43,
+            "pooled_lp_quality": 0.7726437817304997,
+            "target_lp_quality": 0.7726437817304997,
+            "pooled_router_quality": 0.7721317088998789,
+            "specialist_quality": 0.7805650752757524,
+            "oracle_quality": 0.840504312402907,
+            "cost": 10.0,
+            "allocation": [
+              0.8529751243781094,
+              0.028,
+              0.11902487562189053
+            ]
+          },
+          {
+            "seed": 44,
+            "pooled_lp_quality": 0.7726437817304997,
+            "target_lp_quality": 0.7726437817304997,
+            "pooled_router_quality": 0.7668305809238383,
+            "specialist_quality": 0.7886531791278558,
+            "oracle_quality": 0.840504312402907,
+            "cost": 10.0,
+            "allocation": [
+              0.8273744939271254,
+              0.0752085020242915,
+              0.097417004048583
+            ]
+          },
+          {
+            "seed": 45,
+            "pooled_lp_quality": 0.7726437817304997,
+            "target_lp_quality": 0.7726437817304997,
+            "pooled_router_quality": 0.7797836819609573,
+            "specialist_quality": 0.7842003103557257,
+            "oracle_quality": 0.840504312402907,
+            "cost": 10.0,
+            "allocation": [
+              0.8459253731343284,
+              0.041,
+              0.11307462686567166
+            ]
+          },
+          {
+            "seed": 46,
+            "pooled_lp_quality": 0.7726437817304997,
+            "target_lp_quality": 0.7726437817304997,
+            "pooled_router_quality": 0.7779145139051424,
+            "specialist_quality": 0.7846631737427437,
+            "oracle_quality": 0.840504312402907,
+            "cost": 10.0,
+            "allocation": [
+              0.8267581120943952,
+              0.07634513274336284,
+              0.09689675516224189
+            ]
+          }
+        ]
+      }
+    },
+    "normalized_f50_advantage": {
+      "gm": {
+        "pooled_lp_quality": 0.3236225351792259,
+        "pooled_lp_quality_seed_std": 0.0,
+        "target_lp_quality": 0.3236225351792259,
+        "target_lp_quality_seed_std": 0.0,
+        "pooled_router_quality": 0.3257653265399061,
+        "pooled_router_quality_seed_std": 0.0030153999803720737,
+        "specialist_quality": 0.3227599817296504,
+        "specialist_quality_seed_std": 0.0019450928838867921,
+        "oracle_quality": 0.383842656020249,
+        "oracle_quality_seed_std": 0.0,
+        "cost": 10.0,
+        "cost_seed_std": 0.0,
+        "learned_gain_vs_pooled_lp": 0.0021427913606802463,
+        "learned_gain_vs_pooled_lp_ci95": [
+          -0.0009478134332571207,
+          0.005325915011141556
+        ],
+        "gain_vs_target_lp": 0.0021427913606802463,
+        "gain_vs_target_lp_ci95": [
+          -0.0008082224248680204,
+          0.0053382871345460286
+        ],
+        "gain_vs_specialist": 0.003005344810255671,
+        "gain_vs_specialist_ci95": [
+          -0.0001276655000216001,
+          0.006035110559464051
+        ],
+        "allocation": [
+          0.806021165411258,
+          0.11458482341593709,
+          0.07939401117280491
+        ],
+        "per_seed": [
+          {
+            "seed": 42,
+            "pooled_lp_quality": 0.3236225351792259,
+            "target_lp_quality": 0.3236225351792259,
+            "pooled_router_quality": 0.328497693258271,
+            "specialist_quality": 0.3250899784947689,
+            "oracle_quality": 0.383842656020249,
+            "cost": 10.0,
+            "allocation": [
+              0.7919293478260869,
+              0.14057065217391307,
+              0.0675
+            ]
+          },
+          {
+            "seed": 43,
+            "pooled_lp_quality": 0.3236225351792259,
+            "target_lp_quality": 0.3236225351792259,
+            "pooled_router_quality": 0.3211375011871975,
+            "specialist_quality": 0.32250195066640863,
+            "oracle_quality": 0.383842656020249,
+            "cost": 10.0,
+            "allocation": [
+              0.7837713310580204,
+              0.15561433447098977,
+              0.06061433447098977
+            ]
+          },
+          {
+            "seed": 44,
+            "pooled_lp_quality": 0.3236225351792259,
+            "target_lp_quality": 0.3236225351792259,
+            "pooled_router_quality": 0.32947106849634283,
+            "specialist_quality": 0.32217120406473343,
+            "oracle_quality": 0.383842656020249,
+            "cost": 10.0,
+            "allocation": [
+              0.8179975124378109,
+              0.0925,
+              0.089502487562189
+            ]
+          },
+          {
+            "seed": 45,
+            "pooled_lp_quality": 0.3236225351792259,
+            "target_lp_quality": 0.3236225351792259,
+            "pooled_router_quality": 0.32408252700790363,
+            "specialist_quality": 0.3244653127370428,
+            "oracle_quality": 0.383842656020249,
+            "cost": 10.0,
+            "allocation": [
+              0.8118967661691543,
+              0.10375000000000001,
+              0.08435323383084577
+            ]
+          },
+          {
+            "seed": 46,
+            "pooled_lp_quality": 0.3236225351792259,
+            "target_lp_quality": 0.3236225351792259,
+            "pooled_router_quality": 0.3256378427498155,
+            "specialist_quality": 0.31957146268529835,
+            "oracle_quality": 0.383842656020249,
+            "cost": 10.0,
+            "allocation": [
+              0.8245108695652174,
+              0.08048913043478265,
+              0.095
+            ]
+          }
+        ]
+      },
+      "am": {
+        "pooled_lp_quality": 0.7520232749916613,
+        "pooled_lp_quality_seed_std": 0.0,
+        "target_lp_quality": 0.7520232749916613,
+        "target_lp_quality_seed_std": 0.0,
+        "pooled_router_quality": 0.7520871935364705,
+        "pooled_router_quality_seed_std": 0.0006938304287289224,
+        "specialist_quality": 0.7531752048944649,
+        "specialist_quality_seed_std": 0.0014083842771423479,
+        "oracle_quality": 0.7779770537959817,
+        "oracle_quality_seed_std": 0.0,
+        "cost": 10.0,
+        "cost_seed_std": 0.0,
+        "learned_gain_vs_pooled_lp": 6.391854480911778e-05,
+        "learned_gain_vs_pooled_lp_ci95": [
+          -0.0011306106303042066,
+          0.0012858678646295227
+        ],
+        "gain_vs_target_lp": 6.391854480911778e-05,
+        "gain_vs_target_lp_ci95": [
+          -0.0011414587734331762,
+          0.001297645654601348
+        ],
+        "gain_vs_specialist": -0.0010880113579943103,
+        "gain_vs_specialist_ci95": [
+          -0.0023270144803992435,
+          0.00019903081772351322
+        ],
+        "allocation": [
+          0.8058520170884707,
+          0.11489673913043479,
+          0.07925124378109452
+        ],
+        "per_seed": [
+          {
+            "seed": 42,
+            "pooled_lp_quality": 0.7520232749916613,
+            "target_lp_quality": 0.7520232749916613,
+            "pooled_router_quality": 0.7527841661287391,
+            "specialist_quality": 0.754080154715078,
+            "oracle_quality": 0.7779770537959817,
+            "cost": 10.0,
+            "allocation": [
+              0.8022961956521739,
+              0.1214538043478261,
+              0.07625
+            ]
+          },
+          {
+            "seed": 43,
+            "pooled_lp_quality": 0.7520232749916613,
+            "target_lp_quality": 0.7520232749916613,
+            "pooled_router_quality": 0.7514197019009446,
+            "specialist_quality": 0.7545155478614243,
+            "oracle_quality": 0.7779770537959817,
+            "cost": 10.0,
+            "allocation": [
+              0.7922388059701493,
+              0.14,
+              0.06776119402985076
+            ]
+          },
+          {
+            "seed": 44,
+            "pooled_lp_quality": 0.7520232749916613,
+            "target_lp_quality": 0.7520232749916613,
+            "pooled_router_quality": 0.7530264460125372,
+            "specialist_quality": 0.7515832625197905,
+            "oracle_quality": 0.7779770537959817,
+            "cost": 10.0,
+            "allocation": [
+              0.8082201086956522,
+              0.11052989130434776,
+              0.08125
+            ]
+          },
+          {
+            "seed": 45,
+            "pooled_lp_quality": 0.7520232749916613,
+            "target_lp_quality": 0.7520232749916613,
+            "pooled_router_quality": 0.7513535578934412,
+            "specialist_quality": 0.7513394630877122,
+            "oracle_quality": 0.7779770537959817,
+            "cost": 10.0,
+            "allocation": [
+              0.8315547263681593,
+              0.0675,
+              0.1009452736318408
+            ]
+          },
+          {
+            "seed": 46,
+            "pooled_lp_quality": 0.7520232749916613,
+            "target_lp_quality": 0.7520232749916613,
+            "pooled_router_quality": 0.75185209574669,
+            "specialist_quality": 0.7543575962883188,
+            "oracle_quality": 0.7779770537959817,
+            "cost": 10.0,
+            "allocation": [
+              0.7949502487562189,
+              0.135,
+              0.07004975124378111
+            ]
+          }
+        ]
+      },
+      "unigen": {
+        "pooled_lp_quality": 0.8218955930355151,
+        "pooled_lp_quality_seed_std": 0.0,
+        "target_lp_quality": 0.8218955930355151,
+        "target_lp_quality_seed_std": 0.0,
+        "pooled_router_quality": 0.8234727547056423,
+        "pooled_router_quality_seed_std": 0.0008493171290323613,
+        "specialist_quality": 0.8268402379629052,
+        "specialist_quality_seed_std": 0.0018240116492049246,
+        "oracle_quality": 0.8713327300265646,
+        "oracle_quality_seed_std": 1.1102230246251565e-16,
+        "cost": 10.0,
+        "cost_seed_std": 0.0,
+        "learned_gain_vs_pooled_lp": 0.001577161670127116,
+        "learned_gain_vs_pooled_lp_ci95": [
+          -0.0021783619948213527,
+          0.005690268622265795
+        ],
+        "gain_vs_target_lp": 0.001577161670127116,
+        "gain_vs_target_lp_ci95": [
+          -0.002173896684580423,
+          0.005613368705085208
+        ],
+        "gain_vs_specialist": -0.0033674832572628682,
+        "gain_vs_specialist_ci95": [
+          -0.007634837986646469,
+          0.0012601899284772429
+        ],
+        "allocation": [
+          0.8314412634113895,
+          0.0677092298560617,
+          0.10084950673254885
+        ],
+        "per_seed": [
+          {
+            "seed": 42,
+            "pooled_lp_quality": 0.8218955930355151,
+            "target_lp_quality": 0.8218955930355151,
+            "pooled_router_quality": 0.8244866531825411,
+            "specialist_quality": 0.8255353814311195,
+            "oracle_quality": 0.8713327300265648,
+            "cost": 10.0,
+            "allocation": [
+              0.8507337883959044,
+              0.032133105802047784,
+              0.11713310580204778
+            ]
+          },
+          {
+            "seed": 43,
+            "pooled_lp_quality": 0.8218955930355151,
+            "target_lp_quality": 0.8218955930355151,
+            "pooled_router_quality": 0.8245166681831082,
+            "specialist_quality": 0.8283079269557425,
+            "oracle_quality": 0.8713327300265648,
+            "cost": 10.0,
+            "allocation": [
+              0.8185869565217393,
+              0.09141304347826075,
+              0.09
+            ]
+          },
+          {
+            "seed": 44,
+            "pooled_lp_quality": 0.8218955930355151,
+            "target_lp_quality": 0.8218955930355151,
+            "pooled_router_quality": 0.8229645120133808,
+            "specialist_quality": 0.8281111124778787,
+            "oracle_quality": 0.8713327300265648,
+            "cost": 10.0,
+            "allocation": [
+              0.8464676616915423,
+              0.04,
+              0.11353233830845767
+            ]
+          },
+          {
+            "seed": 45,
+            "pooled_lp_quality": 0.8218955930355151,
+            "target_lp_quality": 0.8218955930355151,
+            "pooled_router_quality": 0.8228205657009017,
+            "specialist_quality": 0.8283745454036774,
+            "oracle_quality": 0.8713327300265648,
+            "cost": 10.0,
+            "allocation": [
+              0.8455638474295191,
+              0.041666666666666664,
+              0.11276948590381422
+            ]
+          },
+          {
+            "seed": 46,
+            "pooled_lp_quality": 0.8218955930355151,
+            "target_lp_quality": 0.8218955930355151,
+            "pooled_router_quality": 0.8225753744482796,
+            "specialist_quality": 0.8238722235461076,
+            "oracle_quality": 0.8713327300265648,
+            "cost": 10.0,
+            "allocation": [
+              0.7958540630182421,
+              0.13333333333333333,
+              0.07081260364842452
+            ]
+          }
+        ]
+      },
+      "corebench": {
+        "pooled_lp_quality": 0.5070224614293777,
+        "pooled_lp_quality_seed_std": 0.0,
+        "target_lp_quality": 0.5070224614293777,
+        "target_lp_quality_seed_std": 0.0,
+        "pooled_router_quality": 0.5068099323341515,
+        "pooled_router_quality_seed_std": 0.0028469833940799106,
+        "specialist_quality": 0.524027177005624,
+        "specialist_quality_seed_std": 0.0005463946189848719,
+        "oracle_quality": 0.5525449906042424,
+        "oracle_quality_seed_std": 0.0,
+        "cost": 10.0,
+        "cost_seed_std": 0.0,
+        "learned_gain_vs_pooled_lp": -0.00021252909522607392,
+        "learned_gain_vs_pooled_lp_ci95": [
+          -0.0024334636569212052,
+          0.0020754557889857304
+        ],
+        "gain_vs_target_lp": -0.00021252909522607392,
+        "gain_vs_target_lp_ci95": [
+          -0.002454963592821888,
+          0.0020644892059714626
+        ],
+        "gain_vs_specialist": -0.017217244671472298,
+        "gain_vs_specialist_ci95": [
+          -0.023157348662394633,
+          -0.011519371666469313
+        ],
+        "allocation": [
+          0.81560854242251,
+          0.09690534837683913,
+          0.08748610920065072
+        ],
+        "per_seed": [
+          {
+            "seed": 42,
+            "pooled_lp_quality": 0.5070224614293777,
+            "target_lp_quality": 0.5070224614293777,
+            "pooled_router_quality": 0.5084147631802333,
+            "specialist_quality": 0.5241582380675167,
+            "oracle_quality": 0.5525449906042424,
+            "cost": 10.0,
+            "allocation": [
+              0.8470702045328911,
+              0.03888888888888889,
+              0.11404090657822002
+            ]
+          },
+          {
+            "seed": 43,
+            "pooled_lp_quality": 0.5070224614293777,
+            "target_lp_quality": 0.5070224614293777,
+            "pooled_router_quality": 0.501985137138517,
+            "specialist_quality": 0.5230345675000491,
+            "oracle_quality": 0.5525449906042424,
+            "cost": 10.0,
+            "allocation": [
+              0.7972222222222223,
+              0.13081039755351687,
+              0.07196738022426093
+            ]
+          },
+          {
+            "seed": 44,
+            "pooled_lp_quality": 0.5070224614293777,
+            "target_lp_quality": 0.5070224614293777,
+            "pooled_router_quality": 0.509067588439841,
+            "specialist_quality": 0.524708702884699,
+            "oracle_quality": 0.5525449906042424,
+            "cost": 10.0,
+            "allocation": [
+              0.7953450891164202,
+              0.13427189988623436,
+              0.07038301099734545
+            ]
+          },
+          {
+            "seed": 45,
+            "pooled_lp_quality": 0.5070224614293777,
+            "target_lp_quality": 0.5070224614293777,
+            "pooled_router_quality": 0.5094256135508773,
+            "specialist_quality": 0.524047894781582,
+            "oracle_quality": 0.5525449906042424,
+            "cost": 10.0,
+            "allocation": [
+              0.8008752533628156,
+              0.12407407407407407,
+              0.0750506725631104
+            ]
+          },
+          {
+            "seed": 46,
+            "pooled_lp_quality": 0.5070224614293777,
+            "target_lp_quality": 0.5070224614293777,
+            "pooled_router_quality": 0.5051565593612893,
+            "specialist_quality": 0.5241864817942727,
+            "oracle_quality": 0.5525449906042424,
+            "cost": 10.0,
+            "allocation": [
+              0.8375299428782015,
+              0.05648148148148148,
+              0.10598857564031688
+            ]
+          }
+        ]
+      },
+      "wise": {
+        "pooled_lp_quality": 0.7726437817304997,
+        "pooled_lp_quality_seed_std": 0.0,
+        "target_lp_quality": 0.7726437817304997,
+        "target_lp_quality_seed_std": 0.0,
+        "pooled_router_quality": 0.7748307161719143,
+        "pooled_router_quality_seed_std": 0.0048309851528136665,
+        "specialist_quality": 0.7840688573216998,
+        "specialist_quality_seed_std": 0.002717562876460394,
+        "oracle_quality": 0.840504312402907,
+        "oracle_quality_seed_std": 0.0,
+        "cost": 10.0,
+        "cost_seed_std": 0.0,
+        "learned_gain_vs_pooled_lp": 0.0021869344414146,
+        "learned_gain_vs_pooled_lp_ci95": [
+          -0.0014080163838582436,
+          0.0059854970676987435
+        ],
+        "gain_vs_target_lp": 0.0021869344414146,
+        "gain_vs_target_lp_ci95": [
+          -0.0014251134796110902,
+          0.0060426415039986645
+        ],
+        "gain_vs_specialist": -0.009238141149785436,
+        "gain_vs_specialist_ci95": [
+          -0.0158881298847745,
+          -0.002521721801874499
+        ],
+        "allocation": [
+          0.8402372819830216,
+          0.051489048820299754,
+          0.10827366919667873
+        ],
+        "per_seed": [
+          {
+            "seed": 42,
+            "pooled_lp_quality": 0.7726437817304997,
+            "target_lp_quality": 0.7726437817304997,
+            "pooled_router_quality": 0.78109476058199,
+            "specialist_quality": 0.7822625481064213,
+            "oracle_quality": 0.840504312402907,
+            "cost": 10.0,
+            "allocation": [
+              0.8583980099502486,
+              0.018,
+              0.12360199004975124
+            ]
+          },
+          {
+            "seed": 43,
+            "pooled_lp_quality": 0.7726437817304997,
+            "target_lp_quality": 0.7726437817304997,
+            "pooled_router_quality": 0.7717149260829606,
+            "specialist_quality": 0.7805650752757524,
+            "oracle_quality": 0.840504312402907,
+            "cost": 10.0,
+            "allocation": [
+              0.8508059701492537,
+              0.032,
+              0.1171940298507463
+            ]
+          },
+          {
+            "seed": 44,
+            "pooled_lp_quality": 0.7726437817304997,
+            "target_lp_quality": 0.7726437817304997,
+            "pooled_router_quality": 0.7673251417388269,
+            "specialist_quality": 0.7886531791278558,
+            "oracle_quality": 0.840504312402907,
+            "cost": 10.0,
+            "allocation": [
+              0.8301990049751243,
+              0.07,
+              0.09980099502487566
+            ]
+          },
+          {
+            "seed": 45,
+            "pooled_lp_quality": 0.7726437817304997,
+            "target_lp_quality": 0.7726437817304997,
+            "pooled_router_quality": 0.7779888966804713,
+            "specialist_quality": 0.7842003103557257,
+            "oracle_quality": 0.840504312402907,
+            "cost": 10.0,
+            "allocation": [
+              0.838457337883959,
+              0.0547713310580205,
+              0.10677133105802049
+            ]
+          },
+          {
+            "seed": 46,
+            "pooled_lp_quality": 0.7726437817304997,
+            "target_lp_quality": 0.7726437817304997,
+            "pooled_router_quality": 0.7760298557753229,
+            "specialist_quality": 0.7846631737427437,
+            "oracle_quality": 0.840504312402907,
+            "cost": 10.0,
+            "allocation": [
+              0.8233260869565218,
+              0.08267391304347828,
+              0.094
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "summary": {
+    "raw_score": {
+      "macro_learned_gain": 0.0008194416210296175,
+      "positive_targets": 4,
+      "significant_positive_targets": 0,
+      "significant_negative_targets": 0
+    },
+    "f50_advantage": {
+      "macro_learned_gain": 0.0008194416210296175,
+      "positive_targets": 4,
+      "significant_positive_targets": 0,
+      "significant_negative_targets": 0
+    },
+    "normalized_f50_advantage": {
+      "macro_learned_gain": 0.0011516553843610013,
+      "positive_targets": 4,
+      "significant_positive_targets": 0,
+      "significant_negative_targets": 0
+    }
+  },
+  "model_meta": [
+    {
+      "seed": 42,
+      "target": "gm",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "am",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.44226162028176885,
+            0.4491769438215969,
+            0.4151995697557984
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "am",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.35311490371720144,
+            1.0,
+            0.15631381698740954
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "am",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.06334909191264877
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.07825298646723325
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11700819124113701
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.13181384872373467
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.2790883092295715,
+            1.0,
+            0.04313132193159519
+          ]
+        }
+      }
+    },
+    {
+      "seed": 42,
+      "target": "am",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "gm",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.631046335930572,
+            0.6166692155452692,
+            0.6210878412563186
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "gm",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.3490469146731212,
+            1.0,
+            0.06262933329976983
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "gm",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11655807963245139
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.07825298646723325
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11700819124113701
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.13181384872373467
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.2908949817184028,
+            1.0,
+            0.01406546675833853
+          ]
+        }
+      }
+    },
+    {
+      "seed": 42,
+      "target": "unigen",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "gm",
+            "am",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.4211087612205744,
+            0.4148744595264554,
+            0.390322493839785
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.38335236073121437,
+            1.0,
+            0.11967853360434078
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11655807963245139
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.06334909191264877
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11700819124113701
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.13181384872373467
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.39553385259132634,
+            1.0,
+            0.07816577951482462
+          ]
+        }
+      }
+    },
+    {
+      "seed": 42,
+      "target": "corebench",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.3880543733298072,
+            0.3637457334304468,
+            0.37744864649348875
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.3141350464422168,
+            1.0,
+            -0.057406095287515946
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11655807963245139
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.06334909191264877
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.07825298646723325
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.13181384872373467
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.29429776432204413,
+            1.0,
+            -0.10692468643775177
+          ]
+        }
+      }
+    },
+    {
+      "seed": 42,
+      "target": "wise",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "corebench"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.4113581053539048,
+            0.39060293158572523,
+            0.27646964939279506
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "corebench"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.32977398408083913,
+            1.0,
+            0.058345880407591366
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "corebench"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11655807963245139
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.06334909191264877
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.07825298646723325
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11700819124113701
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.31011506394658794,
+            1.0,
+            -0.013559114781075632
+          ]
+        }
+      }
+    },
+    {
+      "seed": 43,
+      "target": "gm",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "am",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.40283646947704055,
+            0.34976397678044513,
+            0.390897992680898
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "am",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.0627204950956175,
+            1.0,
+            0.23782939399109126
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "am",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.06979927824449703
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.08519676673266548
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.12034232730824594
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.12743798702873796
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.079719213215804,
+            1.0,
+            0.13889335328373043
+          ]
+        }
+      }
+    },
+    {
+      "seed": 43,
+      "target": "am",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "gm",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.6193961028680786,
+            0.6012843431015098,
+            0.6453303065401312
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "gm",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.2854280746782003,
+            1.0,
+            0.16088576674046717
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "gm",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11443117292755536
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.08519676673266548
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.12034232730824594
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.12743798702873796
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.2959265379518592,
+            1.0,
+            0.11989275619714335
+          ]
+        }
+      }
+    },
+    {
+      "seed": 43,
+      "target": "unigen",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "gm",
+            "am",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.4922943073884245,
+            0.4766904169914775,
+            0.487326060409769
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.20016146232369758,
+            1.0,
+            0.16174379659683158
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11443117292755536
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.06979927824449703
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.12034232730824594
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.12743798702873796
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.18914930987906953,
+            1.0,
+            0.11109667647887012
+          ]
+        }
+      }
+    },
+    {
+      "seed": 43,
+      "target": "corebench",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.3939808381063845,
+            0.3835207297740144,
+            0.43974720866527683
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.2109977379547061,
+            1.0,
+            -0.08012658298800113
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11443117292755536
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.06979927824449703
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.08519676673266548
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.12743798702873796
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.21513945611480545,
+            1.0,
+            -0.10313637417608446
+          ]
+        }
+      }
+    },
+    {
+      "seed": 43,
+      "target": "wise",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "corebench"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.3984346325539124,
+            0.4005532076140649,
+            0.40854456341191014
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "corebench"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.39038181179481746,
+            1.0,
+            0.23829687617145134
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "corebench"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11443117292755536
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.06979927824449703
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.08519676673266548
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.12034232730824594
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.32486508168847616,
+            1.0,
+            0.13356434776046733
+          ]
+        }
+      }
+    },
+    {
+      "seed": 44,
+      "target": "gm",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "am",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.45191219291962936,
+            0.48093090963381946,
+            0.5174537975272138
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "am",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.17681812484886072,
+            1.0,
+            0.2581463809570054
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "am",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.06529992593869563
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.07758632618832323
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.1130955337358466
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.12071408214142533
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.17318485793379534,
+            1.0,
+            0.1519301128889895
+          ]
+        }
+      }
+    },
+    {
+      "seed": 44,
+      "target": "am",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "gm",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.4891118962093447,
+            0.53270050223385,
+            0.6355939263784618
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "gm",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.37088278847621203,
+            1.0,
+            0.19087452178480924
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "gm",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11817263702020814
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.07758632618832323
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.1130955337358466
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.12071408214142533
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.2862704449504112,
+            1.0,
+            0.13671139586015846
+          ]
+        }
+      }
+    },
+    {
+      "seed": 44,
+      "target": "unigen",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "gm",
+            "am",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.3368781260901954,
+            0.37696949030698845,
+            0.42176400654998414
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.445157494530521,
+            1.0,
+            0.2424002926504638
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11817263702020814
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.06529992593869563
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.1130955337358466
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.12071408214142533
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.46330903469746887,
+            1.0,
+            0.16872177934740062
+          ]
+        }
+      }
+    },
+    {
+      "seed": 44,
+      "target": "corebench",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.27986780232717057,
+            0.3197463193685358,
+            0.41155670922065757
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.38024019094139594,
+            1.0,
+            0.03685223984670494
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11817263702020814
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.06529992593869563
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.07758632618832323
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.12071408214142533
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.32028513403519665,
+            1.0,
+            -0.06269750777453931
+          ]
+        }
+      }
+    },
+    {
+      "seed": 44,
+      "target": "wise",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "corebench"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.38912346090507033,
+            0.4161699685266077,
+            0.41421239855065306
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "corebench"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.26666719967100794,
+            1.0,
+            0.22795465099465684
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "corebench"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11817263702020814
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.06529992593869563
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.07758632618832323
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.1130955337358466
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.20872295757560355,
+            1.0,
+            0.10367125396701449
+          ]
+        }
+      }
+    },
+    {
+      "seed": 45,
+      "target": "gm",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "am",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.4817403376320114,
+            0.4702160066126805,
+            0.5220620531168452
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "am",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.29178953480125447,
+            1.0,
+            0.25980858357251335
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "am",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.05990679466837939
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.09198826345078272
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11944586600098969
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.12756010136869161
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.2252669202635249,
+            1.0,
+            0.15761528105131872
+          ]
+        }
+      }
+    },
+    {
+      "seed": 45,
+      "target": "am",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "gm",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.5762936126217526,
+            0.5632796913409033,
+            0.6704102901996596
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "gm",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.3006270928631578,
+            1.0,
+            0.14089978388635183
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "gm",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11919977948137185
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.09198826345078272
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11944586600098969
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.12756010136869161
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.3027215300688113,
+            1.0,
+            0.1078633862959183
+          ]
+        }
+      }
+    },
+    {
+      "seed": 45,
+      "target": "unigen",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "gm",
+            "am",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.326627436286555,
+            0.3170858847718119,
+            0.4358049774059817
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.27053111469555113,
+            1.0,
+            0.16381533245014313
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11919977948137185
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.05990679466837939
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11944586600098969
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.12756010136869161
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.21530245571681417,
+            1.0,
+            0.10772625334753105
+          ]
+        }
+      }
+    },
+    {
+      "seed": 45,
+      "target": "corebench",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.33473772376049726,
+            0.3249461565567714,
+            0.442777711923271
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.2653400736965028,
+            1.0,
+            -0.05829244369399311
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11919977948137185
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.05990679466837939
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.09198826345078272
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.12756010136869161
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.2336960026720325,
+            1.0,
+            -0.10555617673052775
+          ]
+        }
+      }
+    },
+    {
+      "seed": 45,
+      "target": "wise",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "corebench"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.4362129786806844,
+            0.4345731366150113,
+            0.428984598191292
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "corebench"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.15179000925339237,
+            1.0,
+            0.1626801775615928
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "corebench"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11919977948137185
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.05990679466837939
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.09198826345078272
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11944586600098969
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.11990978836554178,
+            1.0,
+            0.09364895301797094
+          ]
+        }
+      }
+    },
+    {
+      "seed": 46,
+      "target": "gm",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "am",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.49996013121820726,
+            0.5060872118185034,
+            0.4964369480083122
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "am",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.206992387855083,
+            1.0,
+            0.331550433315418
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "am",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.06718471658090258
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.08483409670070934
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.1084402081091976
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.1394885827829568
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.17143073834536438,
+            1.0,
+            0.26343349323921517
+          ]
+        }
+      }
+    },
+    {
+      "seed": 46,
+      "target": "am",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "gm",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.6174124519758516,
+            0.6154799299241351,
+            0.6787200045870905
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "gm",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.3614619849439358,
+            1.0,
+            0.2424171775724545
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "gm",
+            "unigen",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11728185784805774
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.08483409670070934
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.1084402081091976
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.1394885827829568
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.27969490992620916,
+            1.0,
+            0.2339445044245687
+          ]
+        }
+      }
+    },
+    {
+      "seed": 46,
+      "target": "unigen",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "gm",
+            "am",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.40622027116485404,
+            0.39754782863556215,
+            0.4145524808303761
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.4715714209874451,
+            1.0,
+            0.2692574482537934
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "corebench",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11728185784805774
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.06718471658090258
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.1084402081091976
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.1394885827829568
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.38924425046883493,
+            1.0,
+            0.2614214972390394
+          ]
+        }
+      }
+    },
+    {
+      "seed": 46,
+      "target": "corebench",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.3961871952677981,
+            0.38230526697751444,
+            0.45024687612719416
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.29286917020641057,
+            1.0,
+            -0.05071392485834414
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "wise"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11728185784805774
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.06718471658090258
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.08483409670070934
+            },
+            "wise": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.1394885827829568
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.22855557026931161,
+            1.0,
+            -0.06631319624828502
+          ]
+        }
+      }
+    },
+    {
+      "seed": 46,
+      "target": "wise",
+      "methods": {
+        "raw_score": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "corebench"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            0.4089952474978271,
+            0.3984893588080187,
+            0.38853953495114935
+          ]
+        },
+        "f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "corebench"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": null
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.24519285628131593,
+            1.0,
+            0.2869584961598327
+          ]
+        },
+        "normalized_f50_advantage": {
+          "sources": [
+            "gm",
+            "am",
+            "unigen",
+            "corebench"
+          ],
+          "source_meta": {
+            "gm": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.11728185784805774
+            },
+            "am": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.06718471658090258
+            },
+            "unigen": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.08483409670070934
+            },
+            "corebench": {
+              "train_n": 300,
+              "alpha_n": 50,
+              "scale": 0.1084402081091976
+            }
+          },
+          "alphas": [
+            1000.0,
+            1.0,
+            1000.0
+          ],
+          "alpha_val_r2": [
+            -0.1980900858205743,
+            1.0,
+            0.2314914144202711
+          ]
+        }
+      }
+    }
+  ],
+  "data_audit": {
+    "gm": {
+      "protocol": "prompt_disjoint_v1",
+      "pool_n": 2400,
+      "pool_prompt_sha256": "9221a1b06a71a6adf3ffb72345fac57738b24b6a7ed8c08db3fe618e740be4d6",
+      "pool_scores_sha256": "9370bf221c2bf8921ad6644bbe9b4b1eac93df4ad77ba8e7caf384e5e351a595",
+      "pool_embeddings_sha256": "f95e91c51b0affab252be59f6180a31da91b1e0e2e12c004a5b391f6852be6da",
+      "test_n": 800,
+      "test_prompt_sha256": "16839c649de213c42323edcbb3e566e2a84f4e1af738a6426622346d19742249",
+      "test_scores_sha256": "55bbf8214accd69cb967a78af4329127b8e5acb2e1cb4f5cc8ed237e4660d942",
+      "test_embeddings_sha256": "2fad19049e81940be921f944182f7c764c6c9c958abf8e4f51be0c0ca044ceb8",
+      "construction_test_overlap": 0
+    },
+    "am": {
+      "protocol": "prompt_disjoint_v1",
+      "pool_n": 2400,
+      "pool_prompt_sha256": "9221a1b06a71a6adf3ffb72345fac57738b24b6a7ed8c08db3fe618e740be4d6",
+      "pool_scores_sha256": "06e8b0224d35cc62041f33e492c37add2d78c277dfe75b4b2fa77f2c7b4bbcd1",
+      "pool_embeddings_sha256": "f95e91c51b0affab252be59f6180a31da91b1e0e2e12c004a5b391f6852be6da",
+      "test_n": 800,
+      "test_prompt_sha256": "16839c649de213c42323edcbb3e566e2a84f4e1af738a6426622346d19742249",
+      "test_scores_sha256": "c1cae73f05df25b19ba30e7a79df8415c5604abfae71c642f5626b9e29c6b7cb",
+      "test_embeddings_sha256": "2fad19049e81940be921f944182f7c764c6c9c958abf8e4f51be0c0ca044ceb8",
+      "construction_test_overlap": 0
+    },
+    "unigen": {
+      "protocol": "prompt_disjoint_v1",
+      "pool_n": 2000,
+      "pool_prompt_sha256": "a4c755f3241e1457f1c127a444cd2978603c4c5b89e99c12589e0bb87ef1c8d4",
+      "pool_scores_sha256": "d1800062f0407ffd41b66bc95e3aa1caa09b786b07a088a484441a431f372194",
+      "pool_embeddings_sha256": "32dd2c191b9d3b9b2089baca887a118801b3c1ec71d9a975320d67576f3b3857",
+      "test_n": 600,
+      "test_prompt_sha256": "9ef652ee89944829013953f7ceef9c2a4904116f0c5b673e6413fc42a3fbc6d2",
+      "test_scores_sha256": "91efa050aff7b8aec805947ce53985d0d497864e22fda2c89ec025d7fe760940",
+      "test_embeddings_sha256": "ca133ff34e851cc97b8669b96d7dc0d65ee9f67e7f097086b4e0188c57e0633d",
+      "construction_test_overlap": 0
+    },
+    "corebench": {
+      "protocol": "prompt_disjoint_v1",
+      "pool_n": 400,
+      "pool_prompt_sha256": "1e1c4f4d196eaf51272f424fc7d3258d2da542b77a75b9a98240abc4d9f0ec0e",
+      "pool_scores_sha256": "fa3dc61903b3ae3c216d585423d60cd814cc41b87960a35c9c5367ba01cc009a",
+      "pool_embeddings_sha256": "193e3fff9d29d4ea3ee9ea7fcae713639db88544c11bffb24e8572bd30befbec",
+      "test_n": 1080,
+      "test_prompt_sha256": "a883604bade05718d47398d08faff6d9cfb094b199bb3235ec40f0729f42caec",
+      "test_scores_sha256": "1b1e40e5027afc006e1eee51ce7cb505744df6bb9ff27ac3ab89c75413b1e202",
+      "test_embeddings_sha256": "a3c982ba57d4943f4f8bc4f56c7016949a079427358afac1eab86c8ec09428dc",
+      "construction_test_overlap": 0
+    },
+    "wise": {
+      "protocol": "prompt_disjoint_v1",
+      "pool_n": 400,
+      "pool_prompt_sha256": "3401c0ededd2d516d7a52bead43e0d1a051234321090b6f727408ca0c773035e",
+      "pool_scores_sha256": "73237b1b9b14e1a1cd40e162b9385334ae90329e4eb1000ce23f0007a01486f3",
+      "pool_embeddings_sha256": "8e44f2b25707f1f2562e087189d21e538581291dffe21e0b06392270018fb389",
+      "test_n": 1000,
+      "test_prompt_sha256": "d61e945968382450151309552a44d141117ee3ff0f1cb377b35c0f4d4dc37411",
+      "test_scores_sha256": "30dde2b807c09f6d4edcce3c8b07331e5f7c97fb6dfa760617df20656febba81",
+      "test_embeddings_sha256": "48857f1f88a88b959e7c8601cfaf28cc47e41994f042a8f0f97bb3563a88a0f7",
+      "construction_test_overlap": 0
+    }
+  },
+  "prompt_domains": {
+    "geneval2": [
+      "gm",
+      "am"
+    ],
+    "unigen": [
+      "unigen"
+    ],
+    "corebench": [
+      "corebench"
+    ],
+    "wise": [
+      "wise"
+    ]
+  },
+  "numeric_audit": {
+    "all_finite": true,
+    "max_policy_cost": 10.000000000000002,
+    "budget_respected": true,
+    "target_labels_used_for_pooled_fit": false,
+    "fixed_action_space": true
+  }
+}

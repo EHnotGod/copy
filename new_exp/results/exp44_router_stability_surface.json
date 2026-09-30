@@ -1,0 +1,4915 @@
+{
+  "experiment": 44,
+  "target": "gm",
+  "train_k": [
+    400,
+    600,
+    800,
+    1200,
+    1800,
+    2400
+  ],
+  "safety_n": [
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "bootstrap": 5000,
+  "partition_seed": 440044,
+  "fixed_final_test_n": 400,
+  "stability_rule": {
+    "test_ci95_lower_gt_zero": true,
+    "all_seed_test_gain_positive": true,
+    "minimum_certification_rate": 0.8,
+    "sustained_over_larger_safety_n": true
+  },
+  "by_train_k": {
+    "400": {
+      "50": {
+        "test_gain_mean": -0.013661526719347046,
+        "test_gain_ci95": [
+          -0.02673465196374518,
+          -0.0010085159111810377
+        ],
+        "per_seed_test_gain": [
+          -0.015504361843966197,
+          -0.02645979729803156,
+          -0.011605730334262876,
+          -0.004151252265476529,
+          -0.010586491854998048
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.2,
+        "certified_seed_count": 1,
+        "safety_gain_mean": 0.029387929050830996,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 400,
+            "safety_n": 50,
+            "safety_gain": 0.07860344346983016,
+            "safety_ci95": [
+              0.007796023696999921,
+              0.1523215769149441
+            ],
+            "certified": true,
+            "test_gain": -0.015504361843966197,
+            "test_router_quality": 0.33445808784655723,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k400_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 400,
+            "safety_n": 50,
+            "safety_gain": 0.04214674266193498,
+            "safety_ci95": [
+              -0.029711268737442807,
+              0.11424765745791603
+            ],
+            "certified": false,
+            "test_gain": -0.02645979729803156,
+            "test_router_quality": 0.3235026523924918,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k400_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 400,
+            "safety_n": 50,
+            "safety_gain": 0.041845397704274825,
+            "safety_ci95": [
+              -0.023006963155265278,
+              0.11175268641488195
+            ],
+            "certified": false,
+            "test_gain": -0.011605730334262876,
+            "test_router_quality": 0.33835671935626055,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k400_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 400,
+            "safety_n": 50,
+            "safety_gain": 0.012113170296986159,
+            "safety_ci95": [
+              -0.05046480817034527,
+              0.0776997415338329
+            ],
+            "certified": false,
+            "test_gain": -0.004151252265476529,
+            "test_router_quality": 0.3458111974250469,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k400_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 400,
+            "safety_n": 50,
+            "safety_gain": -0.027769108878871136,
+            "safety_ci95": [
+              -0.08193013314529708,
+              0.02743069595443777
+            ],
+            "certified": false,
+            "test_gain": -0.010586491854998048,
+            "test_router_quality": 0.3393759578355254,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k400_dense.npz"
+          }
+        ]
+      },
+      "100": {
+        "test_gain_mean": -0.013661526719347046,
+        "test_gain_ci95": [
+          -0.02681971356390252,
+          -0.0007542404000126617
+        ],
+        "per_seed_test_gain": [
+          -0.015504361843966197,
+          -0.02645979729803156,
+          -0.011605730334262876,
+          -0.004151252265476529,
+          -0.010586491854998048
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.4,
+        "certified_seed_count": 2,
+        "safety_gain_mean": 0.03126820239753532,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 400,
+            "safety_n": 100,
+            "safety_gain": 0.06975670496584177,
+            "safety_ci95": [
+              0.026697875927016494,
+              0.11426728644383354
+            ],
+            "certified": true,
+            "test_gain": -0.015504361843966197,
+            "test_router_quality": 0.33445808784655723,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k400_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 400,
+            "safety_n": 100,
+            "safety_gain": 0.02993576029152789,
+            "safety_ci95": [
+              -0.019467685528233563,
+              0.08087881380728663
+            ],
+            "certified": false,
+            "test_gain": -0.02645979729803156,
+            "test_router_quality": 0.3235026523924918,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k400_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 400,
+            "safety_n": 100,
+            "safety_gain": 0.04398571471758918,
+            "safety_ci95": [
+              0.005173200682252306,
+              0.0853739275652402
+            ],
+            "certified": true,
+            "test_gain": -0.011605730334262876,
+            "test_router_quality": 0.33835671935626055,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k400_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 400,
+            "safety_n": 100,
+            "safety_gain": 0.02370852857941846,
+            "safety_ci95": [
+              -0.01735706466163805,
+              0.06544614379034852
+            ],
+            "certified": false,
+            "test_gain": -0.004151252265476529,
+            "test_router_quality": 0.3458111974250469,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k400_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 400,
+            "safety_n": 100,
+            "safety_gain": -0.011045696566700729,
+            "safety_ci95": [
+              -0.053124732351051994,
+              0.031200440639341916
+            ],
+            "certified": false,
+            "test_gain": -0.010586491854998048,
+            "test_router_quality": 0.3393759578355254,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k400_dense.npz"
+          }
+        ]
+      },
+      "150": {
+        "test_gain_mean": -0.013661526719347046,
+        "test_gain_ci95": [
+          -0.026318169628003693,
+          -0.0012129007213098452
+        ],
+        "per_seed_test_gain": [
+          -0.015504361843966197,
+          -0.02645979729803156,
+          -0.011605730334262876,
+          -0.004151252265476529,
+          -0.010586491854998048
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.004856233836743733,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 400,
+            "safety_n": 150,
+            "safety_gain": 0.024769370353064275,
+            "safety_ci95": [
+              -0.010621684310310032,
+              0.05973286610545318
+            ],
+            "certified": false,
+            "test_gain": -0.015504361843966197,
+            "test_router_quality": 0.33445808784655723,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k400_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 400,
+            "safety_n": 150,
+            "safety_gain": -0.008031602482405002,
+            "safety_ci95": [
+              -0.046293156892096794,
+              0.030954251457257498
+            ],
+            "certified": false,
+            "test_gain": -0.02645979729803156,
+            "test_router_quality": 0.3235026523924918,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k400_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 400,
+            "safety_n": 150,
+            "safety_gain": 0.021803282922165244,
+            "safety_ci95": [
+              -0.010596047964319663,
+              0.05578504627459411
+            ],
+            "certified": false,
+            "test_gain": -0.011605730334262876,
+            "test_router_quality": 0.33835671935626055,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k400_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 400,
+            "safety_n": 150,
+            "safety_gain": 0.0059187207603774725,
+            "safety_ci95": [
+              -0.02625969039043025,
+              0.037569066849456906
+            ],
+            "certified": false,
+            "test_gain": -0.004151252265476529,
+            "test_router_quality": 0.3458111974250469,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k400_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 400,
+            "safety_n": 150,
+            "safety_gain": -0.02017860236948333,
+            "safety_ci95": [
+              -0.05352505609740336,
+              0.012942316179905298
+            ],
+            "certified": false,
+            "test_gain": -0.010586491854998048,
+            "test_router_quality": 0.3393759578355254,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k400_dense.npz"
+          }
+        ]
+      },
+      "200": {
+        "test_gain_mean": -0.013661526719347046,
+        "test_gain_ci95": [
+          -0.026466403468704252,
+          -0.0006905962807575047
+        ],
+        "per_seed_test_gain": [
+          -0.015504361843966197,
+          -0.02645979729803156,
+          -0.011605730334262876,
+          -0.004151252265476529,
+          -0.010586491854998048
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.2,
+        "certified_seed_count": 1,
+        "safety_gain_mean": 0.0063015084133367025,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 400,
+            "safety_n": 200,
+            "safety_gain": 0.030353553283548548,
+            "safety_ci95": [
+              0.0022106006898436866,
+              0.058686726471716695
+            ],
+            "certified": true,
+            "test_gain": -0.015504361843966197,
+            "test_router_quality": 0.33445808784655723,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k400_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 400,
+            "safety_n": 200,
+            "safety_gain": 0.004489107294291624,
+            "safety_ci95": [
+              -0.02640182551799577,
+              0.036214821279809975
+            ],
+            "certified": false,
+            "test_gain": -0.02645979729803156,
+            "test_router_quality": 0.3235026523924918,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k400_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 400,
+            "safety_n": 200,
+            "safety_gain": 0.01542637518620972,
+            "safety_ci95": [
+              -0.013821935013288744,
+              0.04550006500686104
+            ],
+            "certified": false,
+            "test_gain": -0.011605730334262876,
+            "test_router_quality": 0.33835671935626055,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k400_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 400,
+            "safety_n": 200,
+            "safety_gain": 0.0024969033955517606,
+            "safety_ci95": [
+              -0.02603719803434201,
+              0.03153228161116448
+            ],
+            "certified": false,
+            "test_gain": -0.004151252265476529,
+            "test_router_quality": 0.3458111974250469,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k400_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 400,
+            "safety_n": 200,
+            "safety_gain": -0.021258397092918137,
+            "safety_ci95": [
+              -0.050690689464827826,
+              0.006808253105625998
+            ],
+            "certified": false,
+            "test_gain": -0.010586491854998048,
+            "test_router_quality": 0.3393759578355254,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k400_dense.npz"
+          }
+        ]
+      },
+      "250": {
+        "test_gain_mean": -0.013661526719347046,
+        "test_gain_ci95": [
+          -0.026594775977841857,
+          -0.0010809544178870959
+        ],
+        "per_seed_test_gain": [
+          -0.015504361843966197,
+          -0.02645979729803156,
+          -0.011605730334262876,
+          -0.004151252265476529,
+          -0.010586491854998048
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.005850441576212184,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 400,
+            "safety_n": 250,
+            "safety_gain": 0.024074994845549414,
+            "safety_ci95": [
+              -0.000967839272729601,
+              0.049420381460381885
+            ],
+            "certified": false,
+            "test_gain": -0.015504361843966197,
+            "test_router_quality": 0.33445808784655723,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k400_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 400,
+            "safety_n": 250,
+            "safety_gain": 0.002673123228111402,
+            "safety_ci95": [
+              -0.023945065455090578,
+              0.02940862231432111
+            ],
+            "certified": false,
+            "test_gain": -0.02645979729803156,
+            "test_router_quality": 0.3235026523924918,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k400_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 400,
+            "safety_n": 250,
+            "safety_gain": 0.011842254394086744,
+            "safety_ci95": [
+              -0.012302611440018768,
+              0.03711001110328327
+            ],
+            "certified": false,
+            "test_gain": -0.011605730334262876,
+            "test_router_quality": 0.33835671935626055,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k400_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 400,
+            "safety_n": 250,
+            "safety_gain": 0.006276416337584892,
+            "safety_ci95": [
+              -0.016997373591402545,
+              0.031235079369130513
+            ],
+            "certified": false,
+            "test_gain": -0.004151252265476529,
+            "test_router_quality": 0.3458111974250469,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k400_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 400,
+            "safety_n": 250,
+            "safety_gain": -0.01561458092427153,
+            "safety_ci95": [
+              -0.04176883918091025,
+              0.01018308340778617
+            ],
+            "certified": false,
+            "test_gain": -0.010586491854998048,
+            "test_router_quality": 0.3393759578355254,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k400_dense.npz"
+          }
+        ]
+      },
+      "300": {
+        "test_gain_mean": -0.013661526719347046,
+        "test_gain_ci95": [
+          -0.026413895556801015,
+          -0.0010848355711241204
+        ],
+        "per_seed_test_gain": [
+          -0.015504361843966197,
+          -0.02645979729803156,
+          -0.011605730334262876,
+          -0.004151252265476529,
+          -0.010586491854998048
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.004893893505436932,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 400,
+            "safety_n": 300,
+            "safety_gain": 0.019563602154215362,
+            "safety_ci95": [
+              -0.0029136235337349848,
+              0.04279839923732135
+            ],
+            "certified": false,
+            "test_gain": -0.015504361843966197,
+            "test_router_quality": 0.33445808784655723,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k400_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 400,
+            "safety_n": 300,
+            "safety_gain": 0.0002065635276659261,
+            "safety_ci95": [
+              -0.02328919035245553,
+              0.02354975894975536
+            ],
+            "certified": false,
+            "test_gain": -0.02645979729803156,
+            "test_router_quality": 0.3235026523924918,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k400_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 400,
+            "safety_n": 300,
+            "safety_gain": 0.013141793764423185,
+            "safety_ci95": [
+              -0.009916863392266651,
+              0.036360245129286574
+            ],
+            "certified": false,
+            "test_gain": -0.011605730334262876,
+            "test_router_quality": 0.33835671935626055,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k400_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 400,
+            "safety_n": 300,
+            "safety_gain": 0.005690212175378978,
+            "safety_ci95": [
+              -0.015728609266443736,
+              0.028065031284671586
+            ],
+            "certified": false,
+            "test_gain": -0.004151252265476529,
+            "test_router_quality": 0.3458111974250469,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k400_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 400,
+            "safety_n": 300,
+            "safety_gain": -0.014132704094498788,
+            "safety_ci95": [
+              -0.03680137857579365,
+              0.009285283122472881
+            ],
+            "certified": false,
+            "test_gain": -0.010586491854998048,
+            "test_router_quality": 0.3393759578355254,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k400_dense.npz"
+          }
+        ]
+      },
+      "350": {
+        "test_gain_mean": -0.013661526719347046,
+        "test_gain_ci95": [
+          -0.026786086164112727,
+          -0.0010607583452331656
+        ],
+        "per_seed_test_gain": [
+          -0.015504361843966197,
+          -0.02645979729803156,
+          -0.011605730334262876,
+          -0.004151252265476529,
+          -0.010586491854998048
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.005768103896663406,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 400,
+            "safety_n": 350,
+            "safety_gain": 0.019523506061997608,
+            "safety_ci95": [
+              -0.0022079612671493326,
+              0.04129386237153328
+            ],
+            "certified": false,
+            "test_gain": -0.015504361843966197,
+            "test_router_quality": 0.33445808784655723,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k400_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 400,
+            "safety_n": 350,
+            "safety_gain": 0.004649468423388858,
+            "safety_ci95": [
+              -0.01723928037523462,
+              0.026420304519959418
+            ],
+            "certified": false,
+            "test_gain": -0.02645979729803156,
+            "test_router_quality": 0.3235026523924918,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k400_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 400,
+            "safety_n": 350,
+            "safety_gain": 0.010532816229205277,
+            "safety_ci95": [
+              -0.011134039652439287,
+              0.03208021975316471
+            ],
+            "certified": false,
+            "test_gain": -0.011605730334262876,
+            "test_router_quality": 0.33835671935626055,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k400_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 400,
+            "safety_n": 350,
+            "safety_gain": 0.0026101669422084798,
+            "safety_ci95": [
+              -0.017702419102200218,
+              0.02347021713651893
+            ],
+            "certified": false,
+            "test_gain": -0.004151252265476529,
+            "test_router_quality": 0.3458111974250469,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k400_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 400,
+            "safety_n": 350,
+            "safety_gain": -0.008475438173483198,
+            "safety_ci95": [
+              -0.030580092197470543,
+              0.013386418748393322
+            ],
+            "certified": false,
+            "test_gain": -0.010586491854998048,
+            "test_router_quality": 0.3393759578355254,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k400_dense.npz"
+          }
+        ]
+      },
+      "400": {
+        "test_gain_mean": -0.013661526719347046,
+        "test_gain_ci95": [
+          -0.026743025418341313,
+          -0.0006163354260054319
+        ],
+        "per_seed_test_gain": [
+          -0.015504361843966197,
+          -0.02645979729803156,
+          -0.011605730334262876,
+          -0.004151252265476529,
+          -0.010586491854998048
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.0047707716920343665,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 400,
+            "safety_n": 400,
+            "safety_gain": 0.014552427844192464,
+            "safety_ci95": [
+              -0.005106614994522238,
+              0.0345280969678124
+            ],
+            "certified": false,
+            "test_gain": -0.015504361843966197,
+            "test_router_quality": 0.33445808784655723,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k400_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 400,
+            "safety_n": 400,
+            "safety_gain": 0.001559105668631681,
+            "safety_ci95": [
+              -0.018718845620787704,
+              0.022569602064141214
+            ],
+            "certified": false,
+            "test_gain": -0.02645979729803156,
+            "test_router_quality": 0.3235026523924918,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k400_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 400,
+            "safety_n": 400,
+            "safety_gain": 0.007341660962580911,
+            "safety_ci95": [
+              -0.012151472024398667,
+              0.027321692743140443
+            ],
+            "certified": false,
+            "test_gain": -0.011605730334262876,
+            "test_router_quality": 0.33835671935626055,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k400_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 400,
+            "safety_n": 400,
+            "safety_gain": 0.004899594909109859,
+            "safety_ci95": [
+              -0.013750728442994973,
+              0.02339062658772915
+            ],
+            "certified": false,
+            "test_gain": -0.004151252265476529,
+            "test_router_quality": 0.3458111974250469,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k400_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 400,
+            "safety_n": 400,
+            "safety_gain": -0.004498930924343083,
+            "safety_ci95": [
+              -0.025342056372814493,
+              0.015871007030131917
+            ],
+            "certified": false,
+            "test_gain": -0.010586491854998048,
+            "test_router_quality": 0.3393759578355254,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k400_dense.npz"
+          }
+        ]
+      }
+    },
+    "600": {
+      "50": {
+        "test_gain_mean": -0.00574077316320008,
+        "test_gain_ci95": [
+          -0.019973158283897847,
+          0.007961386452282037
+        ],
+        "per_seed_test_gain": [
+          -0.0037026949580710477,
+          -0.018625049854694986,
+          -0.007212814616590635,
+          -0.0008257453290029071,
+          0.0016624389423591833
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.020441560094957414,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 600,
+            "safety_n": 50,
+            "safety_gain": 0.037758932195212466,
+            "safety_ci95": [
+              -0.021831732314598912,
+              0.09930532196841589
+            ],
+            "certified": false,
+            "test_gain": -0.0037026949580710477,
+            "test_router_quality": 0.34625975473245235,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k600_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 600,
+            "safety_n": 50,
+            "safety_gain": 0.03228749844238011,
+            "safety_ci95": [
+              -0.033049831550180375,
+              0.09723072012803617
+            ],
+            "certified": false,
+            "test_gain": -0.018625049854694986,
+            "test_router_quality": 0.33133739983582844,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k600_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 600,
+            "safety_n": 50,
+            "safety_gain": -0.002772266926089878,
+            "safety_ci95": [
+              -0.060501607686579986,
+              0.05854080541699387
+            ],
+            "certified": false,
+            "test_gain": -0.007212814616590635,
+            "test_router_quality": 0.3427496350739328,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k600_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 600,
+            "safety_n": 50,
+            "safety_gain": 0.026714419715870158,
+            "safety_ci95": [
+              -0.035402039152760884,
+              0.093426841101962
+            ],
+            "certified": false,
+            "test_gain": -0.0008257453290029071,
+            "test_router_quality": 0.34913670436152044,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k600_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 600,
+            "safety_n": 50,
+            "safety_gain": 0.00821921704741421,
+            "safety_ci95": [
+              -0.040798359331728935,
+              0.058314315640073354
+            ],
+            "certified": false,
+            "test_gain": 0.0016624389423591833,
+            "test_router_quality": 0.3516248886328826,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k600_dense.npz"
+          }
+        ]
+      },
+      "100": {
+        "test_gain_mean": -0.00574077316320008,
+        "test_gain_ci95": [
+          -0.019548199154252096,
+          0.008290582990056805
+        ],
+        "per_seed_test_gain": [
+          -0.0037026949580710477,
+          -0.018625049854694986,
+          -0.007212814616590635,
+          -0.0008257453290029071,
+          0.0016624389423591833
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.4,
+        "certified_seed_count": 2,
+        "safety_gain_mean": 0.020398711564677287,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 600,
+            "safety_n": 100,
+            "safety_gain": 0.041602977095358915,
+            "safety_ci95": [
+              0.004697526464218511,
+              0.0803476624324781
+            ],
+            "certified": true,
+            "test_gain": -0.0037026949580710477,
+            "test_router_quality": 0.34625975473245235,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k600_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 600,
+            "safety_n": 100,
+            "safety_gain": 0.04555482299231679,
+            "safety_ci95": [
+              0.0016160827581826527,
+              0.09109378820320278
+            ],
+            "certified": true,
+            "test_gain": -0.018625049854694986,
+            "test_router_quality": 0.33133739983582844,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k600_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 600,
+            "safety_n": 100,
+            "safety_gain": -0.005319673383859826,
+            "safety_ci95": [
+              -0.04449013936687343,
+              0.03429686675177802
+            ],
+            "certified": false,
+            "test_gain": -0.007212814616590635,
+            "test_router_quality": 0.3427496350739328,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k600_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 600,
+            "safety_n": 100,
+            "safety_gain": 0.017420870679794538,
+            "safety_ci95": [
+              -0.023121797036446148,
+              0.05902729380490666
+            ],
+            "certified": false,
+            "test_gain": -0.0008257453290029071,
+            "test_router_quality": 0.34913670436152044,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k600_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 600,
+            "safety_n": 100,
+            "safety_gain": 0.0027345604397760333,
+            "safety_ci95": [
+              -0.03507935613247007,
+              0.039772403461312084
+            ],
+            "certified": false,
+            "test_gain": 0.0016624389423591833,
+            "test_router_quality": 0.3516248886328826,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k600_dense.npz"
+          }
+        ]
+      },
+      "150": {
+        "test_gain_mean": -0.00574077316320008,
+        "test_gain_ci95": [
+          -0.019708147506183108,
+          0.008572809352603194
+        ],
+        "per_seed_test_gain": [
+          -0.0037026949580710477,
+          -0.018625049854694986,
+          -0.007212814616590635,
+          -0.0008257453290029071,
+          0.0016624389423591833
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": -0.0006267688015648553,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 600,
+            "safety_n": 150,
+            "safety_gain": 0.012116728728515956,
+            "safety_ci95": [
+              -0.02034745452885542,
+              0.04484106223930995
+            ],
+            "certified": false,
+            "test_gain": -0.0037026949580710477,
+            "test_router_quality": 0.34625975473245235,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k600_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 600,
+            "safety_n": 150,
+            "safety_gain": 0.010716357907311415,
+            "safety_ci95": [
+              -0.026893853603839248,
+              0.04646497353115405
+            ],
+            "certified": false,
+            "test_gain": -0.018625049854694986,
+            "test_router_quality": 0.33133739983582844,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k600_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 600,
+            "safety_n": 150,
+            "safety_gain": -0.0008822070733434387,
+            "safety_ci95": [
+              -0.031441408873147385,
+              0.029463690917200268
+            ],
+            "certified": false,
+            "test_gain": -0.007212814616590635,
+            "test_router_quality": 0.3427496350739328,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k600_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 600,
+            "safety_n": 150,
+            "safety_gain": -0.00741704677067637,
+            "safety_ci95": [
+              -0.04142747447956945,
+              0.026825186984306176
+            ],
+            "certified": false,
+            "test_gain": -0.0008257453290029071,
+            "test_router_quality": 0.34913670436152044,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k600_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 600,
+            "safety_n": 150,
+            "safety_gain": -0.01766767679963184,
+            "safety_ci95": [
+              -0.04947371219014834,
+              0.013303415338497725
+            ],
+            "certified": false,
+            "test_gain": 0.0016624389423591833,
+            "test_router_quality": 0.3516248886328826,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k600_dense.npz"
+          }
+        ]
+      },
+      "200": {
+        "test_gain_mean": -0.00574077316320008,
+        "test_gain_ci95": [
+          -0.02004458394749625,
+          0.008475436655806034
+        ],
+        "per_seed_test_gain": [
+          -0.0037026949580710477,
+          -0.018625049854694986,
+          -0.007212814616590635,
+          -0.0008257453290029071,
+          0.0016624389423591833
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.0018845736157108422,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 600,
+            "safety_n": 200,
+            "safety_gain": 0.013520423252613543,
+            "safety_ci95": [
+              -0.015691813811294714,
+              0.04212648742836029
+            ],
+            "certified": false,
+            "test_gain": -0.0037026949580710477,
+            "test_router_quality": 0.34625975473245235,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k600_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 600,
+            "safety_n": 200,
+            "safety_gain": 0.013663024182987527,
+            "safety_ci95": [
+              -0.01647464267645275,
+              0.043938923353305
+            ],
+            "certified": false,
+            "test_gain": -0.018625049854694986,
+            "test_router_quality": 0.33133739983582844,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k600_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 600,
+            "safety_n": 200,
+            "safety_gain": -0.0007345110456650067,
+            "safety_ci95": [
+              -0.0271532872571524,
+              0.026659282178466796
+            ],
+            "certified": false,
+            "test_gain": -0.007212814616590635,
+            "test_router_quality": 0.3427496350739328,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k600_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 600,
+            "safety_n": 200,
+            "safety_gain": -0.009966667616685765,
+            "safety_ci95": [
+              -0.03945537966313296,
+              0.018423141399847433
+            ],
+            "certified": false,
+            "test_gain": -0.0008257453290029071,
+            "test_router_quality": 0.34913670436152044,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k600_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 600,
+            "safety_n": 200,
+            "safety_gain": -0.0070594006946960875,
+            "safety_ci95": [
+              -0.0351752272872802,
+              0.02116715853858277
+            ],
+            "certified": false,
+            "test_gain": 0.0016624389423591833,
+            "test_router_quality": 0.3516248886328826,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k600_dense.npz"
+          }
+        ]
+      },
+      "250": {
+        "test_gain_mean": -0.00574077316320008,
+        "test_gain_ci95": [
+          -0.019700794999066032,
+          0.008232706364742052
+        ],
+        "per_seed_test_gain": [
+          -0.0037026949580710477,
+          -0.018625049854694986,
+          -0.007212814616590635,
+          -0.0008257453290029071,
+          0.0016624389423591833
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.002751285585142357,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 600,
+            "safety_n": 250,
+            "safety_gain": 0.0119844206261191,
+            "safety_ci95": [
+              -0.014291802010529656,
+              0.038261051123694725
+            ],
+            "certified": false,
+            "test_gain": -0.0037026949580710477,
+            "test_router_quality": 0.34625975473245235,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k600_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 600,
+            "safety_n": 250,
+            "safety_gain": 0.013775167450744627,
+            "safety_ci95": [
+              -0.012914914162898703,
+              0.040288067656500205
+            ],
+            "certified": false,
+            "test_gain": -0.018625049854694986,
+            "test_router_quality": 0.33133739983582844,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k600_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 600,
+            "safety_n": 250,
+            "safety_gain": 0.0024287291871175586,
+            "safety_ci95": [
+              -0.019461283097768397,
+              0.02468845073980774
+            ],
+            "certified": false,
+            "test_gain": -0.007212814616590635,
+            "test_router_quality": 0.3427496350739328,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k600_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 600,
+            "safety_n": 250,
+            "safety_gain": -0.005957036231485361,
+            "safety_ci95": [
+              -0.03158637970126164,
+              0.019443983265695422
+            ],
+            "certified": false,
+            "test_gain": -0.0008257453290029071,
+            "test_router_quality": 0.34913670436152044,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k600_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 600,
+            "safety_n": 250,
+            "safety_gain": -0.00847485310678414,
+            "safety_ci95": [
+              -0.03348997945428623,
+              0.017213318689227323
+            ],
+            "certified": false,
+            "test_gain": 0.0016624389423591833,
+            "test_router_quality": 0.3516248886328826,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k600_dense.npz"
+          }
+        ]
+      },
+      "300": {
+        "test_gain_mean": -0.00574077316320008,
+        "test_gain_ci95": [
+          -0.019739468087272942,
+          0.008594949270741862
+        ],
+        "per_seed_test_gain": [
+          -0.0037026949580710477,
+          -0.018625049854694986,
+          -0.007212814616590635,
+          -0.0008257453290029071,
+          0.0016624389423591833
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.000557114655499007,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 600,
+            "safety_n": 300,
+            "safety_gain": 0.006997688321369709,
+            "safety_ci95": [
+              -0.015805805875509883,
+              0.030546033173105395
+            ],
+            "certified": false,
+            "test_gain": -0.0037026949580710477,
+            "test_router_quality": 0.34625975473245235,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k600_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 600,
+            "safety_n": 300,
+            "safety_gain": 0.010226863004887373,
+            "safety_ci95": [
+              -0.013027602938590737,
+              0.033493669661558034
+            ],
+            "certified": false,
+            "test_gain": -0.018625049854694986,
+            "test_router_quality": 0.33133739983582844,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k600_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 600,
+            "safety_n": 300,
+            "safety_gain": -0.00224684035591275,
+            "safety_ci95": [
+              -0.024347069902684385,
+              0.019242470601830215
+            ],
+            "certified": false,
+            "test_gain": -0.007212814616590635,
+            "test_router_quality": 0.3427496350739328,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k600_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 600,
+            "safety_n": 300,
+            "safety_gain": -0.006013118939162929,
+            "safety_ci95": [
+              -0.028439924969980712,
+              0.017179201437036287
+            ],
+            "certified": false,
+            "test_gain": -0.0008257453290029071,
+            "test_router_quality": 0.34913670436152044,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k600_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 600,
+            "safety_n": 300,
+            "safety_gain": -0.0061790187536863665,
+            "safety_ci95": [
+              -0.029011838984340448,
+              0.017982010348277698
+            ],
+            "certified": false,
+            "test_gain": 0.0016624389423591833,
+            "test_router_quality": 0.3516248886328826,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k600_dense.npz"
+          }
+        ]
+      },
+      "350": {
+        "test_gain_mean": -0.00574077316320008,
+        "test_gain_ci95": [
+          -0.020258534518210095,
+          0.00825109444722851
+        ],
+        "per_seed_test_gain": [
+          -0.0037026949580710477,
+          -0.018625049854694986,
+          -0.007212814616590635,
+          -0.0008257453290029071,
+          0.0016624389423591833
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.001021846041954908,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 600,
+            "safety_n": 350,
+            "safety_gain": 0.005724404038000603,
+            "safety_ci95": [
+              -0.01574935226207401,
+              0.026849564655055624
+            ],
+            "certified": false,
+            "test_gain": -0.0037026949580710477,
+            "test_router_quality": 0.34625975473245235,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k600_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 600,
+            "safety_n": 350,
+            "safety_gain": 0.011439993351008863,
+            "safety_ci95": [
+              -0.010734823969194885,
+              0.033298628769575775
+            ],
+            "certified": false,
+            "test_gain": -0.018625049854694986,
+            "test_router_quality": 0.33133739983582844,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k600_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 600,
+            "safety_n": 350,
+            "safety_gain": -0.005889527570607291,
+            "safety_ci95": [
+              -0.027487821160470872,
+              0.015166106741981671
+            ],
+            "certified": false,
+            "test_gain": -0.007212814616590635,
+            "test_router_quality": 0.3427496350739328,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k600_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 600,
+            "safety_n": 350,
+            "safety_gain": -0.0002961983705693618,
+            "safety_ci95": [
+              -0.0217676455273572,
+              0.021497858637526023
+            ],
+            "certified": false,
+            "test_gain": -0.0008257453290029071,
+            "test_router_quality": 0.34913670436152044,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k600_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 600,
+            "safety_n": 350,
+            "safety_gain": -0.005869441238058275,
+            "safety_ci95": [
+              -0.028179689528258847,
+              0.015694773243058024
+            ],
+            "certified": false,
+            "test_gain": 0.0016624389423591833,
+            "test_router_quality": 0.3516248886328826,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k600_dense.npz"
+          }
+        ]
+      },
+      "400": {
+        "test_gain_mean": -0.00574077316320008,
+        "test_gain_ci95": [
+          -0.019715729426669742,
+          0.008660988734747644
+        ],
+        "per_seed_test_gain": [
+          -0.0037026949580710477,
+          -0.018625049854694986,
+          -0.007212814616590635,
+          -0.0008257453290029071,
+          0.0016624389423591833
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.001889418106746071,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 600,
+            "safety_n": 400,
+            "safety_gain": 0.006920876339137333,
+            "safety_ci95": [
+              -0.012867559541651948,
+              0.026567666645297867
+            ],
+            "certified": false,
+            "test_gain": -0.0037026949580710477,
+            "test_router_quality": 0.34625975473245235,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k600_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 600,
+            "safety_n": 400,
+            "safety_gain": 0.0077998450075949435,
+            "safety_ci95": [
+              -0.012682531663826352,
+              0.027705014000338733
+            ],
+            "certified": false,
+            "test_gain": -0.018625049854694986,
+            "test_router_quality": 0.33133739983582844,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k600_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 600,
+            "safety_n": 400,
+            "safety_gain": -0.0025687396534921614,
+            "safety_ci95": [
+              -0.022558086963851153,
+              0.01661540514120642
+            ],
+            "certified": false,
+            "test_gain": -0.007212814616590635,
+            "test_router_quality": 0.3427496350739328,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k600_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 600,
+            "safety_n": 400,
+            "safety_gain": 0.001439514817021138,
+            "safety_ci95": [
+              -0.018468185153233854,
+              0.021119179690778474
+            ],
+            "certified": false,
+            "test_gain": -0.0008257453290029071,
+            "test_router_quality": 0.34913670436152044,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k600_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 600,
+            "safety_n": 400,
+            "safety_gain": -0.004144405976530898,
+            "safety_ci95": [
+              -0.024875925856132658,
+              0.016252444524893547
+            ],
+            "certified": false,
+            "test_gain": 0.0016624389423591833,
+            "test_router_quality": 0.3516248886328826,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k600_dense.npz"
+          }
+        ]
+      }
+    },
+    "800": {
+      "50": {
+        "test_gain_mean": -0.0042421697853316466,
+        "test_gain_ci95": [
+          -0.018143304718238135,
+          0.009696187175166614
+        ],
+        "per_seed_test_gain": [
+          0.0013299370446295412,
+          -0.010882235741403441,
+          -0.00863400375023723,
+          -0.001875398473668885,
+          -0.0011491480059782145
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.01320688832011046,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 800,
+            "safety_n": 50,
+            "safety_gain": 0.02777518092711679,
+            "safety_ci95": [
+              -0.037457014553253586,
+              0.09494567540627193
+            ],
+            "certified": false,
+            "test_gain": 0.0013299370446295412,
+            "test_router_quality": 0.35129238673515295,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k800_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 800,
+            "safety_n": 50,
+            "safety_gain": -0.01428299465950895,
+            "safety_ci95": [
+              -0.07645988855234838,
+              0.05149023238844385
+            ],
+            "certified": false,
+            "test_gain": -0.010882235741403441,
+            "test_router_quality": 0.33908021394911997,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k800_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 800,
+            "safety_n": 50,
+            "safety_gain": 0.032972738410388856,
+            "safety_ci95": [
+              -0.03154387078070546,
+              0.09960208155397952
+            ],
+            "certified": false,
+            "test_gain": -0.00863400375023723,
+            "test_router_quality": 0.34132844594028616,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k800_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 800,
+            "safety_n": 50,
+            "safety_gain": 0.013001133253139906,
+            "safety_ci95": [
+              -0.04521597986938997,
+              0.07545404804503546
+            ],
+            "certified": false,
+            "test_gain": -0.001875398473668885,
+            "test_router_quality": 0.3480870512168545,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k800_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 800,
+            "safety_n": 50,
+            "safety_gain": 0.0065683836694157,
+            "safety_ci95": [
+              -0.04995776051499182,
+              0.06820806939714431
+            ],
+            "certified": false,
+            "test_gain": -0.0011491480059782145,
+            "test_router_quality": 0.34881330168454516,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k800_dense.npz"
+          }
+        ]
+      },
+      "100": {
+        "test_gain_mean": -0.0042421697853316466,
+        "test_gain_ci95": [
+          -0.018243067472355642,
+          0.009869938675641782
+        ],
+        "per_seed_test_gain": [
+          0.0013299370446295412,
+          -0.010882235741403441,
+          -0.00863400375023723,
+          -0.001875398473668885,
+          -0.0011491480059782145
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.011110860886329666,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 800,
+            "safety_n": 100,
+            "safety_gain": 0.00018712504777344916,
+            "safety_ci95": [
+              -0.04152886263606359,
+              0.0412922130518934
+            ],
+            "certified": false,
+            "test_gain": 0.0013299370446295412,
+            "test_router_quality": 0.35129238673515295,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k800_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 800,
+            "safety_n": 100,
+            "safety_gain": 0.015092635576472436,
+            "safety_ci95": [
+              -0.030040410049095887,
+              0.05960740398762466
+            ],
+            "certified": false,
+            "test_gain": -0.010882235741403441,
+            "test_router_quality": 0.33908021394911997,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k800_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 800,
+            "safety_n": 100,
+            "safety_gain": 0.019262876439133093,
+            "safety_ci95": [
+              -0.02321761695410923,
+              0.06054044935015416
+            ],
+            "certified": false,
+            "test_gain": -0.00863400375023723,
+            "test_router_quality": 0.34132844594028616,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k800_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 800,
+            "safety_n": 100,
+            "safety_gain": 0.013726169789202332,
+            "safety_ci95": [
+              -0.02466617741570881,
+              0.054147467653245455
+            ],
+            "certified": false,
+            "test_gain": -0.001875398473668885,
+            "test_router_quality": 0.3480870512168545,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k800_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 800,
+            "safety_n": 100,
+            "safety_gain": 0.007285497579067024,
+            "safety_ci95": [
+              -0.0341668912947494,
+              0.04989448051406973
+            ],
+            "certified": false,
+            "test_gain": -0.0011491480059782145,
+            "test_router_quality": 0.34881330168454516,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k800_dense.npz"
+          }
+        ]
+      },
+      "150": {
+        "test_gain_mean": -0.0042421697853316466,
+        "test_gain_ci95": [
+          -0.018756010019123706,
+          0.009777235376710734
+        ],
+        "per_seed_test_gain": [
+          0.0013299370446295412,
+          -0.010882235741403441,
+          -0.00863400375023723,
+          -0.001875398473668885,
+          -0.0011491480059782145
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": -0.007023253049976955,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 800,
+            "safety_n": 150,
+            "safety_gain": -0.024011276356466424,
+            "safety_ci95": [
+              -0.055629671928449406,
+              0.007653431984753913
+            ],
+            "certified": false,
+            "test_gain": 0.0013299370446295412,
+            "test_router_quality": 0.35129238673515295,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k800_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 800,
+            "safety_n": 150,
+            "safety_gain": 0.0008930211584995155,
+            "safety_ci95": [
+              -0.03482565992993508,
+              0.036688658878070546
+            ],
+            "certified": false,
+            "test_gain": -0.010882235741403441,
+            "test_router_quality": 0.33908021394911997,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k800_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 800,
+            "safety_n": 150,
+            "safety_gain": 0.009186874440601185,
+            "safety_ci95": [
+              -0.023158475032731107,
+              0.04217271342052997
+            ],
+            "certified": false,
+            "test_gain": -0.00863400375023723,
+            "test_router_quality": 0.34132844594028616,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k800_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 800,
+            "safety_n": 150,
+            "safety_gain": -0.005433395288494436,
+            "safety_ci95": [
+              -0.03498719595217971,
+              0.02420814198767666
+            ],
+            "certified": false,
+            "test_gain": -0.001875398473668885,
+            "test_router_quality": 0.3480870512168545,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k800_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 800,
+            "safety_n": 150,
+            "safety_gain": -0.01575148920402461,
+            "safety_ci95": [
+              -0.0517475921323116,
+              0.02005141624320358
+            ],
+            "certified": false,
+            "test_gain": -0.0011491480059782145,
+            "test_router_quality": 0.34881330168454516,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k800_dense.npz"
+          }
+        ]
+      },
+      "200": {
+        "test_gain_mean": -0.0042421697853316466,
+        "test_gain_ci95": [
+          -0.018340098696552044,
+          0.00971215209459369
+        ],
+        "per_seed_test_gain": [
+          0.0013299370446295412,
+          -0.010882235741403441,
+          -0.00863400375023723,
+          -0.001875398473668885,
+          -0.0011491480059782145
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": -0.007463137119498151,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 800,
+            "safety_n": 200,
+            "safety_gain": -0.02083985293231271,
+            "safety_ci95": [
+              -0.04764170501214924,
+              0.006728215697719853
+            ],
+            "certified": false,
+            "test_gain": 0.0013299370446295412,
+            "test_router_quality": 0.35129238673515295,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k800_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 800,
+            "safety_n": 200,
+            "safety_gain": 0.00914886016534049,
+            "safety_ci95": [
+              -0.021252019983428617,
+              0.04080077263490784
+            ],
+            "certified": false,
+            "test_gain": -0.010882235741403441,
+            "test_router_quality": 0.33908021394911997,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k800_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 800,
+            "safety_n": 200,
+            "safety_gain": -0.004374629090468043,
+            "safety_ci95": [
+              -0.033252937594530046,
+              0.0241616766527422
+            ],
+            "certified": false,
+            "test_gain": -0.00863400375023723,
+            "test_router_quality": 0.34132844594028616,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k800_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 800,
+            "safety_n": 200,
+            "safety_gain": -0.0059446241722454565,
+            "safety_ci95": [
+              -0.032459567982573136,
+              0.021043070897502562
+            ],
+            "certified": false,
+            "test_gain": -0.001875398473668885,
+            "test_router_quality": 0.3480870512168545,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k800_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 800,
+            "safety_n": 200,
+            "safety_gain": -0.015305439567805033,
+            "safety_ci95": [
+              -0.04564633880828064,
+              0.01502766059765091
+            ],
+            "certified": false,
+            "test_gain": -0.0011491480059782145,
+            "test_router_quality": 0.34881330168454516,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k800_dense.npz"
+          }
+        ]
+      },
+      "250": {
+        "test_gain_mean": -0.0042421697853316466,
+        "test_gain_ci95": [
+          -0.018022980490629874,
+          0.00977229022687427
+        ],
+        "per_seed_test_gain": [
+          0.0013299370446295412,
+          -0.010882235741403441,
+          -0.00863400375023723,
+          -0.001875398473668885,
+          -0.0011491480059782145
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": -0.007291272142488228,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 800,
+            "safety_n": 250,
+            "safety_gain": -0.023788152411568505,
+            "safety_ci95": [
+              -0.04754796309009116,
+              0.0003668408579411483
+            ],
+            "certified": false,
+            "test_gain": 0.0013299370446295412,
+            "test_router_quality": 0.35129238673515295,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k800_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 800,
+            "safety_n": 250,
+            "safety_gain": 0.008171170213027469,
+            "safety_ci95": [
+              -0.017120019453002296,
+              0.03567938830929288
+            ],
+            "certified": false,
+            "test_gain": -0.010882235741403441,
+            "test_router_quality": 0.33908021394911997,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k800_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 800,
+            "safety_n": 250,
+            "safety_gain": -0.0023146484210720083,
+            "safety_ci95": [
+              -0.026727272296903616,
+              0.022155999829061298
+            ],
+            "certified": false,
+            "test_gain": -0.00863400375023723,
+            "test_router_quality": 0.34132844594028616,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k800_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 800,
+            "safety_n": 250,
+            "safety_gain": -0.004219380511707075,
+            "safety_ci95": [
+              -0.026609656665847733,
+              0.018337354678961047
+            ],
+            "certified": false,
+            "test_gain": -0.001875398473668885,
+            "test_router_quality": 0.3480870512168545,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k800_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 800,
+            "safety_n": 250,
+            "safety_gain": -0.014305349581121023,
+            "safety_ci95": [
+              -0.0424253348418601,
+              0.014260708163674276
+            ],
+            "certified": false,
+            "test_gain": -0.0011491480059782145,
+            "test_router_quality": 0.34881330168454516,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k800_dense.npz"
+          }
+        ]
+      },
+      "300": {
+        "test_gain_mean": -0.0042421697853316466,
+        "test_gain_ci95": [
+          -0.017985949580144316,
+          0.009967207618550033
+        ],
+        "per_seed_test_gain": [
+          0.0013299370446295412,
+          -0.010882235741403441,
+          -0.00863400375023723,
+          -0.001875398473668885,
+          -0.0011491480059782145
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": -0.004633370342505995,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 800,
+            "safety_n": 300,
+            "safety_gain": -0.019303390911957614,
+            "safety_ci95": [
+              -0.04027738209318034,
+              0.002112526960078021
+            ],
+            "certified": false,
+            "test_gain": 0.0013299370446295412,
+            "test_router_quality": 0.35129238673515295,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k800_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 800,
+            "safety_n": 300,
+            "safety_gain": 0.007585243455902451,
+            "safety_ci95": [
+              -0.015822758947240487,
+              0.03151578822300973
+            ],
+            "certified": false,
+            "test_gain": -0.010882235741403441,
+            "test_router_quality": 0.33908021394911997,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k800_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 800,
+            "safety_n": 300,
+            "safety_gain": -0.001313041361127576,
+            "safety_ci95": [
+              -0.0234276963378764,
+              0.021599282295691583
+            ],
+            "certified": false,
+            "test_gain": -0.00863400375023723,
+            "test_router_quality": 0.34132844594028616,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k800_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 800,
+            "safety_n": 300,
+            "safety_gain": 0.003939458222729136,
+            "safety_ci95": [
+              -0.017344411608931395,
+              0.026284897946633863
+            ],
+            "certified": false,
+            "test_gain": -0.001875398473668885,
+            "test_router_quality": 0.3480870512168545,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k800_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 800,
+            "safety_n": 300,
+            "safety_gain": -0.01407512111807637,
+            "safety_ci95": [
+              -0.039168838945152135,
+              0.01093229726928979
+            ],
+            "certified": false,
+            "test_gain": -0.0011491480059782145,
+            "test_router_quality": 0.34881330168454516,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k800_dense.npz"
+          }
+        ]
+      },
+      "350": {
+        "test_gain_mean": -0.0042421697853316466,
+        "test_gain_ci95": [
+          -0.018237625032737483,
+          0.00991182090804262
+        ],
+        "per_seed_test_gain": [
+          0.0013299370446295412,
+          -0.010882235741403441,
+          -0.00863400375023723,
+          -0.001875398473668885,
+          -0.0011491480059782145
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": -0.0027100277805320334,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 800,
+            "safety_n": 350,
+            "safety_gain": -0.014324963680258906,
+            "safety_ci95": [
+              -0.034935072584219594,
+              0.006732374747410533
+            ],
+            "certified": false,
+            "test_gain": 0.0013299370446295412,
+            "test_router_quality": 0.35129238673515295,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k800_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 800,
+            "safety_n": 350,
+            "safety_gain": 0.006551122069970442,
+            "safety_ci95": [
+              -0.015441720288940742,
+              0.028116111820795996
+            ],
+            "certified": false,
+            "test_gain": -0.010882235741403441,
+            "test_router_quality": 0.33908021394911997,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k800_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 800,
+            "safety_n": 350,
+            "safety_gain": -0.003717934484912662,
+            "safety_ci95": [
+              -0.025655658422468617,
+              0.018291934011755787
+            ],
+            "certified": false,
+            "test_gain": -0.00863400375023723,
+            "test_router_quality": 0.34132844594028616,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k800_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 800,
+            "safety_n": 350,
+            "safety_gain": 0.00512086797614403,
+            "safety_ci95": [
+              -0.014843084602388845,
+              0.025908663090052908
+            ],
+            "certified": false,
+            "test_gain": -0.001875398473668885,
+            "test_router_quality": 0.3480870512168545,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k800_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 800,
+            "safety_n": 350,
+            "safety_gain": -0.00717923078360307,
+            "safety_ci95": [
+              -0.03132829375306426,
+              0.01611343164238693
+            ],
+            "certified": false,
+            "test_gain": -0.0011491480059782145,
+            "test_router_quality": 0.34881330168454516,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k800_dense.npz"
+          }
+        ]
+      },
+      "400": {
+        "test_gain_mean": -0.0042421697853316466,
+        "test_gain_ci95": [
+          -0.017912275977612736,
+          0.009554557372367914
+        ],
+        "per_seed_test_gain": [
+          0.0013299370446295412,
+          -0.010882235741403441,
+          -0.00863400375023723,
+          -0.001875398473668885,
+          -0.0011491480059782145
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": -0.001968012208948552,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 800,
+            "safety_n": 400,
+            "safety_gain": -0.012550423426286574,
+            "safety_ci95": [
+              -0.031613198780375155,
+              0.006736015197371903
+            ],
+            "certified": false,
+            "test_gain": 0.0013299370446295412,
+            "test_router_quality": 0.35129238673515295,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k800_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 800,
+            "safety_n": 400,
+            "safety_gain": 0.006002625053799235,
+            "safety_ci95": [
+              -0.01312812825874823,
+              0.02628650760121835
+            ],
+            "certified": false,
+            "test_gain": -0.010882235741403441,
+            "test_router_quality": 0.33908021394911997,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k800_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 800,
+            "safety_n": 400,
+            "safety_gain": -0.0027233965835501413,
+            "safety_ci95": [
+              -0.023111293811633106,
+              0.016498487224033725
+            ],
+            "certified": false,
+            "test_gain": -0.00863400375023723,
+            "test_router_quality": 0.34132844594028616,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k800_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 800,
+            "safety_n": 400,
+            "safety_gain": 0.003964379961003377,
+            "safety_ci95": [
+              -0.014188181820185356,
+              0.022336332844150056
+            ],
+            "certified": false,
+            "test_gain": -0.001875398473668885,
+            "test_router_quality": 0.3480870512168545,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k800_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 800,
+            "safety_n": 400,
+            "safety_gain": -0.004533246049708658,
+            "safety_ci95": [
+              -0.02576800831185095,
+              0.01703018596830706
+            ],
+            "certified": false,
+            "test_gain": -0.0011491480059782145,
+            "test_router_quality": 0.34881330168454516,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k800_dense.npz"
+          }
+        ]
+      }
+    },
+    "1200": {
+      "50": {
+        "test_gain_mean": -0.00184321941480739,
+        "test_gain_ci95": [
+          -0.0167488205265858,
+          0.012818264970633549
+        ],
+        "per_seed_test_gain": [
+          0.00686137742987984,
+          -0.007952569170536269,
+          -0.0010222479208519043,
+          -0.007531782947640753,
+          0.00042912553511213037
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.026140264138181095,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 1200,
+            "safety_n": 50,
+            "safety_gain": 0.04187572559097044,
+            "safety_ci95": [
+              -0.02108753739176626,
+              0.11134168674657696
+            ],
+            "certified": false,
+            "test_gain": 0.00686137742987984,
+            "test_router_quality": 0.3568238271204032,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k1200_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 1200,
+            "safety_n": 50,
+            "safety_gain": 0.015348161576598553,
+            "safety_ci95": [
+              -0.05081155883656242,
+              0.08056979879934996
+            ],
+            "certified": false,
+            "test_gain": -0.007952569170536269,
+            "test_router_quality": 0.34200988051998715,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k1200_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 1200,
+            "safety_n": 50,
+            "safety_gain": 0.04374501301692353,
+            "safety_ci95": [
+              -0.017732850875936686,
+              0.10698161628815632
+            ],
+            "certified": false,
+            "test_gain": -0.0010222479208519043,
+            "test_router_quality": 0.34894020176967144,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k1200_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 1200,
+            "safety_n": 50,
+            "safety_gain": 0.003091568815011615,
+            "safety_ci95": [
+              -0.052886423585033815,
+              0.06034625852531929
+            ],
+            "certified": false,
+            "test_gain": -0.007531782947640753,
+            "test_router_quality": 0.34243066674288264,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k1200_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 1200,
+            "safety_n": 50,
+            "safety_gain": 0.026640851691401336,
+            "safety_ci95": [
+              -0.03532056692859767,
+              0.09401765583303091
+            ],
+            "certified": false,
+            "test_gain": 0.00042912553511213037,
+            "test_router_quality": 0.3503915752256356,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k1200_dense.npz"
+          }
+        ]
+      },
+      "100": {
+        "test_gain_mean": -0.00184321941480739,
+        "test_gain_ci95": [
+          -0.016298987346866637,
+          0.012568455135817945
+        ],
+        "per_seed_test_gain": [
+          0.00686137742987984,
+          -0.007952569170536269,
+          -0.0010222479208519043,
+          -0.007531782947640753,
+          0.00042912553511213037
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.023480455470862242,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 1200,
+            "safety_n": 100,
+            "safety_gain": 0.02567123329068386,
+            "safety_ci95": [
+              -0.015529383737652358,
+              0.06882524397782502
+            ],
+            "certified": false,
+            "test_gain": 0.00686137742987984,
+            "test_router_quality": 0.3568238271204032,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k1200_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 1200,
+            "safety_n": 100,
+            "safety_gain": 0.016571957590415787,
+            "safety_ci95": [
+              -0.02633738304754919,
+              0.059667268569457615
+            ],
+            "certified": false,
+            "test_gain": -0.007952569170536269,
+            "test_router_quality": 0.34200988051998715,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k1200_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 1200,
+            "safety_n": 100,
+            "safety_gain": 0.02948111931215315,
+            "safety_ci95": [
+              -0.01563594383005856,
+              0.07512301768384114
+            ],
+            "certified": false,
+            "test_gain": -0.0010222479208519043,
+            "test_router_quality": 0.34894020176967144,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k1200_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 1200,
+            "safety_n": 100,
+            "safety_gain": 0.01921597650931531,
+            "safety_ci95": [
+              -0.01819942286281203,
+              0.05677658052610625
+            ],
+            "certified": false,
+            "test_gain": -0.007531782947640753,
+            "test_router_quality": 0.34243066674288264,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k1200_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 1200,
+            "safety_n": 100,
+            "safety_gain": 0.0264619906517431,
+            "safety_ci95": [
+              -0.017188018004707248,
+              0.07000300662481442
+            ],
+            "certified": false,
+            "test_gain": 0.00042912553511213037,
+            "test_router_quality": 0.3503915752256356,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k1200_dense.npz"
+          }
+        ]
+      },
+      "150": {
+        "test_gain_mean": -0.00184321941480739,
+        "test_gain_ci95": [
+          -0.015861593887529637,
+          0.012358969607042658
+        ],
+        "per_seed_test_gain": [
+          0.00686137742987984,
+          -0.007952569170536269,
+          -0.0010222479208519043,
+          -0.007531782947640753,
+          0.00042912553511213037
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.005842275655351256,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 1200,
+            "safety_n": 150,
+            "safety_gain": 0.0028615795564495006,
+            "safety_ci95": [
+              -0.029735306943129508,
+              0.036508463066799245
+            ],
+            "certified": false,
+            "test_gain": 0.00686137742987984,
+            "test_router_quality": 0.3568238271204032,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k1200_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 1200,
+            "safety_n": 150,
+            "safety_gain": -0.002222846834606858,
+            "safety_ci95": [
+              -0.03564999702295044,
+              0.03111458627179647
+            ],
+            "certified": false,
+            "test_gain": -0.007952569170536269,
+            "test_router_quality": 0.34200988051998715,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k1200_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 1200,
+            "safety_n": 150,
+            "safety_gain": 0.025627084131048482,
+            "safety_ci95": [
+              -0.007290754456768982,
+              0.059517726726730516
+            ],
+            "certified": false,
+            "test_gain": -0.0010222479208519043,
+            "test_router_quality": 0.34894020176967144,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k1200_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 1200,
+            "safety_n": 150,
+            "safety_gain": -0.0007414377416173767,
+            "safety_ci95": [
+              -0.034257456823530756,
+              0.03224578974897989
+            ],
+            "certified": false,
+            "test_gain": -0.007531782947640753,
+            "test_router_quality": 0.34243066674288264,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k1200_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 1200,
+            "safety_n": 150,
+            "safety_gain": 0.0036869991654825346,
+            "safety_ci95": [
+              -0.028257207310177924,
+              0.03709304352295877
+            ],
+            "certified": false,
+            "test_gain": 0.00042912553511213037,
+            "test_router_quality": 0.3503915752256356,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k1200_dense.npz"
+          }
+        ]
+      },
+      "200": {
+        "test_gain_mean": -0.00184321941480739,
+        "test_gain_ci95": [
+          -0.016703256633108593,
+          0.012314050327762345
+        ],
+        "per_seed_test_gain": [
+          0.00686137742987984,
+          -0.007952569170536269,
+          -0.0010222479208519043,
+          -0.007531782947640753,
+          0.00042912553511213037
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.003658751311275151,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 1200,
+            "safety_n": 200,
+            "safety_gain": -0.004358351727239395,
+            "safety_ci95": [
+              -0.033691654604983814,
+              0.026465288738757933
+            ],
+            "certified": false,
+            "test_gain": 0.00686137742987984,
+            "test_router_quality": 0.3568238271204032,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k1200_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 1200,
+            "safety_n": 200,
+            "safety_gain": 0.0023455526361915845,
+            "safety_ci95": [
+              -0.027826014526257867,
+              0.032460178909661574
+            ],
+            "certified": false,
+            "test_gain": -0.007952569170536269,
+            "test_router_quality": 0.34200988051998715,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k1200_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 1200,
+            "safety_n": 200,
+            "safety_gain": 0.02694395993173713,
+            "safety_ci95": [
+              -0.002072660305234461,
+              0.05735729973237136
+            ],
+            "certified": false,
+            "test_gain": -0.0010222479208519043,
+            "test_router_quality": 0.34894020176967144,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k1200_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 1200,
+            "safety_n": 200,
+            "safety_gain": -0.0015130119007835707,
+            "safety_ci95": [
+              -0.03103377374003343,
+              0.027839725746971494
+            ],
+            "certified": false,
+            "test_gain": -0.007531782947640753,
+            "test_router_quality": 0.34243066674288264,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k1200_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 1200,
+            "safety_n": 200,
+            "safety_gain": -0.005124392383529992,
+            "safety_ci95": [
+              -0.033557765255719525,
+              0.02428568707244753
+            ],
+            "certified": false,
+            "test_gain": 0.00042912553511213037,
+            "test_router_quality": 0.3503915752256356,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k1200_dense.npz"
+          }
+        ]
+      },
+      "250": {
+        "test_gain_mean": -0.00184321941480739,
+        "test_gain_ci95": [
+          -0.016478801436871436,
+          0.013034198797908245
+        ],
+        "per_seed_test_gain": [
+          0.00686137742987984,
+          -0.007952569170536269,
+          -0.0010222479208519043,
+          -0.007531782947640753,
+          0.00042912553511213037
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.2,
+        "certified_seed_count": 1,
+        "safety_gain_mean": 0.002419046280598407,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 1200,
+            "safety_n": 250,
+            "safety_gain": -0.00251472281138399,
+            "safety_ci95": [
+              -0.028490184227055765,
+              0.023850079543527723
+            ],
+            "certified": false,
+            "test_gain": 0.00686137742987984,
+            "test_router_quality": 0.3568238271204032,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k1200_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 1200,
+            "safety_n": 250,
+            "safety_gain": 0.00025500700998891103,
+            "safety_ci95": [
+              -0.027368281455402363,
+              0.028597519923438373
+            ],
+            "certified": false,
+            "test_gain": -0.007952569170536269,
+            "test_router_quality": 0.34200988051998715,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k1200_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 1200,
+            "safety_n": 250,
+            "safety_gain": 0.02955533384621151,
+            "safety_ci95": [
+              0.003953904725138056,
+              0.05523151838975837
+            ],
+            "certified": true,
+            "test_gain": -0.0010222479208519043,
+            "test_router_quality": 0.34894020176967144,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k1200_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 1200,
+            "safety_n": 250,
+            "safety_gain": -0.0028948941136896014,
+            "safety_ci95": [
+              -0.029527518431806236,
+              0.023132236549814583
+            ],
+            "certified": false,
+            "test_gain": -0.007531782947640753,
+            "test_router_quality": 0.34243066674288264,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k1200_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 1200,
+            "safety_n": 250,
+            "safety_gain": -0.012305492528134796,
+            "safety_ci95": [
+              -0.03882361148335619,
+              0.013585272528576485
+            ],
+            "certified": false,
+            "test_gain": 0.00042912553511213037,
+            "test_router_quality": 0.3503915752256356,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k1200_dense.npz"
+          }
+        ]
+      },
+      "300": {
+        "test_gain_mean": -0.00184321941480739,
+        "test_gain_ci95": [
+          -0.016664968495420505,
+          0.013253921650995875
+        ],
+        "per_seed_test_gain": [
+          0.00686137742987984,
+          -0.007952569170536269,
+          -0.0010222479208519043,
+          -0.007531782947640753,
+          0.00042912553511213037
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.2,
+        "certified_seed_count": 1,
+        "safety_gain_mean": 0.002105726939141214,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 1200,
+            "safety_n": 300,
+            "safety_gain": -0.005654118412646279,
+            "safety_ci95": [
+              -0.02861802387456536,
+              0.017604156695362617
+            ],
+            "certified": false,
+            "test_gain": 0.00686137742987984,
+            "test_router_quality": 0.3568238271204032,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k1200_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 1200,
+            "safety_n": 300,
+            "safety_gain": -0.0029974460661128036,
+            "safety_ci95": [
+              -0.028287908913050566,
+              0.021988499813829568
+            ],
+            "certified": false,
+            "test_gain": -0.007952569170536269,
+            "test_router_quality": 0.34200988051998715,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k1200_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 1200,
+            "safety_n": 300,
+            "safety_gain": 0.02768384090184914,
+            "safety_ci95": [
+              0.004871334011318346,
+              0.050895391865585934
+            ],
+            "certified": true,
+            "test_gain": -0.0010222479208519043,
+            "test_router_quality": 0.34894020176967144,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k1200_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 1200,
+            "safety_n": 300,
+            "safety_gain": 0.002553945072309268,
+            "safety_ci95": [
+              -0.020561504771058652,
+              0.02590799229004391
+            ],
+            "certified": false,
+            "test_gain": -0.007531782947640753,
+            "test_router_quality": 0.34243066674288264,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k1200_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 1200,
+            "safety_n": 300,
+            "safety_gain": -0.011057586799693257,
+            "safety_ci95": [
+              -0.03570828968840969,
+              0.014078808941416216
+            ],
+            "certified": false,
+            "test_gain": 0.00042912553511213037,
+            "test_router_quality": 0.3503915752256356,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k1200_dense.npz"
+          }
+        ]
+      },
+      "350": {
+        "test_gain_mean": -0.00184321941480739,
+        "test_gain_ci95": [
+          -0.016316674757767522,
+          0.012670906356136186
+        ],
+        "per_seed_test_gain": [
+          0.00686137742987984,
+          -0.007952569170536269,
+          -0.0010222479208519043,
+          -0.007531782947640753,
+          0.00042912553511213037
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.2,
+        "certified_seed_count": 1,
+        "safety_gain_mean": 0.006810792052236508,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 1200,
+            "safety_n": 350,
+            "safety_gain": 1.6917896965862324e-05,
+            "safety_ci95": [
+              -0.021878494245782757,
+              0.021528521660567096
+            ],
+            "certified": false,
+            "test_gain": 0.00686137742987984,
+            "test_router_quality": 0.3568238271204032,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k1200_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 1200,
+            "safety_n": 350,
+            "safety_gain": 0.002780365177598816,
+            "safety_ci95": [
+              -0.02135170362664878,
+              0.025850991114425407
+            ],
+            "certified": false,
+            "test_gain": -0.007952569170536269,
+            "test_router_quality": 0.34200988051998715,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k1200_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 1200,
+            "safety_n": 350,
+            "safety_gain": 0.028780442079845422,
+            "safety_ci95": [
+              0.008122783058361269,
+              0.05121245625337892
+            ],
+            "certified": true,
+            "test_gain": -0.0010222479208519043,
+            "test_router_quality": 0.34894020176967144,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k1200_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 1200,
+            "safety_n": 350,
+            "safety_gain": 0.0025355426498740175,
+            "safety_ci95": [
+              -0.01938033544347919,
+              0.023708473875512743
+            ],
+            "certified": false,
+            "test_gain": -0.007531782947640753,
+            "test_router_quality": 0.34243066674288264,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k1200_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 1200,
+            "safety_n": 350,
+            "safety_gain": -5.930754310157406e-05,
+            "safety_ci95": [
+              -0.02312992583268273,
+              0.023302177954184315
+            ],
+            "certified": false,
+            "test_gain": 0.00042912553511213037,
+            "test_router_quality": 0.3503915752256356,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k1200_dense.npz"
+          }
+        ]
+      },
+      "400": {
+        "test_gain_mean": -0.00184321941480739,
+        "test_gain_ci95": [
+          -0.016650337866862767,
+          0.012595787157569278
+        ],
+        "per_seed_test_gain": [
+          0.00686137742987984,
+          -0.007952569170536269,
+          -0.0010222479208519043,
+          -0.007531782947640753,
+          0.00042912553511213037
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.2,
+        "certified_seed_count": 1,
+        "safety_gain_mean": 0.006507611615127163,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 1200,
+            "safety_n": 400,
+            "safety_gain": 0.0016731708942326496,
+            "safety_ci95": [
+              -0.018371442072633984,
+              0.021244562608114144
+            ],
+            "certified": false,
+            "test_gain": 0.00686137742987984,
+            "test_router_quality": 0.3568238271204032,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k1200_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 1200,
+            "safety_n": 400,
+            "safety_gain": 0.003457513105862539,
+            "safety_ci95": [
+              -0.01866125881666282,
+              0.0253606937154703
+            ],
+            "certified": false,
+            "test_gain": -0.007952569170536269,
+            "test_router_quality": 0.34200988051998715,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k1200_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 1200,
+            "safety_n": 400,
+            "safety_gain": 0.022014593408702206,
+            "safety_ci95": [
+              0.0016980760116203596,
+              0.04228024622971889
+            ],
+            "certified": true,
+            "test_gain": -0.0010222479208519043,
+            "test_router_quality": 0.34894020176967144,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k1200_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 1200,
+            "safety_n": 400,
+            "safety_gain": 0.0022562467243123336,
+            "safety_ci95": [
+              -0.018429956253588876,
+              0.022457857037510073
+            ],
+            "certified": false,
+            "test_gain": -0.007531782947640753,
+            "test_router_quality": 0.34243066674288264,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k1200_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 1200,
+            "safety_n": 400,
+            "safety_gain": 0.0031365339425260884,
+            "safety_ci95": [
+              -0.017367271070696303,
+              0.024089196224028456
+            ],
+            "certified": false,
+            "test_gain": 0.00042912553511213037,
+            "test_router_quality": 0.3503915752256356,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k1200_dense.npz"
+          }
+        ]
+      }
+    },
+    "1800": {
+      "50": {
+        "test_gain_mean": 0.0016832923021913781,
+        "test_gain_ci95": [
+          -0.01314465739765662,
+          0.017187391008211414
+        ],
+        "per_seed_test_gain": [
+          0.006570410583749191,
+          -0.004750253275218641,
+          0.007478904074598884,
+          -0.006970712500017471,
+          0.006088112627844933
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.011972424567994789,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 1800,
+            "safety_n": 50,
+            "safety_gain": 0.025278523530958566,
+            "safety_ci95": [
+              -0.03216937664284117,
+              0.08398627220683368
+            ],
+            "certified": false,
+            "test_gain": 0.006570410583749191,
+            "test_router_quality": 0.35653286027427256,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k1800_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 1800,
+            "safety_n": 50,
+            "safety_gain": 0.0053065753807936935,
+            "safety_ci95": [
+              -0.06138448981708274,
+              0.0754833995773721
+            ],
+            "certified": false,
+            "test_gain": -0.004750253275218641,
+            "test_router_quality": 0.34521219641530476,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k1800_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 1800,
+            "safety_n": 50,
+            "safety_gain": 0.021044264728540443,
+            "safety_ci95": [
+              -0.03813921619549061,
+              0.08154689942182092
+            ],
+            "certified": false,
+            "test_gain": 0.007478904074598884,
+            "test_router_quality": 0.3574413537651223,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k1800_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 1800,
+            "safety_n": 50,
+            "safety_gain": -0.005705874520866563,
+            "safety_ci95": [
+              -0.06469567308839494,
+              0.05325929925949831
+            ],
+            "certified": false,
+            "test_gain": -0.006970712500017471,
+            "test_router_quality": 0.3429917371905059,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k1800_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 1800,
+            "safety_n": 50,
+            "safety_gain": 0.0139386337205478,
+            "safety_ci95": [
+              -0.04716825597175904,
+              0.0777473840606579
+            ],
+            "certified": false,
+            "test_gain": 0.006088112627844933,
+            "test_router_quality": 0.35605056231836835,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k1800_dense.npz"
+          }
+        ]
+      },
+      "100": {
+        "test_gain_mean": 0.0016832923021913781,
+        "test_gain_ci95": [
+          -0.013761558563231455,
+          0.017517689701804028
+        ],
+        "per_seed_test_gain": [
+          0.006570410583749191,
+          -0.004750253275218641,
+          0.007478904074598884,
+          -0.006970712500017471,
+          0.006088112627844933
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.01965461952074144,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 1800,
+            "safety_n": 100,
+            "safety_gain": 0.039400773156391504,
+            "safety_ci95": [
+              -0.00031033767443266693,
+              0.07920496395944279
+            ],
+            "certified": false,
+            "test_gain": 0.006570410583749191,
+            "test_router_quality": 0.35653286027427256,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k1800_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 1800,
+            "safety_n": 100,
+            "safety_gain": 0.022217831152991016,
+            "safety_ci95": [
+              -0.023876443848958775,
+              0.0676232959361348
+            ],
+            "certified": false,
+            "test_gain": -0.004750253275218641,
+            "test_router_quality": 0.34521219641530476,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k1800_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 1800,
+            "safety_n": 100,
+            "safety_gain": 0.01385989850950581,
+            "safety_ci95": [
+              -0.03040336005759998,
+              0.057798512875280476
+            ],
+            "certified": false,
+            "test_gain": 0.007478904074598884,
+            "test_router_quality": 0.3574413537651223,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k1800_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 1800,
+            "safety_n": 100,
+            "safety_gain": 0.004954156465113016,
+            "safety_ci95": [
+              -0.036021538325577175,
+              0.04627992480548739
+            ],
+            "certified": false,
+            "test_gain": -0.006970712500017471,
+            "test_router_quality": 0.3429917371905059,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k1800_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 1800,
+            "safety_n": 100,
+            "safety_gain": 0.017840438319705842,
+            "safety_ci95": [
+              -0.021071694754013562,
+              0.058387871394236776
+            ],
+            "certified": false,
+            "test_gain": 0.006088112627844933,
+            "test_router_quality": 0.35605056231836835,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k1800_dense.npz"
+          }
+        ]
+      },
+      "150": {
+        "test_gain_mean": 0.0016832923021913781,
+        "test_gain_ci95": [
+          -0.013538544720901059,
+          0.016526467804510198
+        ],
+        "per_seed_test_gain": [
+          0.006570410583749191,
+          -0.004750253275218641,
+          0.007478904074598884,
+          -0.006970712500017471,
+          0.006088112627844933
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.0011164143588737918,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 1800,
+            "safety_n": 150,
+            "safety_gain": 0.01197274473437649,
+            "safety_ci95": [
+              -0.020473636583116368,
+              0.04487225785852233
+            ],
+            "certified": false,
+            "test_gain": 0.006570410583749191,
+            "test_router_quality": 0.35653286027427256,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k1800_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 1800,
+            "safety_n": 150,
+            "safety_gain": 4.317318006732925e-05,
+            "safety_ci95": [
+              -0.03733582889080038,
+              0.03792172726842885
+            ],
+            "certified": false,
+            "test_gain": -0.004750253275218641,
+            "test_router_quality": 0.34521219641530476,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k1800_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 1800,
+            "safety_n": 150,
+            "safety_gain": 0.007764807035680099,
+            "safety_ci95": [
+              -0.026791603730979302,
+              0.042516366016572105
+            ],
+            "certified": false,
+            "test_gain": 0.007478904074598884,
+            "test_router_quality": 0.3574413537651223,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k1800_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 1800,
+            "safety_n": 150,
+            "safety_gain": -0.009571242240469631,
+            "safety_ci95": [
+              -0.041711593249667014,
+              0.022687202318342443
+            ],
+            "certified": false,
+            "test_gain": -0.006970712500017471,
+            "test_router_quality": 0.3429917371905059,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k1800_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 1800,
+            "safety_n": 150,
+            "safety_gain": -0.00462741091528533,
+            "safety_ci95": [
+              -0.03801951926455458,
+              0.030303653331589426
+            ],
+            "certified": false,
+            "test_gain": 0.006088112627844933,
+            "test_router_quality": 0.35605056231836835,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k1800_dense.npz"
+          }
+        ]
+      },
+      "200": {
+        "test_gain_mean": 0.0016832923021913781,
+        "test_gain_ci95": [
+          -0.013792447181404257,
+          0.016822862103570372
+        ],
+        "per_seed_test_gain": [
+          0.006570410583749191,
+          -0.004750253275218641,
+          0.007478904074598884,
+          -0.006970712500017471,
+          0.006088112627844933
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.0005594083496827148,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 1800,
+            "safety_n": 200,
+            "safety_gain": 0.009145318121032659,
+            "safety_ci95": [
+              -0.019521233415124514,
+              0.038705592477903415
+            ],
+            "certified": false,
+            "test_gain": 0.006570410583749191,
+            "test_router_quality": 0.35653286027427256,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k1800_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 1800,
+            "safety_n": 200,
+            "safety_gain": -0.0029267988521635147,
+            "safety_ci95": [
+              -0.036629862843301664,
+              0.029442136729948484
+            ],
+            "certified": false,
+            "test_gain": -0.004750253275218641,
+            "test_router_quality": 0.34521219641530476,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k1800_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 1800,
+            "safety_n": 200,
+            "safety_gain": 0.012311553363984058,
+            "safety_ci95": [
+              -0.01652755612961204,
+              0.04214316946333656
+            ],
+            "certified": false,
+            "test_gain": 0.007478904074598884,
+            "test_router_quality": 0.3574413537651223,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k1800_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 1800,
+            "safety_n": 200,
+            "safety_gain": -0.0047942658923776724,
+            "safety_ci95": [
+              -0.03491007393969339,
+              0.02515971681218723
+            ],
+            "certified": false,
+            "test_gain": -0.006970712500017471,
+            "test_router_quality": 0.3429917371905059,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k1800_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 1800,
+            "safety_n": 200,
+            "safety_gain": -0.010938764992061955,
+            "safety_ci95": [
+              -0.04127415116148688,
+              0.019095380668048174
+            ],
+            "certified": false,
+            "test_gain": 0.006088112627844933,
+            "test_router_quality": 0.35605056231836835,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k1800_dense.npz"
+          }
+        ]
+      },
+      "250": {
+        "test_gain_mean": 0.0016832923021913781,
+        "test_gain_ci95": [
+          -0.013261582798989736,
+          0.01700761310573821
+        ],
+        "per_seed_test_gain": [
+          0.006570410583749191,
+          -0.004750253275218641,
+          0.007478904074598884,
+          -0.006970712500017471,
+          0.006088112627844933
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.00010400016750789984,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 1800,
+            "safety_n": 250,
+            "safety_gain": 0.008126455977272577,
+            "safety_ci95": [
+              -0.0173162624749229,
+              0.03367568921332923
+            ],
+            "certified": false,
+            "test_gain": 0.006570410583749191,
+            "test_router_quality": 0.35653286027427256,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k1800_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 1800,
+            "safety_n": 250,
+            "safety_gain": -0.005033840703343801,
+            "safety_ci95": [
+              -0.03356853503593047,
+              0.023481611999114377
+            ],
+            "certified": false,
+            "test_gain": -0.004750253275218641,
+            "test_router_quality": 0.34521219641530476,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k1800_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 1800,
+            "safety_n": 250,
+            "safety_gain": 0.01237522607092456,
+            "safety_ci95": [
+              -0.012877558007365501,
+              0.038547593906449296
+            ],
+            "certified": false,
+            "test_gain": 0.007478904074598884,
+            "test_router_quality": 0.3574413537651223,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k1800_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 1800,
+            "safety_n": 250,
+            "safety_gain": -0.00473367934116559,
+            "safety_ci95": [
+              -0.03099885296792041,
+              0.021225244529397457
+            ],
+            "certified": false,
+            "test_gain": -0.006970712500017471,
+            "test_router_quality": 0.3429917371905059,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k1800_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 1800,
+            "safety_n": 250,
+            "safety_gain": -0.010214161166148246,
+            "safety_ci95": [
+              -0.036463328465166644,
+              0.016065589720451582
+            ],
+            "certified": false,
+            "test_gain": 0.006088112627844933,
+            "test_router_quality": 0.35605056231836835,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k1800_dense.npz"
+          }
+        ]
+      },
+      "300": {
+        "test_gain_mean": 0.0016832923021913781,
+        "test_gain_ci95": [
+          -0.013290237945339177,
+          0.01710213517421629
+        ],
+        "per_seed_test_gain": [
+          0.006570410583749191,
+          -0.004750253275218641,
+          0.007478904074598884,
+          -0.006970712500017471,
+          0.006088112627844933
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.00047662112502419064,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 1800,
+            "safety_n": 300,
+            "safety_gain": 0.0045933041060588296,
+            "safety_ci95": [
+              -0.019096946371256873,
+              0.027954128140599572
+            ],
+            "certified": false,
+            "test_gain": 0.006570410583749191,
+            "test_router_quality": 0.35653286027427256,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k1800_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 1800,
+            "safety_n": 300,
+            "safety_gain": -0.0005530409489940505,
+            "safety_ci95": [
+              -0.025651763439734396,
+              0.024566810880248133
+            ],
+            "certified": false,
+            "test_gain": -0.004750253275218641,
+            "test_router_quality": 0.34521219641530476,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k1800_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 1800,
+            "safety_n": 300,
+            "safety_gain": 0.011548392431874476,
+            "safety_ci95": [
+              -0.01145377018702834,
+              0.034234244443872436
+            ],
+            "certified": false,
+            "test_gain": 0.007478904074598884,
+            "test_router_quality": 0.3574413537651223,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k1800_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 1800,
+            "safety_n": 300,
+            "safety_gain": -0.00361194640033345,
+            "safety_ci95": [
+              -0.02667619047883502,
+              0.019024003888174455
+            ],
+            "certified": false,
+            "test_gain": -0.006970712500017471,
+            "test_router_quality": 0.3429917371905059,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k1800_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 1800,
+            "safety_n": 300,
+            "safety_gain": -0.009593603563484852,
+            "safety_ci95": [
+              -0.032235153557793786,
+              0.015057693039850663
+            ],
+            "certified": false,
+            "test_gain": 0.006088112627844933,
+            "test_router_quality": 0.35605056231836835,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k1800_dense.npz"
+          }
+        ]
+      },
+      "350": {
+        "test_gain_mean": 0.0016832923021913781,
+        "test_gain_ci95": [
+          -0.01441754346024012,
+          0.016887634825951656
+        ],
+        "per_seed_test_gain": [
+          0.006570410583749191,
+          -0.004750253275218641,
+          0.007478904074598884,
+          -0.006970712500017471,
+          0.006088112627844933
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.006363798686609727,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 1800,
+            "safety_n": 350,
+            "safety_gain": 0.013080414407125682,
+            "safety_ci95": [
+              -0.008844420741121158,
+              0.034163468986388223
+            ],
+            "certified": false,
+            "test_gain": 0.006570410583749191,
+            "test_router_quality": 0.35653286027427256,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k1800_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 1800,
+            "safety_n": 350,
+            "safety_gain": 0.0049413947977549515,
+            "safety_ci95": [
+              -0.018884189517173997,
+              0.027857850393223776
+            ],
+            "certified": false,
+            "test_gain": -0.004750253275218641,
+            "test_router_quality": 0.34521219641530476,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k1800_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 1800,
+            "safety_n": 350,
+            "safety_gain": 0.01293501056311981,
+            "safety_ci95": [
+              -0.00855979632988725,
+              0.03400844723817144
+            ],
+            "certified": false,
+            "test_gain": 0.007478904074598884,
+            "test_router_quality": 0.3574413537651223,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k1800_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 1800,
+            "safety_n": 350,
+            "safety_gain": 0.002677290669868318,
+            "safety_ci95": [
+              -0.019404485965284424,
+              0.02484495541167024
+            ],
+            "certified": false,
+            "test_gain": -0.006970712500017471,
+            "test_router_quality": 0.3429917371905059,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k1800_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 1800,
+            "safety_n": 350,
+            "safety_gain": -0.0018151170048201313,
+            "safety_ci95": [
+              -0.024101109716666746,
+              0.020226576775163072
+            ],
+            "certified": false,
+            "test_gain": 0.006088112627844933,
+            "test_router_quality": 0.35605056231836835,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k1800_dense.npz"
+          }
+        ]
+      },
+      "400": {
+        "test_gain_mean": 0.0016832923021913781,
+        "test_gain_ci95": [
+          -0.01317775305027694,
+          0.016689219783793497
+        ],
+        "per_seed_test_gain": [
+          0.006570410583749191,
+          -0.004750253275218641,
+          0.007478904074598884,
+          -0.006970712500017471,
+          0.006088112627844933
+        ],
+        "all_seed_test_gain_positive": false,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.005255376256970214,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 1800,
+            "safety_n": 400,
+            "safety_gain": 0.013094705391218564,
+            "safety_ci95": [
+              -0.007784152158298662,
+              0.03317031345982283
+            ],
+            "certified": false,
+            "test_gain": 0.006570410583749191,
+            "test_router_quality": 0.35653286027427256,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k1800_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 1800,
+            "safety_n": 400,
+            "safety_gain": 0.002555616388743484,
+            "safety_ci95": [
+              -0.019723964035981433,
+              0.025172159971215347
+            ],
+            "certified": false,
+            "test_gain": -0.004750253275218641,
+            "test_router_quality": 0.34521219641530476,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k1800_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 1800,
+            "safety_n": 400,
+            "safety_gain": 0.010797591597179934,
+            "safety_ci95": [
+              -0.008905994726660498,
+              0.031066742825358443
+            ],
+            "certified": false,
+            "test_gain": 0.007478904074598884,
+            "test_router_quality": 0.3574413537651223,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k1800_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 1800,
+            "safety_n": 400,
+            "safety_gain": 0.0008843314443523859,
+            "safety_ci95": [
+              -0.019750717713895673,
+              0.021405283259583838
+            ],
+            "certified": false,
+            "test_gain": -0.006970712500017471,
+            "test_router_quality": 0.3429917371905059,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k1800_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 1800,
+            "safety_n": 400,
+            "safety_gain": -0.0010553635366432957,
+            "safety_ci95": [
+              -0.021764925632491557,
+              0.020137429784969463
+            ],
+            "certified": false,
+            "test_gain": 0.006088112627844933,
+            "test_router_quality": 0.35605056231836835,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k1800_dense.npz"
+          }
+        ]
+      }
+    },
+    "2400": {
+      "50": {
+        "test_gain_mean": 0.013759628702602,
+        "test_gain_ci95": [
+          -0.0032986257462768397,
+          0.0309355492712889
+        ],
+        "per_seed_test_gain": [
+          0.018771320633571006,
+          0.01343936510461972,
+          0.007034623793308348,
+          0.015845526554618284,
+          0.013707307426892664
+        ],
+        "all_seed_test_gain_positive": true,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.012287685094125783,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 2400,
+            "safety_n": 50,
+            "safety_gain": 0.020314014387186746,
+            "safety_ci95": [
+              -0.03761273880676755,
+              0.08062353967412147
+            ],
+            "certified": false,
+            "test_gain": 0.018771320633571006,
+            "test_router_quality": 0.3687337703240944,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k2400_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 2400,
+            "safety_n": 50,
+            "safety_gain": 0.007644375150249251,
+            "safety_ci95": [
+              -0.05300806444625304,
+              0.07198464876824498
+            ],
+            "certified": false,
+            "test_gain": 0.01343936510461972,
+            "test_router_quality": 0.36340181479514316,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k2400_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 2400,
+            "safety_n": 50,
+            "safety_gain": 0.009534138276503594,
+            "safety_ci95": [
+              -0.051117776165330926,
+              0.07140980060900705
+            ],
+            "certified": false,
+            "test_gain": 0.007034623793308348,
+            "test_router_quality": 0.3569970734838317,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k2400_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 2400,
+            "safety_n": 50,
+            "safety_gain": 0.012405728443901143,
+            "safety_ci95": [
+              -0.04450859656297628,
+              0.06996163886259381
+            ],
+            "certified": false,
+            "test_gain": 0.015845526554618284,
+            "test_router_quality": 0.36580797624514166,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k2400_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 2400,
+            "safety_n": 50,
+            "safety_gain": 0.011540169212788182,
+            "safety_ci95": [
+              -0.044998951861248825,
+              0.07051149098208269
+            ],
+            "certified": false,
+            "test_gain": 0.013707307426892664,
+            "test_router_quality": 0.363669757117416,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k2400_dense.npz"
+          }
+        ]
+      },
+      "100": {
+        "test_gain_mean": 0.013759628702602,
+        "test_gain_ci95": [
+          -0.003197592726672648,
+          0.030949875757095843
+        ],
+        "per_seed_test_gain": [
+          0.018771320633571006,
+          0.01343936510461972,
+          0.007034623793308348,
+          0.015845526554618284,
+          0.013707307426892664
+        ],
+        "all_seed_test_gain_positive": true,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.031991074537494266,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 2400,
+            "safety_n": 100,
+            "safety_gain": 0.03348098703134961,
+            "safety_ci95": [
+              -0.006468831864345942,
+              0.07275052855583831
+            ],
+            "certified": false,
+            "test_gain": 0.018771320633571006,
+            "test_router_quality": 0.3687337703240944,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k2400_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 2400,
+            "safety_n": 100,
+            "safety_gain": 0.02710093087442177,
+            "safety_ci95": [
+              -0.01412841567332306,
+              0.06998331625531207
+            ],
+            "certified": false,
+            "test_gain": 0.01343936510461972,
+            "test_router_quality": 0.36340181479514316,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k2400_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 2400,
+            "safety_n": 100,
+            "safety_gain": 0.03222376556131818,
+            "safety_ci95": [
+              -0.008979049861926562,
+              0.07403324069634304
+            ],
+            "certified": false,
+            "test_gain": 0.007034623793308348,
+            "test_router_quality": 0.3569970734838317,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k2400_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 2400,
+            "safety_n": 100,
+            "safety_gain": 0.032125532744965615,
+            "safety_ci95": [
+              -0.007739331430871943,
+              0.07339122625966718
+            ],
+            "certified": false,
+            "test_gain": 0.015845526554618284,
+            "test_router_quality": 0.36580797624514166,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k2400_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 2400,
+            "safety_n": 100,
+            "safety_gain": 0.03502415647541615,
+            "safety_ci95": [
+              -0.0056434009343114275,
+              0.07624609641753949
+            ],
+            "certified": false,
+            "test_gain": 0.013707307426892664,
+            "test_router_quality": 0.363669757117416,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k2400_dense.npz"
+          }
+        ]
+      },
+      "150": {
+        "test_gain_mean": 0.013759628702602,
+        "test_gain_ci95": [
+          -0.00322329519256301,
+          0.030735662789007884
+        ],
+        "per_seed_test_gain": [
+          0.018771320633571006,
+          0.01343936510461972,
+          0.007034623793308348,
+          0.015845526554618284,
+          0.013707307426892664
+        ],
+        "all_seed_test_gain_positive": true,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.015257260901341912,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 2400,
+            "safety_n": 150,
+            "safety_gain": 0.015329176334846395,
+            "safety_ci95": [
+              -0.01672463593823426,
+              0.04732657687062345
+            ],
+            "certified": false,
+            "test_gain": 0.018771320633571006,
+            "test_router_quality": 0.3687337703240944,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k2400_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 2400,
+            "safety_n": 150,
+            "safety_gain": 0.00811163591382182,
+            "safety_ci95": [
+              -0.024307730643383228,
+              0.04090421311140118
+            ],
+            "certified": false,
+            "test_gain": 0.01343936510461972,
+            "test_router_quality": 0.36340181479514316,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k2400_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 2400,
+            "safety_n": 150,
+            "safety_gain": 0.015804529477892394,
+            "safety_ci95": [
+              -0.016300555520916808,
+              0.04828217247338625
+            ],
+            "certified": false,
+            "test_gain": 0.007034623793308348,
+            "test_router_quality": 0.3569970734838317,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k2400_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 2400,
+            "safety_n": 150,
+            "safety_gain": 0.01656923746380161,
+            "safety_ci95": [
+              -0.014545216390673778,
+              0.04957181422671909
+            ],
+            "certified": false,
+            "test_gain": 0.015845526554618284,
+            "test_router_quality": 0.36580797624514166,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k2400_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 2400,
+            "safety_n": 150,
+            "safety_gain": 0.020471725316347344,
+            "safety_ci95": [
+              -0.010858606612438185,
+              0.052463940753313024
+            ],
+            "certified": false,
+            "test_gain": 0.013707307426892664,
+            "test_router_quality": 0.363669757117416,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k2400_dense.npz"
+          }
+        ]
+      },
+      "200": {
+        "test_gain_mean": 0.013759628702602,
+        "test_gain_ci95": [
+          -0.0028293183525493247,
+          0.031359168793325946
+        ],
+        "per_seed_test_gain": [
+          0.018771320633571006,
+          0.01343936510461972,
+          0.007034623793308348,
+          0.015845526554618284,
+          0.013707307426892664
+        ],
+        "all_seed_test_gain_positive": true,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.014402555332927119,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 2400,
+            "safety_n": 200,
+            "safety_gain": 0.018946222834160684,
+            "safety_ci95": [
+              -0.009335643991162549,
+              0.04827176384973156
+            ],
+            "certified": false,
+            "test_gain": 0.018771320633571006,
+            "test_router_quality": 0.3687337703240944,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k2400_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 2400,
+            "safety_n": 200,
+            "safety_gain": 0.008982430626816739,
+            "safety_ci95": [
+              -0.02150645636340192,
+              0.039200641755067114
+            ],
+            "certified": false,
+            "test_gain": 0.01343936510461972,
+            "test_router_quality": 0.36340181479514316,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k2400_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 2400,
+            "safety_n": 200,
+            "safety_gain": 0.008082139409694756,
+            "safety_ci95": [
+              -0.021862523166378486,
+              0.03722078370004657
+            ],
+            "certified": false,
+            "test_gain": 0.007034623793308348,
+            "test_router_quality": 0.3569970734838317,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k2400_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 2400,
+            "safety_n": 200,
+            "safety_gain": 0.02096291159148495,
+            "safety_ci95": [
+              -0.0063406042745842,
+              0.04887994002208409
+            ],
+            "certified": false,
+            "test_gain": 0.015845526554618284,
+            "test_router_quality": 0.36580797624514166,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k2400_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 2400,
+            "safety_n": 200,
+            "safety_gain": 0.015039072202478476,
+            "safety_ci95": [
+              -0.014979327084884102,
+              0.04412869018849889
+            ],
+            "certified": false,
+            "test_gain": 0.013707307426892664,
+            "test_router_quality": 0.363669757117416,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k2400_dense.npz"
+          }
+        ]
+      },
+      "250": {
+        "test_gain_mean": 0.013759628702602,
+        "test_gain_ci95": [
+          -0.0031980655016426085,
+          0.03115337823542459
+        ],
+        "per_seed_test_gain": [
+          0.018771320633571006,
+          0.01343936510461972,
+          0.007034623793308348,
+          0.015845526554618284,
+          0.013707307426892664
+        ],
+        "all_seed_test_gain_positive": true,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.013566322402277278,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 2400,
+            "safety_n": 250,
+            "safety_gain": 0.016518243484829838,
+            "safety_ci95": [
+              -0.008477416096859272,
+              0.04220979382216852
+            ],
+            "certified": false,
+            "test_gain": 0.018771320633571006,
+            "test_router_quality": 0.3687337703240944,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k2400_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 2400,
+            "safety_n": 250,
+            "safety_gain": 0.008471238239344862,
+            "safety_ci95": [
+              -0.018025247843082806,
+              0.03419803797938714
+            ],
+            "certified": false,
+            "test_gain": 0.01343936510461972,
+            "test_router_quality": 0.36340181479514316,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k2400_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 2400,
+            "safety_n": 250,
+            "safety_gain": 0.009078548480465016,
+            "safety_ci95": [
+              -0.016981969610684516,
+              0.03497372573749446
+            ],
+            "certified": false,
+            "test_gain": 0.007034623793308348,
+            "test_router_quality": 0.3569970734838317,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k2400_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 2400,
+            "safety_n": 250,
+            "safety_gain": 0.017196152755511257,
+            "safety_ci95": [
+              -0.007224622869690345,
+              0.043331797268354115
+            ],
+            "certified": false,
+            "test_gain": 0.015845526554618284,
+            "test_router_quality": 0.36580797624514166,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k2400_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 2400,
+            "safety_n": 250,
+            "safety_gain": 0.01656742905123542,
+            "safety_ci95": [
+              -0.00880303942755144,
+              0.041477571785649495
+            ],
+            "certified": false,
+            "test_gain": 0.013707307426892664,
+            "test_router_quality": 0.363669757117416,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k2400_dense.npz"
+          }
+        ]
+      },
+      "300": {
+        "test_gain_mean": 0.013759628702602,
+        "test_gain_ci95": [
+          -0.003613186892723447,
+          0.030777269314193896
+        ],
+        "per_seed_test_gain": [
+          0.018771320633571006,
+          0.01343936510461972,
+          0.007034623793308348,
+          0.015845526554618284,
+          0.013707307426892664
+        ],
+        "all_seed_test_gain_positive": true,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.010377836695859654,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 2400,
+            "safety_n": 300,
+            "safety_gain": 0.012517719889618665,
+            "safety_ci95": [
+              -0.010715480090682683,
+              0.0355187193704136
+            ],
+            "certified": false,
+            "test_gain": 0.018771320633571006,
+            "test_router_quality": 0.3687337703240944,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k2400_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 2400,
+            "safety_n": 300,
+            "safety_gain": 0.0070238265467295,
+            "safety_ci95": [
+              -0.016267667850807667,
+              0.030259684715776034
+            ],
+            "certified": false,
+            "test_gain": 0.01343936510461972,
+            "test_router_quality": 0.36340181479514316,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k2400_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 2400,
+            "safety_n": 300,
+            "safety_gain": 0.00858940055629397,
+            "safety_ci95": [
+              -0.013808978169290591,
+              0.03148311694617208
+            ],
+            "certified": false,
+            "test_gain": 0.007034623793308348,
+            "test_router_quality": 0.3569970734838317,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k2400_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 2400,
+            "safety_n": 300,
+            "safety_gain": 0.012249496196613075,
+            "safety_ci95": [
+              -0.010143807545764667,
+              0.03454241022333529
+            ],
+            "certified": false,
+            "test_gain": 0.015845526554618284,
+            "test_router_quality": 0.36580797624514166,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k2400_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 2400,
+            "safety_n": 300,
+            "safety_gain": 0.011508740290043064,
+            "safety_ci95": [
+              -0.010471778470854403,
+              0.03431818424270979
+            ],
+            "certified": false,
+            "test_gain": 0.013707307426892664,
+            "test_router_quality": 0.363669757117416,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k2400_dense.npz"
+          }
+        ]
+      },
+      "350": {
+        "test_gain_mean": 0.013759628702602,
+        "test_gain_ci95": [
+          -0.0032613515110535628,
+          0.03084122362960719
+        ],
+        "per_seed_test_gain": [
+          0.018771320633571006,
+          0.01343936510461972,
+          0.007034623793308348,
+          0.015845526554618284,
+          0.013707307426892664
+        ],
+        "all_seed_test_gain_positive": true,
+        "certification_rate": 0.2,
+        "certified_seed_count": 1,
+        "safety_gain_mean": 0.017092507285386797,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 2400,
+            "safety_n": 350,
+            "safety_gain": 0.022342639180482095,
+            "safety_ci95": [
+              0.0013707178757405296,
+              0.04307975419522969
+            ],
+            "certified": true,
+            "test_gain": 0.018771320633571006,
+            "test_router_quality": 0.3687337703240944,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k2400_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 2400,
+            "safety_n": 350,
+            "safety_gain": 0.013096356594934048,
+            "safety_ci95": [
+              -0.008283684092914188,
+              0.03492474226623115
+            ],
+            "certified": false,
+            "test_gain": 0.01343936510461972,
+            "test_router_quality": 0.36340181479514316,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k2400_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 2400,
+            "safety_n": 350,
+            "safety_gain": 0.01533965716154185,
+            "safety_ci95": [
+              -0.006310853637573044,
+              0.03745002616054707
+            ],
+            "certified": false,
+            "test_gain": 0.007034623793308348,
+            "test_router_quality": 0.3569970734838317,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k2400_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 2400,
+            "safety_n": 350,
+            "safety_gain": 0.0167339690318051,
+            "safety_ci95": [
+              -0.004951795246482859,
+              0.03760446991244003
+            ],
+            "certified": false,
+            "test_gain": 0.015845526554618284,
+            "test_router_quality": 0.36580797624514166,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k2400_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 2400,
+            "safety_n": 350,
+            "safety_gain": 0.017949914458170894,
+            "safety_ci95": [
+              -0.0029092038764585294,
+              0.03928802612046956
+            ],
+            "certified": false,
+            "test_gain": 0.013707307426892664,
+            "test_router_quality": 0.363669757117416,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k2400_dense.npz"
+          }
+        ]
+      },
+      "400": {
+        "test_gain_mean": 0.013759628702602,
+        "test_gain_ci95": [
+          -0.0033651592619436126,
+          0.030960340576386795
+        ],
+        "per_seed_test_gain": [
+          0.018771320633571006,
+          0.01343936510461972,
+          0.007034623793308348,
+          0.015845526554618284,
+          0.013707307426892664
+        ],
+        "all_seed_test_gain_positive": true,
+        "certification_rate": 0.0,
+        "certified_seed_count": 0,
+        "safety_gain_mean": 0.014768520066955082,
+        "deployment_ready": false,
+        "per_seed": [
+          {
+            "seed": 42,
+            "train_k": 2400,
+            "safety_n": 400,
+            "safety_gain": 0.019310606611551175,
+            "safety_ci95": [
+              -0.000565880943451052,
+              0.03869865005979557
+            ],
+            "certified": false,
+            "test_gain": 0.018771320633571006,
+            "test_router_quality": 0.3687337703240944,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed42_k2400_dense.npz"
+          },
+          {
+            "seed": 43,
+            "train_k": 2400,
+            "safety_n": 400,
+            "safety_gain": 0.011695910364618778,
+            "safety_ci95": [
+              -0.007774574587370117,
+              0.03196136888781306
+            ],
+            "certified": false,
+            "test_gain": 0.01343936510461972,
+            "test_router_quality": 0.36340181479514316,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed43_k2400_dense.npz"
+          },
+          {
+            "seed": 44,
+            "train_k": 2400,
+            "safety_n": 400,
+            "safety_gain": 0.012548749130243697,
+            "safety_ci95": [
+              -0.008440311635863479,
+              0.032602367741319915
+            ],
+            "certified": false,
+            "test_gain": 0.007034623793308348,
+            "test_router_quality": 0.3569970734838317,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed44_k2400_dense.npz"
+          },
+          {
+            "seed": 45,
+            "train_k": 2400,
+            "safety_n": 400,
+            "safety_gain": 0.013415436324704055,
+            "safety_ci95": [
+              -0.006376933884195696,
+              0.0328221907647416
+            ],
+            "certified": false,
+            "test_gain": 0.015845526554618284,
+            "test_router_quality": 0.36580797624514166,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed45_k2400_dense.npz"
+          },
+          {
+            "seed": 46,
+            "train_k": 2400,
+            "safety_n": 400,
+            "safety_gain": 0.016871897903657694,
+            "safety_ci95": [
+              -0.003002527163585405,
+              0.03632746430052614
+            ],
+            "certified": false,
+            "test_gain": 0.013707307426892664,
+            "test_router_quality": 0.363669757117416,
+            "test_lp_quality": 0.3499624496905234,
+            "test_router_cost": 10.0,
+            "cache": "exp43_target_gm_seed46_k2400_dense.npz"
+          }
+        ]
+      }
+    }
+  },
+  "first_sustained_safety_n": {
+    "400": null,
+    "600": null,
+    "800": null,
+    "1200": null,
+    "1800": null,
+    "2400": null
+  },
+  "stable_pairs": [],
+  "audit": {
+    "finite": true,
+    "max_test_cost": 10.0,
+    "raw_prompts_used": 800,
+    "safety_final_test_disjoint": true
+  }
+}

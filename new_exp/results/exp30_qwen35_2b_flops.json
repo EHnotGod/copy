@@ -1,0 +1,43 @@
+{
+  "model": "Qwen/Qwen3.5-2B",
+  "method": "analytical dominant forward FLOPs; multiply-add counted as 2",
+  "matched_320": {
+    "side_pixels": 320,
+    "vision_patch_tokens": 400,
+    "merged_image_tokens": 100,
+    "text_only_tokens_mean": 52.9634375,
+    "image_wrapper_tokens": 2,
+    "total_sequence_tokens_mean": 154.9634375,
+    "tflops_parts": {
+      "patch_embed": 0.0012582912,
+      "vision_blocks": 0.2573205504,
+      "vision_merger": 0.0050331648,
+      "text_full_attention": 0.028478797920427196,
+      "text_linear_projection": 0.11735908245504001,
+      "text_linear_convolution": 0.00013710173184,
+      "text_linear_recurrence": 0.00438725541888,
+      "text_mlp": 0.28078434680832
+    },
+    "total_tflops": 0.6947585907345072
+  },
+  "processor_length_audit": {
+    "records": 3200,
+    "text_only_mean": 52.9634375,
+    "text_only_std": 3.5304356223550872,
+    "text_only_min": 47,
+    "text_only_max": 64,
+    "matched_minus_text_tokens": 102
+  },
+  "omitted": [
+    "normalization",
+    "activation",
+    "rotary embedding",
+    "softmax",
+    "data preprocessing",
+    "minor elementwise gates outside the gated-delta recurrence"
+  ],
+  "not_present_in_actual_embedding_forward": [
+    "autoregressive generation",
+    "vocabulary LM head"
+  ]
+}

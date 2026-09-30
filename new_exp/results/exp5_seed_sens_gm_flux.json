@@ -1,0 +1,86 @@
+[
+  {
+    "dataset": "gm",
+    "model": "flux",
+    "oracle": 0.4334654552400659,
+    "lp": 0.3418291721177925,
+    "always_50steps": 0.33210164308547974,
+    "k_data": [
+      {
+        "k": 1,
+        "ridge_score_mean": 0.3404680374842971,
+        "ridge_score_std": 0.0,
+        "ridge_delta_mean": 0.3404680374842971,
+        "ridge_delta_std": 0.0,
+        "knn_score_mean": 0.34292829033206484,
+        "knn_score_std": 5.551115123125783e-17,
+        "knn_delta_mean": 0.34292829033206484,
+        "knn_delta_std": 5.551115123125783e-17,
+        "tf_score_mean": 0.343349549764377,
+        "tf_score_std": 0.0034222824079289146,
+        "tf_delta_mean": 0.3434980345093853,
+        "tf_delta_std": 0.004172889018251807
+      },
+      {
+        "k": 2,
+        "ridge_score_mean": 0.3441677110457122,
+        "ridge_score_std": 1.4208613254795832e-05,
+        "ridge_delta_mean": 0.3441677110457122,
+        "ridge_delta_std": 1.4208613254795832e-05,
+        "knn_score_mean": 0.3420317645086096,
+        "knn_score_std": 0.0,
+        "knn_delta_mean": 0.3420317645086096,
+        "knn_delta_std": 0.0,
+        "tf_score_mean": 0.3465156343704645,
+        "tf_score_std": 0.0029111096294281375,
+        "tf_delta_mean": 0.3449720153811512,
+        "tf_delta_std": 0.004472986397562408
+      },
+      {
+        "k": 3,
+        "ridge_score_mean": 0.34417882383759346,
+        "ridge_score_std": 5.551115123125783e-17,
+        "ridge_delta_mean": 0.34417882383759346,
+        "ridge_delta_std": 5.551115123125783e-17,
+        "knn_score_mean": 0.34195136322111386,
+        "knn_score_std": 0.0,
+        "knn_delta_mean": 0.34195136322111386,
+        "knn_delta_std": 0.0,
+        "tf_score_mean": 0.3435323455993668,
+        "tf_score_std": 0.00394001238504357,
+        "tf_delta_mean": 0.346403543753437,
+        "tf_delta_std": 0.0022542399303880473
+      },
+      {
+        "k": 4,
+        "ridge_score_mean": 0.3463171512101885,
+        "ridge_score_std": 5.551115123125783e-17,
+        "ridge_delta_mean": 0.3463171512101885,
+        "ridge_delta_std": 5.551115123125783e-17,
+        "knn_score_mean": 0.34322939202396086,
+        "knn_score_std": 0.0,
+        "knn_delta_mean": 0.34322939202396086,
+        "knn_delta_std": 0.0,
+        "tf_score_mean": 0.3456517482001844,
+        "tf_score_std": 0.0040863145932603364,
+        "tf_delta_mean": 0.34517712080688645,
+        "tf_delta_std": 0.002923096909080375
+      },
+      {
+        "k": 5,
+        "ridge_score_mean": 0.34487416984429997,
+        "ridge_score_std": 5.551115123125783e-17,
+        "ridge_delta_mean": 0.34487416984429997,
+        "ridge_delta_std": 5.551115123125783e-17,
+        "knn_score_mean": 0.34353813576183734,
+        "knn_score_std": 5.551115123125783e-17,
+        "knn_delta_mean": 0.34353813576183734,
+        "knn_delta_std": 5.551115123125783e-17,
+        "tf_score_mean": 0.3455720041215609,
+        "tf_score_std": 0.004055168583241253,
+        "tf_delta_mean": 0.3447106546592358,
+        "tf_delta_std": 0.0030877753551617677
+      }
+    ]
+  }
+]

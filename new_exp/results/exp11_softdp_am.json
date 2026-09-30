@@ -1,0 +1,40 @@
+[
+  {
+    "dataset": "am",
+    "model": "qwen",
+    "oracle": 0.7953003751088495,
+    "lp": 0.7481036374443447,
+    "always_50steps": 0.7300489544868469,
+    "ridge_score_mean": 0.7595569410956049,
+    "ridge_score_std": 0.0,
+    "ridge_delta_mean": 0.7595569410956049,
+    "ridge_delta_std": 0.0,
+    "tf_mae_score_mean": 0.7550820915558063,
+    "tf_mae_score_std": 0.0014226498029263877,
+    "tf_mae_delta_mean": 0.7646771871420731,
+    "tf_mae_delta_std": 0.0003480381345229672,
+    "tf_dp_score_mean": 0.7444000045458475,
+    "tf_dp_score_std": 0.003940624622942493,
+    "tf_dp_delta_mean": 0.7403205831845602,
+    "tf_dp_delta_std": 0.009401446686232315
+  },
+  {
+    "dataset": "am",
+    "model": "flux",
+    "oracle": 0.8077451618275353,
+    "lp": 0.768012523651123,
+    "always_50steps": 0.768012523651123,
+    "ridge_score_mean": 0.7665825605743072,
+    "ridge_score_std": 0.0,
+    "ridge_delta_mean": 0.7665825605743072,
+    "ridge_delta_std": 0.0,
+    "tf_mae_score_mean": 0.7660453500593256,
+    "tf_mae_score_std": 0.0012675450299619243,
+    "tf_mae_delta_mean": 0.7662913519867954,
+    "tf_mae_delta_std": 0.0011417319749582417,
+    "tf_dp_score_mean": 0.7665102481842041,
+    "tf_dp_score_std": 0.0021245383397371464,
+    "tf_dp_delta_mean": 0.768012523651123,
+    "tf_dp_delta_std": 0.0
+  }
+]

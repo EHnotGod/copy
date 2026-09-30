@@ -1,0 +1,5078 @@
+{
+  "R-AR-G001": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as any organic honeycomb demonstrates these specific graphic traits: (1) every individual compartment represents a flawless hexagonal shape with six identical edges; (2) neighboring units utilize shared, linear dividers without any spaces between them; (3) those units are arranged within a recurring, tessellated matrix layout; (4) internal partitions are slender while possessing a consistent width throughout; (5) this design spans the whole viewable field; generate a rendering depicting clouds aloft above us adhering to this identical structural logic. The resulting illustration shall at last be steered through the graphic comparison, prioritizing its constraints instead of actual scientific laws.",
+    "Checklist": [
+      {
+        "question": "Does each cloud formation exhibit a perfect six-sided hexagonal shape?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do adjacent cloud units share common, straight borders with no gaps between them?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the cloud formations organized in a repeating, tessellated grid matrix?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the dividers between the cloud units thin and of uniform width?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the hexagonal cloud pattern cover the entire field of view?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the clouds lack the typical fluffy, irregular edges associated with natural formations?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G002": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Much like a honeycomb pattern exhibits these particular listed visual characteristics: (1) every separate unit constitutes a flawless, equilateral hexagon with six equal sides, (2) units are set within a seamless, interlocking lattice covering the total surface, (3) each unit shares its perimeters exactly with six neighboring units, (4) all unit perimeters consist of linear strokes of identical width and color, plus (5) the complete motif is a repeating, uniform tessellation without voids or overlaps; generate a picture depicting stained-glass windowpanes obeying this identical structural logic. This graphic must finally be steered by the optical parallelism, emphasizing its dictates above physical reality.",
+    "Checklist": [
+      {
+        "question": "Does each stained-glass unit constitute a flawless, equilateral hexagon with six equal sides?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the units set within a seamless, interlocking lattice covering the entire surface?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does each unit share its perimeters exactly with six neighboring units?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do all unit perimeters consist of linear strokes of identical width and color?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the complete motif a repeating, uniform tessellation without voids or overlaps?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the image free of any irregular, non-hexagonal glass pieces typically found in real-world window designs?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G003": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as honeycomb organization presents these distinct graphic traits: (1) each individual unit forms a flawless, equilateral hexagon; (2) contiguous components share identical, straight-edged boundary lines; (3) these units are situated within a seamless, non-intersecting recurring pattern; (4) all hexagonal cells preserve an identical scale; lastly, (5) the complete configuration exists as a solitary flat 2D surface, render a visual portraying clouds amidst the heavens according to this structural arrangement. This graphic must fundamentally be shaped by this analogical framework, favoring its dictates instead of physical world physics.",
+    "Checklist": [
+      {
+        "question": "Does each individual cloud unit form a flawless, equilateral hexagon?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do contiguous cloud components share identical, straight-edged boundary lines?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are these cloud units situated within a seamless, non-intersecting recurring pattern?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do all hexagonal cloud cells preserve an identical scale?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the complete cloud configuration exist as a solitary flat 2D surface?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the natural, fluffy appearance of clouds absent in favor of geometric shapes?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G004": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just like how a beehive structure exhibits these specific optical traits: (1) every individual unit forms an exact equilateral hexagon; (2) every single chamber possesses uniform dimensions; (3) bordering units partake in shared, entirely linear dividers; (4) units are arranged within a dense, seamless lateral and upright tiling; (5) every interior corner where partitions join measures precisely 120 degrees; generate a picture depicting urban skyscraper silhouettes adhering to this identical arrangement logic. The final illustration must be dictated by this structural comparison, favoring these directives above actual physical laws.",
+    "Checklist": [
+      {
+        "question": "Does each building in the skyline have exactly six sides?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are all buildings in the skyline uniform in size?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do neighboring buildings share common straight walls?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the city skyline organized in a gapless tiling?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the angles where building walls join exactly 120 degrees?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the image lack traditional empty spaces between skyscrapers to maintain the tiling rule?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G005": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as fish scales manifests the subsequent aesthetic attributes: (1) every individual unit is a half-moon or fan-like slab, (2) units sit positioned within layered, overlapping tiers resembling shingles, (3) elements are situated along exact, offset slanted lines, (4) every piece contains visible ringed markings across the exterior, plus (5) that complete facade demonstrates a consistent glossy or pearlescent luster; generate a depiction representing a forest adopting this identical structural logic; this visual will strictly be steered via the graphic comparison, emphasizing those stated dictums beyond tangible terrestrial physics.",
+    "Checklist": [
+      {
+        "question": "Is each individual tree unit shaped like a half-moon or fan-like slab?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the tree units arranged in layered, overlapping tiers similar to shingles?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the tree elements situated along exact, offset slanted lines?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does every tree contain visible ringed markings across its exterior?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the entire forest surface demonstrate a consistent glossy or pearlescent luster?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the forest organized according to the fish scale pattern rather than realistic physical forest growth?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G006": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as beehive structures exhibit these specific graphic traits: (1) every individual unit forms a precise six-sided polygon, (2) neighboring segments split shared linear partitions without any openings, (3) all the internal chambers maintain consistent dimensions and scale, (4) components are arranged within an iterative, conjoined tiled network, and plus fifthly (5) the junctions dividing the units appear narrow, sharp, and flawlessly uncurved; produce a picture depicting clouds within the heavens mirroring this identical structural logic. This rendition must finally be steered through the graphic analogy, giving precedence to its constraints above natural physical laws.",
+    "Checklist": [
+      {
+        "question": "Does every cloud formation form a precise six-sided polygon?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do neighboring cloud segments share linear partitions without any openings?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do all the internal cloud chambers maintain consistent dimensions and scale?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the cloud components arranged within an iterative, conjoined tiled network?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the junctions dividing the cloud units appear narrow, sharp, and flawlessly uncurved?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the clouds depicted without their natural wispy, rounded, or fluffy textures?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G009": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as masonry block walls manifest these particular graphic attributes: (1) individual units are uniform rectangular blocks; (2) units are organized into stacked horizontal rows; (3) units within every other tier stand staggered by half their length; (4) a slim seam of dark gray mortar separates every unit from its neighbors; (5) the primary outer tactile feel becomes rugged and matte; construct a visual depicting cresting surges of agitated marine waters based on this identical systemic logic. This composition must be governed by the symbolic model, favoring its constraints instead of actual physical laws.",
+    "Checklist": [
+      {
+        "question": "Are the individual water units uniform rectangular blocks?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the water units organized into stacked horizontal rows?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the water units in alternating tiers staggered by half their length?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is every water unit separated from its neighbors by a slim seam of dark gray mortar?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the tactile appearance of the surges rugged and matte rather than liquid?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Has the natural fluid motion of the waves been suppressed in favor of a rigid rectangular structure?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G011": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Similar to how a beehive interior exhibits these specific visual traits: (1) every individual chamber represents an ideal regular hexagon; (2) every chamber shares its partitions with exactly six neighboring chambers; (3) those chambers are situated in a seamless, repeating tessellation; (4) the partitions are fine and see-through; and (5) every chamber contains one lone uniform drop of golden liquid; produce a rendition of an advanced technological metropolis cityscape adhering to this identical structural logic. The final graphic needs to be guided through the graphic parallel, emphasizing these mandates above actual natural laws.",
+    "Checklist": [
+      {
+        "question": "Does each architectural unit in the metropolis have exactly six sides forming a regular hexagon?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the city units share their borders with exactly six neighboring units?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the skyline organized as a continuous, repeating tessellation of shapes?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the boundaries between the city units thin and transparent?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does each hexagonal unit in the skyline contain a single drop of golden liquid?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the metropolitan skyline composed of repeating hexagons rather than traditional rectangular buildings?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G012": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as apiary comb demonstrates these distinct layout characteristics: (1) each individual unit forms a precise equilateral hexagon; (2) all units possess a completely uniform scale; (3) neighboring units border one another directly without any spaces or intersections; (4) the components are positioned within a seamless repeating tessellation structure; (5) the interior within each form remains empty, encircled by one slender, consistent perimeter; produce a graphic representing nebulous formations across the firmament adhering to this identical structural logic. This illustration must fundamentally adhere to the conceptual comparison, favoring these dictates instead of actual natural mechanics.",
+    "Checklist": [
+      {
+        "question": "Does each cloud formation take the shape of a precise equilateral hexagon?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are all the cloud units uniform in their scale?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do adjacent nebulous units touch each other directly without any gaps or overlaps?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the cloud elements arranged in a seamless repeating tessellation pattern?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the interior of each cloud form empty and encircled by a single slender perimeter?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the visual arrangement prioritize the geometric hexagonal rules over the fluid, irregular physics of real clouds?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G013": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as hive patterns exhibit these listed visual characteristics: (1) each distinct unit constitutes a regular hexagon with six equal sides, (2) each individual cell borders exactly six adjacent modules, (3) modules share straight boundaries lacking any voids or vacant areas between them, (4) all modules are of identical proportions; (5) this structure forms a repetitive, tessellated geometric arrangement; generate a visual portraying clouds across the firmament obeying this identical structural logic. The rendering must eventually be governed by the optical analogy, prioritizing these logical constraints instead of tangible laws of nature.",
+    "Checklist": [
+      {
+        "question": "Does each cloud formation consist of a regular hexagon with six equal sides?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does every individual cloud unit border exactly six adjacent cloud modules?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the cloud formations share straight boundaries without any gaps or empty spaces between them?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are all cloud modules in the sky of identical proportions?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the image show a tessellated geometric pattern instead of the irregular, organic shapes typical of real-world clouds?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G014": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as honeycomb exhibits these listed spatial characteristics: (1) Every individual cell forms a regular hexagon with six equal sides. (2) Neighboring sections share straight walls devoid of gaps between them. (3) Each unit is packed with an amber-colored, thick translucent substance. (4) Those units are organized within a perfectly uniform tiling pattern throughout the whole surface. (5) Each unit contains one solitary small white oval object at its exact center, produce a representation of an advanced urban skyline mirroring this identical structural logic. The resulting image must eventually be steered by the spatial comparison, favoring its constraints above physical reality laws.",
+    "Checklist": [
+      {
+        "question": "Does each building unit form a regular hexagon with six equal sides?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do adjacent buildings share straight walls without any gaps between them?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is every building unit filled with an amber-colored, thick translucent substance?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the building units organized in a perfectly uniform tiling pattern?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does each individual building unit contain one solitary small white oval object at its center?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the skyline's structure governed by the hexagonal tiling rather than standard architectural physics?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G015": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as honeybee combs exhibit these distinct aesthetic traits: (1) every individual unit is a regular hexagon with six equal sides; (2) adjacent units share a single common boundary wall; (3) units are organized into a perfectly repetitive, staggered tiling pattern; (4) the walls of the units are thin, translucent, and yellow-gold; and (5) each unit's interior seems as if packed using a viscous, amber liquid; generate a rendering depicting clouds across the heavens utilizing this identical structural logic. This artwork must finally stay steered via the symbolic comparison, valuing its regulations over actual physical laws.",
+    "Checklist": [
+      {
+        "question": "Does every individual cloud formation possess a regular hexagonal shape with six equal sides?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do adjacent cloud formations share a single common boundary wall?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the cloud formations arranged in a perfectly repetitive, staggered tiling pattern?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the walls of the cloud formations thin, translucent, and yellow-gold?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the interior of each cloud formation appear as if packed with a viscous, amber liquid?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the image prioritize the hexagonal organizational principle over the natural physical properties of clouds?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G016": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as this sunflower seed pattern exhibits these distinct graphic characteristics: (1) multiple strands of interlocking clockwise and counter-clockwise spiral arms, (2) individual components that grow in size as their span from its midpoint increases, (3) a dense arrangement where no empty space exists between adjacent units, (4) a concentrated, dark cluster at a precise focal center, plus (5) clear diamond-shaped intersections where those spiral arms overlap, produce a rendering of a galaxy in space adopting this identical structural logic. The depiction should essentially remain governed by the graphic comparison, favoring its rules above actual physical laws.",
+    "Checklist": [
+      {
+        "question": "Does the galaxy feature multiple strands of interlocking clockwise and counter-clockwise spiral arms?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do individual cosmic components grow in size as their span from the center increases?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a dense arrangement where no empty space exists between adjacent units?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a concentrated, dark cluster at a precise focal center?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there clear diamond-shaped intersections where those spiral arms overlap?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the rendering prioritize the sunflower-like structural logic above actual physical laws?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G017": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as bee-built honeycombs exhibit the listed structural attributes: (1) every separate cell forms a balanced six-sided polygon with six identical margins; (2) adjacent cells part a common linear partition with no empty gaps between them; (3) all compartments keep a uniform magnitude and span; (4) the elements cluster into a seamless, recurring mathematical array; additionally (5) this mesh possesses a semi-clear, honey-colored resinous exterior; render a depiction of sky-bound vapors pursuing this identical structural logic. The graphic must essentially be governed through the optical parallelism, weighting its laws beyond actual mundane physics.",
+    "Checklist": [
+      {
+        "question": "Does every separate cloud formation form a balanced six-sided polygon with six identical margins?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do adjacent cloud formations share a common linear partition with no empty gaps between them?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do all cloud compartments keep a uniform magnitude and span?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the cloud elements cluster into a seamless, recurring mathematical array?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the sky-bound vapors possess a semi-clear, honey-colored resinous exterior?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the depiction suppress the natural, irregular edges of clouds in favor of rigid geometric partitions?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G019": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as honeycomb architecture demonstrates these specific visual characteristics: (1) each separate cell constitutes a precise, equilateral hexagonal form; (2) adjacent components feature strictly straight, shared perimeters; (3) all parts within the assembly preserve a uniform, matching magnitude; (4) cells are arranged within a gapless tiling layout devoid of empty spaces or overlaps; (5) the vertices where three units meet produce sharp, distinct intersections; produce a depiction of skyward clouds mirroring this identical structural logic. The final rendering must fundamentally remain governed by that symbolic correspondence, prioritizing these constraints over actual physical science.",
+    "Checklist": [
+      {
+        "question": "Does every individual cloud formation possess a precise, equilateral hexagonal form?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the perimeters between adjacent clouds strictly straight and shared?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do all cloud units within the assembly preserve a uniform, matching magnitude?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the sky filled with a gapless tiling layout of clouds devoid of any empty spaces?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the vertices where three clouds meet produce sharp, distinct intersections?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the natural, puffy shapes of clouds suppressed in favor of these rigid geometric constraints?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G020": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as bee-constructed honeycombs manifest the subsequent structural attributes: (1) every individual chamber represents a perfect, equilateral hexagon, (2) neighboring units share one straight divider without any spaces between them, (3) all chambers are of a consistent scale throughout the structure, (4) the units are organized within a repeating tessellation layout, and (5) additionally, the borders between chambers are sharp, distinct lines; produce a depiction of clouds across the atmosphere imitating that same structural method. The result must essentially be directed by this formal metaphor, valuing its constraints above natural material physics.",
+    "Checklist": [
+      {
+        "question": "Does each cloud formation represent a perfect, equilateral hexagon?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do neighboring cloud units share one straight divider without any spaces between them?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are all cloud units of a consistent scale throughout the structure?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the cloud units organized within a repeating tessellation layout?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the borders between cloud units sharp, distinct lines?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the image prioritize these analogical rules over real-world cloud physics?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G021": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as common masonry demonstrates these distinct geometric attributes: (1) each discrete component contains uniform rectangular shapes with sharp 90-degree angles; (2) such units rest in layered horizontal lines climbing upward; (3) it features alternating joints where each vertical split meets the central axis of the block set above; (4) one observes distinct, consistent indented spaces between every single part; and (5) that full exterior constitutes a straight, plumb surface without curvature; produce a rendering depicting ocean waves adhering to that structural logic. This composition must finally stay steered via the comparative mapping, favoring these laws exceeding physical earth physics.",
+    "Checklist": [
+      {
+        "question": "Does each wave unit have a rectangular shape with 90-degree angles?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the wave units stacked in horizontal layers climbing upward?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the vertical joints between wave blocks alternate so they align with the center of the block above?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there consistent indented spaces between every wave unit?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the overall surface of the waves straight and plumb without curvature?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the waves represented as rigid blocks rather than natural, fluid water?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G022": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as honeycombs exhibit these listed visual attributes: (1) every single compartment constitutes a perfect, six-angled hexagon; (2) each cell distributes its dividers among adjacent units, permitting zero voids or empty spaces; (3) all structural walls preserve a consistent, uniform thickness; (4) the arrangement is placed within a repeating, two-dimensional mosaic layout; (5) the complete configuration is crafted with a lone, see-through amber-tinted substance; generate a graphic depicting urban high-rises obeying this identical organizational pattern; this illustration must finally be steered through the optical analogy, valuing its logic above physical world dynamics.",
+    "Checklist": [
+      {
+        "question": "Does every high-rise building take the shape of a perfect, six-angled hexagon?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do adjacent buildings share common structural dividers with zero empty spaces between them?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are all walls of the buildings a consistent, uniform thickness?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the buildings laid out in a repeating two-dimensional mosaic pattern?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the entire city crafted from a single, see-through amber-tinted substance?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the scene devoid of typical urban gaps like streets and alleys in favor of the shared-wall structure?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G024": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as honeycomb architecture exhibits these specific visual traits: (1) each unit remains a precise hexagonal-shape with six equal sides; (2) neighboring modules share identical walls with zero spaces or streets between them; (3) pieces stay arranged as a repeating, interlocking tessellation pattern; (4) that whole formation is rendered in a uniform, translucent golden-amber color; and (5) every vessel contains a deep, hollow central space; generate a depiction portraying an advanced metropolis skyline at dusk using this equivalent arrangement method. The graphic must ultimately be steered by this representational parallel, favoring its mandates above actual spatial laws.",
+    "Checklist": [
+      {
+        "question": "Does each building in the skyline have a precise hexagonal shape with six equal sides?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do neighboring buildings share identical walls with zero spaces or streets between them?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the urban formation organized in a repeating, interlocking tessellation pattern?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the entire metropolitan scene rendered in a uniform, translucent golden-amber color?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does each skyscraper feature a deep, hollow central space?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the scene devoid of any traditional street gaps between the building structures?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G026": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as masonry stonework exhibits the listed visual traits: (1) it comprises uniform cuboid blocks positioned along linear level lines; (2) blocks within every tier are shifted by precisely fifty percent of their span relative to blocks in layers immediately higher or lower; (3) consistent, slender ashen grout seams isolate every block from nearby pieces on every edge; (4) every boxlike block features flawless right-angled vertices; and (5) every block maintains consistent hue and grain throughout the whole facade; produce a picture depicting sea swells adhering to this identical systemic logic. The illustration must eventually be steered by the formal comparison, favoring these mandates over natural law.",
+    "Checklist": [
+      {
+        "question": "Do the sea swells consist of uniform cuboid blocks?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the sea swell units positioned along linear level lines?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is every sea swell unit shifted by exactly fifty percent of its span relative to blocks in layers higher or lower?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the sea swells separated by slender ashen grout seams?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does every sea swell unit feature flawless right-angled vertices?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is every sea swell block uniform in hue and grain throughout the whole scene?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the illustration prioritize the structural analogy over the real-world physics of water?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G027": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Much as a bee honeycomb demonstrates these listed structural characteristics: (1) each distinct unit constitutes a flawless, equilateral hexagon; (2) every unit shares every single side with adjacent units, leaving neither voids nor empty space between them; (3) the walls separating the units have a uniform, consistent thickness; (4) the units sit positioned in a precise, repeating tiling pattern across a two-dimensional plane; (5) every unit holds a see-through, amber-colored liquid; generate a picture portraying clouds above the horizon according to that identical structural logic. The resulting graphic must ultimately remain steered via the graphic analogy, prioritizing the specified rules instead of natural physical laws.",
+    "Checklist": [
+      {
+        "question": "Does every distinct cloud unit take the form of a perfect, equilateral hexagon?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is every side of each cloud unit shared with an adjacent unit, leaving no gaps or empty sky between them?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the boundaries between the cloud hexagons maintain a consistent, uniform thickness?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the cloud units arranged in a precise, repeating tiling pattern across the sky?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does each cloud hexagon unit appear to contain a transparent, amber-colored liquid?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Has the natural, irregular physics of clouds been superseded by the rigid geometric hexagonal structure specified in the analogy?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G028": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as beehive wax exhibits these distinct graphic traits: (1) every single unit constitutes a perfect regular hexagon; (2) all cavities maintain an equal size; (3) bordering units share exactly one straight partition wall without any openings; (4) units are patterned within a continuous, repeating, interlocking tessellation; (5) the space within every unit is dark and hollow, while the borders remain dense and translucent yellow; produce a rendering portraying clouds across the firmament pursuing this identical structural logic. This visual must finally be steered by that schematic analogy, prioritizing these constraints above actual physical laws.",
+    "Checklist": [
+      {
+        "question": "Does every single cloud unit form a perfect regular hexagon?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do all cloud cavities maintain an identical size?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do adjacent cloud units share exactly one straight partition wall without any openings?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the cloud formations arranged in a continuous, repeating, interlocking tessellation?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the interior of each cloud unit dark and hollow while the borders are dense and translucent yellow?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the sky free from standard, amorphous cloud shapes in favor of the hexagonal structure?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G029": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Much like a fish scale system presents these distinct ocular characteristics: (1) every individual unit is a crescent shaped, fan-like plate, (2) each unit partially covers the units situated immediately beside these within a shingled fashion, (3) all units are set within a precise, repeating grid-like pattern, (4) every unit shows a chrome, pearlescent glow reflecting a spectrum of colors, and (5) each unit features fine, concentric ridges radiating from the foundation to the border; produce a visualization illustrating an alpine chain utilizing this equivalent structural logic. The depiction must finally be governed through the graphic parallel, privileging its dictates beyond actual physical laws.",
+    "Checklist": [
+      {
+        "question": "Is every individual mountain peak shaped like a crescent, fan-like plate?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does each mountain peak partially cover the units situated immediately beside these in a shingled fashion?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are all the mountain peaks set within a precise, repeating grid-like pattern?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does every mountain peak show a chrome, pearlescent glow reflecting a spectrum of colors?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does each mountain peak feature fine, concentric ridges radiating from the foundation to the border?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the alpine chain prioritize the specified structural logic above standard geological physical laws?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G030": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Much as honeycomb-grids demonstrate the listed visual attributes: (1) every unit remains a perfect hexagonal-geometry with six equivalent sides; (2) units are densely grouped with no spaces between them; (3) touching units divide a solitary linear border; (4) that complete arrangement is a recurrent, regularized tiling spanning the heavens; (5) the tint shows a consistent, see-through amber throughout the structure, generate a picture portraying clouds across the firmament obeying that identical ordering logic; the illustration must finally be steered via the visual metaphor, favoring the defined rules above natural physical laws.",
+    "Checklist": [
+      {
+        "question": "Does every cloud unit exhibit a perfect hexagonal geometry with six equal sides?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the clouds packed together with zero spaces between individual units?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do touching cloud formations share a single, straight linear boundary?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the entire sky covered in a repeating, regular tiling of these cloud units?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the clouds rendered in a uniform, translucent amber color?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Has the irregular, puffy appearance of standard clouds been replaced by the structured geometric grid?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G031": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "In a manner where the hexagonal architecture of a beehive demonstrates these specific spatial traits: (1) each individual unit forms an exact, equilateral six-sided polygon; (2) units are arranged within a seamless tiling grid lacking even minimal empty space; (3) bordering units possess a singular, mutual divider; (4) every boundary line maintains a constant thickness throughout the system; (5) this full configuration is organized into perfectly level lateral rows, produce a visual depicting the celestial stars across the evening firmament observing this identical structural logic. The resulting artwork needs to be steered by the conceptual comparison, giving weight to its constraints beyond actual physical laws.",
+    "Checklist": [
+      {
+        "question": "Does each star unit consist of an exact, equilateral six-sided polygon?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the star units organized within a seamless tiling grid lacking empty space?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do bordering star units possess a singular, mutual divider?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does every boundary line in the star grid maintain a constant thickness throughout the system?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the configuration of stars organized into perfectly level lateral rows?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the image prioritize the hexagonal organizational principle over the natural, non-geometric distribution of real-world stars?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G032": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Exactly as a beehive honeycomb exhibits these listed optical characteristics: (1) every individual unit forms a flawless regular hexagon; (2) all borders belonging to the hexagon are shared with an adjoining hexagon; (3) these units create a seamless mosaic without voids; (4) the total framework shows a consistent golden-yellow shade; (5) those partitions possess a semi-translucent, waxy texture; produce a rendering depicting metropolitan skylines at night adhering to this identical structural logic. The graphic must finally stand directed via the symbolic parallelism, preferring the mandates above actual physical laws.",
+    "Checklist": [
+      {
+        "question": "Does every individual unit in the skyline form a flawless regular hexagon?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are all borders of each hexagon shared with an adjoining hexagon?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the city skyline create a seamless mosaic without any voids?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the entire framework display a consistent golden-yellow shade?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the skyscraper partitions possess a semi-translucent, waxy texture?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the hexagonal structural logic prioritized over actual physical laws of architecture?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G033": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as honeycomb structures exhibit the listed visual characteristics: (1) each individual chamber constitutes a perfectly regular hexagon; (2) neighboring chambers possess mutual boundaries without any overlap; (3) all interior angles where three boundaries meet are exactly 120 degrees; (4) every boundary possesses a uniform, thin thickness throughout the whole formation; plus (5) there exist zero voids nor interstitial spaces between the chambers, generate a depiction illustrating clouds within the firmament adhering to this matching structural logic. This graphic must eventually be dictated by that optical analogy, favoring its constraints instead of actual physical laws.",
+    "Checklist": [
+      {
+        "question": "Is every individual cloud formation shaped like a regular hexagon?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do neighboring cloud formations share mutual boundaries without any overlap?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are all interior angles where three cloud boundaries meet exactly 120 degrees?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does every cloud boundary possess a uniform, thin thickness throughout the whole formation?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there zero voids or interstitial spaces between the cloud formations?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the naturally irregular shapes of real-world clouds suppressed in favor of the specified structural rules?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G035": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as apiary honeycomb geometry demonstrates these specific ocular characteristics: (1) every compartment is a precise six-sided-polygon with six equal edges, (2) all touching compartments possess a shared boundary of uniform width, (3) the configuration remains densely clustered with zero gaps or empty spots between units, (4) its chroma scheme is strictly limited to shades of amber and honey-yellow, plus (5) that exterior has a waxy, semi-translucent quality; produce a depiction of clouds overhead adopting that identical structural logic. This representation must finally adhere to the graphic comparison, elevating its constraints above natural science.",
+    "Checklist": [
+      {
+        "question": "Does each cloud formation have exactly six sides?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are all sides of each cloud hexagon of equal length?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do adjacent cloud hexagons share a boundary of uniform width?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the cloud formations densely packed with no gaps in between?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the color palette strictly limited to amber and honey-yellow shades?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the cloud exterior appear waxy and semi-translucent?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the clouds shaped like hexagons instead of having natural, wispy edges?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G036": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as honeycomb architecture demonstrates these specific aesthetic attributes: (1) every individual component forms a precise six-sided shape, (2) each unit shares its perimeter with exactly six neighboring cells, (3) all parts are of equivalent scale and depth, (4) this structure forms an uninterrupted, solid tiling, and (5) that total assembly features a single golden-yellow shade; generate a rendering portraying clouds within the firmament observing this identical structural logic. The illustration must fundamentally be steered by the symbolic comparison, favoring its constraints above actual physical laws.",
+    "Checklist": [
+      {
+        "question": "Does every individual cloud formation possess a precise six-sided shape?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does each cloud unit share its perimeter with exactly six neighboring clouds?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are all cloud parts of equivalent scale and depth?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the clouds form an uninterrupted, solid tiling across the scene?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the entire cloud assembly rendered in a single golden-yellow shade?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the image suppress the typical irregular, wispy shapes of natural clouds in favor of the hexagonal structure?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G037": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as honeycombs manifest the listed visual characteristics: (1) every separate module represents a flawless, equilateral hexagon, (2) touching units share one linear uniform common boundary with zero gaps between them, (3) the units constitute a recurring, planar interlocking network, (4) every segment is packed using a semi-translucent, radiant amber substance, and (5) those perimeters between units are marked by slender, dark brown, opaque lines; produce a depiction of cloud formations above the horizon observing this identical structural logic. The visual representation must eventually be dictated by this visual analogy, giving precedence to its laws beyond actual natural dynamics.",
+    "Checklist": [
+      {
+        "question": "Does each cloud module represent a flawless, equilateral hexagon?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do touching cloud units share one linear uniform common boundary with zero gaps between them?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the units constitute a recurring, planar interlocking network?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is every cloud segment packed using a semi-translucent, radiant amber substance?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the perimeters between cloud units marked by slender, dark brown, opaque lines?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the hexagonal structure take precedence over the typical amorphous or irregular physics of real clouds?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G038": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as fish scales manifest these specific listed graphical traits: (1) the exterior consists of overlapping semi-circular units, (2) the units are situated in staggered horizontal tiers where each component is displaced by exactly half a width from the members in the tier above, (3) the curved edge of every semi-circular unit points downward, (4) the level upper rim of each unit is partially obscured by the members in the tier above it, and (5) every unit is of equal dimensions and radius, generate a graphic representing a mountain range adhering to this identical structuring logic. This depiction must finally remain steered by the structural comparison, giving precedence to mandates higher than actual physics.",
+    "Checklist": [
+      {
+        "question": "Does the exterior of the mountain range consist of overlapping semi-circular units?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the mountain units situated in staggered horizontal tiers where each component is displaced by exactly half a width from the members in the tier above?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the curved edge of every semi-circular mountain unit point downward?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the level upper rim of each mountain unit partially obscured by the members in the tier above it?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is every mountain unit of equal dimensions and radius?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the mountain range prioritize the analogical rules over real-world physics?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G039": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Just as honeycomb structures manifest these particular visual attributes: (1) each individual unit is a precise hexagon with six equal sides, (2) touching units share one solitary flat boundary wall lacking any doubled thickness, (3) all chambers are of equivalent scale and proportion, (4) units are situated in strictly horizontal parallel rows, and (5) these units tile the total area without voids or intersections; render a scene representing clouds across the sky according to this equivalent structural arrangement. The output must basically be steered by the formal comparison, favoring these dictates over natural laws.",
+    "Checklist": [
+      {
+        "question": "Does each cloud formation appear as a precise hexagon with six equal sides?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do touching cloud formations share a solitary flat boundary wall?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are all cloud units equivalent in scale and proportion?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the cloud units positioned in strictly horizontal parallel rows?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the clouds tile the sky area without any voids or gaps?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the cloud formations strictly geometric rather than having natural, irregular edges?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G040": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Much as a beehive exhibits these listed visual traits: (1) its structure consists of units possessing precisely six identical edges; (2) each unit borders neighbors along shared boundaries such that no empty space remains; (3) every individual unit maintains a consistent scale and form; (4) the full configuration generates an entirely level, recursive polygonal pattern; (5) its substance carries a steady, partially clear beeswax-like surface; generate an illustration depicting clouds above the horizon using this identical structural logic. The illustration must fundamentally be directed by the graphic comparison, placing these principles above physical reality.",
+    "Checklist": [
+      {
+        "question": "Does each cloud formation possess precisely six identical edges?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the cloud units arranged so that zero gaps or empty spaces exist between them?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does every individual cloud in the sky maintain a consistent scale and form?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the entire cloud layout generate an entirely level, recursive polygonal pattern?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the clouds exhibit a partially clear, beeswax-like surface texture?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the clouds represented as geometric cells rather than organic, irregular clusters?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Gemini"
+  },
+  "R-AR-G041": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Imagine a heraldic shield partitioned into four equal quarters by a sharp vertical and horizontal line. In the upper-left is a representation of parched desert; upper-right is a swirling storm cloud; lower-left is a dense, tangled forest; lower-right is a jagged iceberg. Transpose this four-part spatial logic onto a top-down architectural view of a modular agricultural dome. Map the desert to a succulent section, the storm to an aeroponic misting zone, the forest to a fern grove, and the iceberg to a metallic cryo-preservation unit. The divisions between sections must be distinct, paved pathways.",
+    "Checklist": [
+      {
+        "question": "Is the scene presented as a top-down architectural view?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the structure represent a modular agricultural dome?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the dome partitioned into four equal quarters?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the divisions between quarters marked by distinct paved pathways?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the upper-left quarter contain a succulent section?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the upper-right quarter contain an aeroponic misting zone?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the lower-left quarter contain a fern grove?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the lower-right quarter contain a metallic cryo-preservation unit?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the upper-left quarter devoid of a desert representation?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Is the upper-right quarter devoid of a storm cloud representation?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Is the lower-left quarter devoid of a forest representation?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Is the lower-right quarter devoid of an iceberg representation?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G042": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Generate a scene of bioluminescent fungi where stalk height scales linearly with the number of floating neon-blue spores above them, translucent caps exist exclusively on stalks with an odd number of spores, and mossy ground is only visible in the gaps between stalks, ensuring no spores touch the ground.",
+    "Checklist": [
+      {
+        "question": "Are bioluminescent fungi present in the scene?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there neon-blue spores floating above the fungi?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the height of each fungal stalk increase linearly as the number of spores above it increases?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do stalks with an odd number of spores above them (e.g., 1, 3, 5) have translucent caps?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are translucent caps absent from all stalks that have an even number of spores above them?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Is mossy ground visible in the gaps between the stalks?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is mossy ground absent from all areas except the gaps between the stalks?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are there zero spores touching the ground?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G043": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Observe a square game board where a central gold idol is flanked at the far opposite corners of the grid by two heavy stone monoliths. A diagonal row of three smaller clay vases bridges the gap specifically between the bottom-left monolith and the central idol. Render this exact spatial configuration within a bustling construction zone at night. The idol is a towering crane base, the monoliths are industrial generators, and the vases are bright orange traffic cones. Ensure the grid-aligned diagonal relationship and the corner positioning are visually obvious.",
+    "Checklist": [
+      {
+        "question": "Is the scene set in a bustling construction zone at night?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the central object a towering crane base rendered as a gold idol?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly two industrial generators rendered as heavy stone monoliths?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the two industrial generators positioned at the far opposite corners of the grid?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is one of the industrial generators located at the bottom-left corner of the grid?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly three bright orange traffic cones rendered as smaller clay vases?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the three traffic cones form a diagonal row?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the diagonal row of traffic cones specifically bridge the gap between the bottom-left generator and the central crane base?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the grid-aligned diagonal relationship between the objects visually obvious?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the corner positions of the generators visually obvious?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the central object positioned exactly in the center of the square game board grid?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G044": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Visualize a cityscape where the infrastructure follows the topology of a neural network layer. Arrange solar panels in a straight input line and wind turbines in a parallel hidden layer, ensuring every solar panel connects via fiber optic cables to exactly three distinct wind turbines. Place battery banks strictly inside the triangular spaces formed by these cable connections, and mount smart traffic lights on the hub of every wind turbine. The scene must strictly adhere to this layered, connected mesh structure without any direct solar-to-solar links or random placement.",
+    "Checklist": [
+      {
+        "question": "Does the infrastructure follow the topology of a neural network layer?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the solar panels arranged in a straight line representing an input layer?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the wind turbines arranged in a line parallel to the solar panel line?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is every solar panel connected to exactly three distinct wind turbines via fiber optic cables?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there battery banks placed inside the triangular spaces formed by the cable connections?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the battery banks located strictly within the bounds of those triangular spaces?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is a smart traffic light mounted on the hub of every wind turbine?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there any direct cable connections between solar panels?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Is the placement of infrastructure elements structured rather than random?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the scene exhibit a connected mesh structure?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G045": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Consider the structural logic of a tree where a single trunk splits into three limbs, and each limb upwards hosts double the number of nests as the one below it. Translate this organization into a minimalist Brutalist gallery: depict a massive central concrete pillar with three cantilevered glass walkways protruding at different heights. On the lowest walkway, place one monolithic marble sculpture; on the middle walkway, two sculptures; and on the highest, four sculptures, following the exact doubling ratio of the biological source.",
+    "Checklist": [
+      {
+        "question": "Is the scene depicted as a minimalist Brutalist gallery?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a massive central concrete pillar?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly three cantilevered glass walkways protruding from the pillar?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the three walkways protruding at different heights?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there exactly one monolithic marble sculpture on the lowest walkway?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly two sculptures on the middle walkway?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly four sculptures on the highest walkway?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the sculptures on the walkways follow a 1-2-4 doubling ratio from bottom to top?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G046": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Visualize a scene where four obsidian monoliths are arranged in a perfect square. At the precise geometric center of this square stands a single crystal spire. From each monolith, a vine bridge extends directly to the central spire, forming a radial pattern. Apply bioluminescent moss exclusively to the exterior faces of the monoliths (the sides facing away from the center), ensuring the moss is densest at the base and fades completely to the top; the interior faces facing the spire must remain bare obsidian. Do not place any moss on the inner sides or connect the monoliths to each other.",
+    "Checklist": [
+      {
+        "question": "Are there four obsidian monoliths arranged in a perfect square?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a single crystal spire located at the precise geometric center of the square?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does a vine bridge extend from each monolith directly to the central spire in a radial pattern?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is bioluminescent moss applied to the exterior faces of the monoliths (the sides facing away from the center)?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the moss densest at the base of the monoliths?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the moss fade away completely toward the top of the monoliths?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the interior faces of the monoliths (facing the spire) bare obsidian without moss?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Is the moss absent from the inner sides of the monoliths?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are the monoliths free of any direct connections to each other?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G047": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Consider a natural scene: three bioluminescent mushrooms grow in a line. The tallest is on the far left, the shortest is in the center, and one of medium height is on the far right. A glowing cloud of spores drifts directly from the tallest mushroom to the shortest mushroom, completely bypassing the medium one on the right. Now, generate a wide-angle shot of a futuristic city's monorail system that follows this exact organizational logic. Translate the mushrooms into train stations where height corresponds to the number of platform tiers, and translate the spore drift into the only active rail connection visible in the scene.",
+    "Checklist": [
+      {
+        "question": "Is the scene a wide-angle shot of a futuristic city's monorail system?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly three train stations visible in a line?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the station on the far left the tallest (corresponding to the most platform tiers)?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the station in the center the shortest (corresponding to the fewest platform tiers)?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the station on the far right of medium height (between the left and center stations)?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a visible rail connection extending from the far-left station to the center station?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the rail connection from the left station to the center station the only active rail connection visible in the scene?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there NO visible rail connection between the left station and the right station?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Is there NO visible rail connection between the center station and the right station?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G048": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Create a glacial landscape where frozen wind ribbons curve to match the silhouette of nearby granite boulders without ever crossing each other, ice spires emerge solely from snow drifts deeper than the adjacent boulders, and all boulders remain partially buried.",
+    "Checklist": [
+      {
+        "question": "Is the scene a glacial landscape?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there frozen wind ribbons present?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there granite boulders present?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the wind ribbons curve to match the silhouette of nearby granite boulders?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do any of the wind ribbons cross each other?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are there ice spires present?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do all ice spires emerge solely from snow drifts rather than from boulders or bare ice?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the snow drifts from which the spires emerge deeper than the boulders adjacent to them?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are all the boulders in the scene partially buried?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G049": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Imagine a steel construction scaffold organized in a strict pyramid of support: three vertical pillars at the base, two in the middle section, and a single pillar at the summit, all stabilized by X-shaped cross-bracing. Recast this structural logic as a natural forest formation. Depict ancient, thick-barked trees that merge and branch according to this specific count and layout, with thick, flowering vines providing the diagonal structural integrity of the original scaffold.",
+    "Checklist": [
+      {
+        "question": "Does the image depict a natural forest formation rather than a steel scaffold?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly three distinct tree trunks at the base level forming the pyramid foundation?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly two distinct tree trunks in the middle section of the pyramid?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there exactly one tree trunk at the summit of the pyramid?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the trees exhibit thick bark?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the trees appear ancient in character?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the tree branches merging to follow the specified 3-2-1 pyramid layout?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are thick vines present acting as diagonal cross-bracing between the trees?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the vines form an X-shaped pattern between the structural levels?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the vines feature flowers?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there any visible steel pillars or artificial construction materials?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G050": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Generate an image where the spatial organization of geological formations mimics a river delta system. Use obsidian shards as the main trunk, splitting into quartz clusters as secondary channels, which further terminate in amethyst points. Gold veins must run strictly parallel to the rock formations without crossing the split lines, while copper wire coils must exclusively encircle the junction points where the rock formations divide. Ensure the branching pattern is asymmetric and follows a strict hierarchical flow from the largest obsidian piece to the smallest amethyst tips.",
+    "Checklist": [
+      {
+        "question": "Does the spatial organization of the geological formations mimic a river delta system?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the main trunk of the formation composed of obsidian shards?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the obsidian shards split into secondary channels made of quartz clusters?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the quartz clusters terminate in amethyst points?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there gold veins running strictly parallel to the rock formations?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do any of the gold veins cross the split lines of the formations?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are there copper wire coils encircling the junction points where the formations divide?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are copper wire coils found in any locations other than the junction points?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Is the branching pattern of the formations asymmetric?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a clear hierarchical flow in size from the largest obsidian pieces down to the smallest amethyst tips?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G051": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Consider a classic tiered fountain where water originates in a single small basin at the very top. This top basin overflows into three medium-sized bowls arranged in a triangle below it. Finally, each of those three bowls overflows into two distinct small collection basins at the ground level. Render a scene of a bioluminescent fungal colony growing on a fallen mossy log that replicates this exact structural hierarchy. The highest fungus should be a singular, large radiant orange cap. The middle tier should consist of three medium clusters, and the lowest tier should feature six tiny spore-pods, with the color shifting gradually to a pale violet at the base.",
+    "Checklist": [
+      {
+        "question": "Does the image depict a bioluminescent fungal colony growing on a fallen mossy log?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there exactly one singular, large radiant orange cap at the highest tier?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the middle tier consist of exactly three medium-sized fungal clusters?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the three middle clusters arranged in a triangle below the top cap?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the lowest tier feature exactly six tiny spore-pods?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the six spore-pods arranged such that two correspond to each of the three middle clusters?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the color of the fungal colony shift gradually to a pale violet at the base (lowest tier)?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G052": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Generate an image of a deep-sea scene where bioluminescent creatures are arranged exactly like a 4-planet solar system orbiting a central sun. The largest creature, an anglerfish, must be the central 'sun'. Surround it with concentric rings of smaller creatures. The first ring must contain exactly half the number of legs of a spider, populated by jellyfish. The second ring must contain exactly one-quarter the number of legs of a spider, populated by a mix of sea urchins and squid. Ensure the creatures get smaller as they move away from the center, and their glow becomes more intense further out. Do not show the sun or planets, only the creatures arranged in this specific mathematical orbital pattern.",
+    "Checklist": [
+      {
+        "question": "Does the image depict a deep-sea scene?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are bioluminescent creatures present in the scene?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the creatures arranged to mimic a solar system with a central point and orbits?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the central 'sun' of the arrangement an anglerfish?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the anglerfish the largest creature in the arrangement?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there concentric rings of creatures surrounding the anglerfish?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the first (innermost) ring contain exactly 4 jellyfish (half the number of legs on a spider)?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the second ring contain exactly 2 creatures total (one-quarter the number of legs on a spider)?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the second ring populated by a mix of sea urchins and squid?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the creatures decrease in size as their distance from the central anglerfish increases?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the intensity of the creatures' glow increase as they move further from the center?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a complete absence of an actual celestial sun?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Is there a complete absence of actual celestial planets?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Is the orbital pattern formed exclusively by the arrangement of the creatures?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G053": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Consider a microscopic slide where a dominant central cell is linked to four satellite spores at the north, south, east, and west positions by delicate protein threads. Translate this specific spatial and structural hierarchy into a deep-space cosmic scene. The image should feature a massive celestial entity and its smaller companions, maintaining the exact geometric layout and the physical connections observed in the micro-world, but using astronomical matter like plasma and planetary bodies.",
+    "Checklist": [
+      {
+        "question": "Does the image feature a single dominant central celestial entity?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly four smaller companion celestial bodies surrounding the central entity?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is one smaller companion located at the north position relative to the central entity?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is one smaller companion located at the south position relative to the central entity?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is one smaller companion located at the east position relative to the central entity?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is one smaller companion located at the west position relative to the central entity?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are delicate connections (representing protein threads) visible linking the central entity to each of the four companions?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the scene set in a deep-space cosmic environment?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the connections and entities composed of astronomical matter such as plasma or planetary bodies?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the smaller companions visibly smaller than the central entity?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G054": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Create an aerial view of a city intersection where urban furniture is arranged to mimic the structure of a benzene molecule. Place 6 streetlamps at the vertices of a perfect hexagon. Between these lamps, create alternating patterns: at three of the connecting sides, place two fire hydrants close together to represent a double bond; at the other three sides, place a single manhole cover in the middle to represent a single bond. Position traffic lights at the exact center of each streetlamp node. The arrangement must strictly follow the hexagonal ring topology of the molecule, using only these city objects to convey the chemical structure.",
+    "Checklist": [
+      {
+        "question": "Is the image an aerial view of a city intersection?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there 6 streetlamps arranged at the vertices of a perfect hexagon?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a traffic light positioned at the exact center of each streetlamp node?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the sides of the hexagon alternate between representations of double and single bonds?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "On three of the sides, are there exactly two fire hydrants placed close together?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "On the other three sides, is there exactly one manhole cover placed in the middle?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the arrangement strictly follow the hexagonal ring topology of a benzene molecule?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are only the specified city objects (streetlamps, fire hydrants, manhole covers, traffic lights) used to convey the chemical structure?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G055": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Visualize a star map where a central supergiant is orbited by four smaller planets that sit precisely at the corners of an invisible square. From the two 'northern' planets in this square, two straight comet tails stream away into the void. Translate this geometric arrangement into a deep-sea photograph. The celestial bodies should be represented by bioluminescent jellyfish, and the comet tails should be represented by long, shimmering siphonophore chains, maintaining the exact square-and-trail formation in the dark water.",
+    "Checklist": [
+      {
+        "question": "Does the image depict a deep-sea environment?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there exactly one large bioluminescent jellyfish positioned centrally?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly four smaller bioluminescent jellyfish orbiting the central one?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the four smaller jellyfish form the corners of a square?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do exactly two of the smaller jellyfish (the northern ones) have long, shimmering siphonophore chains extending from them?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the siphonophore chains stream away into the void, mimicking comet tails?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G056": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Generate a cosmic scene depicting the starting position of a chess game, but rotated 45 degrees so the board appears as a diamond. The 'squares' of the board are represented by glowing nebula clouds. Place a massive Black Hole where the King would be on both the top and bottom sides of the diamond. Place two Comets (representing Queens) next to the Black Holes. Place four Asteroids (representing Rooks) at the widest points of the diamond. Fill the front rank of each side with a row of smaller asteroids representing Pawns. Ensure the arrangement perfectly mirrors the opening chess setup, using only these celestial bodies and nebulae, with no visible grid lines or game pieces.",
+    "Checklist": [
+      {
+        "question": "Is the scene set in a cosmic environment?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the board shaped like a diamond, representing a square rotated 45 degrees?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the 'squares' of the board represented by glowing nebula clouds?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a massive Black Hole located at the top King position of the diamond?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a massive Black Hole located at the bottom King position of the diamond?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a Comet (representing a Queen) placed next to the top Black Hole?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a Comet (representing a Queen) placed next to the bottom Black Hole?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there four Asteroids representing Rooks located at the widest points of the diamond?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the front rank of the top side filled with a row of smaller asteroids representing Pawns?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the front rank of the bottom side filled with a row of smaller asteroids representing Pawns?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the arrangement of celestial bodies perfectly mirror an opening chess setup?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there no visible grid lines on the board?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are there no visible traditional chess game pieces in the scene?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Does the scene consist only of celestial bodies and nebulae to represent the game elements?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G057": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "In a deep-sea trench, a massive central hydrothermal vent is surrounded by three smaller vents arranged in a triangle. The central vent is billowing dark volcanic smoke. A thick, horizontal bridge of white tubeworms physically links the two vents that form the base of the triangle, while the vent at the triangle's apex stands isolated. Create a cinematic image of a high-altitude Arctic weather station that mirrors this structural arrangement. Map the vents to signal antennas and the tubeworm bridge to a heavy-duty insulated cable, ensuring the functional hierarchy and connectivity remain identical.",
+    "Checklist": [
+      {
+        "question": "Does the image depict a high-altitude Arctic weather station setting?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a massive central signal antenna in the scene?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly three smaller signal antennas surrounding the central one?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the three smaller antennas form a triangular arrangement around the central antenna?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the central antenna billowing dark volcanic smoke (or a visually analogous dark exhaust plume)?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a thick, horizontal heavy-duty insulated cable connecting two of the smaller antennas?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the cable physically link the two antennas that form the base of the triangle?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the antenna at the apex of the triangle isolated from the cable connection?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the signal antennas visually distinct from the insulated cable?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the functional hierarchy preserved with the central antenna as the dominant element?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the scene presented in a cinematic style?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G058": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Construct a scene mimicking the logarithmic density of a spiral galaxy, but using botanical elements. At the exact center, place a dense cluster of gold pollen clouds. Moving outward in a spiral, place two bronze leaf clusters in the first arm, followed by four copper vine coils in the second arm, and finally eight silver fern fronds in the third arm. The arrangement must strictly follow the rule that maturity and density decrease as distance from the center increases, with no mature elements appearing in the periphery or immature elements near the core.",
+    "Checklist": [
+      {
+        "question": "Is the scene arranged in a spiral pattern mimicking a galaxy using botanical elements?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a dense cluster of gold pollen clouds at the exact center?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly two bronze leaf clusters in the first spiral arm?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly four copper vine coils in the second spiral arm?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly eight silver fern fronds in the third spiral arm?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the density of botanical elements decrease as the distance from the center increases?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the maturity of the botanical elements decrease as the distance from the center increases?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there no mature elements visible in the periphery of the spiral?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are there no immature elements visible near the core/center?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G059": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Apply the structural logic of a three-generation binary family tree to the natural formations of a limestone cavern. In this 'pedigree of stone,' a single massive stalactite hangs from the highest point of the vault. Directly beneath it, two medium-sized stalactites are positioned to catch the water dripping from the primary source. Below those two, on the cave floor, four distinct stalagmites are perfectly aligned to receive the runoff from the level above, creating a clear 1-2-4 branching hierarchy of mineral growth. The connections between the 'generations' should be visible as continuous, glistening beads of falling water.",
+    "Checklist": [
+      {
+        "question": "Is the scene set within a limestone cavern?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there exactly one massive stalactite hanging from the highest point of the vault?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly two medium-sized stalactites positioned directly beneath the massive stalactite?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the two medium stalactites positioned to catch water dripping from the primary source?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly four distinct stalagmites located on the cave floor?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the four stalagmites positioned below the two medium stalactites?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the four stalagmites perfectly aligned to receive runoff from the level above?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the arrangement visually create a 1-2-4 branching hierarchy?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are continuous, glistening beads of falling water visible connecting the massive stalactite to the two medium stalactites?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are continuous, glistening beads of falling water visible connecting the two medium stalactites to the four stalagmites?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G060": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Render a solar system where the orbital distances of moons follow the integer frequency ratios of a musical chord (1:2:3). Place a massive central star at the origin. Position one rocky moon at an arbitrary base distance. Place a second icy moon at exactly double that distance, and a third icy moon at exactly triple that distance. Insert two distinct debris rings strictly in the empty space between the first and second orbits, and between the second and third orbits. Ensure no debris crosses the orbital paths and no moons are placed at non-integer multiples of the base distance.",
+    "Checklist": [
+      {
+        "question": "Is there a massive central star located at the origin of the system?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a rocky moon positioned at a base orbital distance?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a second moon (icy) positioned at exactly double the distance of the first moon?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a third moon (icy) positioned at exactly triple the distance of the first moon?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there two distinct debris rings present?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is one debris ring located strictly in the empty space between the first and second orbits?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the second debris ring located strictly in the empty space between the second and third orbits?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the orbital path of each moon completely clear of debris?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are there no moons placed at distances that are not 1x, 2x, or 3x the base distance?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G061": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Consider a deep-sea ecosystem where a single towering luminous coral spire is guarded by two squat, pulsating anemones at its base, while a tight spiral of neon jellyfish orbits the ground level in a clockwise path. Recreate this specific structural arrangement in the context of a high-tech futuristic data center. The role of the central spire must be played by a massive mainframe rack, the guards by industrial cooling units, and the orbital path by glowing cable bundles on the floor. Ensure the relative scales and the spiral geometry are strictly preserved.",
+    "Checklist": [
+      {
+        "question": "Is there exactly one massive mainframe rack serving as the central structure?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly two industrial cooling units located at the base of the mainframe rack?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the industrial cooling units appear squat and pulsating (or visually imply pulsation)?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there glowing cable bundles present on the floor?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the cable bundles form a tight spiral shape?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the spiral formed by the cable bundles oriented clockwise?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the spiral of cable bundles orbit the ground level near the base of the mainframe?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the mainframe rack towering relative to the cooling units?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there any other central spires or mainframes besides the single massive one?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are there any guards or units other than the two specified cooling units at the base?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G062": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Visualize a geological formation where the spatial organization strictly follows the branching hierarchy of a river delta. Begin with a single, massive obsidian shard as the source. From this source, exactly two medium-sized quartz clusters must branch out. From each quartz cluster, exactly four small fluorite cubes must emerge. Finally, from each fluorite cube, exactly eight tiny geode interiors must extend. The color saturation of the entities must be highest at the central obsidian and progressively fade to pale grey at the outermost geodes. Ensure that no two entities of the same type touch each other directly, and that the background features faint magma veins tracing the exact same branching paths. Do not use circular, spiral, or grid patterns.",
+    "Checklist": [
+      {
+        "question": "Is there a single, massive obsidian shard serving as the source of the formation?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do exactly two medium-sized quartz clusters branch out from the central obsidian shard?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do exactly four small fluorite cubes emerge from each of the two quartz clusters?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do exactly eight tiny geode interiors extend from each of the fluorite cubes?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the spatial organization modeled after the branching hierarchy of a river delta?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the color saturation of the entities highest at the central obsidian shard?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the color saturation progressively fade to pale grey at the outermost geodes?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are all entities of the same type (e.g., quartz clusters) prevented from touching each other directly?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Does the background feature faint magma veins?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the magma veins trace the exact same branching paths as the geological entities?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the formation free of circular patterns?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Is the formation free of spiral patterns?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Is the formation free of grid patterns?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G063": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Consider the visual organization of a biological cell undergoing late anaphase, where the chromatids have separated and are being pulled toward opposite poles by spindle fibers, leaving a cleared equatorial zone. Translate this structural logic into a large-scale urban site plan. The image should show a city layout from a high-altitude perspective where two identical, densely packed circular districts are being 'pulled' to the far north and south edges of the frame. In the center, where a main hub once sat, there is now an elongated, empty plaza. Connect the two retreating districts with numerous thin, perfectly straight, glowing suspended tramways that mimic the tension and spacing of mitotic spindles.",
+    "Checklist": [
+      {
+        "question": "Is the image presented from a high-altitude perspective showing a city layout?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly two circular districts in the scene?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the two circular districts visually identical in layout and density?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the two districts densely packed with structures?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is one district positioned at the far north edge of the frame?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the other district positioned at the far south edge of the frame?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there an elongated, empty plaza located in the geometric center of the frame?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are numerous tramways connecting the two districts?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the tramways depicted as thin and perfectly straight?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the tramways glowing?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the tramways suspended above the ground rather than running on the surface?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the tramways arranged with regular spacing to mimic mitotic spindles?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the central equatorial zone between the districts cleared of buildings?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G064": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Visualize a geological cross-section where gold leaf flakes are densely packed near quartz crystals but become sparse as distance increases, while basalt blocks are strictly aligned parallel to the nearest obsidian shards; ensure no identical materials touch, forming a cohesive, non-random tectonic cluster.",
+    "Checklist": [
+      {
+        "question": "Is the image a geological cross-section?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are gold leaf flakes present in the cross-section?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are quartz crystals present in the cross-section?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the gold leaf flakes densely packed near the quartz crystals?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the gold leaf flakes become sparse as the distance from the quartz crystals increases?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are basalt blocks present in the cross-section?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are obsidian shards present in the cross-section?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the basalt blocks strictly aligned parallel to their nearest obsidian shards?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there no instances where identical materials (e.g., gold to gold, basalt to basalt) touch each other?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Does the arrangement form a cohesive, non-random tectonic cluster?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G065": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Analyze a grid-based formation where a central tall figure is flanked by two shorter subordinates directly to its left and right. One step directly in front of the central figure is an empty clearing, which is watched over by two guardians positioned diagonally forward from the central figure’s shoulders. Transform this tactical layout into a Bedouin desert encampment. The central figure is a grand pavilion, the subordinates are storage tents, and the diagonal guardians are blazing campfires, all maintaining the precise relative spacing of the original formation.",
+    "Checklist": [
+      {
+        "question": "Is the scene depicted as a Bedouin desert encampment?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a central grand pavilion that is tall?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly two storage tents flanking the central pavilion?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the storage tents shorter than the central pavilion?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is one storage tent positioned directly to the left of the central pavilion?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is one storage tent positioned directly to the right of the central pavilion?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there an empty clearing located one step directly in front of the central pavilion?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly two blazing campfires in the scene?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the two campfires positioned diagonally forward relative to the central pavilion's shoulders?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the campfires visually appear to be watching over or guarding the empty clearing?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the tents and campfires maintain the precise relative spacing described in the original grid-based formation?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G066": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Render a top-down view of a botanical arrangement following the exact Fibonacci spiral pattern of a pinecone, containing exactly 10 items. Start with a large sunflower head at the center. The next item in the spiral must be a fern frond, exactly half the size of the sunflower. The third must be a cluster of dandelion seeds, half the size of the fern. The fourth must be a cluster of cactus spines, half the size of the dandelion. Continue this 50% size reduction and 137.5-degree rotation for all 10 items, cycling through the entity types as needed to complete the count. The result must be a perfect mathematical spiral of flora without any background elements or measurement markings.",
+    "Checklist": [
+      {
+        "question": "Is the image a top-down view?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a botanical arrangement following a Fibonacci spiral pattern?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the arrangement contain exactly 10 items?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the first item at the center a large sunflower head?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the second item in the spiral a fern frond?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the fern frond exactly half the size of the sunflower?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the third item a cluster of dandelion seeds?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the dandelion seed cluster half the size of the fern frond?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the fourth item a cluster of cactus spines?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the cactus spine cluster half the size of the dandelion seed cluster?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the sequence of entity types cycle (Sunflower, Fern, Dandelion, Cactus) for all 10 items?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is item 5 a sunflower head?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is item 6 a fern frond?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is item 7 a cluster of dandelion seeds?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is item 8 a cluster of cactus spines?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is item 9 a sunflower head?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is item 10 a fern frond?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a 50% size reduction between each consecutive item in the sequence?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a 137.5-degree rotation between each consecutive item in the spiral?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there no background elements present?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are there no measurement markings present?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G067": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Picture a rectangular green circuit board with a massive square microchip in the bottom-right corner and three identical tall capacitors lined up vertically along the left edge, connected by a series of sharp, zig-zagging copper pathways. Render this exact spatial arrangement in an Antarctic landscape. The microchip should become a colossal flat-topped iceberg, the capacitors should be replaced by three towering ice columns, and the electrical traces should manifest as jagged, glowing blue meltwater channels carved into the dark sea ice.",
+    "Checklist": [
+      {
+        "question": "Does the scene depict an Antarctic landscape?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a colossal flat-topped iceberg located in the bottom-right corner?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly three towering ice columns?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the three ice columns lined up vertically along the left edge?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the ice columns identical in appearance?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there jagged, glowing blue channels representing meltwater?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the channels follow a sharp, zig-zagging path connecting the elements?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the channels carved into a dark sea ice surface?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the overall spatial arrangement consistent with a rectangular board layout (iceberg bottom-right, columns left, traces connecting)?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G068": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Construct a culinary scene where the placement of ingredients strictly adheres to the Fibonacci spiral geometry found in sunflower heads. Place a single large dough sphere at the absolute center. Surround it with exactly one slice of citrus, then two herb sprigs, then three glass droplets, and finally five charred wood chips, arranging each group in a continuous spiral outward. Every item must be oriented tangentially to the curve of the spiral at its specific location. The vertical height of the arrangement must decrease exponentially from the center to the edge, making the dough sphere the tallest and the wood chips nearly flat. Do not arrange items in concentric circles or random clusters, and ensure no item stands perpendicular to the spiral flow.",
+    "Checklist": [
+      {
+        "question": "Is a single large dough sphere placed at the absolute center of the scene?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the ingredients arranged in a Fibonacci spiral geometry similar to a sunflower head?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the central dough sphere surrounded by exactly one slice of citrus?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Following the citrus, are there exactly two herb sprigs in the spiral?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Following the herb sprigs, are there exactly three glass droplets in the spiral?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Following the glass droplets, are there exactly five charred wood chips in the spiral?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are all items oriented tangentially to the curve of the spiral at their specific locations?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the vertical height of the arrangement decrease exponentially from the center to the edge?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the dough sphere the tallest element in the arrangement?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the wood chips at the edge nearly flat?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the items arranged without using concentric circles?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are the items arranged without using random clusters?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are there no items standing perpendicular to the spiral flow?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G069": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "A medieval battlefield features a central heavy trebuchet flanked by two symmetrical rectangular shield walls. A heap of heavy stone boulders sits directly in front of the trebuchet. Behind the left shield wall, a row of archers is kneeling, while behind the right shield wall, the archers are standing. Translate this scene into a modern symphony orchestra on a stage. The trebuchet's position is held by a grand piano, the shield walls become string sections, and the boulders become a cluster of music stands. Ensure the posture of the musicians behind the strings preserves the kneeling/standing distinction from the original scene.",
+    "Checklist": [
+      {
+        "question": "Does the scene depict a modern symphony orchestra on a stage?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a grand piano positioned centrally in the composition?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there two string sections flanking the grand piano?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the two flanking string sections arranged symmetrically?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the left string section positioned to the left of the grand piano?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the right string section positioned to the right of the grand piano?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a cluster of music stands located directly in front of the grand piano?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there musicians positioned behind the left string section?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the musicians behind the left string section in a kneeling posture?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there musicians positioned behind the right string section?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the musicians behind the right string section in a standing posture?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there any depictions of a trebuchet in the image?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are there any depictions of stone boulders in the image?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are there any depictions of medieval shield walls in the image?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G070": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Generate a scene of celestial mechanics featuring three concentric neon rings centered in a void. On the outermost ring, position exactly two magnetic orbs diametrically opposite one another. On the middle ring, place three magnetic orbs distributed with perfect equidistance (120 degrees apart). On the innermost ring, arrange four magnetic orbs in a square formation (90 degrees apart). Encase this entire structure in a translucent dust cloud that is thickest at the far edges of the image and completely transparent in the immediate center of the rings, revealing the void behind.",
+    "Checklist": [
+      {
+        "question": "Are there three concentric neon rings in the scene?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the structure centered in a void?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly two magnetic orbs on the outermost ring?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the two orbs on the outermost ring positioned diametrically opposite each other?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly three magnetic orbs on the middle ring?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the three middle orbs distributed with equal distance (120 degrees apart)?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly four magnetic orbs on the innermost ring?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the four innermost orbs arranged in a square formation (90 degrees apart)?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the entire structure encased in a translucent dust cloud?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the dust cloud thickest at the far edges of the image?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the dust cloud completely transparent in the immediate center of the rings?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Is the void behind the rings revealed through the center of the structure?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G071": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "A composer visualizes a crescendo as four notes on a staff: moving from left to right, each note head is physically larger than the previous one and is placed on a higher line of the staff, with a single diagonal line cutting through the center of all four. Generate a scene of a textile loom where the woven tapestry depicts four silk moths. The moths must follow the crescendo's rules: increasing in size and vertical elevation from left to right, all linked together by a single continuous golden thread.",
+    "Checklist": [
+      {
+        "question": "Does the scene depict a textile loom?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the woven tapestry on the loom depict exactly four silk moths?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the four moths arranged in a sequence from left to right?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is each moth physically larger than the one immediately to its left?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is each moth placed at a higher vertical elevation than the one immediately to its left?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are all four moths linked together by a single continuous thread?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the continuous linking thread golden in color?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly four moths present (no more, no less)?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G072": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Illustrate a celestial map where nebula filaments link pairs of crystalline constellations without forming triple connections, obsidian monoliths sit at the centroids of triangular constellation clusters, and starlight beams illuminate only those monoliths that are not touched by any filament.",
+    "Checklist": [
+      {
+        "question": "Is the image a celestial map?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there nebula filaments linking pairs of crystalline constellations?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there any triple connections formed where three filaments meet at a single constellation?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are there obsidian monoliths present?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the monoliths located at the centroids of triangular constellation clusters?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there starlight beams illuminating the monoliths?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is any monolith that is touched by a nebula filament illuminated by a starlight beam?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are starlight beams restricted to illuminating only those monoliths that have no filaments touching them?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G073": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Imagine three brutalist concrete towers standing in a row: the one on the far left is the tallest and has balconies only on its left face; the middle one is the shortest and has balconies on both its left and right faces; the one on the far right is of medium height and has balconies only on its right face. Create an image of three desert cacti that follow this exact logic of relative height and arm placement, substituting the towers for cacti and the balconies for thick, prickly arms.",
+    "Checklist": [
+      {
+        "question": "Does the image depict a desert environment?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly three cacti standing in a row?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the cactus on the far left the tallest of the three?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the leftmost cactus have thick, prickly arms only on its left face?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the middle cactus the shortest of the three?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the middle cactus have thick, prickly arms on both its left and right faces?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the cactus on the far right of medium height (between the tallest and shortest)?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the rightmost cactus have thick, prickly arms only on its right face?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G074": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Create an image of an acoustic installation featuring five glass chimes suspended from a central iron stand in a perfect pentagon formation. Only the single chime at the highest vertical point is active, emitting visualized sound waves as expanding concentric ripples. These ripples must originate exclusively from the top chime and radiate outward, diminishing in amplitude with distance. The ripples should pass through and cause the other four chimes to vibrate visibly, but these four chimes must not generate their own ripples. The iron stand and the void background must remain free of any wave patterns.",
+    "Checklist": [
+      {
+        "question": "Are there exactly five glass chimes suspended from a central iron stand?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the five glass chimes arranged in a perfect pentagon formation?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a single chime located at the highest vertical point that is emitting ripples?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the sound waves visualized as concentric ripples expanding outward exclusively from the top chime?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Do the ripples diminish in amplitude as the distance from the top chime increases?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the ripples pass through the other four chimes in the formation?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the four lower chimes show visible signs of vibration?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the four lower chimes free of any ripples originating from themselves?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Is the iron stand completely free of any wave patterns?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Is the void background completely free of any wave patterns?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G075": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "An old oak tree is structured in three vertical tiers. The lowest branch is heavy and supports a circular bird's nest. The middle branch is stripped of all growth, appearing as a bare skeleton. The highest branch is heavy with a dense canopy of green leaves. Bright light hits the top and middle, but the bottom is cast in deep shadow. Create a gothic stained-glass window that uses this exact three-tiered distribution of density, detail, and light. The nest, the bare wood, and the foliage must be translated into glass textures and lead-work patterns without depicting the actual tree.",
+    "Checklist": [
+      {
+        "question": "Does the image depict a gothic stained-glass window?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the composition structured into three distinct vertical tiers?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the lowest tier feature a circular pattern representing a bird's nest using glass textures or lead-work?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the lowest tier rendered with high density or heavy visual weight?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the middle tier feature a pattern representing bare wood/skeleton using glass textures or lead-work?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the middle tier rendered with low density or stripped detail?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the highest tier feature a pattern representing dense foliage using glass textures or lead-work?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the highest tier rendered with high density or heavy visual weight?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the highest tier illuminated by bright light?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the middle tier illuminated by bright light?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the lowest tier cast in deep shadow?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there any depictions of an actual oak tree in the image?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are there any depictions of a literal bird's nest in the image?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are there any depictions of literal green leaves in the image?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G076": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Create a 2D crystal formation that strictly follows the logic of a binary tree with a depth of two. Begin with a single central seed nucleus. From this seed, grow filaments that split exactly once, and then split again, ensuring every junction divides into exactly two new paths. Each path must end with exactly one terminal gemstone, resulting in a total of four gemstones. The arrangement must be perfectly symmetrical with clear void spaces between the branches, adhering strictly to the rule that no node produces more or fewer than two offspring.",
+    "Checklist": [
+      {
+        "question": "Is the crystal formation a 2D (two-dimensional) representation?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a single central seed nucleus at the start of the formation?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do filaments grow from the central seed nucleus?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the seed nucleus split into exactly two filaments?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does each of the first two filaments split exactly once more into two new paths?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly four terminal gemstones at the ends of the paths?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the overall arrangement perfectly symmetrical?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there clear void spaces visible between the branches?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does any node in the branching structure produce more than two offspring paths?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Does any node in the branching structure (excluding the terminal gemstones) produce fewer than two offspring paths?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G077": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Visualize a standard five-line musical staff. Apply its structural rules to a vertical Mediterranean vineyard carved into a cliffside. The image must feature five parallel, horizontal stone retaining walls acting as the lines. Map a four-note rising C-major arpeggio onto this landscape using four scarlet macaws as the 'notes'. The birds should be perched or hovering at precise vertical intervals: the first on the lowest wall, the second on the middle wall, the third on the top wall, and the fourth hovering slightly above the top wall to represent the octave. The horizontal spacing should be staggered from left to right as if reading music.",
+    "Checklist": [
+      {
+        "question": "Does the image feature a vertical Mediterranean vineyard carved into a cliffside?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly five parallel, horizontal stone retaining walls visible?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the retaining walls arranged to act as the lines of a musical staff?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly four scarlet macaws in the image?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the first macaw perched or hovering on the lowest retaining wall?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the second macaw perched or hovering on the middle (third) retaining wall?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the third macaw perched or hovering on the top (fifth) retaining wall?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the fourth macaw hovering slightly above the top retaining wall?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the four macaws positioned at vertical intervals corresponding to a rising C-major arpeggio?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the horizontal spacing of the macaws staggered from left to right?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the composition mimic the visual structure of a standard five-line musical staff?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G078": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Depict a close-up of a woven tapestry on a loom, structured as a 4x4 grid of thread intersections. The pattern must alternate strictly by row: in the top row and the bottom row, the red yarn must pass over the blue yarn at every point. In the two middle rows, the blue yarn must pass over the red yarn at every point. Secure the fabric with golden loom pegs located exclusively at the four extreme corners of the grid. Do not place any pegs in the interior of the grid, and ensure the weave direction does not change within any single row.",
+    "Checklist": [
+      {
+        "question": "Does the image show a close-up of a woven tapestry on a loom?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the weave structured as a grid with exactly 16 thread intersections (4x4)?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "In the top row, does the red yarn pass over the blue yarn at every intersection?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "In the bottom row, does the red yarn pass over the blue yarn at every intersection?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "In the two middle rows, does the blue yarn pass over the red yarn at every intersection?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there golden loom pegs located at the four extreme corners of the grid?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there no pegs located in the interior of the grid?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Does the weave direction remain constant within each individual row?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G079": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Imagine a 4x4 chessboard where the height of the pieces is determined by their distance from the 'King's' starting corner. Apply this structural rule to a desert landscape: render a 4x4 grid of natural sandstone pillars rising from cracked earth. The pillar at the far-left rear is the tallest, with every subsequent pillar decreasing in height linearly as you move toward the front-right corner. A low sun must cast shadows such that each pillar's shadow terminates exactly at the base of its neighbor to the right.",
+    "Checklist": [
+      {
+        "question": "Is the scene set in a desert landscape?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly 16 natural sandstone pillars arranged in a 4x4 grid?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the pillars rise from cracked earth?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the pillar at the far-left rear corner the tallest?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the pillar heights decrease linearly from the far-left rear to the front-right corner?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the sun positioned low in the sky?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the shadow of each pillar terminate exactly at the base of its neighbor to the right?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G080": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Create a composition featuring eight gelatin cubes arranged on a dark slate platter in a 3x3 grid pattern, with the central position intentionally left empty. A single silk thread hangs vertically from above, terminating just above the platter in the center of the empty space. Decorate the four corner cubes with edible gold leaf only on their top surfaces. Decorate the four non-corner edge cubes with gold leaf exclusively on the vertical faces that look inward toward the center empty space. Ensure the outer vertical faces of all cubes and the silk thread remain free of gold leaf.",
+    "Checklist": [
+      {
+        "question": "Are there exactly eight gelatin cubes present in the composition?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the cubes arranged in a 3x3 grid pattern?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the central position of the 3x3 grid empty?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Is the platter made of dark slate?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a single silk thread hanging vertically from above?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the silk thread terminate just above the platter?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the silk thread positioned in the center of the empty grid space?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the four corner cubes have gold leaf on their top surfaces?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the corner cubes free of gold leaf on all surfaces other than the top?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Do the four non-corner edge cubes have gold leaf on the vertical faces that look inward toward the center?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the top surfaces of the four non-corner edge cubes free of gold leaf?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are the outer-facing vertical faces of all eight cubes free of gold leaf?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Is the silk thread free of gold leaf?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G081": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Reimagine the visual blueprint of the inner solar system's heliocentric orbits as a heavy industrial steampunk foundry. At the center, place a massive, glowing spherical boiler furnace. Surrounding it are four concentric circular brass floor-tracks at increasing radii. On each track, place a single mechanical coal-tender. Position these tenders according to a cross-pattern: the tender on the innermost track at the 12 o'clock position, the second at 3 o'clock, the third at 6 o'clock, and the fourth at 9 o'clock. The entire scene should be viewed from a top-down perspective to emphasize the geometric orbital mapping.",
+    "Checklist": [
+      {
+        "question": "Is the scene viewed from a top-down perspective?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the overall aesthetic of the scene that of a heavy industrial steampunk foundry?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a massive, glowing spherical boiler furnace located at the exact center?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly four concentric circular floor-tracks surrounding the central furnace?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the floor-tracks depicted as being made of brass?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the four tracks appear at increasing radii from the center?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there exactly one mechanical coal-tender placed on each of the four tracks?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the tender on the innermost track positioned at the 12 o'clock position?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the tender on the second track positioned at the 3 o'clock position?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the tender on the third track positioned at the 6 o'clock position?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the tender on the fourth (outermost) track positioned at the 9 o'clock position?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the four tenders collectively form a cross-pattern?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G082": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Visualize a celestial system where the spatial organization mimics a hierarchical planetary orbit but with a specific twist. Place a neutron star at the center. Surround it with four distinct orbital rings: accretion disks, comet tails, nebula clouds, and dust motes. Each successive ring must be tilted 30 degrees more than the previous one relative to the central axis (0, 30, 60, and 90 degrees). The density of the entities within each ring must decrease as the distance from the center increases, making the innermost ring the most crowded and the outermost the sparsest. The color temperature must transition smoothly from blue-white at the neutron star to deep red at the outer dust motes. Do not create flat 2D circles or random scattering; ensure the tilt and density rules are strictly visible.",
+    "Checklist": [
+      {
+        "question": "Is there a neutron star positioned at the center of the celestial system?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly four distinct orbital rings surrounding the center?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the innermost ring composed of accretion disks?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the second ring composed of comet tails?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the third ring composed of nebula clouds?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the fourth (outermost) ring composed of dust motes?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does each successive ring exhibit a 30-degree increase in tilt relative to the previous one (0, 30, 60, and 90 degrees)?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the density of entities within the rings decrease as the distance from the center increases?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the innermost ring the most crowded with entities?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the outermost ring the sparsest in terms of entity density?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the color transition smoothly from blue-white at the neutron star to deep red at the outer dust motes?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the rings depicted as three-dimensional structures rather than flat 2D circles?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are the entities organized into distinct rings rather than being randomly scattered?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G083": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "An electrical circuit features a single power source that splits into three parallel wires, each containing one bulb, before merging back into a single ground wire. Reinterpret this using ancient stone engineering: depict a mountain terrace where a single waterfall feeds a top stone basin. From this basin, water splits into three identical vertical stone channels running down the slope. Each channel passes through a small circular pool at its center. Finally, all three channels must converge into a single large exit pool at the base of the terrace.",
+    "Checklist": [
+      {
+        "question": "Does the scene depict a mountain terrace setting?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a single waterfall feeding a top stone basin?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the water split from the top basin into exactly three vertical stone channels?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the three stone channels identical in appearance?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does each of the three channels contain exactly one small circular pool at its center?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do all three channels converge into a single large exit pool at the base?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the final exit pool located at the base of the terrace?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G084": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Create a textile composition that visually represents a binary tree data structure. Start with a central bundle of silk threads as the root. This must branch into exactly two wool knots: the left knot must share the exact color of the silk, while the right knot must be the inverse color. Each wool knot must then branch into two metal rings, strictly following the rule that the left child matches the parent's color and the right child is the inverse. Continue this pattern with leather strips branching from the rings, and finally feather plumes branching from the strips. The entire structure must recede into the background, with the root closest to the viewer and the final layer of feathers furthest away. Do not create linear chains or circular loops, and ensure strict adherence to the color inversion rule at every split.",
+    "Checklist": [
+      {
+        "question": "Is the root of the structure a central bundle of silk threads?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly two wool knots branching from the silk root?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the left wool knot have the same color as the silk threads?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the right wool knot have the inverse color of the silk threads?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does each wool knot branch into exactly two metal rings?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does each metal ring branch into exactly two leather strips?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does each leather strip branch into exactly two feather plumes?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "For every branching point, does the left child match the color of its parent?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "For every branching point, is the right child the inverse color of its parent?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the silk root the closest element to the viewer?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the subsequent layers (wool, metal, leather, feathers) recede progressively into the background?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the feather plumes the furthest elements from the viewer?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there any parts of the structure that form a linear chain without branching?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are there any parts of the structure that form a circular loop?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are there any branching points where the color inversion rule is not applied?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G085": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Think of a simplified atomic model where a dense nucleus is surrounded by three distinct, non-intersecting concentric rings. The innermost ring has one electron, the middle ring has two electrons, and the outermost ring has one electron that is itself being orbited by a tiny sub-particle. Translate this exact hierarchical orbital structure into a grand ballroom scene. The nucleus becomes a circular buffet table. The rings become three concentric raised dance floor levels. The 'electrons' are individual dancers, and the 'sub-particle' is a small child being spun by the dancer on the furthest edge. Maintain the specific counts per level.",
+    "Checklist": [
+      {
+        "question": "Is the scene set in a grand ballroom?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the nucleus represented as a circular buffet table at the center?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly three concentric raised dance floor levels surrounding the table?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the dance floor levels non-intersecting?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there exactly one dancer on the innermost dance floor level?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly two dancers on the middle dance floor level?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there exactly one dancer on the outermost dance floor level?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a small child being spun by the dancer on the outermost level?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the outermost child the only sub-particle representation in the scene?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are the dance floors devoid of any other objects or people besides the specified dancers and child?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G086": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Depict a kinetic mechanism where ceramic gears rotate in opposition to adjacent glass pistons, ink droplets settle exclusively in the valleys between gear teeth, and copper axles anchor the gears without touching the pistons, frozen in a moment of dynamic tension.",
+    "Checklist": [
+      {
+        "question": "Is a kinetic mechanism depicted in the scene?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the gears in the mechanism made of ceramic?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the pistons in the mechanism made of glass?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the gears and adjacent glass pistons positioned to rotate or move in opposition to each other?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there ink droplets present in the scene?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the ink droplets located within the valleys between the gear teeth?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are ink droplets absent from all surfaces other than the valleys between gear teeth?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Are the gears anchored by copper axles?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the copper axles completely free of physical contact with the glass pistons?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Does the scene depict a frozen moment of dynamic tension?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G087": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "A weather map shows a high-pressure system consisting of three concentric circular isobars surrounding a central 'H' symbol. Four jagged lightning bolt icons are placed so that they strike only the outermost circle, positioned exactly at the North, South, East, and West points. Reinterpret this diagram as a circular stained-glass window. The 'H' should become a radiant sun motif, the isobars should be concentric lead-lined rings, and the lightning bolts should be represented by four sharp shards of bright red glass located at the cardinal edges of the outer ring.",
+    "Checklist": [
+      {
+        "question": "Does the image depict a circular stained-glass window?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the central motif a radiant sun?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly three concentric rings surrounding the central sun motif?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the concentric rings depicted as lead-lined?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly four shards of glass representing lightning bolts?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the four glass shards bright red in color?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the four glass shards sharp in shape?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the four glass shards located at the cardinal edges (North, South, East, West) of the outermost ring?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the glass shards strike only the outermost ring and not the inner rings?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G088": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Create a still life of food items arranged to structurally mimic a twin-arch stone bridge. The base supports of the arches must be made of water-rich mushrooms. The highest point of each arch (the keystone) must be a piece of steak, chosen for its density. The triangular gaps beneath the curve of the arches must be filled with linear asparagus spears. The two arches must meet at a central vertical pillar made of potatoes. The composition should look like a stable architectural feat built entirely from these four ingredients, without any plates or background context.",
+    "Checklist": [
+      {
+        "question": "Is the image a still life composed of food items?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the food arranged to structurally mimic a twin-arch stone bridge?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the base supports of the arches made of mushrooms?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the highest point (keystone) of each arch a piece of steak?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly two arches in the bridge structure?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the triangular gaps beneath the curve of the arches filled with asparagus spears?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the asparagus spears arranged in a linear fashion?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the two arches meet at a central vertical pillar made of potatoes?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the structure appear to be a stable architectural feat?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the entire bridge built using only mushrooms, steak, asparagus, and potatoes?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a complete absence of plates in the image?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Is there a complete absence of background context (such as a kitchen or table)?",
+        "tags": [
+          "analogy_neg"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G089": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Visualize a jagged mountain range with five distinct peaks that follow a height sequence from left to right of: Tall, Short, Tall, Short, Tall. A single continuous river snakes through the two low valleys between these peaks. Reinterpret this silhouette as a modern city skyline. The peaks are glass skyscrapers of varying stories following the same height pattern. The 'river' is a glowing elevated maglev track that passes horizontally through the gaps at the base level of the two shorter buildings. The sequence must be clearly legible from a side-profile perspective.",
+    "Checklist": [
+      {
+        "question": "Is the scene interpreted as a modern city skyline?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly five glass skyscrapers in the scene?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the height sequence of the five skyscrapers from left to right follow the pattern: Tall, Short, Tall, Short, Tall?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a single continuous glowing elevated maglev track in the scene?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the maglev track pass horizontally through the gaps at the base level of the two shorter buildings?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the height sequence of the buildings clearly legible from a side-profile perspective?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the two shorter buildings positioned as the second and fourth structures from the left?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the two shorter buildings create two low valleys where the maglev track passes?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  },
+  "R-AR-G090": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Depict an underwater scene structured like the growth rings of a tree. Use glass domes to form concentric circles of increasing size. Place buoyant spheres strictly inside the central innermost ring. Connect the center of each dome to the center of the next outer dome with submerged chains, and install pressure valves exactly where these chains intersect the glass rings. Position bioluminescent jellyfish only in the water volume above the outermost glass ring. The composition must strictly enforce this radial and concentric logic.",
+    "Checklist": [
+      {
+        "question": "Is the scene set underwater?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the structure of the scene arranged in concentric circles like the growth rings of a tree?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the concentric circles formed by glass domes?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Do the glass domes increase in size from the center outward?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there buoyant spheres located inside the central innermost ring?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there any buoyant spheres located outside of the central innermost ring?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Is the center of each dome connected to the center of the next outer dome by a chain?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the connecting chains submerged in water?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there pressure valves located exactly at the points where the chains intersect the glass rings?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there bioluminescent jellyfish in the water volume above the outermost glass ring?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there any bioluminescent jellyfish located within or below the outermost glass ring?",
+        "tags": [
+          "analogy_neg"
+        ]
+      },
+      {
+        "question": "Does the overall composition strictly follow a radial and concentric logic?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=qwen35_27b; reviewer=gemini3flash"
+  },
+  "R-AR-G091": {
+    "Main Class": "Reasoning",
+    "Sub Class": "Analogical Reasoning",
+    "Prompt": "Observe a musical staff consisting of five parallel horizontal lines, a spiraling treble clef at the starting edge, and three circular notes positioned on the first, third, and fifth lines from the bottom. Reinterpret this composition as a futuristic urban transit hub. The horizontal lines should become multi-level highways, the clef a complex spiraling interchange on the left, and the notes should be represented by three distinct circular architectural landmarks situated at the corresponding vertical levels of the highway system.",
+    "Checklist": [
+      {
+        "question": "Are there five parallel horizontal structures representing highways?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is there a spiraling structure resembling a treble clef located on the left edge?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the spiraling structure interpreted as a complex interchange?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are there exactly three circular architectural landmarks?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the first landmark positioned at the vertical level corresponding to the bottom-most highway?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the second landmark positioned at the vertical level corresponding to the middle highway?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Is the third landmark positioned at the vertical level corresponding to the top-most highway?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Does the overall scene depict a futuristic urban transit hub?",
+        "tags": [
+          "analogy_pos"
+        ]
+      },
+      {
+        "question": "Are the horizontal structures depicted as multi-level highways?",
+        "tags": [
+          "analogy_pos"
+        ]
+      }
+    ],
+    "Remark": "Construction-v2; author=gemini3flash; reviewer=qwen35_27b"
+  }
+}

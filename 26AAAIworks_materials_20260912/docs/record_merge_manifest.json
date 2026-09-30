@@ -1,0 +1,369 @@
+{
+  "date": "2026-09-11",
+  "added_support_file": "new_exp/report_sections.py",
+  "new_files": [
+    "new_exp/exp18_22_9cfg.md",
+    "new_exp/exp47_49_flux_only_extension.md",
+    "new_exp/exp55_56_flux4_pooled_router.md",
+    "docs/record_audit_20260911.json"
+  ],
+  "groups": [
+    {
+      "target": "exp1_absolute_predict/exp1_gm_vs_am.md",
+      "sources": [
+        "exp1_absolute_predict/exp1_gm_vs_am.md",
+        "exp1_absolute_predict/exp1_past.md"
+      ]
+    },
+    {
+      "target": "new_exp/ALL_EXPERIMENTS.md",
+      "sources": [
+        "new_exp/ALL_EXPERIMENTS.md",
+        "new_exp/ALL_EXPERIMENTS_notables.md"
+      ]
+    },
+    {
+      "target": "new_exp/exp18_22_9cfg.md",
+      "sources": [
+        "new_exp/exp11_9cfg.md",
+        "new_exp/exp18_9cfg_routing.md",
+        "new_exp/exp19_9cfg_seed_sens.md",
+        "new_exp/exp20_9cfg_mid_pool.md",
+        "new_exp/exp21_9cfg_shuffle.md",
+        "new_exp/exp22_9cfg_val_split.md"
+      ]
+    },
+    {
+      "target": "new_exp/exp25_cross_dataset_generalization.md",
+      "sources": [
+        "new_exp/exp25_cross_dataset_generalization.md",
+        "new_exp/exp25_cross_dataset_generalization_design.md"
+      ]
+    },
+    {
+      "target": "new_exp/exp26_probe_image_router.md",
+      "sources": [
+        "new_exp/exp26_probe_image_router.md",
+        "new_exp/exp26_probe_image_router_design.md"
+      ]
+    },
+    {
+      "target": "new_exp/exp45_geneval2_4000_training_curve.md",
+      "sources": [
+        "new_exp/exp45_geneval2_4000_training_curve.md",
+        "new_exp/exp45_gm_router_data_scale.md",
+        "new_exp/exp45_preparation_log.md"
+      ]
+    },
+    {
+      "target": "new_exp/exp47_49_flux_only_extension.md",
+      "sources": [
+        "new_exp/exp47_flux_only_smallbench_extension.md",
+        "new_exp/exp48_flux_only_benchmark_extension.md",
+        "new_exp/exp49_flux_only_wise_extension.md"
+      ]
+    },
+    {
+      "target": "new_exp/exp55_56_flux4_pooled_router.md",
+      "sources": [
+        "new_exp/exp55_flux4_pooled_router_data_curve.md",
+        "new_exp/exp56_flux4_pooled_1k.md"
+      ]
+    },
+    {
+      "target": "new_exp/construction_v2_record.md",
+      "sources": [
+        "new_exp/construction_v2_record.md",
+        "new_exp/wise_v2_plan.md"
+      ]
+    }
+  ],
+  "mapping": {
+    "exp1_absolute_predict/exp1_past.md": {
+      "path": "exp1_absolute_predict/exp1_gm_vs_am.md",
+      "anchor": "version-audit"
+    },
+    "new_exp/ALL_EXPERIMENTS_notables.md": {
+      "path": "new_exp/ALL_EXPERIMENTS.md",
+      "anchor": ""
+    },
+    "new_exp/exp18_9cfg_routing.md": {
+      "path": "new_exp/exp18_22_9cfg.md",
+      "anchor": "exp18"
+    },
+    "new_exp/exp19_9cfg_seed_sens.md": {
+      "path": "new_exp/exp18_22_9cfg.md",
+      "anchor": "exp19"
+    },
+    "new_exp/exp20_9cfg_mid_pool.md": {
+      "path": "new_exp/exp18_22_9cfg.md",
+      "anchor": "exp20"
+    },
+    "new_exp/exp21_9cfg_shuffle.md": {
+      "path": "new_exp/exp18_22_9cfg.md",
+      "anchor": "exp21"
+    },
+    "new_exp/exp22_9cfg_val_split.md": {
+      "path": "new_exp/exp18_22_9cfg.md",
+      "anchor": "exp22"
+    },
+    "new_exp/exp11_9cfg.md": {
+      "path": "new_exp/exp18_22_9cfg.md",
+      "anchor": ""
+    },
+    "new_exp/exp25_cross_dataset_generalization_design.md": {
+      "path": "new_exp/exp25_cross_dataset_generalization.md",
+      "anchor": "exp25-design"
+    },
+    "new_exp/exp26_probe_image_router_design.md": {
+      "path": "new_exp/exp26_probe_image_router.md",
+      "anchor": "exp26-design"
+    },
+    "new_exp/exp45_gm_router_data_scale.md": {
+      "path": "new_exp/exp45_geneval2_4000_training_curve.md",
+      "anchor": "exp45-quality"
+    },
+    "new_exp/exp45_preparation_log.md": {
+      "path": "new_exp/exp45_geneval2_4000_training_curve.md",
+      "anchor": "exp45-preparation"
+    },
+    "new_exp/exp47_flux_only_smallbench_extension.md": {
+      "path": "new_exp/exp47_49_flux_only_extension.md",
+      "anchor": "exp47"
+    },
+    "new_exp/exp48_flux_only_benchmark_extension.md": {
+      "path": "new_exp/exp47_49_flux_only_extension.md",
+      "anchor": "exp48"
+    },
+    "new_exp/exp49_flux_only_wise_extension.md": {
+      "path": "new_exp/exp47_49_flux_only_extension.md",
+      "anchor": "exp49"
+    },
+    "new_exp/exp55_flux4_pooled_router_data_curve.md": {
+      "path": "new_exp/exp55_56_flux4_pooled_router.md",
+      "anchor": "exp55"
+    },
+    "new_exp/exp56_flux4_pooled_1k.md": {
+      "path": "new_exp/exp55_56_flux4_pooled_router.md",
+      "anchor": "exp56"
+    },
+    "new_exp/wise_v2_plan.md": {
+      "path": "new_exp/construction_v2_record.md",
+      "anchor": "wise-design"
+    }
+  },
+  "removed_active_md": 18,
+  "new_canonical_md": 3,
+  "net_active_md_reduction": 15,
+  "archive": "records_before_merge_20260911.tar.gz",
+  "original_files": {
+    "README.md": {
+      "sha256": "614364f76a46bb5923fcaeb356f0f98c624e823afb229847703251313db32b0d",
+      "bytes": 10539
+    },
+    "codes/build_construction_v2_index.py": {
+      "sha256": "84f648dab529260211f051d72e82715deaf6b2af50a5721aba184e73aca7d645",
+      "bytes": 18968
+    },
+    "exp1_absolute_predict/exp1_gm_vs_am.md": {
+      "sha256": "6c05e41c45bb9eb8a6cad7fdfaaa9c8cf9f6e5cb63b891a3d873d3ff921f6066",
+      "bytes": 40588
+    },
+    "exp1_absolute_predict/exp1_past.md": {
+      "sha256": "eaa80eeadaa682f77800cf625af1d445c98078e3befcd056f69aee7ca6b03c8f",
+      "bytes": 40596
+    },
+    "new_exp/ALL_EXPERIMENTS.md": {
+      "sha256": "bba20c8450baabb90eb304da7b919500f9cf12391464bac1193f3bf9cf33fc7e",
+      "bytes": 39463
+    },
+    "new_exp/ALL_EXPERIMENTS_notables.md": {
+      "sha256": "840f019418bac20ebb7d58b427b647ccedbba26b211236ba5a622c848a9bdc24",
+      "bytes": 40845
+    },
+    "new_exp/README.md": {
+      "sha256": "b611283748e397e493e883eaed8a886bdb768664f53f4ffc469d677ad14dce2b",
+      "bytes": 11522
+    },
+    "new_exp/base_model_data_inventory_5bench.md": {
+      "sha256": "a465c6eec2bb37675a005db442a7f9fe8c4325bd71a1681610518a3277d77ba9",
+      "bytes": 9360
+    },
+    "new_exp/construction_v2_record.md": {
+      "sha256": "a6f6cd31052e47cf0fc57f925f4d791db93903be18bd23388de6cb32a80df57c",
+      "bytes": 51448
+    },
+    "new_exp/exp11_9cfg.md": {
+      "sha256": "d1e750058acf7d8c85c5f6cf4d7d770691fc646496bf49fe44fe8107aa6e47fb",
+      "bytes": 7100
+    },
+    "new_exp/exp18_9cfg_routing.md": {
+      "sha256": "b7bd27522bfee7c674dd7c5eecebf2f1973274b31457184cc0864e9e3b9f27e2",
+      "bytes": 3226
+    },
+    "new_exp/exp19_9cfg_seed_sens.md": {
+      "sha256": "07998fb3bbe02d867de85bf92e6a57e5161c41ac69229a872172823c23227f08",
+      "bytes": 2229
+    },
+    "new_exp/exp20_9cfg_mid_pool.md": {
+      "sha256": "780de376669db2a1df4348034b7d38705ba3ffde54b3444557d8264bc72c8017",
+      "bytes": 1795
+    },
+    "new_exp/exp21_9cfg_shuffle.md": {
+      "sha256": "54cd542a94e0ae54edfc832e69fc6bf0f6de766d2caf9ac2ac86545b03657fc1",
+      "bytes": 2861
+    },
+    "new_exp/exp22_9cfg_val_split.md": {
+      "sha256": "08dfec49f20346a38734728b82c6c176dba7f624926fc51d9112869ffa46b56c",
+      "bytes": 1882
+    },
+    "new_exp/exp23_10action_distill.md": {
+      "sha256": "626fcc4593b81ac10bfc2d7fe7ae65daebb6964cbb2ecc57f5d7934e570e9d4c",
+      "bytes": 5067
+    },
+    "new_exp/exp24_action_growth.md": {
+      "sha256": "853b6b25c48d5013c8429a14f6db26252e4f9ce73bdeebc89650c689b1850067",
+      "bytes": 4060
+    },
+    "new_exp/exp25_cross_dataset_generalization.md": {
+      "sha256": "97ef57d8647fa9b264435a47ea49f13713cb85b62dbded0ce3242da85aa1b0b9",
+      "bytes": 3168
+    },
+    "new_exp/exp25_cross_dataset_generalization_design.md": {
+      "sha256": "2759f765428404c22b84b23393f07272da244bb00538b535938c1f7587189485",
+      "bytes": 6044
+    },
+    "new_exp/exp26_probe_image_router.md": {
+      "sha256": "2eff7c105b8ac614a951fbd99fb518c25f520cedfc1196d4f4cb13bd681d0290",
+      "bytes": 3549
+    },
+    "new_exp/exp26_probe_image_router_design.md": {
+      "sha256": "804e7befa3b9ff2dbaa261f0a96c81b0332523e56632cae780e807e30b0ef8f2",
+      "bytes": 5738
+    },
+    "new_exp/exp36_action_selection_crossbench.md": {
+      "sha256": "114017e60210c03b521d65a10c37c1da4368c4145c405bfabeaa71a7b40f9fdd",
+      "bytes": 6829
+    },
+    "new_exp/exp37_action_admission_crossbench.md": {
+      "sha256": "884715ae2c276c8e8d1855aba57f91cefea14801820a6043014ed0b952756709",
+      "bytes": 10315
+    },
+    "new_exp/exp38_router_crossbench_generalization.md": {
+      "sha256": "76510499979895042a20ea38c7f6d64b27bc7419e8d2666432d1a2354ffd2810",
+      "bytes": 4154
+    },
+    "new_exp/exp39_pooled_router_lobo.md": {
+      "sha256": "668ed9cfed7e453787f3a4a8a97cc7bb9b11fc237da6e902f71a35b20df94904",
+      "bytes": 4303
+    },
+    "new_exp/exp40_nested_router_mix_grid.md": {
+      "sha256": "967dc20c64b7b9a7ae5cceaf95c6d3ca5ed9c33e0a7cabfefbb7f06dd874d3ce",
+      "bytes": 4732
+    },
+    "new_exp/exp42_router_factory_sample_efficiency.md": {
+      "sha256": "42f088d65694b1623e21a9fabe3718b6fc94ae82dc421750f72d3f2a81e9d36c",
+      "bytes": 9182
+    },
+    "new_exp/exp43_largebench_router_tail.md": {
+      "sha256": "c8a4aab78a3d6387e03eed22420e90f62a6ec3e33973a103b70833f66e9416d7",
+      "bytes": 6169
+    },
+    "new_exp/exp44_router_stability_surface.md": {
+      "sha256": "2ecd65023be0492b05cb89d807a4f4e9387937a5c79b7d8a86e267c8b1a8e315",
+      "bytes": 2219
+    },
+    "new_exp/exp45_geneval2_4000_training_curve.md": {
+      "sha256": "742794a388153d6a14a8cea61a49cb079ebe0fe95bb745812bb0e04b9e357812",
+      "bytes": 2910
+    },
+    "new_exp/exp45_gm_router_data_scale.md": {
+      "sha256": "9a287935d2e9c2228c18dfcf28be45acb11cc1d6690dad07c93eacfd0802f7fa",
+      "bytes": 2180
+    },
+    "new_exp/exp45_preparation_log.md": {
+      "sha256": "9af86b1e964c131eaadbadf440b1a17d2a91413e6e5ddcf321555c4c89f835b0",
+      "bytes": 10530
+    },
+    "new_exp/exp47_flux_only_smallbench_extension.md": {
+      "sha256": "384b7bde946b8a102cae6ba2d7b981b837c7f64440189d52ed0cc70c108d2ea9",
+      "bytes": 1513
+    },
+    "new_exp/exp48_flux_only_benchmark_extension.md": {
+      "sha256": "48aabcfce4074e2776dd233f5a1d4ba80fa90699b17d44f9ace99c75698fd6cc",
+      "bytes": 5554
+    },
+    "new_exp/exp49_flux_only_wise_extension.md": {
+      "sha256": "d0cb76626a9365003dd8b026f4de221fc76642da36d688f996580a820e8ea048",
+      "bytes": 1739
+    },
+    "new_exp/exp51_joint_supervised_router_flux3.md": {
+      "sha256": "7ed61b392c2613a0f026ee5cfe742f8fdd2523e6d51345801fdf6afa779ac58d",
+      "bytes": 3809
+    },
+    "new_exp/exp52_flux3_pooled_lobo.md": {
+      "sha256": "de69f72391fd919cb06e9038be357f6a868c41df6071425faec3b2d8516a4332",
+      "bytes": 3284
+    },
+    "new_exp/exp53_flux3_public_router_data_ablation.md": {
+      "sha256": "888288810977c4017b65b2d5bf61745bd8ffb6f7abf944f29dcae92b1d6b86f1",
+      "bytes": 5902
+    },
+    "new_exp/exp55_flux4_pooled_router_data_curve.md": {
+      "sha256": "70427b1a8e24515edc0b4c538ca24555d01a1db4e2ecd89dff4fb3ccb21f8646",
+      "bytes": 3978
+    },
+    "new_exp/exp56_flux4_pooled_1k.md": {
+      "sha256": "44cbd0492e2e663478cfb87c941d27a6256417726b1b89a5a3a9f0bcd1d667d5",
+      "bytes": 3510
+    },
+    "new_exp/plot_exp18_9cfg_routing.py": {
+      "sha256": "6e95ee0cc07def60d13e70b5acb41618074e6eb2a7fec350e953960fea44a588",
+      "bytes": 7914
+    },
+    "new_exp/plot_exp19_9cfg_seed_sens.py": {
+      "sha256": "6ad4a6aa13ed7024fc44146cecd4918b5a6269b4ec6c0a0a0aa2ea87db1653fa",
+      "bytes": 6005
+    },
+    "new_exp/plot_exp20_9cfg_mid_pool.py": {
+      "sha256": "cf13b4b49258a203dfe7e750bf1e28f4f6823d253ae5d7fbf220cf3caa51a004",
+      "bytes": 6417
+    },
+    "new_exp/plot_exp21_9cfg_shuffle.py": {
+      "sha256": "cf8321ff271b2635d69da89337231a10e3ba8c96f9eeb7e8e4336fe885e6c99e",
+      "bytes": 6590
+    },
+    "new_exp/plot_exp22_9cfg_val_split.py": {
+      "sha256": "3be5d0e5d11e71be53eb63438daa05f20fed2edd10af5cbc7db7880d2d72e80f",
+      "bytes": 5399
+    },
+    "new_exp/plot_exp25_cross_dataset_generalization.py": {
+      "sha256": "4712ef4065e828a832e35c7c2dee1425832d95ed4867ef5916c461d034f58d3a",
+      "bytes": 7830
+    },
+    "new_exp/plot_exp26_probe_image_router.py": {
+      "sha256": "3ada9acbeffabdc349c62c2a573a1227c453deabc9ea3e05bba9d2fbab4ebd87",
+      "bytes": 11197
+    },
+    "new_exp/results/construction_v2/index.html": {
+      "sha256": "783a5577023961810c75fcea6713f30bfa4a40b2aede0f8d22860ea6d8033ceb",
+      "bytes": 8520
+    },
+    "new_exp/run_exp45_geneval2_4000_training_curve.py": {
+      "sha256": "9963e8cfb57b00c7a37e63cc4cecbddcd4d27c5ddee53bef2aff64a92de6d9ef",
+      "bytes": 17014
+    },
+    "new_exp/run_exp47_flux_only_smallbench_extension.py": {
+      "sha256": "8da4c6204d861299d69f17ad152b2eb17453e8ed6e95d51483a2609a025395d7",
+      "bytes": 10649
+    },
+    "new_exp/wise_v2_plan.md": {
+      "sha256": "3f0b458b34d77553bbd1a20e81212476f672704b5c43289f16fbafa578910a0d",
+      "bytes": 11736
+    },
+    "修改日志.md": {
+      "sha256": "2f7232df63c1d3cd9efa583b0455f8989c4eb635c6478587c7447a18a2dad0eb",
+      "bytes": 3861
+    }
+  }
+}

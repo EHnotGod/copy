@@ -1,0 +1,86 @@
+[
+  {
+    "dataset": "am",
+    "model": "flux",
+    "oracle": 0.8077451618275353,
+    "lp": 0.7680121064186096,
+    "always_50steps": 0.768012523651123,
+    "k_data": [
+      {
+        "k": 1,
+        "ridge_score_mean": 0.7663248289537936,
+        "ridge_score_std": 0.0,
+        "ridge_delta_mean": 0.7663248289537936,
+        "ridge_delta_std": 0.0,
+        "knn_score_mean": 0.7655193806669309,
+        "knn_score_std": 1.1102230246251565e-16,
+        "knn_delta_mean": 0.7655193806669309,
+        "knn_delta_std": 1.1102230246251565e-16,
+        "tf_score_mean": 0.7674201612184712,
+        "tf_score_std": 0.0007409633223054965,
+        "tf_delta_mean": 0.7659636826654298,
+        "tf_delta_std": 0.000674672568436934
+      },
+      {
+        "k": 2,
+        "ridge_score_mean": 0.7657001145295242,
+        "ridge_score_std": 0.0,
+        "ridge_delta_mean": 0.7657001145295242,
+        "ridge_delta_std": 0.0,
+        "knn_score_mean": 0.7667733594816707,
+        "knn_score_std": 0.0,
+        "knn_delta_mean": 0.7667733594816707,
+        "knn_delta_std": 0.0,
+        "tf_score_mean": 0.7665027021131534,
+        "tf_score_std": 0.001823908739166042,
+        "tf_delta_mean": 0.7673714277061336,
+        "tf_delta_std": 0.0011218058284892926
+      },
+      {
+        "k": 3,
+        "ridge_score_mean": 0.7656478592886021,
+        "ridge_score_std": 1.1102230246251565e-16,
+        "ridge_delta_mean": 0.7656478592886021,
+        "ridge_delta_std": 1.1102230246251565e-16,
+        "knn_score_mean": 0.7646640534098015,
+        "knn_score_std": 0.0,
+        "knn_delta_mean": 0.7646640534098015,
+        "knn_delta_std": 0.0,
+        "tf_score_mean": 0.7668347260514302,
+        "tf_score_std": 0.001169059430238034,
+        "tf_delta_mean": 0.7669727956237498,
+        "tf_delta_std": 0.001468549659682405
+      },
+      {
+        "k": 4,
+        "ridge_score_mean": 0.7671399377471771,
+        "ridge_score_std": 0.0,
+        "ridge_delta_mean": 0.7671399377471771,
+        "ridge_delta_std": 0.0,
+        "knn_score_mean": 0.7670781737114278,
+        "knn_score_std": 1.1102230246251565e-16,
+        "knn_delta_mean": 0.7670781737114278,
+        "knn_delta_std": 1.1102230246251565e-16,
+        "tf_score_mean": 0.7672446221164817,
+        "tf_score_std": 0.001314991680530589,
+        "tf_delta_mean": 0.7669817072943413,
+        "tf_delta_std": 0.0008350663653546866
+      },
+      {
+        "k": 5,
+        "ridge_score_mean": 0.7665825605743073,
+        "ridge_score_std": 1.1102230246251565e-16,
+        "ridge_delta_mean": 0.7665825605743073,
+        "ridge_delta_std": 1.1102230246251565e-16,
+        "knn_score_mean": 0.7655122958457292,
+        "knn_score_std": 0.0,
+        "knn_delta_mean": 0.7655122958457292,
+        "knn_delta_std": 0.0,
+        "tf_score_mean": 0.7669650919495347,
+        "tf_score_std": 0.001125014596173679,
+        "tf_delta_mean": 0.7664485793905631,
+        "tf_delta_std": 0.000990393942446751
+      }
+    ]
+  }
+]

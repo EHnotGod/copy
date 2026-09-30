@@ -1,0 +1,1658 @@
+[
+  {
+    "experiment": "exp24_action_growth",
+    "dataset": "gm",
+    "budget": 10.0,
+    "split": {
+      "train": 2200,
+      "val": 200,
+      "test": 800,
+      "seed": 42
+    },
+    "action_registry": [
+      "qwen_10steps",
+      "qwen_50steps",
+      "qwen_tts",
+      "flux_10steps",
+      "flux_50steps",
+      "flux_tts",
+      "boogu_10steps",
+      "boogu_50steps",
+      "boogu_tts",
+      "flux4b_4steps"
+    ],
+    "growth_order": [
+      "qwen_50steps",
+      "qwen_10steps",
+      "qwen_tts",
+      "flux_10steps",
+      "flux_50steps",
+      "flux_tts",
+      "boogu_10steps",
+      "boogu_50steps",
+      "boogu_tts",
+      "flux4b_4steps"
+    ],
+    "ridge": {
+      "source": "exp23_prediction_cache",
+      "path": "results/exp23_10action_distill_preds_gm.npz"
+    },
+    "rows": [
+      {
+        "pool_size": 1,
+        "added_action": "qwen_50steps",
+        "actions": [
+          "qwen_50steps"
+        ],
+        "costs": [
+          10.0
+        ],
+        "quality": {
+          "qwen50": 0.24819912016391754,
+          "oracle": 0.24819912016391754,
+          "lp": 0.24819912016391754,
+          "ridge": 0.24819912016391754
+        },
+        "cumulative_gain_vs_qwen50": {
+          "oracle": 0.0,
+          "lp": 0.0,
+          "ridge": 0.0
+        },
+        "step_delta": {
+          "oracle": 0.0,
+          "lp": 0.0,
+          "ridge": 0.0
+        },
+        "ridge_over_lp": 0.0,
+        "oracle_gap": 0.0,
+        "policy_cost": {
+          "oracle": 10.0,
+          "lp": 10.0,
+          "ridge": 10.0
+        },
+        "ridge_allocation": {
+          "qwen_10steps": 0.0,
+          "qwen_50steps": 1.0,
+          "qwen_tts": 0.0,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "lp_allocation": {
+          "qwen_10steps": 0.0,
+          "qwen_50steps": 1.0,
+          "qwen_tts": 0.0,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "oracle_allocation": {
+          "qwen_10steps": 0.0,
+          "qwen_50steps": 1.0,
+          "qwen_tts": 0.0,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        }
+      },
+      {
+        "pool_size": 2,
+        "added_action": "qwen_10steps",
+        "actions": [
+          "qwen_50steps",
+          "qwen_10steps"
+        ],
+        "costs": [
+          10.0,
+          2.0
+        ],
+        "quality": {
+          "qwen50": 0.24819912016391754,
+          "oracle": 0.28697118163108826,
+          "lp": 0.24819912016391754,
+          "ridge": 0.24596329033374786
+        },
+        "cumulative_gain_vs_qwen50": {
+          "oracle": 0.038772061467170715,
+          "lp": 0.0,
+          "ridge": -0.0022358298301696777
+        },
+        "step_delta": {
+          "oracle": 0.038772061467170715,
+          "lp": 0.0,
+          "ridge": -0.0022358298301696777
+        },
+        "ridge_over_lp": -0.0022358298301696777,
+        "oracle_gap": 0.04100789129734039,
+        "policy_cost": {
+          "oracle": 6.1,
+          "lp": 10.0,
+          "ridge": 6.54
+        },
+        "ridge_allocation": {
+          "qwen_10steps": 0.4325,
+          "qwen_50steps": 0.5675,
+          "qwen_tts": 0.0,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "lp_allocation": {
+          "qwen_10steps": 0.0,
+          "qwen_50steps": 1.0,
+          "qwen_tts": 0.0,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "oracle_allocation": {
+          "qwen_10steps": 0.4875,
+          "qwen_50steps": 0.5125,
+          "qwen_tts": 0.0,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        }
+      },
+      {
+        "pool_size": 3,
+        "added_action": "qwen_tts",
+        "actions": [
+          "qwen_50steps",
+          "qwen_10steps",
+          "qwen_tts"
+        ],
+        "costs": [
+          10.0,
+          2.0,
+          30.5
+        ],
+        "quality": {
+          "qwen50": 0.24819912016391754,
+          "oracle": 0.4058140317598979,
+          "lp": 0.29996510216018607,
+          "ridge": 0.32839531463569516
+        },
+        "cumulative_gain_vs_qwen50": {
+          "oracle": 0.15761491159598034,
+          "lp": 0.05176598199626853,
+          "ridge": 0.08019619447177762
+        },
+        "step_delta": {
+          "oracle": 0.11884285012880963,
+          "lp": 0.05176598199626853,
+          "ridge": 0.0824320243019473
+        },
+        "ridge_over_lp": 0.028430212475509087,
+        "oracle_gap": 0.07741871712420273,
+        "policy_cost": {
+          "oracle": 10.0,
+          "lp": 10.0,
+          "ridge": 10.0
+        },
+        "ridge_allocation": {
+          "qwen_10steps": 0.6893087149187592,
+          "qwen_50steps": 0.041692762186115215,
+          "qwen_tts": 0.26899852289512555,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "lp_allocation": {
+          "qwen_10steps": 0.7192982456140351,
+          "qwen_50steps": 0.0,
+          "qwen_tts": 0.2807017543859649,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "oracle_allocation": {
+          "qwen_10steps": 0.6320833333333333,
+          "qwen_50steps": 0.12125,
+          "qwen_tts": 0.24666666666666667,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        }
+      },
+      {
+        "pool_size": 4,
+        "added_action": "flux_10steps",
+        "actions": [
+          "qwen_50steps",
+          "qwen_10steps",
+          "qwen_tts",
+          "flux_10steps"
+        ],
+        "costs": [
+          10.0,
+          2.0,
+          30.5,
+          4.7
+        ],
+        "quality": {
+          "qwen50": 0.24819912016391754,
+          "oracle": 0.48172246311840256,
+          "lp": 0.34335708352484445,
+          "ridge": 0.3646995347459605
+        },
+        "cumulative_gain_vs_qwen50": {
+          "oracle": 0.233523342954485,
+          "lp": 0.09515796336092691,
+          "ridge": 0.11650041458204297
+        },
+        "step_delta": {
+          "oracle": 0.07590843135850467,
+          "lp": 0.04339198136465838,
+          "ridge": 0.03630422011026535
+        },
+        "ridge_over_lp": 0.021342451221116054,
+        "oracle_gap": 0.11702292837244205,
+        "policy_cost": {
+          "oracle": 10.0,
+          "lp": 10.0,
+          "ridge": 10.0
+        },
+        "ridge_allocation": {
+          "qwen_10steps": 0.3360383259303873,
+          "qwen_50steps": 0.04015197997440337,
+          "qwen_tts": 0.23234488318401963,
+          "flux_10steps": 0.3914648109111898,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "lp_allocation": {
+          "qwen_10steps": 0.0,
+          "qwen_50steps": 0.0,
+          "qwen_tts": 0.20542635658914726,
+          "flux_10steps": 0.7945736434108528,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "oracle_allocation": {
+          "qwen_10steps": 0.2789692982456141,
+          "qwen_50steps": 0.10874999999999999,
+          "qwen_tts": 0.2122807017543859,
+          "flux_10steps": 0.4,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        }
+      },
+      {
+        "pool_size": 5,
+        "added_action": "flux_50steps",
+        "actions": [
+          "qwen_50steps",
+          "qwen_10steps",
+          "qwen_tts",
+          "flux_10steps",
+          "flux_50steps"
+        ],
+        "costs": [
+          10.0,
+          2.0,
+          30.5,
+          4.7,
+          23.1
+        ],
+        "quality": {
+          "qwen50": 0.24819912016391754,
+          "oracle": 0.48726022565851407,
+          "lp": 0.34335708352484445,
+          "ridge": 0.36399922102687565
+        },
+        "cumulative_gain_vs_qwen50": {
+          "oracle": 0.23906110549459653,
+          "lp": 0.09515796336092691,
+          "ridge": 0.11580010086295811
+        },
+        "step_delta": {
+          "oracle": 0.005537762540111513,
+          "lp": 0.0,
+          "ridge": -0.0007003137190848552
+        },
+        "ridge_over_lp": 0.0206421375020312,
+        "oracle_gap": 0.12326100463163842,
+        "policy_cost": {
+          "oracle": 10.0,
+          "lp": 10.0,
+          "ridge": 10.0
+        },
+        "ridge_allocation": {
+          "qwen_10steps": 0.3380372756418041,
+          "qwen_50steps": 0.03962478444611759,
+          "qwen_tts": 0.22690501056517615,
+          "flux_10steps": 0.38736010249435304,
+          "flux_50steps": 0.008072826852548997,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "lp_allocation": {
+          "qwen_10steps": 0.0,
+          "qwen_50steps": 0.0,
+          "qwen_tts": 0.20542635658914726,
+          "flux_10steps": 0.7945736434108528,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "oracle_allocation": {
+          "qwen_10steps": 0.3010025510204082,
+          "qwen_50steps": 0.10725255102040818,
+          "qwen_tts": 0.1729948979591836,
+          "flux_10steps": 0.36,
+          "flux_50steps": 0.05875,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        }
+      },
+      {
+        "pool_size": 6,
+        "added_action": "flux_tts",
+        "actions": [
+          "qwen_50steps",
+          "qwen_10steps",
+          "qwen_tts",
+          "flux_10steps",
+          "flux_50steps",
+          "flux_tts"
+        ],
+        "costs": [
+          10.0,
+          2.0,
+          30.5,
+          4.7,
+          23.1,
+          44.9
+        ],
+        "quality": {
+          "qwen50": 0.24819912016391754,
+          "oracle": 0.4892887200179853,
+          "lp": 0.34335708352484445,
+          "ridge": 0.3634455766205892
+        },
+        "cumulative_gain_vs_qwen50": {
+          "oracle": 0.24108959985406775,
+          "lp": 0.09515796336092691,
+          "ridge": 0.11524645645667164
+        },
+        "step_delta": {
+          "oracle": 0.0020284943594712224,
+          "lp": 0.0,
+          "ridge": -0.0005536444062864687
+        },
+        "ridge_over_lp": 0.02008849309574473,
+        "oracle_gap": 0.1258431433973961,
+        "policy_cost": {
+          "oracle": 10.0,
+          "lp": 10.0,
+          "ridge": 10.0
+        },
+        "ridge_allocation": {
+          "qwen_10steps": 0.3407997186818234,
+          "qwen_50steps": 0.03889622803995866,
+          "qwen_tts": 0.22218888506143067,
+          "flux_10steps": 0.38718434952348146,
+          "flux_50steps": 0.007242335514984498,
+          "flux_tts": 0.0036884831783212764,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "lp_allocation": {
+          "qwen_10steps": 0.0,
+          "qwen_50steps": 0.0,
+          "qwen_tts": 0.20542635658914726,
+          "flux_10steps": 0.7945736434108528,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "oracle_allocation": {
+          "qwen_10steps": 0.3152236842105263,
+          "qwen_50steps": 0.10625,
+          "qwen_tts": 0.15227631578947365,
+          "flux_10steps": 0.36125,
+          "flux_50steps": 0.04375,
+          "flux_tts": 0.02125,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        }
+      },
+      {
+        "pool_size": 7,
+        "added_action": "boogu_10steps",
+        "actions": [
+          "qwen_50steps",
+          "qwen_10steps",
+          "qwen_tts",
+          "flux_10steps",
+          "flux_50steps",
+          "flux_tts",
+          "boogu_10steps"
+        ],
+        "costs": [
+          10.0,
+          2.0,
+          30.5,
+          4.7,
+          23.1,
+          44.9,
+          4.3
+        ],
+        "quality": {
+          "qwen50": 0.24819912016391754,
+          "oracle": 0.5366374180640703,
+          "lp": 0.37549288184133195,
+          "ridge": 0.3814729441301441
+        },
+        "cumulative_gain_vs_qwen50": {
+          "oracle": 0.28843829790015274,
+          "lp": 0.1272937616774144,
+          "ridge": 0.13327382396622656
+        },
+        "step_delta": {
+          "oracle": 0.04734869804608499,
+          "lp": 0.032135798316487496,
+          "ridge": 0.018027367509554915
+        },
+        "ridge_over_lp": 0.005980062288812149,
+        "oracle_gap": 0.15516447393392618,
+        "policy_cost": {
+          "oracle": 10.0,
+          "lp": 10.0,
+          "ridge": 10.0
+        },
+        "ridge_allocation": {
+          "qwen_10steps": 0.1884490156486623,
+          "qwen_50steps": 0.040813982836951035,
+          "qwen_tts": 0.18858278647147908,
+          "flux_10steps": 0.16917970721857645,
+          "flux_50steps": 0.007743563856638063,
+          "flux_tts": 0.0183909641595154,
+          "boogu_10steps": 0.3868399798081777,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "lp_allocation": {
+          "qwen_10steps": 0.0,
+          "qwen_50steps": 0.0,
+          "qwen_tts": 0.21755725190839695,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.7824427480916031,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "oracle_allocation": {
+          "qwen_10steps": 0.1669135802469136,
+          "qwen_50steps": 0.08308641975308642,
+          "qwen_tts": 0.13125,
+          "flux_10steps": 0.21875,
+          "flux_50steps": 0.0475,
+          "flux_tts": 0.02933641975308642,
+          "boogu_10steps": 0.3231635802469136,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        }
+      },
+      {
+        "pool_size": 8,
+        "added_action": "boogu_50steps",
+        "actions": [
+          "qwen_50steps",
+          "qwen_10steps",
+          "qwen_tts",
+          "flux_10steps",
+          "flux_50steps",
+          "flux_tts",
+          "boogu_10steps",
+          "boogu_50steps"
+        ],
+        "costs": [
+          10.0,
+          2.0,
+          30.5,
+          4.7,
+          23.1,
+          44.9,
+          4.3,
+          21.5
+        ],
+        "quality": {
+          "qwen50": 0.24819912016391754,
+          "oracle": 0.5488609191848011,
+          "lp": 0.37549288184133195,
+          "ridge": 0.3825094304555316
+        },
+        "cumulative_gain_vs_qwen50": {
+          "oracle": 0.3006617990208835,
+          "lp": 0.1272937616774144,
+          "ridge": 0.13431031029161405
+        },
+        "step_delta": {
+          "oracle": 0.012223501120730784,
+          "lp": 0.0,
+          "ridge": 0.0010364863253874979
+        },
+        "ridge_over_lp": 0.007016548614199647,
+        "oracle_gap": 0.16635148872926947,
+        "policy_cost": {
+          "oracle": 10.0,
+          "lp": 10.0,
+          "ridge": 10.0
+        },
+        "ridge_allocation": {
+          "qwen_10steps": 0.19587547985851508,
+          "qwen_50steps": 0.033946071446532444,
+          "qwen_tts": 0.15185275677669186,
+          "flux_10steps": 0.17223959817611856,
+          "flux_50steps": 0.006331953128928973,
+          "flux_tts": 0.007236517861633112,
+          "boogu_10steps": 0.3454978794025447,
+          "boogu_50steps": 0.08701974334903526,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "lp_allocation": {
+          "qwen_10steps": 0.0,
+          "qwen_50steps": 0.0,
+          "qwen_tts": 0.21755725190839695,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.7824427480916031,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "oracle_allocation": {
+          "qwen_10steps": 0.1725,
+          "qwen_50steps": 0.06936585365853659,
+          "qwen_tts": 0.08813414634146341,
+          "flux_10steps": 0.2125,
+          "flux_50steps": 0.0325,
+          "flux_tts": 0.01875,
+          "boogu_10steps": 0.29375,
+          "boogu_50steps": 0.1125,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        }
+      },
+      {
+        "pool_size": 9,
+        "added_action": "boogu_tts",
+        "actions": [
+          "qwen_50steps",
+          "qwen_10steps",
+          "qwen_tts",
+          "flux_10steps",
+          "flux_50steps",
+          "flux_tts",
+          "boogu_10steps",
+          "boogu_50steps",
+          "boogu_tts"
+        ],
+        "costs": [
+          10.0,
+          2.0,
+          30.5,
+          4.7,
+          23.1,
+          44.9,
+          4.3,
+          21.5,
+          64.8
+        ],
+        "quality": {
+          "qwen50": 0.24819912016391754,
+          "oracle": 0.5488724171720594,
+          "lp": 0.37549288184133195,
+          "ridge": 0.38227174161388605
+        },
+        "cumulative_gain_vs_qwen50": {
+          "oracle": 0.3006732970081418,
+          "lp": 0.1272937616774144,
+          "ridge": 0.1340726214499685
+        },
+        "step_delta": {
+          "oracle": 1.149798725830209e-05,
+          "lp": 0.0,
+          "ridge": -0.0002376888416455447
+        },
+        "ridge_over_lp": 0.006778859772554102,
+        "oracle_gap": 0.16660067555817332,
+        "policy_cost": {
+          "oracle": 10.0,
+          "lp": 10.0,
+          "ridge": 10.0
+        },
+        "ridge_allocation": {
+          "qwen_10steps": 0.1964817095496455,
+          "qwen_50steps": 0.03373747628399294,
+          "qwen_tts": 0.15092059714409348,
+          "flux_10steps": 0.17268286289651497,
+          "flux_50steps": 0.006286322937123457,
+          "flux_tts": 0.007184369070998237,
+          "boogu_10steps": 0.3462149252737743,
+          "boogu_50steps": 0.08559369070998236,
+          "boogu_tts": 0.0008980461338747796,
+          "flux4b_4steps": 0.0
+        },
+        "lp_allocation": {
+          "qwen_10steps": 0.0,
+          "qwen_50steps": 0.0,
+          "qwen_tts": 0.21755725190839695,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.7824427480916031,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "oracle_allocation": {
+          "qwen_10steps": 0.17301821192052977,
+          "qwen_50steps": 0.07,
+          "qwen_tts": 0.0875,
+          "flux_10steps": 0.21301821192052978,
+          "flux_50steps": 0.029695364238410647,
+          "flux_tts": 0.01875,
+          "boogu_10steps": 0.2947864238410596,
+          "boogu_50steps": 0.11198178807947021,
+          "boogu_tts": 0.00125,
+          "flux4b_4steps": 0.0
+        }
+      },
+      {
+        "pool_size": 10,
+        "added_action": "flux4b_4steps",
+        "actions": [
+          "qwen_50steps",
+          "qwen_10steps",
+          "qwen_tts",
+          "flux_10steps",
+          "flux_50steps",
+          "flux_tts",
+          "boogu_10steps",
+          "boogu_50steps",
+          "boogu_tts",
+          "flux4b_4steps"
+        ],
+        "costs": [
+          10.0,
+          2.0,
+          30.5,
+          4.7,
+          23.1,
+          44.9,
+          4.3,
+          21.5,
+          64.8,
+          0.455
+        ],
+        "quality": {
+          "qwen50": 0.24819912016391754,
+          "oracle": 0.5683823252266104,
+          "lp": 0.37549288184133195,
+          "ridge": 0.38064876938066355
+        },
+        "cumulative_gain_vs_qwen50": {
+          "oracle": 0.3201832050626928,
+          "lp": 0.1272937616774144,
+          "ridge": 0.132449649216746
+        },
+        "step_delta": {
+          "oracle": 0.019509908054550995,
+          "lp": 0.0,
+          "ridge": -0.0016229722332224972
+        },
+        "ridge_over_lp": 0.005155887539331605,
+        "oracle_gap": 0.1877335558459468,
+        "policy_cost": {
+          "oracle": 10.0,
+          "lp": 10.0,
+          "ridge": 10.0
+        },
+        "ridge_allocation": {
+          "qwen_10steps": 0.16851866009505834,
+          "qwen_50steps": 0.03350594861011148,
+          "qwen_tts": 0.16589561656920923,
+          "flux_10steps": 0.1294269881492144,
+          "flux_50steps": 0.005167658101685247,
+          "flux_tts": 0.005167658101685247,
+          "boogu_10steps": 0.3046986225493285,
+          "boogu_50steps": 0.08773133990494165,
+          "boogu_tts": 0.0010335316203370494,
+          "flux4b_4steps": 0.09885397629842885
+        },
+        "lp_allocation": {
+          "qwen_10steps": 0.0,
+          "qwen_50steps": 0.0,
+          "qwen_tts": 0.21755725190839695,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.7824427480916031,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "oracle_allocation": {
+          "qwen_10steps": 0.1247102272727273,
+          "qwen_50steps": 0.065,
+          "qwen_tts": 0.09432954545454542,
+          "flux_10steps": 0.15221022727272732,
+          "flux_50steps": 0.026250000000000002,
+          "flux_tts": 0.02375,
+          "boogu_10steps": 0.22846022727272733,
+          "boogu_50steps": 0.11028977272727271,
+          "boogu_tts": 0.006250000000000001,
+          "flux4b_4steps": 0.16875000000000004
+        }
+      }
+    ],
+    "notes": [
+      "Geneval2 is reported with both GM and AM score aggregation.",
+      "All policies satisfy E[c] <= 10, the qwen_50steps anchor cost.",
+      "Ridge is the only learned predictor; no GPU predictor is used.",
+      "Each action has an independent Ridge regressor, so cached full-pool predictions can be sliced exactly.",
+      "Step deltas are conditional on this fixed registry order and are not order-invariant action contributions."
+    ]
+  },
+  {
+    "experiment": "exp24_action_growth",
+    "dataset": "am",
+    "budget": 10.0,
+    "split": {
+      "train": 2200,
+      "val": 200,
+      "test": 800,
+      "seed": 42
+    },
+    "action_registry": [
+      "qwen_10steps",
+      "qwen_50steps",
+      "qwen_tts",
+      "flux_10steps",
+      "flux_50steps",
+      "flux_tts",
+      "boogu_10steps",
+      "boogu_50steps",
+      "boogu_tts",
+      "flux4b_4steps"
+    ],
+    "growth_order": [
+      "qwen_50steps",
+      "qwen_10steps",
+      "qwen_tts",
+      "flux_10steps",
+      "flux_50steps",
+      "flux_tts",
+      "boogu_10steps",
+      "boogu_50steps",
+      "boogu_tts",
+      "flux4b_4steps"
+    ],
+    "ridge": {
+      "source": "exp23_prediction_cache",
+      "path": "results/exp23_10action_distill_preds_am.npz"
+    },
+    "rows": [
+      {
+        "pool_size": 1,
+        "added_action": "qwen_50steps",
+        "actions": [
+          "qwen_50steps"
+        ],
+        "costs": [
+          10.0
+        ],
+        "quality": {
+          "qwen50": 0.7300489544868469,
+          "oracle": 0.7300489544868469,
+          "lp": 0.7300489544868469,
+          "ridge": 0.7300489544868469
+        },
+        "cumulative_gain_vs_qwen50": {
+          "oracle": 0.0,
+          "lp": 0.0,
+          "ridge": 0.0
+        },
+        "step_delta": {
+          "oracle": 0.0,
+          "lp": 0.0,
+          "ridge": 0.0
+        },
+        "ridge_over_lp": 0.0,
+        "oracle_gap": 0.0,
+        "policy_cost": {
+          "oracle": 10.0,
+          "lp": 10.0,
+          "ridge": 10.0
+        },
+        "ridge_allocation": {
+          "qwen_10steps": 0.0,
+          "qwen_50steps": 1.0,
+          "qwen_tts": 0.0,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "lp_allocation": {
+          "qwen_10steps": 0.0,
+          "qwen_50steps": 1.0,
+          "qwen_tts": 0.0,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "oracle_allocation": {
+          "qwen_10steps": 0.0,
+          "qwen_50steps": 1.0,
+          "qwen_tts": 0.0,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        }
+      },
+      {
+        "pool_size": 2,
+        "added_action": "qwen_10steps",
+        "actions": [
+          "qwen_50steps",
+          "qwen_10steps"
+        ],
+        "costs": [
+          10.0,
+          2.0
+        ],
+        "quality": {
+          "qwen50": 0.7300489544868469,
+          "oracle": 0.7483948469161987,
+          "lp": 0.7300489544868469,
+          "ridge": 0.7274430990219116
+        },
+        "cumulative_gain_vs_qwen50": {
+          "oracle": 0.018345892429351807,
+          "lp": 0.0,
+          "ridge": -0.0026058554649353027
+        },
+        "step_delta": {
+          "oracle": 0.018345892429351807,
+          "lp": 0.0,
+          "ridge": -0.0026058554649353027
+        },
+        "ridge_over_lp": -0.0026058554649353027,
+        "oracle_gap": 0.02095174789428711,
+        "policy_cost": {
+          "oracle": 6.61,
+          "lp": 10.0,
+          "ridge": 7.47
+        },
+        "ridge_allocation": {
+          "qwen_10steps": 0.31625,
+          "qwen_50steps": 0.68375,
+          "qwen_tts": 0.0,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "lp_allocation": {
+          "qwen_10steps": 0.0,
+          "qwen_50steps": 1.0,
+          "qwen_tts": 0.0,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "oracle_allocation": {
+          "qwen_10steps": 0.42375,
+          "qwen_50steps": 0.57625,
+          "qwen_tts": 0.0,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        }
+      },
+      {
+        "pool_size": 3,
+        "added_action": "qwen_tts",
+        "actions": [
+          "qwen_50steps",
+          "qwen_10steps",
+          "qwen_tts"
+        ],
+        "costs": [
+          10.0,
+          2.0,
+          30.5
+        ],
+        "quality": {
+          "qwen50": 0.7300489544868469,
+          "oracle": 0.7953003751088494,
+          "lp": 0.7481036374443456,
+          "ridge": 0.7627707785740087
+        },
+        "cumulative_gain_vs_qwen50": {
+          "oracle": 0.06525142062200251,
+          "lp": 0.01805468295749868,
+          "ridge": 0.03272182408716173
+        },
+        "step_delta": {
+          "oracle": 0.0469055281926507,
+          "lp": 0.01805468295749868,
+          "ridge": 0.035327679552097035
+        },
+        "ridge_over_lp": 0.014667141129663053,
+        "oracle_gap": 0.03252959653484078,
+        "policy_cost": {
+          "oracle": 10.0,
+          "lp": 10.0,
+          "ridge": 10.0
+        },
+        "ridge_allocation": {
+          "qwen_10steps": 0.642617743702081,
+          "qwen_50steps": 0.10660460021905804,
+          "qwen_tts": 0.2507776560788609,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "lp_allocation": {
+          "qwen_10steps": 0.7192982456140351,
+          "qwen_50steps": 0.0,
+          "qwen_tts": 0.2807017543859649,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "oracle_allocation": {
+          "qwen_10steps": 0.5995547945205479,
+          "qwen_50steps": 0.16647260273972603,
+          "qwen_tts": 0.23397260273972603,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        }
+      },
+      {
+        "pool_size": 4,
+        "added_action": "flux_10steps",
+        "actions": [
+          "qwen_50steps",
+          "qwen_10steps",
+          "qwen_tts",
+          "flux_10steps"
+        ],
+        "costs": [
+          10.0,
+          2.0,
+          30.5,
+          4.7
+        ],
+        "quality": {
+          "qwen50": 0.7300489544868469,
+          "oracle": 0.8295466595629819,
+          "lp": 0.7610042162181796,
+          "ridge": 0.7782037016411184
+        },
+        "cumulative_gain_vs_qwen50": {
+          "oracle": 0.09949770507613498,
+          "lp": 0.030955261731332673,
+          "ridge": 0.04815474715427148
+        },
+        "step_delta": {
+          "oracle": 0.03424628445413247,
+          "lp": 0.012900578773833993,
+          "ridge": 0.01543292306710975
+        },
+        "ridge_over_lp": 0.01719948542293881,
+        "oracle_gap": 0.0513429579218635,
+        "policy_cost": {
+          "oracle": 10.0,
+          "lp": 10.0,
+          "ridge": 10.0
+        },
+        "ridge_allocation": {
+          "qwen_10steps": 0.3126153391735347,
+          "qwen_50steps": 0.09104223099533168,
+          "qwen_tts": 0.2194394415307475,
+          "flux_10steps": 0.37690298830038615,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "lp_allocation": {
+          "qwen_10steps": 0.0,
+          "qwen_50steps": 0.0,
+          "qwen_tts": 0.20542635658914726,
+          "flux_10steps": 0.7945736434108528,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "oracle_allocation": {
+          "qwen_10steps": 0.26804373996789727,
+          "qwen_50steps": 0.12910313001605137,
+          "qwen_tts": 0.2069562600321027,
+          "flux_10steps": 0.39589686998394863,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        }
+      },
+      {
+        "pool_size": 5,
+        "added_action": "flux_50steps",
+        "actions": [
+          "qwen_50steps",
+          "qwen_10steps",
+          "qwen_tts",
+          "flux_10steps",
+          "flux_50steps"
+        ],
+        "costs": [
+          10.0,
+          2.0,
+          30.5,
+          4.7,
+          23.1
+        ],
+        "quality": {
+          "qwen50": 0.7300489544868469,
+          "oracle": 0.8314574446594506,
+          "lp": 0.7610042162181796,
+          "ridge": 0.7781955211319331
+        },
+        "cumulative_gain_vs_qwen50": {
+          "oracle": 0.10140849017260367,
+          "lp": 0.030955261731332673,
+          "ridge": 0.04814656664508621
+        },
+        "step_delta": {
+          "oracle": 0.0019107850964686923,
+          "lp": 0.0,
+          "ridge": -8.180509185273799e-06
+        },
+        "ridge_over_lp": 0.017191304913753536,
+        "oracle_gap": 0.05326192352751746,
+        "policy_cost": {
+          "oracle": 10.0,
+          "lp": 10.0,
+          "ridge": 10.0
+        },
+        "ridge_allocation": {
+          "qwen_10steps": 0.31562881571127566,
+          "qwen_50steps": 0.09024683937543897,
+          "qwen_tts": 0.21250817170025388,
+          "flux_10steps": 0.3712260251769409,
+          "flux_50steps": 0.010390148036090544,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "lp_allocation": {
+          "qwen_10steps": 0.0,
+          "qwen_50steps": 0.0,
+          "qwen_tts": 0.20542635658914726,
+          "flux_10steps": 0.7945736434108528,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "oracle_allocation": {
+          "qwen_10steps": 0.28667543859649125,
+          "qwen_50steps": 0.1175,
+          "qwen_tts": 0.16582456140350874,
+          "flux_10steps": 0.36625,
+          "flux_50steps": 0.06375,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        }
+      },
+      {
+        "pool_size": 6,
+        "added_action": "flux_tts",
+        "actions": [
+          "qwen_50steps",
+          "qwen_10steps",
+          "qwen_tts",
+          "flux_10steps",
+          "flux_50steps",
+          "flux_tts"
+        ],
+        "costs": [
+          10.0,
+          2.0,
+          30.5,
+          4.7,
+          23.1,
+          44.9
+        ],
+        "quality": {
+          "qwen50": 0.7300489544868469,
+          "oracle": 0.8319706170153655,
+          "lp": 0.7610042162181796,
+          "ridge": 0.7781682324780903
+        },
+        "cumulative_gain_vs_qwen50": {
+          "oracle": 0.10192166252851853,
+          "lp": 0.030955261731332673,
+          "ridge": 0.04811927799124338
+        },
+        "step_delta": {
+          "oracle": 0.0005131723559148593,
+          "lp": 0.0,
+          "ridge": -2.7288653842827415e-05
+        },
+        "ridge_over_lp": 0.017164016259910708,
+        "oracle_gap": 0.05380238453727515,
+        "policy_cost": {
+          "oracle": 10.0,
+          "lp": 10.0,
+          "ridge": 10.0
+        },
+        "ridge_allocation": {
+          "qwen_10steps": 0.31861146688274355,
+          "qwen_50steps": 0.08981186941293323,
+          "qwen_tts": 0.20871771916984674,
+          "flux_10steps": 0.3705470751215433,
+          "flux_50steps": 0.00897276386638088,
+          "flux_tts": 0.0033391055465523526,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "lp_allocation": {
+          "qwen_10steps": 0.0,
+          "qwen_50steps": 0.0,
+          "qwen_tts": 0.20542635658914726,
+          "flux_10steps": 0.7945736434108528,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "oracle_allocation": {
+          "qwen_10steps": 0.29258805513016845,
+          "qwen_50steps": 0.1175,
+          "qwen_tts": 0.15366194486983156,
+          "flux_10steps": 0.36642611026033695,
+          "flux_50steps": 0.05982388973966313,
+          "flux_tts": 0.01,
+          "boogu_10steps": 0.0,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        }
+      },
+      {
+        "pool_size": 7,
+        "added_action": "boogu_10steps",
+        "actions": [
+          "qwen_50steps",
+          "qwen_10steps",
+          "qwen_tts",
+          "flux_10steps",
+          "flux_50steps",
+          "flux_tts",
+          "boogu_10steps"
+        ],
+        "costs": [
+          10.0,
+          2.0,
+          30.5,
+          4.7,
+          23.1,
+          44.9,
+          4.3
+        ],
+        "quality": {
+          "qwen50": 0.7300489544868469,
+          "oracle": 0.8540281182841251,
+          "lp": 0.7919252624038522,
+          "ridge": 0.7993950282157736
+        },
+        "cumulative_gain_vs_qwen50": {
+          "oracle": 0.12397916379727814,
+          "lp": 0.06187630791700527,
+          "ridge": 0.06934607372892665
+        },
+        "step_delta": {
+          "oracle": 0.022057501268759605,
+          "lp": 0.030921046185672596,
+          "ridge": 0.02122679573768327
+        },
+        "ridge_over_lp": 0.0074697658119213806,
+        "oracle_gap": 0.054633090068351486,
+        "policy_cost": {
+          "oracle": 10.0,
+          "lp": 10.0,
+          "ridge": 10.0
+        },
+        "ridge_allocation": {
+          "qwen_10steps": 0.13341070921985812,
+          "qwen_50steps": 0.06339468085106384,
+          "qwen_tts": 0.17107070921985823,
+          "flux_10steps": 0.1554001418439716,
+          "flux_50steps": 0.022144680851063834,
+          "flux_tts": 0.016870992907801426,
+          "boogu_10steps": 0.4377080851063829,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "lp_allocation": {
+          "qwen_10steps": 0.0,
+          "qwen_50steps": 0.0,
+          "qwen_tts": 0.21755725190839695,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.7824427480916031,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "oracle_allocation": {
+          "qwen_10steps": 0.1593421052631579,
+          "qwen_50steps": 0.08,
+          "qwen_tts": 0.13815789473684212,
+          "flux_10steps": 0.195,
+          "flux_50steps": 0.06125,
+          "flux_tts": 0.01875,
+          "boogu_10steps": 0.3475,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        }
+      },
+      {
+        "pool_size": 8,
+        "added_action": "boogu_50steps",
+        "actions": [
+          "qwen_50steps",
+          "qwen_10steps",
+          "qwen_tts",
+          "flux_10steps",
+          "flux_50steps",
+          "flux_tts",
+          "boogu_10steps",
+          "boogu_50steps"
+        ],
+        "costs": [
+          10.0,
+          2.0,
+          30.5,
+          4.7,
+          23.1,
+          44.9,
+          4.3,
+          21.5
+        ],
+        "quality": {
+          "qwen50": 0.7300489544868469,
+          "oracle": 0.8582444787025452,
+          "lp": 0.7919252624038522,
+          "ridge": 0.8017456201008867
+        },
+        "cumulative_gain_vs_qwen50": {
+          "oracle": 0.12819552421569824,
+          "lp": 0.06187630791700527,
+          "ridge": 0.07169666561403976
+        },
+        "step_delta": {
+          "oracle": 0.0042163604184201064,
+          "lp": 0.0,
+          "ridge": 0.002350591885113107
+        },
+        "ridge_over_lp": 0.009820357697034487,
+        "oracle_gap": 0.056498858601658486,
+        "policy_cost": {
+          "oracle": 10.0,
+          "lp": 10.0,
+          "ridge": 10.0
+        },
+        "ridge_allocation": {
+          "qwen_10steps": 0.14777377797033486,
+          "qwen_50steps": 0.05648433916101738,
+          "qwen_tts": 0.11886659615678678,
+          "flux_10steps": 0.15722679545338702,
+          "flux_50steps": 0.017968678322034762,
+          "flux_tts": 0.008320187063560833,
+          "boogu_10steps": 0.3849228426525307,
+          "boogu_50steps": 0.10843678322034761,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "lp_allocation": {
+          "qwen_10steps": 0.0,
+          "qwen_50steps": 0.0,
+          "qwen_tts": 0.21755725190839695,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.7824427480916031,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "oracle_allocation": {
+          "qwen_10steps": 0.16480263157894737,
+          "qwen_50steps": 0.07375,
+          "qwen_tts": 0.09269736842105265,
+          "flux_10steps": 0.19125,
+          "flux_50steps": 0.0375,
+          "flux_tts": 0.01,
+          "boogu_10steps": 0.3112500000000001,
+          "boogu_50steps": 0.11875,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        }
+      },
+      {
+        "pool_size": 9,
+        "added_action": "boogu_tts",
+        "actions": [
+          "qwen_50steps",
+          "qwen_10steps",
+          "qwen_tts",
+          "flux_10steps",
+          "flux_50steps",
+          "flux_tts",
+          "boogu_10steps",
+          "boogu_50steps",
+          "boogu_tts"
+        ],
+        "costs": [
+          10.0,
+          2.0,
+          30.5,
+          4.7,
+          23.1,
+          44.9,
+          4.3,
+          21.5,
+          64.8
+        ],
+        "quality": {
+          "qwen50": 0.7300489544868469,
+          "oracle": 0.8582558033830028,
+          "lp": 0.7919252624038522,
+          "ridge": 0.8017456201008867
+        },
+        "cumulative_gain_vs_qwen50": {
+          "oracle": 0.12820684889615586,
+          "lp": 0.06187630791700527,
+          "ridge": 0.07169666561403976
+        },
+        "step_delta": {
+          "oracle": 1.1324680457613923e-05,
+          "lp": 0.0,
+          "ridge": 0.0
+        },
+        "ridge_over_lp": 0.009820357697034487,
+        "oracle_gap": 0.0565101832821161,
+        "policy_cost": {
+          "oracle": 10.0,
+          "lp": 10.0,
+          "ridge": 10.0
+        },
+        "ridge_allocation": {
+          "qwen_10steps": 0.14777377797033486,
+          "qwen_50steps": 0.05648433916101738,
+          "qwen_tts": 0.11886659615678678,
+          "flux_10steps": 0.15722679545338702,
+          "flux_50steps": 0.017968678322034762,
+          "flux_tts": 0.008320187063560833,
+          "boogu_10steps": 0.3849228426525307,
+          "boogu_50steps": 0.10843678322034761,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "lp_allocation": {
+          "qwen_10steps": 0.0,
+          "qwen_50steps": 0.0,
+          "qwen_tts": 0.21755725190839695,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.7824427480916031,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "oracle_allocation": {
+          "qwen_10steps": 0.165,
+          "qwen_50steps": 0.07375,
+          "qwen_tts": 0.0925,
+          "flux_10steps": 0.19207203389830507,
+          "flux_50steps": 0.03667796610169494,
+          "flux_tts": 0.00917796610169494,
+          "boogu_10steps": 0.31207203389830507,
+          "boogu_50steps": 0.1175,
+          "boogu_tts": 0.00125,
+          "flux4b_4steps": 0.0
+        }
+      },
+      {
+        "pool_size": 10,
+        "added_action": "flux4b_4steps",
+        "actions": [
+          "qwen_50steps",
+          "qwen_10steps",
+          "qwen_tts",
+          "flux_10steps",
+          "flux_50steps",
+          "flux_tts",
+          "boogu_10steps",
+          "boogu_50steps",
+          "boogu_tts",
+          "flux4b_4steps"
+        ],
+        "costs": [
+          10.0,
+          2.0,
+          30.5,
+          4.7,
+          23.1,
+          44.9,
+          4.3,
+          21.5,
+          64.8,
+          0.455
+        ],
+        "quality": {
+          "qwen50": 0.7300489544868469,
+          "oracle": 0.866464475816993,
+          "lp": 0.7919252624038522,
+          "ridge": 0.8017415206806221
+        },
+        "cumulative_gain_vs_qwen50": {
+          "oracle": 0.13641552133014612,
+          "lp": 0.06187630791700527,
+          "ridge": 0.07169256619377518
+        },
+        "step_delta": {
+          "oracle": 0.00820867243399026,
+          "lp": 0.0,
+          "ridge": -4.0994202645805444e-06
+        },
+        "ridge_over_lp": 0.009816258276769907,
+        "oracle_gap": 0.06472295513637094,
+        "policy_cost": {
+          "oracle": 10.0,
+          "lp": 10.0,
+          "ridge": 10.0
+        },
+        "ridge_allocation": {
+          "qwen_10steps": 0.11414877169506737,
+          "qwen_50steps": 0.03496676902541106,
+          "qwen_tts": 0.1304192256352763,
+          "flux_10steps": 0.11019938584753368,
+          "flux_50steps": 0.012400307076233156,
+          "flux_tts": 0.01233384512705526,
+          "boogu_10steps": 0.3011963150852021,
+          "boogu_50steps": 0.12646983978774262,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.15786554072047843
+        },
+        "lp_allocation": {
+          "qwen_10steps": 0.0,
+          "qwen_50steps": 0.0,
+          "qwen_tts": 0.21755725190839695,
+          "flux_10steps": 0.0,
+          "flux_50steps": 0.0,
+          "flux_tts": 0.0,
+          "boogu_10steps": 0.7824427480916031,
+          "boogu_50steps": 0.0,
+          "boogu_tts": 0.0,
+          "flux4b_4steps": 0.0
+        },
+        "oracle_allocation": {
+          "qwen_10steps": 0.11899252853905681,
+          "qwen_50steps": 0.049757471460943184,
+          "qwen_tts": 0.10350747146094318,
+          "flux_10steps": 0.12774252853905682,
+          "flux_50steps": 0.038507471460943174,
+          "flux_tts": 0.01375,
+          "boogu_10steps": 0.21899252853905685,
+          "boogu_50steps": 0.1275,
+          "boogu_tts": 0.003507471460943177,
+          "flux4b_4steps": 0.19774252853905683
+        }
+      }
+    ],
+    "notes": [
+      "Geneval2 is reported with both GM and AM score aggregation.",
+      "All policies satisfy E[c] <= 10, the qwen_50steps anchor cost.",
+      "Ridge is the only learned predictor; no GPU predictor is used.",
+      "Each action has an independent Ridge regressor, so cached full-pool predictions can be sliced exactly.",
+      "Step deltas are conditional on this fixed registry order and are not order-invariant action contributions."
+    ]
+  }
+]

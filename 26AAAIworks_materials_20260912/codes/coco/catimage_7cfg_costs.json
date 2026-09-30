@@ -1,0 +1,20 @@
+{
+  "description": "CATImage 复现实验的 7-cfg 池成本表（与论文 Table 1 口径对齐；SDXL base 11.97 TFLOPs/步，cfg=7.5 双前向 @1024）",
+  "basis": {
+    "paper_table1": {"Infinity": 1.5, "Turbo": 1.54, "Lightning": 23.92, "SDXL-9": 107.73,
+                      "DeepCache": 210, "SDXL-22": 263.34, "DDIM-50": 598.5, "SDXL-65": 778.05},
+    "sdxl_tflops_per_step": 11.97,
+    "note": "turbo=512²/cfg0 单前向；lightning=1024²/cfg0 单前向；base/low/high/ddim/deepcache=1024²/cfg7.5"
+  },
+  "cfgs": ["infinity_1step", "sdxl_turbo_1step", "sdxl_lightning_4steps",
+           "sdxl_low_10steps", "sdxl_deepcache_50steps",
+           "sdxl_ddim_50steps", "sdxl_high_50steps"],
+  "costs_tflops": [1.5, 1.54, 23.92, 119.7, 210.0, 598.5, 598.5],
+  "model_steps": {"infinity": "1", "sdxl_turbo": "1", "sdxl_lightning": "4",
+                  "sdxl_low": "10", "sdxl_deepcache": "50",
+                  "sdxl_ddim": "50", "sdxl_high": "50"},
+  "other_steps_tflops": {
+    "sdxl_low": {"1": 11.97, "5": 59.85, "10": 119.7, "20": 239.4},
+    "sdxl_high": {"50": 598.5, "100": 1197.0}
+  }
+}

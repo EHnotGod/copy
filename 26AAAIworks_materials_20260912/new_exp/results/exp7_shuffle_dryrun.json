@@ -1,0 +1,31 @@
+[
+  {
+    "dataset": "gm",
+    "model": "qwen",
+    "oracle": 0.4058140317598979,
+    "lp": 0.29996511052574826,
+    "always_50steps": 0.24819912016391754,
+    "conditions": [
+      "real",
+      "intra_shuffle",
+      "full_shuffle"
+    ],
+    "results": {
+      "real": {
+        "ridge": 0.30860396435386256,
+        "knn": 0.3164259173368153,
+        "tf": null
+      },
+      "intra_shuffle": {
+        "ridge": 0.3046017910707443,
+        "knn": 0.3001932778902221,
+        "tf": null
+      },
+      "full_shuffle": {
+        "ridge": 0.28813747983229787,
+        "knn": 0.30258535763673616,
+        "tf": null
+      }
+    }
+  }
+]

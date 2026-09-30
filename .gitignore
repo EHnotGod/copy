@@ -1,0 +1,8 @@
+# 大文件 / 数据 / 缓存
+codes/.cache_clip/
+*.zip
+*.npz
+*.pt
+*.pth
+*.bin
+*.ckpt

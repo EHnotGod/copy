@@ -1,0 +1,3157 @@
+{
+  "experiment": "exp28_conditional_probe",
+  "dataset": "gm",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "split": {
+    "train": 2200,
+    "validation": 200,
+    "test": 800
+  },
+  "budget": 10.0,
+  "coverage_candidates": [
+    0.0,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "assumed_evaluator_costs": [
+    0.0,
+    0.5,
+    1.0,
+    2.0,
+    3.0,
+    4.0
+  ],
+  "gate": "lowest prompt cost-adjusted top-two margin",
+  "coverage_selection": "maximum true quality on source validation only",
+  "aggregate": {
+    "0.0": {
+      "assumed_evaluator_cost": 0.0,
+      "quality_mean": 0.40032741895836654,
+      "quality_seed_std": 0.0017787947855309317,
+      "gain_vs_prompt_original_mean": 0.01969112060696052,
+      "gain_seed_std": 0.0015492814675891228,
+      "gain_mean_over_splits_paired_bootstrap_ci95": [
+        0.00894939041405706,
+        0.0310161749675784
+      ],
+      "test_gate_fraction_mean": 0.7433333333333333,
+      "selected_validation_coverages": [
+        0.75,
+        1.0,
+        0.5
+      ],
+      "per_seed": [
+        {
+          "assumed_evaluator_cost": 0.0,
+          "selected_validation_coverage": 0.75,
+          "validation_gate_fraction": 0.75,
+          "test_gate_fraction": 0.73625,
+          "gate_margin_threshold": 0.06359778406195804,
+          "validation_quality": 0.36903519661285,
+          "test_policy": {
+            "quality": 0.3988370610154894,
+            "cost": 10.0,
+            "allocation": [
+              0.14525719178082183,
+              0.03924640410958907,
+              0.1842464041095891,
+              0.06875,
+              0.0,
+              0.0,
+              0.34125,
+              0.065,
+              0.0025,
+              0.15375
+            ],
+            "predicted_quality": 0.43853004916890026,
+            "mixture": {
+              "lambda_low": 0.004577288644322161,
+              "lambda_high": 0.004527263631815908,
+              "high_weight": 0.3971232876712619
+            }
+          },
+          "gain_vs_prompt_original": 0.020024322280091333,
+          "gain_ci95": [
+            0.006773878518490138,
+            0.033561693499293443
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3788127387353981,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.125,
+              "quality": 0.3823921333035419,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0035793945681437678
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.2725,
+              "quality": 0.3892719813991924,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.010459242663794277
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.4925,
+              "quality": 0.3926712701539606,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.01385853141856247
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.73625,
+              "quality": 0.3988370610154894,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.020024322280091267
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3996759539602595,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.020863215224861398
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 0.0,
+          "selected_validation_coverage": 1.0,
+          "validation_gate_fraction": 1.0,
+          "test_gate_fraction": 1.0,
+          "gate_margin_threshold": Infinity,
+          "validation_quality": 0.32303245506242606,
+          "test_policy": {
+            "quality": 0.4028276737786291,
+            "cost": 10.0,
+            "allocation": [
+              0.07391967773437498,
+              0.00375,
+              0.17199096679687503,
+              0.0725,
+              0.0012500000000000002,
+              0.0025000000000000005,
+              0.38283935546875,
+              0.08483032226562501,
+              0.0025000000000000005,
+              0.203919677734375
+            ],
+            "predicted_quality": 0.41900904360227287,
+            "mixture": {
+              "lambda_low": 0.004752376188094047,
+              "lambda_high": 0.004727363681840921,
+              "high_weight": 0.8642578125000061
+            }
+          },
+          "gain_vs_prompt_original": 0.02139992428209113,
+          "gain_ci95": [
+            0.004985325346424095,
+            0.03769841627976156
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.38142774949653796,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.08375,
+              "quality": 0.3849298496055177,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.003502100108979722
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.225,
+              "quality": 0.38767986556570677,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.006252116069168812
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.41625,
+              "quality": 0.39531070947615937,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.013882959979621412
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.6575,
+              "quality": 0.3987134007879431,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.017285651291405135
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.4028276737786291,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.021399924282091143
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 0.0,
+          "selected_validation_coverage": 0.5,
+          "validation_gate_fraction": 0.5,
+          "test_gate_fraction": 0.49375,
+          "gate_margin_threshold": 0.036687280692108984,
+          "validation_quality": 0.38298361754454346,
+          "test_policy": {
+            "quality": 0.3993175220809811,
+            "cost": 10.0,
+            "allocation": [
+              0.105,
+              0.005,
+              0.18885712652439024,
+              0.08864287347560974,
+              0.00125,
+              0.0,
+              0.40967862042682923,
+              0.05135712652439024,
+              0.006464253048780496,
+              0.14375
+            ],
+            "predicted_quality": 0.44436072706540186,
+            "mixture": {
+              "lambda_low": 0.005102551275637819,
+              "lambda_high": 0.005027513756878439,
+              "high_weight": 0.0857012195121979
+            }
+          },
+          "gain_vs_prompt_original": 0.017649115258699093,
+          "gain_ci95": [
+            0.006853572651551123,
+            0.028714111965091556
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.381668406822282,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.1125,
+              "quality": 0.38648513516465327,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.00481672834237129
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.245,
+              "quality": 0.39197422773185414,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.010305820909572161
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.49375,
+              "quality": 0.3993175220809811,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.01764911525869911
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.72875,
+              "quality": 0.40065507883697493,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.01898667201469295
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.40744727608402875,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.025778869261746773
+            }
+          }
+        }
+      ]
+    },
+    "0.5": {
+      "assumed_evaluator_cost": 0.5,
+      "quality_mean": 0.3977392635113623,
+      "quality_seed_std": 0.0017782937457955744,
+      "gain_vs_prompt_original_mean": 0.01710296515995625,
+      "gain_seed_std": 0.0006992958289830872,
+      "gain_mean_over_splits_paired_bootstrap_ci95": [
+        0.006264150705494824,
+        0.027901553192270202
+      ],
+      "test_gate_fraction_mean": 0.7433333333333333,
+      "selected_validation_coverages": [
+        0.75,
+        1.0,
+        0.5
+      ],
+      "per_seed": [
+        {
+          "assumed_evaluator_cost": 0.5,
+          "selected_validation_coverage": 0.75,
+          "validation_gate_fraction": 0.75,
+          "test_gate_fraction": 0.73625,
+          "gate_margin_threshold": 0.06359778406195804,
+          "validation_quality": 0.36949416472176383,
+          "test_policy": {
+            "quality": 0.3953073803067776,
+            "cost": 10.0,
+            "allocation": [
+              0.14744758858267715,
+              0.04,
+              0.17385482283464568,
+              0.07,
+              0.0,
+              0.0,
+              0.3499475885826771,
+              0.06005241141732284,
+              0.0025,
+              0.15619758858267715
+            ],
+            "predicted_quality": 0.436829991556528,
+            "mixture": {
+              "lambda_low": 0.004677338669334668,
+              "lambda_high": 0.004652326163081541,
+              "high_weight": 0.04192913385827954
+            }
+          },
+          "gain_vs_prompt_original": 0.016494641571379517,
+          "gain_ci95": [
+            0.003555271244545523,
+            0.02994229178219076
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3788127387353981,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.125,
+              "quality": 0.38216209297063974,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0033493542352416306
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.2725,
+              "quality": 0.3887142445174888,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.009901505782090703
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.4925,
+              "quality": 0.3902531303468588,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.01144039161146071
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.73625,
+              "quality": 0.3953073803067776,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.016494641571379476
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3961476815095639,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.017334942774165807
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 0.5,
+          "selected_validation_coverage": 1.0,
+          "validation_gate_fraction": 1.0,
+          "test_gate_fraction": 1.0,
+          "gate_margin_threshold": Infinity,
+          "validation_quality": 0.32595010651604456,
+          "test_policy": {
+            "quality": 0.3995101384690656,
+            "cost": 10.0,
+            "allocation": [
+              0.07726863354037265,
+              0.00375,
+              0.15569409937888207,
+              0.07476863354037264,
+              0.00125,
+              0.0025,
+              0.39601863354037264,
+              0.08125,
+              0.0025,
+              0.205
+            ],
+            "predicted_quality": 0.41660696064463315,
+            "mixture": {
+              "lambda_low": 0.00487743871935968,
+              "lambda_high": 0.004852426213106553,
+              "high_weight": 0.18509316770188056
+            }
+          },
+          "gain_vs_prompt_original": 0.018082388972527563,
+          "gain_ci95": [
+            0.0018265281114948205,
+            0.034139769124629876
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.38142774949653796,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.08375,
+              "quality": 0.38468987096614504,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.003262121469607082
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.225,
+              "quality": 0.3871178704943634,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.005690120997825454
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.41625,
+              "quality": 0.39524842918104425,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.013820679684506287
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.6575,
+              "quality": 0.39675475664027404,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.015327007143736082
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3995101384690656,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.01808238897252762
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 0.5,
+          "selected_validation_coverage": 0.5,
+          "validation_gate_fraction": 0.5,
+          "test_gate_fraction": 0.49375,
+          "gate_margin_threshold": 0.036687280692108984,
+          "validation_quality": 0.3811467425504878,
+          "test_policy": {
+            "quality": 0.39840027175824366,
+            "cost": 10.0,
+            "allocation": [
+              0.10604144736842097,
+              0.005,
+              0.187708552631579,
+              0.08874999999999998,
+              0.00125,
+              0.0,
+              0.41375,
+              0.04875,
+              0.0037499999999999994,
+              0.14499999999999996
+            ],
+            "predicted_quality": 0.44308890673675033,
+            "mixture": {
+              "lambda_low": 0.005227613806903452,
+              "lambda_high": 0.0051775887943971985,
+              "high_weight": 0.16684210526321358
+            }
+          },
+          "gain_vs_prompt_original": 0.01673186493596167,
+          "gain_ci95": [
+            0.0059196756784423024,
+            0.02730296418769847
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.381668406822282,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.1125,
+              "quality": 0.3862834204357773,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.004615013613495311
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.245,
+              "quality": 0.39159819258925116,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.00992978576696918
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.49375,
+              "quality": 0.39840027175824366,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.016731864935961682
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.72875,
+              "quality": 0.39670883573862925,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.01504042891634727
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.4038001521737708,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.02213174535148882
+            }
+          }
+        }
+      ]
+    },
+    "1.0": {
+      "assumed_evaluator_cost": 1.0,
+      "quality_mean": 0.3954198646383232,
+      "quality_seed_std": 0.0015618270945301689,
+      "gain_vs_prompt_original_mean": 0.01478356628691715,
+      "gain_seed_std": 0.0006662432898851335,
+      "gain_mean_over_splits_paired_bootstrap_ci95": [
+        0.004050375396725563,
+        0.02616409979657934
+      ],
+      "test_gate_fraction_mean": 0.7433333333333333,
+      "selected_validation_coverages": [
+        0.75,
+        1.0,
+        0.5
+      ],
+      "per_seed": [
+        {
+          "assumed_evaluator_cost": 1.0,
+          "selected_validation_coverage": 0.75,
+          "validation_gate_fraction": 0.75,
+          "test_gate_fraction": 0.73625,
+          "gate_margin_threshold": 0.06359778406195804,
+          "validation_quality": 0.367755119737984,
+          "test_policy": {
+            "quality": 0.3934904676618677,
+            "cost": 10.0,
+            "allocation": [
+              0.14875,
+              0.04,
+              0.16323894230769231,
+              0.0725,
+              0.0,
+              0.0,
+              0.3567610576923077,
+              0.0575,
+              0.0019889423076923035,
+              0.1592610576923077
+            ],
+            "predicted_quality": 0.4350863782259134,
+            "mixture": {
+              "lambda_low": 0.004802401200600301,
+              "lambda_high": 0.004777388694347174,
+              "high_weight": 0.5911538461538429
+            }
+          },
+          "gain_vs_prompt_original": 0.014677728926469591,
+          "gain_ci95": [
+            0.0012243654967280507,
+            0.027814524146496027
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3788127387353981,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.125,
+              "quality": 0.3815846189149694,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0027718801795713066
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.2725,
+              "quality": 0.38868605318585636,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.009873314450458248
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.4925,
+              "quality": 0.38939365768507883,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.010580918949680718
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.73625,
+              "quality": 0.3934904676618677,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.014677728926469569
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.393284189042377,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.014471450306978884
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 1.0,
+          "selected_validation_coverage": 1.0,
+          "validation_gate_fraction": 1.0,
+          "test_gate_fraction": 1.0,
+          "gate_margin_threshold": Infinity,
+          "validation_quality": 0.32504882487679704,
+          "test_policy": {
+            "quality": 0.39545342066148664,
+            "cost": 10.0,
+            "allocation": [
+              0.08,
+              0.00375,
+              0.1424528301886793,
+              0.0766823899371069,
+              0.00125,
+              0.0025,
+              0.40379716981132074,
+              0.0783176100628931,
+              0.00125,
+              0.21000000000000002
+            ],
+            "predicted_quality": 0.4141411948129067,
+            "mixture": {
+              "lambda_low": 0.005002501250625313,
+              "lambda_high": 0.004977488744372187,
+              "high_weight": 0.6540880503144797
+            }
+          },
+          "gain_vs_prompt_original": 0.014025671164948607,
+          "gain_ci95": [
+            -0.0018372652340934233,
+            0.030448253968368838
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.38142774949653796,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.08375,
+              "quality": 0.3845376098741412,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0031098603776032463
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.225,
+              "quality": 0.38672048505688883,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.00529273556035087
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.41625,
+              "quality": 0.39328861785390296,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.011860868357364995
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.6575,
+              "quality": 0.3949352137135979,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.01350746421705995
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.39545342066148664,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.014025671164948683
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 1.0,
+          "selected_validation_coverage": 0.5,
+          "validation_gate_fraction": 0.5,
+          "test_gate_fraction": 0.49375,
+          "gate_margin_threshold": 0.036687280692108984,
+          "validation_quality": 0.37789805470376264,
+          "test_policy": {
+            "quality": 0.3973157055916153,
+            "cost": 10.0,
+            "allocation": [
+              0.10875000000000001,
+              0.005,
+              0.18,
+              0.09105245535714285,
+              0.00125,
+              0.0,
+              0.41875000000000007,
+              0.04644754464285715,
+              0.00375,
+              0.145
+            ],
+            "predicted_quality": 0.4417700630745718,
+            "mixture": {
+              "lambda_low": 0.005452726363181591,
+              "lambda_high": 0.005427713856928465,
+              "high_weight": 0.1580357142857234
+            }
+          },
+          "gain_vs_prompt_original": 0.01564729876933325,
+          "gain_ci95": [
+            0.005279664581604274,
+            0.026075777835891028
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.381668406822282,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.1125,
+              "quality": 0.3860502611610339,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.004381854338751934
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.245,
+              "quality": 0.3916615026020678,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.009993095779785799
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.49375,
+              "quality": 0.3973157055916153,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.015647298769333295
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.72875,
+              "quality": 0.3955596667358385,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.013891259913556497
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.4017724550074685,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.020104048185186518
+            }
+          }
+        }
+      ]
+    },
+    "2.0": {
+      "assumed_evaluator_cost": 2.0,
+      "quality_mean": 0.391621173608004,
+      "quality_seed_std": 0.0022036153174338057,
+      "gain_vs_prompt_original_mean": 0.010984875256598005,
+      "gain_seed_std": 0.0016706599437384538,
+      "gain_mean_over_splits_paired_bootstrap_ci95": [
+        0.0012022913331595118,
+        0.021641780753319753
+      ],
+      "test_gate_fraction_mean": 0.6291666666666665,
+      "selected_validation_coverages": [
+        0.75,
+        0.75,
+        0.5
+      ],
+      "per_seed": [
+        {
+          "assumed_evaluator_cost": 2.0,
+          "selected_validation_coverage": 0.75,
+          "validation_gate_fraction": 0.75,
+          "test_gate_fraction": 0.73625,
+          "gate_margin_threshold": 0.06359778406195804,
+          "validation_quality": 0.36563084521501255,
+          "test_policy": {
+            "quality": 0.38976238782699696,
+            "cost": 10.0,
+            "allocation": [
+              0.1525,
+              0.03875,
+              0.14513334923664123,
+              0.075,
+              0.0,
+              0.0,
+              0.3736166507633588,
+              0.051250000000000004,
+              0.0,
+              0.16375
+            ],
+            "predicted_quality": 0.431454188558664,
+            "mixture": {
+              "lambda_low": 0.005102551275637819,
+              "lambda_high": 0.005077538769384693,
+              "high_weight": 0.7022264631043256
+            }
+          },
+          "gain_vs_prompt_original": 0.010949649091598825,
+          "gain_ci95": [
+            -0.001877028077946016,
+            0.023885703595394735
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3788127387353981,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.125,
+              "quality": 0.38037206710058413,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.001559328365186019
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.2725,
+              "quality": 0.38757712260361366,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.008764383868215542
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.4925,
+              "quality": 0.3862585824945724,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0074458437591742865
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.73625,
+              "quality": 0.38976238782699696,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.010949649091598845
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.38811488649945614,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.009302147764058022
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 2.0,
+          "selected_validation_coverage": 0.75,
+          "validation_gate_fraction": 0.75,
+          "test_gate_fraction": 0.6575,
+          "gate_margin_threshold": 0.048896892557456176,
+          "validation_quality": 0.3248414264852604,
+          "test_policy": {
+            "quality": 0.3903843330701607,
+            "cost": 10.0,
+            "allocation": [
+              0.09256807795698924,
+              0.00375,
+              0.14486384408602154,
+              0.08631807795698923,
+              0.00125,
+              0.00125,
+              0.4213180779569892,
+              0.06611384408602154,
+              0.0,
+              0.18256807795698923
+            ],
+            "predicted_quality": 0.43010218143463136,
+            "mixture": {
+              "lambda_low": 0.005727863931965983,
+              "lambda_high": 0.00567783891945973,
+              "high_weight": 0.9455376344086122
+            }
+          },
+          "gain_vs_prompt_original": 0.008956583573622707,
+          "gain_ci95": [
+            -0.00386661892258832,
+            0.021130247230605022
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.38142774949653796,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.08375,
+              "quality": 0.3842330876901335,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.002805338193595519
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.225,
+              "quality": 0.3852245272128309,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.003796777716292943
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.41625,
+              "quality": 0.3898704240804052,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.008442674583867216
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.6575,
+              "quality": 0.3903843330701607,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.008956583573622723
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.389142063654328,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.007714314157790059
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 2.0,
+          "selected_validation_coverage": 0.5,
+          "validation_gate_fraction": 0.5,
+          "test_gate_fraction": 0.49375,
+          "gate_margin_threshold": 0.036687280692108984,
+          "validation_quality": 0.3715810236734461,
+          "test_policy": {
+            "quality": 0.39471679992685454,
+            "cost": 10.0,
+            "allocation": [
+              0.11273476239669422,
+              0.00625,
+              0.16875,
+              0.09101523760330578,
+              0.00125,
+              0.0,
+              0.43125,
+              0.039765237603305775,
+              0.0025,
+              0.14648476239669422
+            ],
+            "predicted_quality": 0.43899325951933865,
+            "mixture": {
+              "lambda_low": 0.005852926463231616,
+              "lambda_high": 0.00582791395697849,
+              "high_weight": 0.8121900826446214
+            }
+          },
+          "gain_vs_prompt_original": 0.01304839310457248,
+          "gain_ci95": [
+            0.001930813110636631,
+            0.024150777895030062
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.381668406822282,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.1125,
+              "quality": 0.3864272934747009,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.004758886652418914
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.245,
+              "quality": 0.390905028966867,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.009236622144585038
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.49375,
+              "quality": 0.39471679992685454,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.013048393104572564
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.72875,
+              "quality": 0.3912463909426661,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.009577984120384131
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.39580076445171986,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.014132357629437875
+            }
+          }
+        }
+      ]
+    },
+    "3.0": {
+      "assumed_evaluator_cost": 3.0,
+      "quality_mean": 0.38743998713998407,
+      "quality_seed_std": 0.0033413076777581477,
+      "gain_vs_prompt_original_mean": 0.006803688788578032,
+      "gain_seed_std": 0.002967837188011218,
+      "gain_mean_over_splits_paired_bootstrap_ci95": [
+        -0.004371589226412474,
+        0.01737103086601182
+      ],
+      "test_gate_fraction_mean": 0.7433333333333333,
+      "selected_validation_coverages": [
+        0.75,
+        1.0,
+        0.5
+      ],
+      "per_seed": [
+        {
+          "assumed_evaluator_cost": 3.0,
+          "selected_validation_coverage": 0.75,
+          "validation_gate_fraction": 0.75,
+          "test_gate_fraction": 0.73625,
+          "gate_margin_threshold": 0.06359778406195804,
+          "validation_quality": 0.369576460695766,
+          "test_policy": {
+            "quality": 0.38556113745368203,
+            "cost": 10.0,
+            "allocation": [
+              0.15899506578947364,
+              0.03475493421052634,
+              0.12475493421052633,
+              0.08,
+              0.0,
+              0.0,
+              0.39149506578947363,
+              0.042499999999999996,
+              0.0,
+              0.1675
+            ],
+            "predicted_quality": 0.42754905510105584,
+            "mixture": {
+              "lambda_low": 0.005577788894447224,
+              "lambda_high": 0.005552776388194097,
+              "high_weight": 0.9019736842105337
+            }
+          },
+          "gain_vs_prompt_original": 0.006748398718283938,
+          "gain_ci95": [
+            -0.006202981001488539,
+            0.019503636595556983
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3788127387353981,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.125,
+              "quality": 0.3802096210470026,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0013968823116045082
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.2725,
+              "quality": 0.38633403226982593,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.00752129353442782
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.4925,
+              "quality": 0.38275535085183676,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0039426121164386485
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.73625,
+              "quality": 0.38556113745368203,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.006748398718283921
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3816066502060431,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0027939114706450052
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 3.0,
+          "selected_validation_coverage": 1.0,
+          "validation_gate_fraction": 1.0,
+          "test_gate_fraction": 1.0,
+          "gate_margin_threshold": Infinity,
+          "validation_quality": 0.3228532085275279,
+          "test_policy": {
+            "quality": 0.3846245553429448,
+            "cost": 10.0,
+            "allocation": [
+              0.095,
+              0.00125,
+              0.09307136963696373,
+              0.08375,
+              0.0,
+              0.00125,
+              0.4545358910891088,
+              0.05114273927392747,
+              0.0,
+              0.22
+            ],
+            "predicted_quality": 0.4034145473942111,
+            "mixture": {
+              "lambda_low": 0.00575287643821911,
+              "lambda_high": 0.005727863931965983,
+              "high_weight": 0.45709570957098633
+            }
+          },
+          "gain_vs_prompt_original": 0.0031968058464068895,
+          "gain_ci95": [
+            -0.01197828028107284,
+            0.018881380853665974
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.38142774949653796,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.08375,
+              "quality": 0.3833516026521444,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0019238531556064475
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.225,
+              "quality": 0.3841119646964646,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0026842151999266206
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.41625,
+              "quality": 0.38904522886811677,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.007617479371578806
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.6575,
+              "quality": 0.3869648533186298,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.005537103822091827
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3846245553429448,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0031968058464068583
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 3.0,
+          "selected_validation_coverage": 0.5,
+          "validation_gate_fraction": 0.5,
+          "test_gate_fraction": 0.49375,
+          "gate_margin_threshold": 0.036687280692108984,
+          "validation_quality": 0.3689599173830321,
+          "test_policy": {
+            "quality": 0.39213426862332523,
+            "cost": 10.0,
+            "allocation": [
+              0.115,
+              0.00625,
+              0.15523586065573777,
+              0.09,
+              0.00125,
+              0.0,
+              0.4425,
+              0.0375,
+              0.00125,
+              0.15101413934426222
+            ],
+            "predicted_quality": 0.4359746401036372,
+            "mixture": {
+              "lambda_low": 0.006378189094547274,
+              "lambda_high": 0.0063281640820410205,
+              "high_weight": 0.18868852459022667
+            }
+          },
+          "gain_vs_prompt_original": 0.01046586180104327,
+          "gain_ci95": [
+            -0.0009007797091729668,
+            0.021565444455585045
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.381668406822282,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.1125,
+              "quality": 0.3865722041122271,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.004903797289945111
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.245,
+              "quality": 0.3899200509111761,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.008251644088894117
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.49375,
+              "quality": 0.39213426862332523,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.010465861801043252
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.72875,
+              "quality": 0.3872947459976814,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.005626339175399397
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.39012269477666756,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.008454287954385575
+            }
+          }
+        }
+      ]
+    },
+    "4.0": {
+      "assumed_evaluator_cost": 4.0,
+      "quality_mean": 0.3846727873682134,
+      "quality_seed_std": 0.0034104753868420233,
+      "gain_vs_prompt_original_mean": 0.004036489016807401,
+      "gain_seed_std": 0.002396362804071975,
+      "gain_mean_over_splits_paired_bootstrap_ci95": [
+        -0.004707871407390072,
+        0.012344252853375377
+      ],
+      "test_gate_fraction_mean": 0.54625,
+      "selected_validation_coverages": [
+        0.75,
+        0.75,
+        0.25
+      ],
+      "per_seed": [
+        {
+          "assumed_evaluator_cost": 4.0,
+          "selected_validation_coverage": 0.75,
+          "validation_gate_fraction": 0.75,
+          "test_gate_fraction": 0.73625,
+          "gate_margin_threshold": 0.06359778406195804,
+          "validation_quality": 0.3600746268619764,
+          "test_policy": {
+            "quality": 0.3807390739187986,
+            "cost": 10.0,
+            "allocation": [
+              0.17125,
+              0.02875,
+              0.10190815839694657,
+              0.08,
+              0.0,
+              0.0,
+              0.40309184160305345,
+              0.04,
+              0.0,
+              0.175
+            ],
+            "predicted_quality": 0.42325679557469054,
+            "mixture": {
+              "lambda_low": 0.006128064032016009,
+              "lambda_high": 0.006103051525762882,
+              "high_weight": 0.7632633587786323
+            }
+          },
+          "gain_vs_prompt_original": 0.0019263351834004517,
+          "gain_ci95": [
+            -0.01084569443460069,
+            0.014583594854780807
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3788127387353981,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.125,
+              "quality": 0.3801257350637769,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0013129963283787793
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.2725,
+              "quality": 0.38268511996780014,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0038723812324020224
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.4925,
+              "quality": 0.38031575157241354,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0015030128370154272
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.73625,
+              "quality": 0.3807390739187986,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0019263351834004627
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.37678677452162757,
+              "cost": 10.0,
+              "gain_vs_prompt_original": -0.002025964213770548
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 4.0,
+          "selected_validation_coverage": 0.75,
+          "validation_gate_fraction": 0.75,
+          "test_gate_fraction": 0.6575,
+          "gate_margin_threshold": 0.048896892557456176,
+          "validation_quality": 0.3211333325997586,
+          "test_policy": {
+            "quality": 0.38422273751222674,
+            "cost": 10.000000000000002,
+            "allocation": [
+              0.10125,
+              0.005,
+              0.10542581106870239,
+              0.09,
+              0.00125,
+              0.00125,
+              0.45207418893129764,
+              0.0525,
+              0.0,
+              0.19125000000000003
+            ],
+            "predicted_quality": 0.4221415792428356,
+            "mixture": {
+              "lambda_low": 0.006428214107053527,
+              "lambda_high": 0.006403201600800401,
+              "high_weight": 0.17032442748095147
+            }
+          },
+          "gain_vs_prompt_original": 0.002794988015688793,
+          "gain_ci95": [
+            -0.01011724686277249,
+            0.0165560231330363
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.38142774949653796,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.08375,
+              "quality": 0.38301046820578477,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.001582718709246811
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.225,
+              "quality": 0.3840524013371612,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0026246518406232155
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.41625,
+              "quality": 0.38679308082965475,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.005365331333116785
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.6575,
+              "quality": 0.38422273751222674,
+              "cost": 10.000000000000002,
+              "gain_vs_prompt_original": 0.002794988015688782
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.37832374833779775,
+              "cost": 10.0,
+              "gain_vs_prompt_original": -0.0031040011587402105
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 4.0,
+          "selected_validation_coverage": 0.25,
+          "validation_gate_fraction": 0.25,
+          "test_gate_fraction": 0.245,
+          "gate_margin_threshold": 0.015337487271943485,
+          "validation_quality": 0.3660502124806911,
+          "test_policy": {
+            "quality": 0.38905655067361494,
+            "cost": 10.0,
+            "allocation": [
+              0.1431365740740741,
+              0.01125,
+              0.16375,
+              0.11061342592592587,
+              0.004999999999999999,
+              0.0012499999999999998,
+              0.385,
+              0.04875,
+              0.0012499999999999998,
+              0.13
+            ],
+            "predicted_quality": 0.4384748002997151,
+            "mixture": {
+              "lambda_low": 0.005852926463231616,
+              "lambda_high": 0.005802901450725363,
+              "high_weight": 0.4907407407406969
+            }
+          },
+          "gain_vs_prompt_original": 0.00738814385133296,
+          "gain_ci95": [
+            1.647979776974986e-05,
+            0.014731894849463521
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.381668406822282,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.1125,
+              "quality": 0.3869309835856767,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0052625767633947
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.245,
+              "quality": 0.38905655067361494,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.007388143851332962
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.49375,
+              "quality": 0.3900437298711158,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.008375323048833816
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.72875,
+              "quality": 0.38210865111695297,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.00044024429467098836
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3850878949837957,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0034194881615137174
+            }
+          }
+        }
+      ]
+    }
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "reference_lambda": 0.0046746629128517755,
+      "prompt_alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "matched_alphas": [
+        100.0,
+        100.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "prompt_baseline": {
+        "quality": 0.3788127387353981,
+        "cost": 10.0,
+        "allocation": [
+          0.16625,
+          0.03288506110408766,
+          0.1675,
+          0.1375,
+          0.00375,
+          0.00413506110408766,
+          0.3083649388959123,
+          0.08663506110408765,
+          0.00125,
+          0.09172987779182468
+        ],
+        "predicted_quality": 0.4366041382204065,
+        "mixture": {
+          "lambda_low": 0.004802401200600301,
+          "lambda_high": 0.004777388694347174,
+          "high_weight": 0.3080488832701279
+        }
+      },
+      "evaluator_cost_rows": [
+        {
+          "assumed_evaluator_cost": 0.0,
+          "selected_validation_coverage": 0.75,
+          "validation_gate_fraction": 0.75,
+          "test_gate_fraction": 0.73625,
+          "gate_margin_threshold": 0.06359778406195804,
+          "validation_quality": 0.36903519661285,
+          "test_policy": {
+            "quality": 0.3988370610154894,
+            "cost": 10.0,
+            "allocation": [
+              0.14525719178082183,
+              0.03924640410958907,
+              0.1842464041095891,
+              0.06875,
+              0.0,
+              0.0,
+              0.34125,
+              0.065,
+              0.0025,
+              0.15375
+            ],
+            "predicted_quality": 0.43853004916890026,
+            "mixture": {
+              "lambda_low": 0.004577288644322161,
+              "lambda_high": 0.004527263631815908,
+              "high_weight": 0.3971232876712619
+            }
+          },
+          "gain_vs_prompt_original": 0.020024322280091333,
+          "gain_ci95": [
+            0.006773878518490138,
+            0.033561693499293443
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3788127387353981,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.125,
+              "quality": 0.3823921333035419,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0035793945681437678
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.2725,
+              "quality": 0.3892719813991924,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.010459242663794277
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.4925,
+              "quality": 0.3926712701539606,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.01385853141856247
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.73625,
+              "quality": 0.3988370610154894,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.020024322280091267
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3996759539602595,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.020863215224861398
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 0.5,
+          "selected_validation_coverage": 0.75,
+          "validation_gate_fraction": 0.75,
+          "test_gate_fraction": 0.73625,
+          "gate_margin_threshold": 0.06359778406195804,
+          "validation_quality": 0.36949416472176383,
+          "test_policy": {
+            "quality": 0.3953073803067776,
+            "cost": 10.0,
+            "allocation": [
+              0.14744758858267715,
+              0.04,
+              0.17385482283464568,
+              0.07,
+              0.0,
+              0.0,
+              0.3499475885826771,
+              0.06005241141732284,
+              0.0025,
+              0.15619758858267715
+            ],
+            "predicted_quality": 0.436829991556528,
+            "mixture": {
+              "lambda_low": 0.004677338669334668,
+              "lambda_high": 0.004652326163081541,
+              "high_weight": 0.04192913385827954
+            }
+          },
+          "gain_vs_prompt_original": 0.016494641571379517,
+          "gain_ci95": [
+            0.003555271244545523,
+            0.02994229178219076
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3788127387353981,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.125,
+              "quality": 0.38216209297063974,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0033493542352416306
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.2725,
+              "quality": 0.3887142445174888,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.009901505782090703
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.4925,
+              "quality": 0.3902531303468588,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.01144039161146071
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.73625,
+              "quality": 0.3953073803067776,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.016494641571379476
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3961476815095639,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.017334942774165807
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 1.0,
+          "selected_validation_coverage": 0.75,
+          "validation_gate_fraction": 0.75,
+          "test_gate_fraction": 0.73625,
+          "gate_margin_threshold": 0.06359778406195804,
+          "validation_quality": 0.367755119737984,
+          "test_policy": {
+            "quality": 0.3934904676618677,
+            "cost": 10.0,
+            "allocation": [
+              0.14875,
+              0.04,
+              0.16323894230769231,
+              0.0725,
+              0.0,
+              0.0,
+              0.3567610576923077,
+              0.0575,
+              0.0019889423076923035,
+              0.1592610576923077
+            ],
+            "predicted_quality": 0.4350863782259134,
+            "mixture": {
+              "lambda_low": 0.004802401200600301,
+              "lambda_high": 0.004777388694347174,
+              "high_weight": 0.5911538461538429
+            }
+          },
+          "gain_vs_prompt_original": 0.014677728926469591,
+          "gain_ci95": [
+            0.0012243654967280507,
+            0.027814524146496027
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3788127387353981,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.125,
+              "quality": 0.3815846189149694,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0027718801795713066
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.2725,
+              "quality": 0.38868605318585636,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.009873314450458248
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.4925,
+              "quality": 0.38939365768507883,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.010580918949680718
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.73625,
+              "quality": 0.3934904676618677,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.014677728926469569
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.393284189042377,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.014471450306978884
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 2.0,
+          "selected_validation_coverage": 0.75,
+          "validation_gate_fraction": 0.75,
+          "test_gate_fraction": 0.73625,
+          "gate_margin_threshold": 0.06359778406195804,
+          "validation_quality": 0.36563084521501255,
+          "test_policy": {
+            "quality": 0.38976238782699696,
+            "cost": 10.0,
+            "allocation": [
+              0.1525,
+              0.03875,
+              0.14513334923664123,
+              0.075,
+              0.0,
+              0.0,
+              0.3736166507633588,
+              0.051250000000000004,
+              0.0,
+              0.16375
+            ],
+            "predicted_quality": 0.431454188558664,
+            "mixture": {
+              "lambda_low": 0.005102551275637819,
+              "lambda_high": 0.005077538769384693,
+              "high_weight": 0.7022264631043256
+            }
+          },
+          "gain_vs_prompt_original": 0.010949649091598825,
+          "gain_ci95": [
+            -0.001877028077946016,
+            0.023885703595394735
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3788127387353981,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.125,
+              "quality": 0.38037206710058413,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.001559328365186019
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.2725,
+              "quality": 0.38757712260361366,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.008764383868215542
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.4925,
+              "quality": 0.3862585824945724,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0074458437591742865
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.73625,
+              "quality": 0.38976238782699696,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.010949649091598845
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.38811488649945614,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.009302147764058022
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 3.0,
+          "selected_validation_coverage": 0.75,
+          "validation_gate_fraction": 0.75,
+          "test_gate_fraction": 0.73625,
+          "gate_margin_threshold": 0.06359778406195804,
+          "validation_quality": 0.369576460695766,
+          "test_policy": {
+            "quality": 0.38556113745368203,
+            "cost": 10.0,
+            "allocation": [
+              0.15899506578947364,
+              0.03475493421052634,
+              0.12475493421052633,
+              0.08,
+              0.0,
+              0.0,
+              0.39149506578947363,
+              0.042499999999999996,
+              0.0,
+              0.1675
+            ],
+            "predicted_quality": 0.42754905510105584,
+            "mixture": {
+              "lambda_low": 0.005577788894447224,
+              "lambda_high": 0.005552776388194097,
+              "high_weight": 0.9019736842105337
+            }
+          },
+          "gain_vs_prompt_original": 0.006748398718283938,
+          "gain_ci95": [
+            -0.006202981001488539,
+            0.019503636595556983
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3788127387353981,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.125,
+              "quality": 0.3802096210470026,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0013968823116045082
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.2725,
+              "quality": 0.38633403226982593,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.00752129353442782
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.4925,
+              "quality": 0.38275535085183676,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0039426121164386485
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.73625,
+              "quality": 0.38556113745368203,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.006748398718283921
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3816066502060431,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0027939114706450052
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 4.0,
+          "selected_validation_coverage": 0.75,
+          "validation_gate_fraction": 0.75,
+          "test_gate_fraction": 0.73625,
+          "gate_margin_threshold": 0.06359778406195804,
+          "validation_quality": 0.3600746268619764,
+          "test_policy": {
+            "quality": 0.3807390739187986,
+            "cost": 10.0,
+            "allocation": [
+              0.17125,
+              0.02875,
+              0.10190815839694657,
+              0.08,
+              0.0,
+              0.0,
+              0.40309184160305345,
+              0.04,
+              0.0,
+              0.175
+            ],
+            "predicted_quality": 0.42325679557469054,
+            "mixture": {
+              "lambda_low": 0.006128064032016009,
+              "lambda_high": 0.006103051525762882,
+              "high_weight": 0.7632633587786323
+            }
+          },
+          "gain_vs_prompt_original": 0.0019263351834004517,
+          "gain_ci95": [
+            -0.01084569443460069,
+            0.014583594854780807
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.3788127387353981,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.125,
+              "quality": 0.3801257350637769,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0013129963283787793
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.2725,
+              "quality": 0.38268511996780014,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0038723812324020224
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.4925,
+              "quality": 0.38031575157241354,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0015030128370154272
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.73625,
+              "quality": 0.3807390739187986,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0019263351834004627
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.37678677452162757,
+              "cost": 10.0,
+              "gain_vs_prompt_original": -0.002025964213770548
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 43,
+      "reference_lambda": 0.0038505310388561777,
+      "prompt_alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "matched_alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "prompt_baseline": {
+        "quality": 0.38142774949653796,
+        "cost": 10.0,
+        "allocation": [
+          0.13375,
+          0.03284854076285988,
+          0.17514416305143948,
+          0.11520437771142036,
+          0.01125,
+          0.0,
+          0.3209014592371401,
+          0.08375,
+          0.0003485407628598798,
+          0.12680291847428024
+        ],
+        "predicted_quality": 0.4361961258234148,
+        "mixture": {
+          "lambda_low": 0.004852426213106553,
+          "lambda_high": 0.004827413706853427,
+          "high_weight": 0.27883261028790385
+        }
+      },
+      "evaluator_cost_rows": [
+        {
+          "assumed_evaluator_cost": 0.0,
+          "selected_validation_coverage": 1.0,
+          "validation_gate_fraction": 1.0,
+          "test_gate_fraction": 1.0,
+          "gate_margin_threshold": Infinity,
+          "validation_quality": 0.32303245506242606,
+          "test_policy": {
+            "quality": 0.4028276737786291,
+            "cost": 10.0,
+            "allocation": [
+              0.07391967773437498,
+              0.00375,
+              0.17199096679687503,
+              0.0725,
+              0.0012500000000000002,
+              0.0025000000000000005,
+              0.38283935546875,
+              0.08483032226562501,
+              0.0025000000000000005,
+              0.203919677734375
+            ],
+            "predicted_quality": 0.41900904360227287,
+            "mixture": {
+              "lambda_low": 0.004752376188094047,
+              "lambda_high": 0.004727363681840921,
+              "high_weight": 0.8642578125000061
+            }
+          },
+          "gain_vs_prompt_original": 0.02139992428209113,
+          "gain_ci95": [
+            0.004985325346424095,
+            0.03769841627976156
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.38142774949653796,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.08375,
+              "quality": 0.3849298496055177,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.003502100108979722
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.225,
+              "quality": 0.38767986556570677,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.006252116069168812
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.41625,
+              "quality": 0.39531070947615937,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.013882959979621412
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.6575,
+              "quality": 0.3987134007879431,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.017285651291405135
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.4028276737786291,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.021399924282091143
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 0.5,
+          "selected_validation_coverage": 1.0,
+          "validation_gate_fraction": 1.0,
+          "test_gate_fraction": 1.0,
+          "gate_margin_threshold": Infinity,
+          "validation_quality": 0.32595010651604456,
+          "test_policy": {
+            "quality": 0.3995101384690656,
+            "cost": 10.0,
+            "allocation": [
+              0.07726863354037265,
+              0.00375,
+              0.15569409937888207,
+              0.07476863354037264,
+              0.00125,
+              0.0025,
+              0.39601863354037264,
+              0.08125,
+              0.0025,
+              0.205
+            ],
+            "predicted_quality": 0.41660696064463315,
+            "mixture": {
+              "lambda_low": 0.00487743871935968,
+              "lambda_high": 0.004852426213106553,
+              "high_weight": 0.18509316770188056
+            }
+          },
+          "gain_vs_prompt_original": 0.018082388972527563,
+          "gain_ci95": [
+            0.0018265281114948205,
+            0.034139769124629876
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.38142774949653796,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.08375,
+              "quality": 0.38468987096614504,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.003262121469607082
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.225,
+              "quality": 0.3871178704943634,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.005690120997825454
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.41625,
+              "quality": 0.39524842918104425,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.013820679684506287
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.6575,
+              "quality": 0.39675475664027404,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.015327007143736082
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3995101384690656,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.01808238897252762
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 1.0,
+          "selected_validation_coverage": 1.0,
+          "validation_gate_fraction": 1.0,
+          "test_gate_fraction": 1.0,
+          "gate_margin_threshold": Infinity,
+          "validation_quality": 0.32504882487679704,
+          "test_policy": {
+            "quality": 0.39545342066148664,
+            "cost": 10.0,
+            "allocation": [
+              0.08,
+              0.00375,
+              0.1424528301886793,
+              0.0766823899371069,
+              0.00125,
+              0.0025,
+              0.40379716981132074,
+              0.0783176100628931,
+              0.00125,
+              0.21000000000000002
+            ],
+            "predicted_quality": 0.4141411948129067,
+            "mixture": {
+              "lambda_low": 0.005002501250625313,
+              "lambda_high": 0.004977488744372187,
+              "high_weight": 0.6540880503144797
+            }
+          },
+          "gain_vs_prompt_original": 0.014025671164948607,
+          "gain_ci95": [
+            -0.0018372652340934233,
+            0.030448253968368838
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.38142774949653796,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.08375,
+              "quality": 0.3845376098741412,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0031098603776032463
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.225,
+              "quality": 0.38672048505688883,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.00529273556035087
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.41625,
+              "quality": 0.39328861785390296,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.011860868357364995
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.6575,
+              "quality": 0.3949352137135979,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.01350746421705995
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.39545342066148664,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.014025671164948683
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 2.0,
+          "selected_validation_coverage": 0.75,
+          "validation_gate_fraction": 0.75,
+          "test_gate_fraction": 0.6575,
+          "gate_margin_threshold": 0.048896892557456176,
+          "validation_quality": 0.3248414264852604,
+          "test_policy": {
+            "quality": 0.3903843330701607,
+            "cost": 10.0,
+            "allocation": [
+              0.09256807795698924,
+              0.00375,
+              0.14486384408602154,
+              0.08631807795698923,
+              0.00125,
+              0.00125,
+              0.4213180779569892,
+              0.06611384408602154,
+              0.0,
+              0.18256807795698923
+            ],
+            "predicted_quality": 0.43010218143463136,
+            "mixture": {
+              "lambda_low": 0.005727863931965983,
+              "lambda_high": 0.00567783891945973,
+              "high_weight": 0.9455376344086122
+            }
+          },
+          "gain_vs_prompt_original": 0.008956583573622707,
+          "gain_ci95": [
+            -0.00386661892258832,
+            0.021130247230605022
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.38142774949653796,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.08375,
+              "quality": 0.3842330876901335,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.002805338193595519
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.225,
+              "quality": 0.3852245272128309,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.003796777716292943
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.41625,
+              "quality": 0.3898704240804052,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.008442674583867216
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.6575,
+              "quality": 0.3903843330701607,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.008956583573622723
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.389142063654328,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.007714314157790059
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 3.0,
+          "selected_validation_coverage": 1.0,
+          "validation_gate_fraction": 1.0,
+          "test_gate_fraction": 1.0,
+          "gate_margin_threshold": Infinity,
+          "validation_quality": 0.3228532085275279,
+          "test_policy": {
+            "quality": 0.3846245553429448,
+            "cost": 10.0,
+            "allocation": [
+              0.095,
+              0.00125,
+              0.09307136963696373,
+              0.08375,
+              0.0,
+              0.00125,
+              0.4545358910891088,
+              0.05114273927392747,
+              0.0,
+              0.22
+            ],
+            "predicted_quality": 0.4034145473942111,
+            "mixture": {
+              "lambda_low": 0.00575287643821911,
+              "lambda_high": 0.005727863931965983,
+              "high_weight": 0.45709570957098633
+            }
+          },
+          "gain_vs_prompt_original": 0.0031968058464068895,
+          "gain_ci95": [
+            -0.01197828028107284,
+            0.018881380853665974
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.38142774949653796,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.08375,
+              "quality": 0.3833516026521444,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0019238531556064475
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.225,
+              "quality": 0.3841119646964646,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0026842151999266206
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.41625,
+              "quality": 0.38904522886811677,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.007617479371578806
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.6575,
+              "quality": 0.3869648533186298,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.005537103822091827
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3846245553429448,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0031968058464068583
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 4.0,
+          "selected_validation_coverage": 0.75,
+          "validation_gate_fraction": 0.75,
+          "test_gate_fraction": 0.6575,
+          "gate_margin_threshold": 0.048896892557456176,
+          "validation_quality": 0.3211333325997586,
+          "test_policy": {
+            "quality": 0.38422273751222674,
+            "cost": 10.000000000000002,
+            "allocation": [
+              0.10125,
+              0.005,
+              0.10542581106870239,
+              0.09,
+              0.00125,
+              0.00125,
+              0.45207418893129764,
+              0.0525,
+              0.0,
+              0.19125000000000003
+            ],
+            "predicted_quality": 0.4221415792428356,
+            "mixture": {
+              "lambda_low": 0.006428214107053527,
+              "lambda_high": 0.006403201600800401,
+              "high_weight": 0.17032442748095147
+            }
+          },
+          "gain_vs_prompt_original": 0.002794988015688793,
+          "gain_ci95": [
+            -0.01011724686277249,
+            0.0165560231330363
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.38142774949653796,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.08375,
+              "quality": 0.38301046820578477,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.001582718709246811
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.225,
+              "quality": 0.3840524013371612,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0026246518406232155
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.41625,
+              "quality": 0.38679308082965475,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.005365331333116785
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.6575,
+              "quality": 0.38422273751222674,
+              "cost": 10.000000000000002,
+              "gain_vs_prompt_original": 0.002794988015688782
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.37832374833779775,
+              "cost": 10.0,
+              "gain_vs_prompt_original": -0.0031040011587402105
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 44,
+      "reference_lambda": 0.0054579129478787205,
+      "prompt_alphas": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "matched_alphas": [
+        1000.0,
+        1000.0,
+        100.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        100.0,
+        1000.0
+      ],
+      "prompt_baseline": {
+        "quality": 0.381668406822282,
+        "cost": 10.0,
+        "allocation": [
+          0.1525,
+          0.03006276204110849,
+          0.17606171387667452,
+          0.11875,
+          0.01,
+          0.00125,
+          0.3288127620411085,
+          0.07993723795889152,
+          0.0,
+          0.10262552408221698
+        ],
+        "predicted_quality": 0.4359188932639371,
+        "mixture": {
+          "lambda_low": 0.005002501250625313,
+          "lambda_high": 0.004977488744372187,
+          "high_weight": 0.9497903671132057
+        }
+      },
+      "evaluator_cost_rows": [
+        {
+          "assumed_evaluator_cost": 0.0,
+          "selected_validation_coverage": 0.5,
+          "validation_gate_fraction": 0.5,
+          "test_gate_fraction": 0.49375,
+          "gate_margin_threshold": 0.036687280692108984,
+          "validation_quality": 0.38298361754454346,
+          "test_policy": {
+            "quality": 0.3993175220809811,
+            "cost": 10.0,
+            "allocation": [
+              0.105,
+              0.005,
+              0.18885712652439024,
+              0.08864287347560974,
+              0.00125,
+              0.0,
+              0.40967862042682923,
+              0.05135712652439024,
+              0.006464253048780496,
+              0.14375
+            ],
+            "predicted_quality": 0.44436072706540186,
+            "mixture": {
+              "lambda_low": 0.005102551275637819,
+              "lambda_high": 0.005027513756878439,
+              "high_weight": 0.0857012195121979
+            }
+          },
+          "gain_vs_prompt_original": 0.017649115258699093,
+          "gain_ci95": [
+            0.006853572651551123,
+            0.028714111965091556
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.381668406822282,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.1125,
+              "quality": 0.38648513516465327,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.00481672834237129
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.245,
+              "quality": 0.39197422773185414,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.010305820909572161
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.49375,
+              "quality": 0.3993175220809811,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.01764911525869911
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.72875,
+              "quality": 0.40065507883697493,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.01898667201469295
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.40744727608402875,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.025778869261746773
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 0.5,
+          "selected_validation_coverage": 0.5,
+          "validation_gate_fraction": 0.5,
+          "test_gate_fraction": 0.49375,
+          "gate_margin_threshold": 0.036687280692108984,
+          "validation_quality": 0.3811467425504878,
+          "test_policy": {
+            "quality": 0.39840027175824366,
+            "cost": 10.0,
+            "allocation": [
+              0.10604144736842097,
+              0.005,
+              0.187708552631579,
+              0.08874999999999998,
+              0.00125,
+              0.0,
+              0.41375,
+              0.04875,
+              0.0037499999999999994,
+              0.14499999999999996
+            ],
+            "predicted_quality": 0.44308890673675033,
+            "mixture": {
+              "lambda_low": 0.005227613806903452,
+              "lambda_high": 0.0051775887943971985,
+              "high_weight": 0.16684210526321358
+            }
+          },
+          "gain_vs_prompt_original": 0.01673186493596167,
+          "gain_ci95": [
+            0.0059196756784423024,
+            0.02730296418769847
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.381668406822282,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.1125,
+              "quality": 0.3862834204357773,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.004615013613495311
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.245,
+              "quality": 0.39159819258925116,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.00992978576696918
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.49375,
+              "quality": 0.39840027175824366,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.016731864935961682
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.72875,
+              "quality": 0.39670883573862925,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.01504042891634727
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.4038001521737708,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.02213174535148882
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 1.0,
+          "selected_validation_coverage": 0.5,
+          "validation_gate_fraction": 0.5,
+          "test_gate_fraction": 0.49375,
+          "gate_margin_threshold": 0.036687280692108984,
+          "validation_quality": 0.37789805470376264,
+          "test_policy": {
+            "quality": 0.3973157055916153,
+            "cost": 10.0,
+            "allocation": [
+              0.10875000000000001,
+              0.005,
+              0.18,
+              0.09105245535714285,
+              0.00125,
+              0.0,
+              0.41875000000000007,
+              0.04644754464285715,
+              0.00375,
+              0.145
+            ],
+            "predicted_quality": 0.4417700630745718,
+            "mixture": {
+              "lambda_low": 0.005452726363181591,
+              "lambda_high": 0.005427713856928465,
+              "high_weight": 0.1580357142857234
+            }
+          },
+          "gain_vs_prompt_original": 0.01564729876933325,
+          "gain_ci95": [
+            0.005279664581604274,
+            0.026075777835891028
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.381668406822282,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.1125,
+              "quality": 0.3860502611610339,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.004381854338751934
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.245,
+              "quality": 0.3916615026020678,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.009993095779785799
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.49375,
+              "quality": 0.3973157055916153,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.015647298769333295
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.72875,
+              "quality": 0.3955596667358385,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.013891259913556497
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.4017724550074685,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.020104048185186518
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 2.0,
+          "selected_validation_coverage": 0.5,
+          "validation_gate_fraction": 0.5,
+          "test_gate_fraction": 0.49375,
+          "gate_margin_threshold": 0.036687280692108984,
+          "validation_quality": 0.3715810236734461,
+          "test_policy": {
+            "quality": 0.39471679992685454,
+            "cost": 10.0,
+            "allocation": [
+              0.11273476239669422,
+              0.00625,
+              0.16875,
+              0.09101523760330578,
+              0.00125,
+              0.0,
+              0.43125,
+              0.039765237603305775,
+              0.0025,
+              0.14648476239669422
+            ],
+            "predicted_quality": 0.43899325951933865,
+            "mixture": {
+              "lambda_low": 0.005852926463231616,
+              "lambda_high": 0.00582791395697849,
+              "high_weight": 0.8121900826446214
+            }
+          },
+          "gain_vs_prompt_original": 0.01304839310457248,
+          "gain_ci95": [
+            0.001930813110636631,
+            0.024150777895030062
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.381668406822282,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.1125,
+              "quality": 0.3864272934747009,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.004758886652418914
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.245,
+              "quality": 0.390905028966867,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.009236622144585038
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.49375,
+              "quality": 0.39471679992685454,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.013048393104572564
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.72875,
+              "quality": 0.3912463909426661,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.009577984120384131
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.39580076445171986,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.014132357629437875
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 3.0,
+          "selected_validation_coverage": 0.5,
+          "validation_gate_fraction": 0.5,
+          "test_gate_fraction": 0.49375,
+          "gate_margin_threshold": 0.036687280692108984,
+          "validation_quality": 0.3689599173830321,
+          "test_policy": {
+            "quality": 0.39213426862332523,
+            "cost": 10.0,
+            "allocation": [
+              0.115,
+              0.00625,
+              0.15523586065573777,
+              0.09,
+              0.00125,
+              0.0,
+              0.4425,
+              0.0375,
+              0.00125,
+              0.15101413934426222
+            ],
+            "predicted_quality": 0.4359746401036372,
+            "mixture": {
+              "lambda_low": 0.006378189094547274,
+              "lambda_high": 0.0063281640820410205,
+              "high_weight": 0.18868852459022667
+            }
+          },
+          "gain_vs_prompt_original": 0.01046586180104327,
+          "gain_ci95": [
+            -0.0009007797091729668,
+            0.021565444455585045
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.381668406822282,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.1125,
+              "quality": 0.3865722041122271,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.004903797289945111
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.245,
+              "quality": 0.3899200509111761,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.008251644088894117
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.49375,
+              "quality": 0.39213426862332523,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.010465861801043252
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.72875,
+              "quality": 0.3872947459976814,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.005626339175399397
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.39012269477666756,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.008454287954385575
+            }
+          }
+        },
+        {
+          "assumed_evaluator_cost": 4.0,
+          "selected_validation_coverage": 0.25,
+          "validation_gate_fraction": 0.25,
+          "test_gate_fraction": 0.245,
+          "gate_margin_threshold": 0.015337487271943485,
+          "validation_quality": 0.3660502124806911,
+          "test_policy": {
+            "quality": 0.38905655067361494,
+            "cost": 10.0,
+            "allocation": [
+              0.1431365740740741,
+              0.01125,
+              0.16375,
+              0.11061342592592587,
+              0.004999999999999999,
+              0.0012499999999999998,
+              0.385,
+              0.04875,
+              0.0012499999999999998,
+              0.13
+            ],
+            "predicted_quality": 0.4384748002997151,
+            "mixture": {
+              "lambda_low": 0.005852926463231616,
+              "lambda_high": 0.005802901450725363,
+              "high_weight": 0.4907407407406969
+            }
+          },
+          "gain_vs_prompt_original": 0.00738814385133296,
+          "gain_ci95": [
+            1.647979776974986e-05,
+            0.014731894849463521
+          ],
+          "fixed_coverage_test_diagnostic": {
+            "0.0": {
+              "requested_validation_coverage": 0.0,
+              "test_gate_fraction": 0.0,
+              "quality": 0.381668406822282,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0
+            },
+            "0.1": {
+              "requested_validation_coverage": 0.1,
+              "test_gate_fraction": 0.1125,
+              "quality": 0.3869309835856767,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0052625767633947
+            },
+            "0.25": {
+              "requested_validation_coverage": 0.25,
+              "test_gate_fraction": 0.245,
+              "quality": 0.38905655067361494,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.007388143851332962
+            },
+            "0.5": {
+              "requested_validation_coverage": 0.5,
+              "test_gate_fraction": 0.49375,
+              "quality": 0.3900437298711158,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.008375323048833816
+            },
+            "0.75": {
+              "requested_validation_coverage": 0.75,
+              "test_gate_fraction": 0.72875,
+              "quality": 0.38210865111695297,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.00044024429467098836
+            },
+            "1.0": {
+              "requested_validation_coverage": 1.0,
+              "test_gate_fraction": 1.0,
+              "quality": 0.3850878949837957,
+              "cost": 10.0,
+              "gain_vs_prompt_original": 0.0034194881615137174
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Evaluator cost is a sensitivity parameter in the same TFLOPs units as action costs; it is charged only to probed prompts.",
+    "Unprobed prompts use prompt predictions and original action costs; probed prompts use matched-image predictions and cascade costs.",
+    "Gate coverage and margin threshold are selected/frozen on validation; test labels never select the gate or routing policy.",
+    "Test routing multipliers/mixes use test predictions and row-specific costs only, matching the label-free deploy calibration of \u00a725."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "unigen_same_prompt_two_caches": {
+    "n": 400,
+    "min_cosine": 1.0,
+    "mean_cosine": 1.0,
+    "max_abs_difference": 2.9802322387695312e-08
+  },
+  "gm_am_pool": {
+    "n": 2400,
+    "min_cosine": 1.0,
+    "max_abs_difference": 0.0
+  },
+  "gm_am_test": {
+    "n": 800,
+    "min_cosine": 1.0,
+    "max_abs_difference": 0.0
+  }
+}

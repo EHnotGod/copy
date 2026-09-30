@@ -1,0 +1,27 @@
+[
+  {
+    "dataset": "gm",
+    "policies_compared": 219,
+    "exact_match": true
+  },
+  {
+    "dataset": "am",
+    "policies_compared": 219,
+    "exact_match": true
+  },
+  {
+    "dataset": "unigen",
+    "policies_compared": 192,
+    "exact_match": true
+  },
+  {
+    "dataset": "corebench",
+    "policies_compared": 351,
+    "exact_match": true
+  },
+  {
+    "dataset": "wise",
+    "policies_compared": 299,
+    "exact_match": true
+  }
+]

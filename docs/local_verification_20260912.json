@@ -1,0 +1,19 @@
+{
+  "checked_at_utc": "2026-09-12T02:08:28.987102+00:00",
+  "results_directory": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/26AAAIworks/new_exp/results/prompt_disjoint_v1",
+  "issues": [],
+  "verified_result_jsons": 79,
+  "unregistered_result_jsons": [],
+  "split": {
+    "data_manifest_entries": 15,
+    "unigen_pool": 2000,
+    "unigen_test": 600,
+    "excluded": 400,
+    "overlap": 0
+  },
+  "checked_documents": 56,
+  "checked_local_paths": 488,
+  "syntax_checked_scripts": 110,
+  "scope": "Saved result hashes/JSON, recorded split identity, Markdown local file paths, Python syntax; no model inference, retraining, source embedding re-audit, remote links or Markdown anchors.",
+  "passed": true
+}

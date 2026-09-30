@@ -1,0 +1,40 @@
+[
+  {
+    "dataset": "gm",
+    "model": "qwen",
+    "oracle": 0.4058140317598979,
+    "lp": 0.29996511052574826,
+    "always_50steps": 0.24819912016391754,
+    "ridge_score_mean": 0.3269303416619535,
+    "ridge_score_std": 0.0,
+    "ridge_delta_mean": 0.3269303416619535,
+    "ridge_delta_std": 0.0,
+    "tf_mae_score_mean": 0.3207036216931875,
+    "tf_mae_score_std": 0.00517701807807662,
+    "tf_mae_delta_mean": 0.33495294395652664,
+    "tf_mae_delta_std": 0.0006840079524695029,
+    "tf_dp_score_mean": 0.3194784379253785,
+    "tf_dp_score_std": 0.010030791037156964,
+    "tf_dp_delta_mean": 0.32438695291329545,
+    "tf_dp_delta_std": 0.00739831813772109
+  },
+  {
+    "dataset": "gm",
+    "model": "flux",
+    "oracle": 0.4334654552400659,
+    "lp": 0.34182934336994353,
+    "always_50steps": 0.3321016728878021,
+    "ridge_score_mean": 0.3448741461210583,
+    "ridge_score_std": 0.0,
+    "ridge_delta_mean": 0.3448741461210583,
+    "ridge_delta_std": 0.0,
+    "tf_mae_score_mean": 0.3432961065623233,
+    "tf_mae_score_std": 0.0008973512579657669,
+    "tf_mae_delta_mean": 0.3430866558073704,
+    "tf_mae_delta_std": 0.004949900725869907,
+    "tf_dp_score_mean": 0.3404893676439921,
+    "tf_dp_score_std": 0.004136702492987946,
+    "tf_dp_delta_mean": 0.3424479230463687,
+    "tf_dp_delta_std": 0.0024920576095641984
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "n_test": 1839,
+  "metric": "clip",
+  "paper_sdxl22_no_counterpart": 0.2805,
+  "rows": [
+    {
+      "cfg": "infinity_1step",
+      "paper_member": "Infinity",
+      "paper": 0.2816,
+      "ours": 0.26831117272377014,
+      "diff": -0.013288827276229875,
+      "note": ""
+    },
+    {
+      "cfg": "sdxl_turbo_1step",
+      "paper_member": "Turbo",
+      "paper": 0.2794,
+      "ours": 0.2771787941455841,
+      "diff": -0.0022212058544158753,
+      "note": ""
+    },
+    {
+      "cfg": "sdxl_lightning_4steps",
+      "paper_member": "Lightning",
+      "paper": 0.2798,
+      "ours": 0.2723024785518646,
+      "diff": -0.007497521448135369,
+      "note": ""
+    },
+    {
+      "cfg": "sdxl_low_10steps",
+      "paper_member": "SDXL-9",
+      "paper": 0.2773,
+      "ours": 0.2801332473754883,
+      "diff": 0.0028332473754882903,
+      "note": "\u8bba\u6587 9 \u6b65\uff0c\u6211\u4eec 10 \u6b65"
+    },
+    {
+      "cfg": "sdxl_deepcache_50steps",
+      "paper_member": "DeepCache",
+      "paper": 0.2749,
+      "ours": 0.281833678483963,
+      "diff": 0.006933678483963035,
+      "note": ""
+    },
+    {
+      "cfg": "sdxl_ddim_50steps",
+      "paper_member": "DDIM",
+      "paper": 0.282,
+      "ours": 0.28035542368888855,
+      "diff": -0.001644576311111423,
+      "note": ""
+    },
+    {
+      "cfg": "sdxl_high_50steps",
+      "paper_member": "SDXL-65",
+      "paper": 0.2819,
+      "ours": 0.2807876169681549,
+      "diff": -0.0011123830318450767,
+      "note": "\u8bba\u6587 65 \u6b65\uff0c\u6211\u4eec 50 \u6b65"
+    }
+  ]
+}

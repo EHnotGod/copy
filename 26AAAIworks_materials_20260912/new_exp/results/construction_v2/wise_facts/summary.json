@@ -1,0 +1,10 @@
+{
+  "screened": 931,
+  "fact_status": {
+    "fact_verified": 655,
+    "needs_revision": 33,
+    "pending": 239,
+    "reject": 4
+  },
+  "final_dataset_emitted": false
+}

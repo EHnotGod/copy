@@ -1,0 +1,525 @@
+{
+  "date": "2026-09-11",
+  "scope": "Local records, scripts and persisted JSON; no training or model inference",
+  "inputs": {
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/26AAAIworks/data/final_data/geneval2/edit/geneval2_qwen_edit_gen_perseed.json": {
+      "sha256": "77ffa3bd4789bfbd53f9d1f62ae7337bdeed5d357e7be8ab6f4241a269d7d2c5",
+      "bytes": 407969
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/26AAAIworks/data/final_data/geneval2/edit/geneval2_qwen_edit_gen2000_perseed.json": {
+      "sha256": "369c879d136b88a5e80055f6b17d80d25fecf590eb5487439a194ddc2f70f1c9",
+      "bytes": 2036809
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/26AAAIworks/data/final_data/geneval2/edit/geneval2_flux_edit_gen_perseed.json": {
+      "sha256": "b7ba4916447ae1a884d458107dfa52b19e824d9fc18d8311bebb73778370c4bf",
+      "bytes": 408413
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/26AAAIworks/data/final_data/geneval2/edit/geneval2_flux_edit_gen2000_perseed.json": {
+      "sha256": "c05aa02fbba29c2893d6edad6ab4280446278ba8822bbcfb91da7dd66e387425",
+      "bytes": 2033740
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/Results/geneval2_boogu/eval/gen2400_perseed.json": {
+      "sha256": "c3dcf67e2e7fd8269571018740d079183f089d03a7035036d15859fcbb3656bd",
+      "bytes": 2433997
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/26AAAIworks/data/final_data/geneval2/direct/geneval2_flux4b_direct_gen2400_gm_perseed.json": {
+      "sha256": "f094a58d0527dc3f27c195e7a36a2a5dbf8f2fdc6e8a3c1ca45a704623a13141",
+      "bytes": 4815131
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/26AAAIworks/data/final_data/geneval2/edit/geneval2_qwen_edit_raw_perseed.json": {
+      "sha256": "908e7a11a626fabaec3e5eb759f7aad8a83abd27b8f4be9bc9daa25cef87a9bd",
+      "bytes": 816260
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/26AAAIworks/data/final_data/geneval2/edit/geneval2_flux_edit_raw_perseed.json": {
+      "sha256": "0619a095469b805a88748f2382e8b2cd001040c0d51f294e7acb843300dc5631",
+      "bytes": 816051
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/Results/geneval2_boogu/eval/raw800_perseed.json": {
+      "sha256": "7dc3e4f5b872bdffda0a644cf24c175d77df2a6ee18aede1ad58f5e53fc46c96",
+      "bytes": 812949
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/26AAAIworks/data/final_data/geneval2/direct/geneval2_flux4b_direct_raw_gm_perseed.json": {
+      "sha256": "0b8c44333b65bc448621fd272988df9dda1d66adb8f700dcdf2bca27c4197d73",
+      "bytes": 1681548
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/26AAAIworks/data/final_data/geneval2/edit_am/geneval2_qwen_edit_gen_perseed.json": {
+      "sha256": "dc668d7586f98c12bb9a4986f07b5396bbffd8262efe2ce370e3d273cea22be7",
+      "bytes": 400069
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/26AAAIworks/data/final_data/geneval2/edit_am/geneval2_qwen_edit_gen2000_perseed.json": {
+      "sha256": "28c40ed7b31d75b9909cafbccd0a3f8ca9f130c69cf2035a494fdc68d7b4d6bd",
+      "bytes": 1993170
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/26AAAIworks/data/final_data/geneval2/edit_am/geneval2_flux_edit_gen_perseed.json": {
+      "sha256": "4d87884b0a8e1f6604653c408b2d9f32ac08937f33802cb098e5a6d3ad06c783",
+      "bytes": 400120
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/26AAAIworks/data/final_data/geneval2/edit_am/geneval2_flux_edit_gen2000_perseed.json": {
+      "sha256": "862ff7f6439ac6bd2f6a77616bf2f8d46b943b3b4f3524b36f41d2cb90857737",
+      "bytes": 1992556
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/Results/geneval2_boogu/eval/gen2400_am_v2_perseed.json": {
+      "sha256": "59da60ef241c4808596b9071297ca826550eee90877c39e7daadefc3e2ac8188",
+      "bytes": 2391945
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/26AAAIworks/data/final_data/geneval2/direct/geneval2_flux4b_direct_gen2400_am_perseed.json": {
+      "sha256": "23c789442036c669fdb5c2991e2bfc52a03f4c92418da590c20835b0429ead25",
+      "bytes": 4795291
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/26AAAIworks/data/final_data/geneval2/edit_am/geneval2_qwen_edit_raw_perseed.json": {
+      "sha256": "c74ce4f1fdaf3c4224eefe0244f5939e7ce439105bed38c884d3eed89166421d",
+      "bytes": 801682
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/26AAAIworks/data/final_data/geneval2/edit_am/geneval2_flux_edit_raw_perseed.json": {
+      "sha256": "c1f326555213233ad5e0320fa7ec120e4e5ee93e1802f46d201b3c7cb3bc7103",
+      "bytes": 801714
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/Results/geneval2_boogu/eval/raw800_am_perseed.json": {
+      "sha256": "c02e3103416aa1100dd10b658f04d6381a62ea952594d012dbf4e7455e60607e",
+      "bytes": 801415
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/26AAAIworks/data/final_data/geneval2/direct/geneval2_flux4b_direct_raw_am_perseed.json": {
+      "sha256": "c8db00794fd8401b7cc9d67461e80c6d721a98fe17a1a5646ae94df515ae3e33",
+      "bytes": 1675638
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/Results/unigen_qwen/eval/gen2400_edit_v2.json": {
+      "sha256": "892a5e0dd504faa12c558b0686fb7d0860ddb8a2f6f6ed0e350c07ee60fbfa54",
+      "bytes": 839205
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/Results/unigen_flux/eval/gen2400_edit_v2.json": {
+      "sha256": "999cf682ca983ec514846815619a087f57f534f5bd9168f4be025d62b1d9c56f",
+      "bytes": 837377
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/Results/unigenbench_boogu/eval/gen2400_tts_edit_v2.json": {
+      "sha256": "b62a66e3c8795c98b7cbdf9ccf90a293c9500fc031ace7bc0e8f42e1dac57e63",
+      "bytes": 835282
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/Results/unigen_flux4b/eval/gen2400_direct_v2.json": {
+      "sha256": "5ba4cdd163489fc6e9e515c3b2145290b60a4b72f345feb097dda9c1cefaa654",
+      "bytes": 723862
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/Results/unigen_qwen/eval/raw600_edit_v2.json": {
+      "sha256": "bfa0a11a128f811307d91f6542805b88f68f1be848617bcb411ee53c77d61cfd",
+      "bytes": 182221
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/Results/unigen_flux/eval/raw600_edit_v2.json": {
+      "sha256": "9233b5480c17d3da5e740d36a6ee0b079f94284244e3872a8c59425952f97602",
+      "bytes": 181484
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/Results/unigenbench_boogu/eval/raw600_tts_edit_v2.json": {
+      "sha256": "d71ab63235f7f0e2688911359c81695faa4d65dc447f7c6329a68274715606b5",
+      "bytes": 181321
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/Results/unigen_flux4b/eval/raw600_direct_v2.json": {
+      "sha256": "f2167211caad456db624202f8d32d87d56779d37b295409778103e57f734fa6a",
+      "bytes": 154303
+    },
+    "exp1_absolute_predict/results_11/exp_delta_routing.json": {
+      "sha256": "c6904a86e20699fb5cd3709033457bfdb4c772aa715ffdfe99302d42a3885dc5",
+      "bytes": 4054
+    },
+    "exp1_absolute_predict/results_11_am/results.json": {
+      "sha256": "af6fd2af283fb10765731c03165ca1fbc3e862f847f4f22ee4461d90ac2190f4",
+      "bytes": 2136974
+    },
+    "data/final_data/geneval2/direct/geneval2_flux4b_direct_gen2400_gm_perseed.json": {
+      "sha256": "f094a58d0527dc3f27c195e7a36a2a5dbf8f2fdc6e8a3c1ca45a704623a13141",
+      "bytes": 4815131
+    },
+    "data/final_data/geneval2/direct/geneval2_flux4b_direct_gen2400_am_perseed.json": {
+      "sha256": "23c789442036c669fdb5c2991e2bfc52a03f4c92418da590c20835b0429ead25",
+      "bytes": 4795291
+    },
+    "data/final_data/geneval2/edit/geneval2_qwen_edit_more1600_perseed.json": {
+      "sha256": "78fc62636f554d3f18c5db6f3707f21b9cb25c9c0d5cd18caaf4777bca7cb0f3",
+      "bytes": 9410736
+    },
+    "data/final_data/geneval2/edit/geneval2_flux_edit_more1600_perseed.json": {
+      "sha256": "ced0a81de8689b85cc916af6a0d74ad43d2490847fde5e52a2f6f852d4ba8540",
+      "bytes": 9417683
+    },
+    "data/final_data/geneval2/direct/geneval2_flux4b_direct_more1600_gm_perseed.json": {
+      "sha256": "0f783fb19ac31fb1b80f5d954635c2c9ba256a472424805763fc2ec3ac2a00b2",
+      "bytes": 3273314
+    },
+    "codes/wise/wise_generate_v2.json": {
+      "sha256": "3d1f435bd0b3d06dc8e263c9c3cb1f484f26c1458a7ab0d3eb53596ab93cdb09",
+      "bytes": 394081
+    },
+    "codes/corebench/generate_json_v2/C-MA_merged.json": {
+      "sha256": "f0809bc1496bb576ce8c7ebf30d71acc6e461c27ed89696441e96a6ba063348f",
+      "bytes": 402992
+    },
+    "codes/corebench/generate_json_v2/C-MI_merged.json": {
+      "sha256": "7cb70699fddf0900434a0b1ba8ed5cb4e168fdcb406f9ea27ce6098f70dc2fba",
+      "bytes": 284834
+    },
+    "codes/corebench/generate_json_v2/C-MR_merged.json": {
+      "sha256": "06487bba2338bd0b687f8c7122729b737c9f58ae905d7ba9c661f4cb91e2bddf",
+      "bytes": 318329
+    },
+    "codes/corebench/generate_json_v2/C-TR_merged.json": {
+      "sha256": "d080123aeea6b00e99d0f70a84b4643ad53ef44d0b8601d19ce0b2ff79e51c1a",
+      "bytes": 399447
+    },
+    "codes/corebench/generate_json_v2/R-AR_merged.json": {
+      "sha256": "b381253a93ab2a504714ff8543041ff58d481c048186899e0601a8298c7fb24d",
+      "bytes": 188460
+    },
+    "codes/corebench/generate_json_v2/R-BR_merged.json": {
+      "sha256": "3ff01a375e53afd647ebdc6a9f583234046ea8b7f2d491a25e0d252de36a6629",
+      "bytes": 236836
+    },
+    "codes/corebench/generate_json_v2/R-CR_merged.json": {
+      "sha256": "7617d6e2a4002c8d1290456a48ddc79f0298f2d42d91135414f181eb34a11f8f",
+      "bytes": 197117
+    },
+    "codes/corebench/generate_json_v2/R-GR_merged.json": {
+      "sha256": "a5c8a4292293bf2589b1d13c8bf71d1fc40f0fd8cd04cbd2c27d012daf2bba51",
+      "bytes": 206874
+    },
+    "codes/corebench/generate_json_v2/R-HR_merged.json": {
+      "sha256": "aa7899237bdc0acd3b30a8a42ddf40778b1da6189c842b98dd65c0b2c66e9ec3",
+      "bytes": 258083
+    },
+    "codes/corebench/generate_json_v2/R-LR_merged.json": {
+      "sha256": "920e51a50cc88627696a8e34d5575c7bc125224e88d15d4df66b17c24d4d6815",
+      "bytes": 203275
+    },
+    "codes/corebench/generate_json_v2/R-PR_merged.json": {
+      "sha256": "e2b0dc564c40066084a1a5493ff65bde2db4452a643d35233cb64013ac0142d4",
+      "bytes": 179217
+    },
+    "codes/corebench/generate_json_v2/R-RR_merged.json": {
+      "sha256": "8fb0f4fa7a337cbd403cdbe44619d0ab806c36e57108bc56fa44f4b264658d6d",
+      "bytes": 203986
+    },
+    "new_exp/results/construction_v2/final/wise_v2_manifest.json": {
+      "sha256": "e9b26d220c6a2e10f1e16cf599b776de5334560965759a17ab9e6fb3246d0181",
+      "bytes": 1472114
+    },
+    "new_exp/results/construction_v2/final/corebench_v2_manifest.json": {
+      "sha256": "eec6d9782099b6e78e1f030e6272f823da5be9dcb5c707c41ec35a2977113c6f",
+      "bytes": 187248
+    },
+    "new_exp/results/construction_v2/image_stage/corebench_full_s0/flux4b/eval/gemini/summary.json": {
+      "sha256": "9d40f69d13637295942846e4c39eb0cdabc771a583fc9d6d0e5d5fa85e9caff7",
+      "bytes": 1099
+    },
+    "new_exp/results/construction_v2/image_stage/corebench_full_s0_flux9b/flux9b/eval/gemini/summary.json": {
+      "sha256": "8129ebb7132ac877453fc9191e2c900689a3f09af51ca8026cd4e02692e404f4",
+      "bytes": 1098
+    },
+    "new_exp/results/construction_v2/image_stage/wise_formal_full_s0/flux4b/eval/summary.json": {
+      "sha256": "643b11baf763866f34661dfbca0c8361aa928ccfe1b627ee76b9fc5d5a9459a7",
+      "bytes": 1086
+    },
+    "new_exp/results/exp45_gm_router_data_scale.json": {
+      "sha256": "c3e8e45486961a90762375adf1641899f84822a4ce369b0bcf288739dc62fee0",
+      "bytes": 10921
+    },
+    "new_exp/results/exp45_geneval2_4000_training_curve.json": {
+      "sha256": "01309f55a3e9dbb34052e29f3bcc9883dea1e19f4cda498a35e53e2f6818cf34",
+      "bytes": 142890
+    },
+    "new_exp/results/exp46_geneval2_am_4000_training_curve.json": {
+      "sha256": "b134eabb7d07c1f4052868237374584b4f14a923e9f20161834b451be9bd0d73",
+      "bytes": 6541
+    },
+    "new_exp/results/exp47_flux_only_smallbench_extension.json": {
+      "sha256": "d8e14352a83a2f8b1442c49e15a16df7c40490f8dbe57221e57479eae4745f8b",
+      "bytes": 6679
+    },
+    "new_exp/results/exp48_flux_only_unigen_extension.json": {
+      "sha256": "a96afba513d29d641290e774d92e8a089f34b8af49a85fde768f18c267fd16ee",
+      "bytes": 5238
+    },
+    "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/Results/unigen_flux/eval/gen4000_edit_v2.json": {
+      "sha256": "b26d2644905154f5f7f6ef2f5723b94eee9b307c300ad177b432a384a69570ad",
+      "bytes": 1227751
+    },
+    "new_exp/results/exp49_flux_only_wise_extension.json": {
+      "sha256": "ebc0f8dcfd303c9607835ca7797394f3fedf60af88b9336c317df8eb000a9522",
+      "bytes": 3494
+    },
+    "new_exp/results/exp56_flux4_pooled_1k.json": {
+      "sha256": "145051639abcd1d10349523afdc57594d34d151b3d4be1bf96708edaf112977e",
+      "bytes": 31276
+    }
+  },
+  "dataset_alignment": {
+    "gm": {
+      "pool": {
+        "common_rows": 2400,
+        "qwen_file_order_rows": 2400,
+        "file_vs_sorted_mismatches": 2398
+      },
+      "test": {
+        "common_rows": 800,
+        "qwen_file_order_rows": 800,
+        "file_vs_sorted_mismatches": 798
+      },
+      "pool_test_exact_prompt_overlap": 0,
+      "overlap_sorted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "am": {
+      "pool": {
+        "common_rows": 2400,
+        "qwen_file_order_rows": 2400,
+        "file_vs_sorted_mismatches": 2398
+      },
+      "test": {
+        "common_rows": 800,
+        "qwen_file_order_rows": 800,
+        "file_vs_sorted_mismatches": 798
+      },
+      "pool_test_exact_prompt_overlap": 0,
+      "overlap_sorted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "unigen": {
+      "pool": {
+        "common_rows": 2400,
+        "qwen_file_order_rows": 2400,
+        "file_vs_sorted_mismatches": 2399
+      },
+      "test": {
+        "common_rows": 600,
+        "qwen_file_order_rows": 600,
+        "file_vs_sorted_mismatches": 599
+      },
+      "pool_test_exact_prompt_overlap": 400,
+      "overlap_sorted_sha256": "b3d03353fc213b98351f5dddf009fb1a5b23f31e5b58bae074f19a8bf6b7b0b3"
+    }
+  },
+  "delta_vs_abs": {
+    "qwen_gm": {
+      "abs": 0.36163957582579725,
+      "delta": 0.3617266179234893,
+      "difference": 8.704209769205828e-05
+    },
+    "qwen_am": {
+      "abs": 0.778625353892767,
+      "delta": 0.7785288985864615,
+      "difference": -9.645530630553178e-05
+    },
+    "qwen_unigen": {
+      "abs": 0.8613400276221116,
+      "delta": 0.8613840027412459,
+      "difference": 4.397511913434293e-05
+    },
+    "flux_gm": {
+      "abs": 0.34437767610311837,
+      "delta": 0.34445249242382453,
+      "difference": 7.48163207061614e-05
+    },
+    "flux_am": {
+      "abs": 0.7648209352347265,
+      "delta": 0.7647127864306963,
+      "difference": -0.00010814880403020588
+    },
+    "flux_unigen": {
+      "abs": 0.8694754232745111,
+      "delta": 0.8693862233373278,
+      "difference": -8.919993718325969e-05
+    },
+    "boogu_gm": {
+      "abs": 0.410908943991251,
+      "delta": 0.4109767311149173,
+      "difference": 6.778712366628525e-05
+    },
+    "boogu_am": {
+      "abs": 0.8089692025526748,
+      "delta": 0.8090343253624036,
+      "difference": 6.512280972881257e-05
+    },
+    "boogu_unigen": {
+      "abs": 0.9132187547509174,
+      "delta": 0.913255532582601,
+      "difference": 3.6777831683543205e-05
+    }
+  },
+  "boogu_am_capacity": {
+    "10steps": {
+      "spearman": 0.5978135356461496,
+      "r2": 0.30819565057754517,
+      "mae": 0.07729742676019669,
+      "r2_mid_rechecked": 0.061220320246763604,
+      "mid_n": 658
+    },
+    "50steps": {
+      "spearman": 0.605941306491047,
+      "r2": 0.2689674496650696,
+      "mae": 0.0797637552022934,
+      "r2_mid_rechecked": -0.0036879585862183983,
+      "mid_n": 607
+    },
+    "tts": {
+      "spearman": 0.5571620573472801,
+      "r2": 0.21917849779129028,
+      "mae": 0.0820755735039711,
+      "r2_mid_rechecked": -0.21869820624090153,
+      "mid_n": 591
+    }
+  },
+  "am_reaggregation": {
+    "base_compared": 2400,
+    "max_abs_error": 2.220446049250313e-16,
+    "extension": {
+      "qwen": {
+        "records": 1600,
+        "actions": 3,
+        "seed_score_lists": 24000
+      },
+      "flux": {
+        "records": 1600,
+        "actions": 3,
+        "seed_score_lists": 24000
+      },
+      "flux4b": {
+        "records": 1600,
+        "actions": 1,
+        "seed_score_lists": 8000
+      }
+    },
+    "extension_common_prompts": 1600,
+    "extension_vs_base_pool_overlap": 0,
+    "extension_vs_raw_test_overlap": 0
+  },
+  "v2": {
+    "wise": {
+      "rows": 1000,
+      "unique_ids": 1000,
+      "unique_prompts_casefold": 1000,
+      "category_counts": {
+        "Cultural knowledge": 400,
+        "Biology": 120,
+        "Physical Knowledge": 120,
+        "Chemistry": 120,
+        "time": 120,
+        "Space": 120
+      },
+      "subcategory_count": 26,
+      "manifest": {
+        "total": 1000,
+        "retained": 369,
+        "new": 631,
+        "new_by_author": {
+          "gpt55": 481,
+          "gemini3flash": 150
+        }
+      }
+    },
+    "corebench": {
+      "rows": 1000,
+      "manifest": {
+        "target_total": 1000,
+        "retained": 383,
+        "new_selected": 617,
+        "class_counts": {
+          "C-MA": 84,
+          "C-MI": 83,
+          "C-MR": 83,
+          "C-TR": 83,
+          "R-AR": 84,
+          "R-BR": 83,
+          "R-CR": 84,
+          "R-GR": 83,
+          "R-HR": 83,
+          "R-LR": 83,
+          "R-PR": 83,
+          "R-RR": 84
+        },
+        "new_by_author": {
+          "gemini3flash": 309,
+          "qwen35_27b": 308
+        },
+        "new_by_source_kind": {
+          "full": 609,
+          "pilot_reserve": 8
+        },
+        "new_by_audit_status": {
+          "KEEP": 617
+        },
+        "output_dir": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/26AAAIworks/codes/corebench/generate_json_v2"
+      }
+    }
+  },
+  "image_scores": {
+    "corebench_4b": {
+      "protocol": "historical_corebench_gemini3flash",
+      "num_images": 1000,
+      "missing": 0,
+      "mean_image_score": 0.4799053968135955
+    },
+    "corebench_9b": {
+      "protocol": "historical_corebench_gemini3flash",
+      "num_images": 1000,
+      "missing": 0,
+      "mean_image_score": 0.5307153862464293
+    },
+    "wise_formal_4b": {
+      "protocol": "construction_v2_local_qwen_binary; CoreBench existing Checklist template; WISE existing Prompt+Explanation binary template. Not legacy WISE 0-10 or Gemini CoreBench scores.",
+      "summary": [
+        {
+          "benchmark": "wise",
+          "seed": 0,
+          "steps": 4,
+          "num_images": 1000,
+          "mean_image_score": 0.448
+        }
+      ]
+    }
+  },
+  "exp45_gm_router_data_scale": {},
+  "exp45_geneval2_4000_training_curve": {
+    "first_stable_train_k": null
+  },
+  "exp46_geneval2_am_4000_training_curve": {
+    "paired_plateau_comparisons": {
+      "4000_minus_2400": {
+        "mean": 0.000926954717161052,
+        "ci95": [
+          -0.004568033571440644,
+          0.006612943902507075
+        ]
+      },
+      "4000_minus_3600": {
+        "mean": 0.0006859828236171096,
+        "ci95": [
+          -0.0014034984421931072,
+          0.002706265770817442
+        ]
+      }
+    }
+  },
+  "exp47_flux_only_smallbench_extension": {},
+  "exp48_flux_only_unigen_extension": {
+    "construction_n": 3500,
+    "fixed_test_n": 600,
+    "construction_test_overlap": 0,
+    "rechecked_pool_test_overlap": 0
+  },
+  "exp49_flux_only_wise_extension": {
+    "construction_n": 1200,
+    "fixed_test_n": 200,
+    "construction_test_overlap": 0
+  },
+  "exp56_flux4_pooled_1k": {
+    "summary": {
+      "macro_router_quality": 0.6345967782236384,
+      "macro_target_lp_quality": 0.6402569355062152,
+      "macro_public_lp_quality": 0.6402569355062152,
+      "macro_router_minus_target_lp": -0.0056601572825767145,
+      "positive_targets": 1,
+      "significant_positive_targets": 0,
+      "significant_negative_targets": 1
+    },
+    "numeric_audit": {
+      "all_finite": true,
+      "max_policy_cost": 10.0,
+      "budget_respected": true,
+      "target_labels_used_for_pooled_router_fit": false,
+      "construction_test_overlap": 0
+    }
+  }
+}

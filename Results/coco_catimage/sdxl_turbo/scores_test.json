@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "n_prompts": 0,
+    "step_list": [
+      1
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "clip_mean": 0.0,
+    "sharp_mean": 0.0
+  },
+  "per_prompt": []
+}

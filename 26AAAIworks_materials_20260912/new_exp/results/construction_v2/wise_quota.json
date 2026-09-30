@@ -1,0 +1,289 @@
+{
+  "benchmark": "WISE-Synth-Train-v2",
+  "target_total": 1000,
+  "kept_total": 369,
+  "new_required_total": 631,
+  "new_prompt_id_range": [
+    401,
+    1031
+  ],
+  "quota": [
+    {
+      "category": "Biology",
+      "subcategory": "Behavior",
+      "target": 60,
+      "kept": 22,
+      "new_required": 38,
+      "new_id_start": 401,
+      "new_id_end": 438
+    },
+    {
+      "category": "Biology",
+      "subcategory": "State",
+      "target": 60,
+      "kept": 23,
+      "new_required": 37,
+      "new_id_start": 439,
+      "new_id_end": 475
+    },
+    {
+      "category": "Chemistry",
+      "subcategory": "Chemical Properties",
+      "target": 30,
+      "kept": 6,
+      "new_required": 24,
+      "new_id_start": 476,
+      "new_id_end": 499
+    },
+    {
+      "category": "Chemistry",
+      "subcategory": "Combustion",
+      "target": 20,
+      "kept": 7,
+      "new_required": 13,
+      "new_id_start": 500,
+      "new_id_end": 512
+    },
+    {
+      "category": "Chemistry",
+      "subcategory": "Metal Corrosion",
+      "target": 20,
+      "kept": 7,
+      "new_required": 13,
+      "new_id_start": 513,
+      "new_id_end": 525
+    },
+    {
+      "category": "Chemistry",
+      "subcategory": "Solution Chemical Reaction",
+      "target": 50,
+      "kept": 15,
+      "new_required": 35,
+      "new_id_start": 526,
+      "new_id_end": 560
+    },
+    {
+      "category": "Cultural knowledge",
+      "subcategory": "Animal",
+      "target": 72,
+      "kept": 25,
+      "new_required": 47,
+      "new_id_start": 561,
+      "new_id_end": 607
+    },
+    {
+      "category": "Cultural knowledge",
+      "subcategory": "Art",
+      "target": 37,
+      "kept": 15,
+      "new_required": 22,
+      "new_id_start": 608,
+      "new_id_end": 629
+    },
+    {
+      "category": "Cultural knowledge",
+      "subcategory": "Celebrity",
+      "target": 64,
+      "kept": 25,
+      "new_required": 39,
+      "new_id_start": 630,
+      "new_id_end": 668
+    },
+    {
+      "category": "Cultural knowledge",
+      "subcategory": "Construction",
+      "target": 33,
+      "kept": 9,
+      "new_required": 24,
+      "new_id_start": 669,
+      "new_id_end": 692
+    },
+    {
+      "category": "Cultural knowledge",
+      "subcategory": "Craft",
+      "target": 14,
+      "kept": 5,
+      "new_required": 9,
+      "new_id_start": 693,
+      "new_id_end": 701
+    },
+    {
+      "category": "Cultural knowledge",
+      "subcategory": "Festival",
+      "target": 22,
+      "kept": 9,
+      "new_required": 13,
+      "new_id_start": 702,
+      "new_id_end": 714
+    },
+    {
+      "category": "Cultural knowledge",
+      "subcategory": "Life",
+      "target": 48,
+      "kept": 19,
+      "new_required": 29,
+      "new_id_start": 715,
+      "new_id_end": 743
+    },
+    {
+      "category": "Cultural knowledge",
+      "subcategory": "Plant",
+      "target": 71,
+      "kept": 26,
+      "new_required": 45,
+      "new_id_start": 744,
+      "new_id_end": 788
+    },
+    {
+      "category": "Cultural knowledge",
+      "subcategory": "Religion",
+      "target": 22,
+      "kept": 8,
+      "new_required": 14,
+      "new_id_start": 789,
+      "new_id_end": 802
+    },
+    {
+      "category": "Cultural knowledge",
+      "subcategory": "Sports",
+      "target": 17,
+      "kept": 7,
+      "new_required": 10,
+      "new_id_start": 803,
+      "new_id_end": 812
+    },
+    {
+      "category": "Physical Knowledge",
+      "subcategory": "Electromagnetism",
+      "target": 1,
+      "kept": 1,
+      "new_required": 0,
+      "new_id_start": null,
+      "new_id_end": null
+    },
+    {
+      "category": "Physical Knowledge",
+      "subcategory": "Mechanics",
+      "target": 30,
+      "kept": 11,
+      "new_required": 19,
+      "new_id_start": 813,
+      "new_id_end": 831
+    },
+    {
+      "category": "Physical Knowledge",
+      "subcategory": "Optics",
+      "target": 29,
+      "kept": 10,
+      "new_required": 19,
+      "new_id_start": 832,
+      "new_id_end": 850
+    },
+    {
+      "category": "Physical Knowledge",
+      "subcategory": "Physical Properties",
+      "target": 29,
+      "kept": 11,
+      "new_required": 18,
+      "new_id_start": 851,
+      "new_id_end": 868
+    },
+    {
+      "category": "Physical Knowledge",
+      "subcategory": "Thermodynamics",
+      "target": 31,
+      "kept": 12,
+      "new_required": 19,
+      "new_id_start": 869,
+      "new_id_end": 887
+    },
+    {
+      "category": "Space",
+      "subcategory": "Geographical Location",
+      "target": 40,
+      "kept": 16,
+      "new_required": 24,
+      "new_id_start": 888,
+      "new_id_end": 911
+    },
+    {
+      "category": "Space",
+      "subcategory": "Relative Position",
+      "target": 40,
+      "kept": 16,
+      "new_required": 24,
+      "new_id_start": 912,
+      "new_id_end": 935
+    },
+    {
+      "category": "Space",
+      "subcategory": "Viewpoint and Scale",
+      "target": 40,
+      "kept": 16,
+      "new_required": 24,
+      "new_id_start": 936,
+      "new_id_end": 959
+    },
+    {
+      "category": "time",
+      "subcategory": "Horizontal time",
+      "target": 60,
+      "kept": 24,
+      "new_required": 36,
+      "new_id_start": 960,
+      "new_id_end": 995
+    },
+    {
+      "category": "time",
+      "subcategory": "Longitudinal time",
+      "target": 60,
+      "kept": 24,
+      "new_required": 36,
+      "new_id_start": 996,
+      "new_id_end": 1031
+    }
+  ],
+  "excluded_existing": [
+    1,
+    8,
+    10,
+    25,
+    30,
+    50,
+    62,
+    99,
+    104,
+    106,
+    108,
+    148,
+    161,
+    181,
+    207,
+    214,
+    228,
+    231,
+    257,
+    258,
+    260,
+    262,
+    263,
+    267,
+    270,
+    277,
+    285,
+    286,
+    300,
+    301,
+    303
+  ],
+  "author_policy": {
+    "raw_prompt_access_for_authors": false,
+    "fact_ledger_required": true,
+    "minimum_distinct_author_models": 2,
+    "new_pilot_authors": [
+      "Gemini 3 Flash",
+      "Qwen3.5-27B"
+    ],
+    "independent_cross_review_required": true
+  }
+}

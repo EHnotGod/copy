@@ -1,0 +1,29 @@
+{
+  "protocol": "construction_v2_local_qwen_binary; CoreBench existing Checklist template; WISE existing Prompt+Explanation binary template. Not legacy WISE 0-10 or Gemini CoreBench scores.",
+  "config": {
+    "bundle": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/zhaobo45/yihang/26AAAIworks/new_exp/results/construction_v2/image_stage/wise_formal_full_s0/bundle.json",
+    "bundle_sha256": "da88321e60267ea9b217c0ad66671ab23b78cdef63e509229255c769d2479f33",
+    "model_path": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-hl02/hadoop-aipnlp/3A/multimodal/jiayimeng02/models/generation/FLUX.2-klein-4B",
+    "judge_model_path": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-hldy-nlp/3A/multimodal/zhaobo45/CKPTS/Qwen3.5-27B",
+    "pipeline": "flux",
+    "seeds": [
+      0
+    ],
+    "steps": [
+      4
+    ],
+    "guidance": 1.0,
+    "true_cfg": null,
+    "width": 1024,
+    "height": 1024
+  },
+  "summary": [
+    {
+      "benchmark": "wise",
+      "seed": 0,
+      "steps": 4,
+      "num_images": 1000,
+      "mean_image_score": 0.448
+    }
+  ]
+}

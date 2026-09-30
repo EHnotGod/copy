@@ -1,0 +1,147 @@
+{
+  "date": "2026-09-12",
+  "backup": "docs/local_cleanup_before_20260912.tar.gz",
+  "changed": [
+    {
+      "path": "README.md",
+      "before_sha256": "7281a826e6abf1ea0313400fd98cfadeded4e352ba2dba0290373ca4bb3a8b39",
+      "after_sha256": "b50b1d1d2fcf9a2316f685cff6d8b6a853d9c691df9c3b0191cb63d3bcc44e42"
+    },
+    {
+      "path": "修改日志.md",
+      "before_sha256": "624d2e76ca7e960bfe3c6394535e26b4cf3e265ce5d5388d4939d351c1bf24cf",
+      "after_sha256": "ebf5df6782c416709107e319f0d0ad1d4b4cb7538d429757a6c42c815a3a67f8"
+    },
+    {
+      "path": "exp_815/README.md",
+      "before_sha256": "c36c59f2869b66b95a967afcd83385240d1f7238c89385440da9f93ca29ebb86",
+      "after_sha256": "751c59188b70febe8f266358ffc41d3278667816c58eb7ad35bce648812fe3d9"
+    },
+    {
+      "path": "exp_815/exp_815.md",
+      "before_sha256": "b92ffe19379979c2edb262528a37255416ecee0e1605133cdb50363d080a24b8",
+      "after_sha256": "1225d13bc11c9c167c1efac9ed20de5f06c4649f95b2528fc445e6447b3aac4b"
+    },
+    {
+      "path": "new_exp/README.md",
+      "before_sha256": "0bf65599d541ccaca35f4df28fb298acde90483709fb49b4463ff098cf55477d",
+      "after_sha256": "8e00e4ea3017dfb0c6fcde1b2ffaba03f50d7dad88f59c595ce1c7ab8409baf3"
+    },
+    {
+      "path": "new_exp/construction_v2_record.md",
+      "before_sha256": "a7963b6792eaf86cce7fdea0d494c930f5e807a589cf0b87d02b3296f99d0ec9",
+      "after_sha256": "eac1b68ea43a4982565f120f3ef52469be89cfb91288407a2df601d43426d562"
+    },
+    {
+      "path": "new_exp/exp24_action_growth.md",
+      "before_sha256": "0a7f746dd3a461a6873a1a54faeba12d35031e40d8e83b4e58e4c749b3def816",
+      "after_sha256": "050cdf015e0c8559fc74e00ca624a5b9f72b68e7c9012c2f4e1b4820eed7453b"
+    },
+    {
+      "path": "new_exp/exp31_action_subset_selection.md",
+      "before_sha256": "713a5b2b4dc137aa9d1ae81b86cbb35e854edda4b3f0f1b1c0de7de5b2c7f1d5",
+      "after_sha256": "ee428e8c244b8bc30c68dc28f8035180bb23efa076777a0938f2f234ea55b640"
+    },
+    {
+      "path": "new_exp/exp32_action_prescreen.md",
+      "before_sha256": "211829611515f88316c05be5a8c52a5066ddc3fc23b880c0b1181aa45af25895",
+      "after_sha256": "eb7cb1d6efd8c5005a5b6cabc84a5dd1afaf16b3d1cad7fe9cb0e7811c0a9ee3"
+    },
+    {
+      "path": "new_exp/exp36_action_selection_crossbench.md",
+      "before_sha256": "618d6511fa7c424f4cfabbbde16f21d5130d70ec934d79d2670ab427a869ffa6",
+      "after_sha256": "4406b2a5eec3fd5880da933e2b22342f0b889f8fc4a54eac8bcae92f57ac36ac"
+    },
+    {
+      "path": "new_exp/exp37_action_admission_crossbench.md",
+      "before_sha256": "82efdd427c681edc9b91625f75cf284a1c40eb3229dcd1dd39c674d8a9ed1361",
+      "after_sha256": "204be14c6d923a78daed4de3076563f90d53fe2619b0221af0cc8cd286661512"
+    },
+    {
+      "path": "new_exp/exp39_pooled_router_lobo.md",
+      "before_sha256": "e92be181febe91dfc3194feb652b8c8949f962d624c04b9acdb836f8f6932c00",
+      "after_sha256": "ec1da39753d0e7cb1dbbcfdd3d21a0b0b4d2eeb649a6def964806c3b95b410a5"
+    },
+    {
+      "path": "new_exp/exp40_nested_router_mix_grid.md",
+      "before_sha256": "6dcd5ccec69a23e4838e416439520336a06b3a4dcd7c2f7af5c8a257a3714556",
+      "after_sha256": "92f8f55cb1a68bc26d24f5cc932272c96902a782d7e76b8aad404d41c6d3b9f7"
+    },
+    {
+      "path": "new_exp/exp52_flux3_pooled_lobo.md",
+      "before_sha256": "935db61154cc13a2b787ed44b04ffc70c88cc112ca788ca87dbddbba5cc993b8",
+      "after_sha256": "aa41bbb523daa1c1149f101383134c84525e71f8a6c9fa7ef99a929a4b51e5d3"
+    },
+    {
+      "path": "new_exp/exp53_flux3_public_router_data_ablation.md",
+      "before_sha256": "7bbbaf56b9c1ba33411c984025a844e6d18c200577dd6d50389927ca10bb7e14",
+      "after_sha256": "669196cba2f1ea54905613dff7b516cd1b645a12c38cd6a9a587cfd24be225ff"
+    },
+    {
+      "path": "writing/acc_vs_audc_geneval2.md",
+      "before_sha256": "2f788c15e77c99e671cb799d9b6c5657a0e761306f44dd990e8c0516c9f9e214",
+      "after_sha256": "4ba410c80d9d3466c2ab53704024db0a4ce9dad2133424a84e0acecec191f838"
+    },
+    {
+      "path": "writing/ours_goal.md",
+      "before_sha256": "829bb1525ad6eeb7075affb47d48afeabec1b1e87b892ea08426b5f6d7e5a021",
+      "after_sha256": "e00441969fd49d45e9a14548b8685144ecc78e9d47179c8654c0e3685b905992"
+    },
+    {
+      "path": "writing/ours_work.md",
+      "before_sha256": "7ffec248745e192bc82e6a71cff48251dd7635e16bb05460c7a06b255b041896",
+      "after_sha256": "58e0f1bdb67f408a9ecb1cc9608bd8374e863a3583c6092e0b5c4fd278a2788c"
+    },
+    {
+      "path": "writing/router_failure_analysis.md",
+      "before_sha256": "8c5d29b3e599b1912e1a97ad73626340ccd984628419ca48497a588ee07fc9c4",
+      "after_sha256": "12ca8f7f40bfe0856054bbc4040a473f5009d59383c7971563ccbd1e141f1dc3"
+    },
+    {
+      "path": "writing/router_gain_analysis.md",
+      "before_sha256": "93cabf007bea5a4a8cc9be04d84377191164b38886ea257ea5cc45b839d6ffbc",
+      "after_sha256": "b270420361fb63018d33ccf83a99b4328e870733b77db02f4ab5123c9bb3ec58"
+    },
+    {
+      "path": "new_exp/run_cpu_repairs.py",
+      "before_sha256": "d674e590a5f2337f93fa089792a5eddb0ac23f0f70338397e1b12e34b2e95b57",
+      "after_sha256": "70f164b7c873829cab40a06ab196dfea2f06b2ee6f63099961290b9a20191640"
+    },
+    {
+      "path": "new_exp/update_repair_reports.py",
+      "before_sha256": "172df182966999788abb51b83906a6312bcecdbd4f6d6500b5030c93e9f5fc02",
+      "after_sha256": "f061a117bf8fa571bc7b850cad218f485130680f36ea4b6960b8a83fd1b100b2"
+    },
+    {
+      "path": "new_exp/results/prompt_disjoint_v1/repair_status.json",
+      "before_sha256": "da592b17afd206b4614764cc3293754760a05b194a36b90c0585a181888f9710",
+      "after_sha256": "b2ad4edc8e2329570abec41c759fe3cf54403431b2609ea3ddf84ec4f3521fae"
+    }
+  ],
+  "added": [
+    {
+      "path": "new_exp/verify_local_results.py",
+      "sha256": "3a7b8bd25944fcf2370dc78590226ae9d2c124f9a857fb8bb9b39d761d38e587"
+    },
+    {
+      "path": "new_exp/test_local_results.py",
+      "sha256": "940237761b31cb54c0a7173aeb100e10627173810c724156e4a242fcaa9d4c92"
+    },
+    {
+      "path": "writing/README.md",
+      "sha256": "a574e90e5c3a4657eb22804e7c6fe9d47349309293b241345f177d26f545b03f"
+    },
+    {
+      "path": "docs/local_reproduction.md",
+      "sha256": "185dde9d70a126092dae79dde4be2aa4d835c6b4c09260fd7d7d9c9669df4308"
+    },
+    {
+      "path": "docs/local_verification_20260912.json",
+      "sha256": "2f3b625dc771c71ab45da7ff4812adcd124cf3c3673378551829cebde882c8d7"
+    }
+  ],
+  "unchanged_result_jsons": 79,
+  "regression_tests_passed": 15,
+  "resume_commands_verified_and_skipped": 25,
+  "scope": "Local CPU integrity and documentation; labels and Hope deferred by user."
+}
